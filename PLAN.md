@@ -17,8 +17,8 @@ This plan replaces the 17 large A–Q execution plans with seven proof milestone
 
 M3 is one theorem program, not a sequence of cosmetic “runs.” Work in this order:
 
-1. Prove an event-precedence relation without physical time.
-2. Prove what additional structure turns precedence into causal structure.
+1. Use the proved append-only ancestry order without confusing it with kernel depth or physical time.
+2. Prove the source-owned witness and law that enrich ancestry into causal structure.
 3. Derive or explicitly source the dimension/scale map.
 4. Derive physical variables and the governing action or evolution law.
 5. Derive constraints and conserved quantities from that law.

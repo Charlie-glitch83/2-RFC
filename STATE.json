@@ -4,8 +4,8 @@
   "objective": "Derive an evidence-complete triadic universe in which the Big Implosion is the first physical event and the Big Rip is the terminal physical event that conditions the next cycle.",
   "active_milestone": "M3_PHYSICAL_REALIZATION",
   "status": "ACTIVE_BLOCKER_IDENTIFIED",
-  "last_verified_utc": "2026-08-01T17:32:09Z",
-  "exact_next_action": "Prove Bridge Lemma 1 in proofs/GENESIS_REALIZATION.md: a witness-certified acyclic event order derived without Newtonian time; then assess obligations R1-R9.",
+  "last_verified_utc": "2026-08-01T17:42:42Z",
+  "exact_next_action": "Prove Causal Enrichment Lemma 2 in proofs/GENESIS_REALIZATION.md: derive a source-owned QV witness that selects physical causal precedence from the proved ancestry order, without Newtonian time; assess R1 and R4 together.",
   "read_first": [
     "README.md",
     "STATE.json",
@@ -16,6 +16,7 @@
     "M0_SOURCE_LOCK",
     "M1_TRIAD_AND_KERNEL_RECONSTRUCTION",
     "M2_ABSTRACT_RELATIONAL_CARRIER_RECONSTRUCTION",
+    "BRIDGE_LEMMA_1_APPEND_ONLY_ANCESTRY_ORDER",
     "ONE_RFC_SCIENTIFIC_AND_REPOSITORY_AUDIT"
   ],
   "active": [

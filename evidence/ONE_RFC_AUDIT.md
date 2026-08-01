@@ -14,6 +14,7 @@ Module A contains the strongest reusable advance:
 - separates source-preserving refinement from unchanged dynamics;
 - constructs witnessed routes and singleton normalization on maximal noncollision intervals;
 - defines event packets, no-loss signatures, typed memory, promotion, and dormancy;
+- supports an append-only event-ancestry order while explicitly denying that kernel depth is physical time;
 - keeps collision continuation and all-time regularity outside the proved scope.
 
 Module B then proves useful finite-graph algebra:

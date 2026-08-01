@@ -52,4 +52,4 @@ Do not add automatic disclaimers that undersell a proved theorem. Do not turn a 
 
 ## Current scientific judgment
 
-The correct next move is not another cosmology simulation. It is to prove the realization interface. The N-body manuscript contributes a powerful carrier grammar, but its Newtonian witness specialization already presupposes physical structure. The abstract carrier can sit at the terminal kernel; Newtonian and cosmological realizations occur only afterward.
+The correct next move is not another cosmology simulation. Bridge Lemma 1 already proves an append-only ancestry order, while source review proves kernel depth cannot be used as an event clock. The next move is Causal Enrichment Lemma 2: derive a QV/domain-law witness that promotes selected ancestry edges to physical causal precedence. The N-body manuscript contributes a powerful carrier grammar, but its Newtonian witness specialization already presupposes physical structure. The abstract carrier can sit at the terminal kernel; Newtonian and cosmological realizations occur only afterward.

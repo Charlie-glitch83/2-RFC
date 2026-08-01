@@ -37,6 +37,8 @@ Survives: directed lane grammar, local witness requirement, route classes, condi
 
 Correction required: adding a positive-mass body changes the original bodies' accelerations. The lawful theorem is source/problem refinement plus a controlled zero-backreaction limit, not unchanged old trajectories. Collision continuation, infinite route normalization, and all-time regularity remain explicitly scoped.
 
+RUN 006 adds an append-only protected signature containing event ancestry and explicitly classifies recursive/kernel depth as inherited-influence dispersion rather than physical time. The rebuild therefore proves an ancestry order from the ledger and forbids using kernel depth as a causal clock. Physical causal enrichment remains coupled to the still-missing domain law.
+
 ## Frozen constants inherited as source data
 
 ```text

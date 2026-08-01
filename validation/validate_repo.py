@@ -42,6 +42,19 @@ def quadratic(vector: list[float], matrix: list[list[float]]) -> float:
     return sum(a * b for a, b in zip(vector, matvec(matrix, vector)))
 
 
+def reachable(edges: dict[str, set[str]], start: str, target: str) -> bool:
+    frontier = list(edges.get(start, set()))
+    seen: set[str] = set()
+    while frontier:
+        node = frontier.pop()
+        if node == target:
+            return True
+        if node not in seen:
+            seen.add(node)
+            frontier.extend(edges.get(node, set()) - seen)
+    return False
+
+
 def main() -> None:
     required = [
         "README.md",
@@ -67,7 +80,7 @@ def main() -> None:
 
     state = json.loads((ROOT / "STATE.json").read_text(encoding="utf-8"))
     require(state["active_milestone"] == "M3_PHYSICAL_REALIZATION", "unexpected milestone")
-    require("Bridge Lemma 1" in state["exact_next_action"], "next action drifted")
+    require("Causal Enrichment Lemma 2" in state["exact_next_action"], "next action drifted")
     require(state["score_rule"]["aggregation_can_override_failure"] is False, "gate policy drifted")
 
     machine_states = sorted(
@@ -111,6 +124,19 @@ def main() -> None:
     separation = 2.0
     added_acceleration = gravitational_constant * added_mass / separation**2
     require(added_acceleration > 0.0, "positive-mass perturbation unexpectedly vanished")
+
+    # Append-only ancestry ranks give a strict order; they are not physical durations.
+    ranks = {"root": (0, 0), "branch_a": (0, 1), "rip": (0, 2), "next_cycle": (1, 0)}
+    ancestry = {
+        "root": {"branch_a"},
+        "branch_a": {"rip"},
+        "rip": {"next_cycle"},
+        "next_cycle": set(),
+    }
+    for parent, children in ancestry.items():
+        for child in children:
+            require(ranks[parent] < ranks[child], "ancestry edge does not increase lexicographic rank")
+    require(all(not reachable(ancestry, event, event) for event in ranks), "ancestry cycle detected")
 
     print("2-RFC validation: PASS")
     print("Checked source manifest, repository state, kernel bounds, lane growth, graph smoothing, and add-body correction.")

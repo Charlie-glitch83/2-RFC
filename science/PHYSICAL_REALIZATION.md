@@ -59,4 +59,4 @@ The most source-compatible route is a **discrete causal realization** built from
 
 Here \(E\) is an event set, \(\prec\) a witness-certified precedence relation, \(\Sigma\) spatial/pregeometric data on suitable slices, \(\Phi\) physical state variables, \(S\) the governing action or generator, \(\mathcal C\) constraints, \(U\) the dimension/scale map, and \(\mathcal O\) observables.
 
-The event order must be derived without importing Newtonian time. Recursion depth, route order, event order, cycle index, and later physical time remain different types. [The active proof](../proofs/GENESIS_REALIZATION.md) begins with that requirement.
+The event order must be derived without importing Newtonian time. Kernel depth, ancestry depth, route order, event order, cycle index, and later physical time remain different types. [The active proof](../proofs/GENESIS_REALIZATION.md) proves the append-only ancestry order first and then asks for the additional witness that gives selected ancestry edges physical causal meaning.

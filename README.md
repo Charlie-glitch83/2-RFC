@@ -16,7 +16,7 @@ What is not established yet is the map from that prephysical carrier to a physic
 
 ## Exact next action
 
-Complete **Bridge Lemma 1** in [proofs/GENESIS_REALIZATION.md](proofs/GENESIS_REALIZATION.md): derive a witness-certified, acyclic event order from recursion depth and cycle typing without importing Newtonian time. Then test it against obligations R1–R9 in that file.
+Complete **Causal Enrichment Lemma 2** in [proofs/GENESIS_REALIZATION.md](proofs/GENESIS_REALIZATION.md): derive the source-owned witness that selects physical causal precedence from the proved append-only ancestry order, without importing Newtonian time. Then test it jointly against R1 and R4.
 
 Do not begin particle physics, BBN, recombination, structure formation, scoring, or public-data comparison until the realization bridge passes.
 
