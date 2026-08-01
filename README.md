@@ -40,7 +40,7 @@ A new research iteration needs only four files to orient:
 3. [PLAN.md](PLAN.md);
 4. [proofs/GENESIS_REALIZATION.md](proofs/GENESIS_REALIZATION.md).
 
-Use [HANDOFF.md](HANDOFF.md) for the exact work protocol. Source manuscripts are kept under `sources/canonical/`; the source audit and hashes are in [evidence/SOURCE_AUDIT.md](evidence/SOURCE_AUDIT.md).
+Use [HANDOFF.md](HANDOFF.md) for the exact work protocol. [sources/SOURCE_MANIFEST.json](sources/SOURCE_MANIFEST.json) points to the canonical public copies in `1RFC`; the source audit and hashes are in [evidence/SOURCE_AUDIT.md](evidence/SOURCE_AUDIT.md).
 
 ## Evidence policy
 

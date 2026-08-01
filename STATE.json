@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "project": "2-RFC",
+  "objective": "Derive an evidence-complete triadic universe in which the Big Implosion is the first physical event and the Big Rip is the terminal physical event that conditions the next cycle.",
+  "active_milestone": "M3_PHYSICAL_REALIZATION",
+  "status": "ACTIVE_BLOCKER_IDENTIFIED",
+  "last_verified_utc": "2026-08-01T17:32:09Z",
+  "exact_next_action": "Prove Bridge Lemma 1 in proofs/GENESIS_REALIZATION.md: a witness-certified acyclic event order derived without Newtonian time; then assess obligations R1-R9.",
+  "read_first": [
+    "README.md",
+    "STATE.json",
+    "PLAN.md",
+    "proofs/GENESIS_REALIZATION.md"
+  ],
+  "completed": [
+    "M0_SOURCE_LOCK",
+    "M1_TRIAD_AND_KERNEL_RECONSTRUCTION",
+    "M2_ABSTRACT_RELATIONAL_CARRIER_RECONSTRUCTION",
+    "ONE_RFC_SCIENTIFIC_AND_REPOSITORY_AUDIT"
+  ],
+  "active": [
+    "R1_CAUSAL_OR_PRECAUSAL_ORDER",
+    "R2_DIMENSION_AND_SCALE_ANCESTRY",
+    "R3_PHYSICAL_STATE_VARIABLES",
+    "R4_ACTION_OR_EVOLUTION_LAW",
+    "R5_CONSTRAINTS_AND_CONSERVATION",
+    "R6_REFINEMENT_OR_CONTINUUM_CONTROL",
+    "R7_OBSERVABLE_MAP",
+    "R8_TRIADIC_NONDEGENERACY_AND_ABLATION",
+    "R9_FIRST_EVENT_AND_TERMINAL_EVENT_CONDITIONS"
+  ],
+  "forbidden_shortcuts": [
+    "Treat Newtonian mass, gravity, space, or time as prephysical primitives",
+    "Call graph smoothing a causal spacetime derivation",
+    "Relabel parity sectors as ordinary matter, radiation, dark matter, or dark energy without physical discriminants",
+    "Use target values or public data during generation",
+    "Average away any mandatory gate failure",
+    "Promote a readiness packet, schema, or successful code execution into a physical theorem",
+    "Use historical failed states as parents"
+  ],
+  "score_rule": {
+    "mandatory_threshold": 0.95,
+    "target": 1.0,
+    "aggregation_can_override_failure": false,
+    "meaning": "Gate completeness only; never a truth probability"
+  },
+  "source_of_truth": "This file is the only machine-readable project-state record. Do not create mirrors, caches, packet layers, or lifecycle duplicates."
+}

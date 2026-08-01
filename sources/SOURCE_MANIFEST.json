@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "authority_rule": "Fetch from the public 1RFC main branch and verify SHA-256 before use. Do not edit or duplicate as a competing authority.",
+  "repository": "Charlie-glitch83/1RFC",
+  "ref": "main",
+  "sources": [
+    {
+      "id": "P29_MANUSCRIPT",
+      "path": "sources/manuscripts/p29/Presentation_29_revised_raw_LaTeX.md",
+      "sha256": "cef6d68b05eb509e471c55a18b5fffedd9c411b44bc0d5bd0f6b5ee86bd8b53e",
+      "url": "https://github.com/Charlie-glitch83/1RFC/blob/main/sources/manuscripts/p29/Presentation_29_revised_raw_LaTeX.md"
+    },
+    {
+      "id": "P29_METADATA_WORKING_TEXT",
+      "path": "sources/manuscripts/p29/Presentation_29_revised_Metadata_raw.md",
+      "sha256": "e3a6d3cedc43702038c2022dee97f0d00c447138f272977f5fc327c82b9dc8f8",
+      "authority_note": "Working raw extraction in 1RFC; do not equate it with the separately registered metadata-byte identity.",
+      "url": "https://github.com/Charlie-glitch83/1RFC/blob/main/sources/manuscripts/p29/Presentation_29_revised_Metadata_raw.md"
+    },
+    {
+      "id": "P30_MANUSCRIPT_AND_APPENDIX_J",
+      "path": "sources/manuscripts/p30/Presentation_30_raw_LaTeX.md",
+      "sha256": "4895c3777da3aa84da4ec2343419ffbc07502b3738602308a1f402862441eaf6",
+      "url": "https://github.com/Charlie-glitch83/1RFC/blob/main/sources/manuscripts/p30/Presentation_30_raw_LaTeX.md"
+    },
+    {
+      "id": "NBODY_MANUSCRIPT_TEXT",
+      "path": "sources/manuscripts/nbody/A_Triadic_Solution_to_the_General_N_Body_Problem_Revised_raw_LaTeX.md",
+      "sha256": "21a9eaf228878ea2f6f346813f7ef4737b58a482fba335b9c048aa918de032ac",
+      "url": "https://github.com/Charlie-glitch83/1RFC/blob/main/sources/manuscripts/nbody/A_Triadic_Solution_to_the_General_N_Body_Problem_Revised_raw_LaTeX.md"
+    },
+    {
+      "id": "NBODY_METADATA_TEXT",
+      "path": "sources/manuscripts/nbody/A_Triadic_Solution_to_the_General_N_Body_Problem_Metadata_Revised_raw_LaTeX.md",
+      "sha256": "17347d73f7808df2c0cfefb8d0359bcee601bc27473344930f70934604584601",
+      "url": "https://github.com/Charlie-glitch83/1RFC/blob/main/sources/manuscripts/nbody/A_Triadic_Solution_to_the_General_N_Body_Problem_Metadata_Revised_raw_LaTeX.md"
+    }
+  ]
+}
