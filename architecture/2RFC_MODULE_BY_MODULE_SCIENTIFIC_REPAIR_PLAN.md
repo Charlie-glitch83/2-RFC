@@ -1,855 +1,766 @@
-# 2-RFC Module-by-Module Scientific Repair Plan
+# 2-RFC Science-Only Module Repair Plan
 
-**Repository:** `Charlie-glitch83/2-RFC`  
-**Working branch:** `agent/triadic-proof-rebuild`  
-**Method:** repair the existing A-Q universe one module at a time  
-**Status:** working scientific repair authority; no module is declared repaired merely because this plan exists
+## Purpose
 
----
+This document contains only:
 
-## 1. Governing decision
+- the scientific goals of Modules A-Q;
+- the useful scientific results already obtained;
+- the scientific ways the fabricated 2-RFC modules missed those goals;
+- the scientific content needed to repair each module.
 
-The unit of work is the **module**, not the run.
+It intentionally excludes the old run system, run numbering, preflight routines, lifecycle machinery, status taxonomies, repository schemas, folder designs, handoff formats, evidence bureaucracy, and other operating machinery.
 
-2-RFC will not copy the old run-engineering system, its fixed run numbering, its layers of preflight machinery, or the operating model that repeatedly stalled at Module B. The valid scientific content recovered from RUN 000-013 will be used as source material for repairing Modules A and B, but the run bureaucracy will not become the new repository architecture.
+The module is the unit of scientific repair.
 
-The governing method is:
+For each existing 2-RFC module, the task is simply:
 
-1. read the exact individualized plan for the active module;
-2. inspect what the fabricated 2-RFC module actually contains;
-3. identify what is correct, weak, missing, duplicated, mistyped, or contradicted;
-4. carry forward applicable science from the canonical manuscripts, N-body proof, architecture, and recovered Module A/B work;
-5. repair the module in place;
-6. verify its own science and its parent/child interfaces;
-7. freeze the repaired module before moving to the next module.
-
-Calculations, proofs, simulations, and reproducibility artifacts are created only when the module's science requires them. They support the module; they do not become the primary organizational system.
+1. understand what the module was scientifically supposed to accomplish;
+2. identify what its fabricated version actually accomplished;
+3. preserve sound science;
+4. replace weak, incorrect, or missing science;
+5. make its physical output sufficient for the next module.
 
 ---
 
-## 2. Architecture sources soaked for this plan
+# I. Scientific spine of the repaired universe
 
-This plan was reconstructed from the architecture corpus in the File Library, including:
-
-- `The New RFC Plan - Canonical Revised.md`;
-- `RFC Hyper-Realism and Empirical Validation Standard.md`;
-- the complete individualized Module A-Q enhancement-plan family;
-- `RFC_NBody_Realistic_Universe_Enhancement_Plan.md`;
-- `RFC_Canonical_Master_Architecture_v1.0.md` and v1.1;
-- the canonical architecture locks and amendment records;
-- Presentation 29 and metadata;
-- Presentation 30 and Appendix J;
-- *A Triadic Solution to the General N-Body Problem* and metadata;
-- the recovered scientific content of RUN 000-013;
-- the reconstruction and continuity handoffs that distinguish clean science from failed execution ancestry.
-
-The final source-reconciled authority is recorded as:
+The scientific chain is:
 
 ```text
-RFC_NEW_INTEGRATED_PROOF_MASTER_ARCHITECTURE_v3.1_SOURCE_RECONCILED.md
-SHA-256 df56b19620513681f43c34d0c71e1a07298b23ae8e1d9fec3d1eff1bd5543cec
-
-RFC_CANONICAL_PROOF_LOCK_v3.1_SOURCE_RECONCILED.md
-SHA-256 c6bb36a07f516957ec6a277e4b13be5661f50b3ce967361451ab374d1158f82a
-
-Module Plans.zip
-SHA-256 6fbf126f62e8c9a383446b0aae2691ac40a3a9ccc34c293de5ef9e462012cb76
+A -> B -> C -> D -> E -> F -> G -> H -> I -> J
+  -> K/L/M coupled evolution -> N -> O
+  -> P and Q as separate descendants
 ```
 
-Those exact v3.1 bytes still need to be installed and independently hash-verified in 2-RFC. Until then, this file is a source-grounded repair plan, not a substitute for the missing exact authority objects.
-
-The old execution constitution is useful only for evidence lessons such as source identity, reproducibility, failure containment, no-retune discipline, and public-data isolation. Its standard run cycle and single-next-run machinery are not adopted here.
-
----
-
-## 3. Locked scientific architecture
-
-The physical chain is:
+The necessary special relations are:
 
 ```text
-A -> B -> C -> D -> E -> F -> G -> H^U -> I -> H[I] -> J
-  -> K/L/M coupled fixed state -> N -> O
-  -> isolated siblings P and Q
+G -> universal linear operator H^U
+I -> realized cosmological background
+H^U + I -> realized operator H[I]
+H[I] -> J
 ```
 
-The protected relations are:
+and
 
 ```text
-G -> H^U -> I -> H[I] -> J
-
-J -> K^(0) -> L^(0) -> K^(1) -> M^(0)
-  -> Fix(K,L,M) = (K*,L*,M*) -> N
-
-N -> O -> P
-     O -> Q
-P -/-> O
-P -/-> Q
-Q -/-> O
+K <-> L <-> M
 ```
 
-The non-negotiable scientific locks are:
+until nonlinear gravity, baryonic evolution, stars, feedback, nucleosynthesis, chemistry, and enrichment describe one mutually consistent universe.
 
-- CIF, QV, and RFL are the primitive ordered triad.
+The core scientific locks are:
+
+- The primitive triad is CIF, QV, and RFL.
 - The First Action is `QV(CIF) -> RFL`.
-- RFL means **Recursive Fractal Lattice** in the canonical RFC proof.
-- N-body machinery completes the terminal end of the triad kernel; it is not a separate late module.
-- Every later module inherits the completed carrier.
-- The carrier is active where witnessed and applicable; otherwise it remains dormant, information-bearing, unchanged, and non-backreacting.
+- RFL is the Recursive Fractal Lattice.
+- The N-body machinery completes the terminal end of the triad kernel. It is not a detached later module.
+- Every later physical domain inherits the completed relational capacity.
+- Where many-body realization is physically applicable, that capacity becomes active.
+- Where it is not physically active, it remains latent without changing the domain's output.
 - The Big Implosion is the sole first physical cosmological event.
-- There is no Big Bang event, substitute, compatibility placeholder, or renamed release event in RFC chronology.
-- Ordinary, radiative, compression-relic, and dissipative-tail sectors share Big-Implosion ancestry but retain distinct laws and roles.
-- Manifested RFL, qualified latent memory, and the next effective CIF are distinct states.
-- The Big-Rip-class terminal event is required for successful canonical cycle closure. A different terminal result is preserved as nonclosure or falsification, not renamed as success.
-- Public data enter only Module P after Module O freezes the universe.
-- No Module P result can alter the universe or inform Module Q.
-- No old failed score, contaminated state, obsolete proxy, or repair output becomes an upstream physical parent.
-- A mandatory result below `0.95` is failure; formal, structural, source, lineage, no-retune, and reproducibility gates target `1.000000`.
-- No average can hide a mandatory failure.
+- The Big Implosion is not a Big Bang, renamed expansion event, or compatibility placeholder.
+- The universe begins from compression of lawful possibility into the first physical manifested state.
+- Ordinary matter, radiation, the compression-relic sector, and the dissipative-tail sector share Big-Implosion ancestry but must have distinct physical behavior.
+- The Big Rip is the terminal physical event required for successful canonical cycle closure.
+- The manifested terminal RFL, latent recursive memory, and next effective CIF are not the same state.
+- Public observations cannot create or repair the universe. They can only test the completed frozen universe.
+- Failure in an older universe is not automatically inherited by the repaired universe.
+
+The repaired proof should show that the triad is finite in primitive constitution but unbounded in lawful manifestation through increasing relational multiplicity, recursive depth, events, branches, scale, structure, records, observers, and cycles.
 
 ---
 
-## 4. What the inspected 2-RFC branch actually provides
+# II. Module A - Triad kernel and universal relational capacity
 
-The inspected branch contains a useful foundation audit, not a fully implemented A-Q universe:
+## Scientific goal
 
-- Module A-related kernel, carrier, type, ancestry, graph, and add-body discussions exist in partial form.
-- Module B exists primarily as an unresolved physical-realization target.
-- Modules C-Q are represented mainly by a compressed ownership map and target prose, not complete physical module implementations.
+Module A must establish how the primitive triad generates a stable recursive kernel and how the completed N-body relational machinery becomes part of that kernel.
 
-Therefore, “repairing the fabricated module” means one of two things:
+It must explain:
 
-1. repair existing module-specific content when it exists; or
-2. replace a placeholder with the full scientific module required by its exact plan.
+- CIF as lawful possibility or admissible configuration;
+- QV as lawful selection, action, or transformation;
+- RFL as stabilized inheritable manifestation;
+- why the First Action has the order `QV(CIF) -> RFL`;
+- how recursive depth retains and transforms inherited information;
+- why the kernel remains bounded and meaningful;
+- how directed relations arise among arbitrary finite numbers of constituents;
+- how routes, witnesses, branches, events, collisions, memory, and reopening are represented;
+- how adding a constituent expands relational and possible-solution capacity;
+- how local relational solutions combine into larger physical structures;
+- how relational capacity can remain inactive in a domain without being erased.
 
-If fuller A-Q module files from the prior work model are later recovered, they should be placed in `recovery/` first and evaluated under this same plan before promotion.
+## Scientific work already available from RUN 000-007
 
----
+Carry forward the science that established:
 
-## 5. Lightweight module repair protocol
+- the irreducible ordered triad and First Action;
+- bounded recursive-kernel behavior under stated assumptions;
+- the directed finite-N lane set with `N(N-1)` relations;
+- the exact addition of `2N` directed lanes when one constituent is added;
+- witnessed routes and branch-aware local solutions;
+- maximal noncollision-interval specialization;
+- the fact that adding a positive mass generally perturbs existing trajectories;
+- the lawful zero-backreaction limit as the added influence tends to zero;
+- event lifting across singular or transition boundaries without pretending every continuation is unique;
+- protected memory and no-loss representation;
+- promotion to larger scales and reopening of protected detail;
+- dormant relational capacity with zero physical backreaction.
 
-Each module receives one compact repair record with five classifications:
+## What 2-RFC got right
 
-- **KEEP:** scientifically correct and compatible.
-- **STRENGTHEN:** correct foundation but incomplete evidence, scope, equations, or interface.
-- **REPLACE:** scientifically wrong, mistyped, circular, target-driven, or inconsistent with the architecture.
-- **ADD:** required science absent from the fabricated module.
-- **QUARANTINE:** historical, contaminated, obsolete, duplicated, or useful only as a forensic lesson.
+Preserve:
 
-Each repaired module should contain only the durable objects it needs:
+- placement of the N-body carrier at the terminal kernel;
+- distinction between prephysical and physical objects;
+- bounded-kernel reasoning;
+- directed-lane growth;
+- ancestry and protected-memory concepts;
+- the correction to the positive-mass add-body claim.
 
-```text
-modules/<LETTER>/
-  README.md                 # role, parents, child, current state
-  SCIENCE.md                # definitions, equations, theorem/claim structure
-  STATE_SCHEMA.json         # complete state and handoff fields
-  SOURCE_MAP.md             # exact source objects and classifications
-  VALIDATION.md             # analytic, numerical, physical, uncertainty gates
-  HANDOFF.json              # frozen export to the child module
-  implementation/           # only when executable science is required
-  evidence/                 # only result-bearing proof/calculation artifacts
-```
+## What needs scientific repair
 
-No mandatory `000-009` sequence is imposed. One module may need one proof and one calculation; another may need several solvers. The evidence shape follows the science.
+- Replace the thin carrier outline with the full route, witness, event, memory, branch, promotion, dormancy, and reopening science.
+- Do not confuse more lanes with automatically more physically distinct solutions. Strict solution growth requires a newly witnessed nonredundant closure.
+- Keep three claims separate: structural expansion, physical perturbation, and zero-backreaction recovery.
+- Do not interpret arbitrary finite-N extension as proof of one physically infinite-N state.
+- Reconcile the different kernel-depth conventions in the sources.
+- Do not attach a second independent N-body sum after the kernel has already been completed relationally.
+- Explain how the same completed capacity can support particle, fluid, gravitational, stellar, observer, and cyclic domains without claiming Newtonian mechanics directly solves every domain.
 
-A module closes only when:
+## Scientific end state
 
-- its required physical state is actually constructed;
-- every claimed equation and quantity has a source and status;
-- conservation, constraints, units, uncertainty, and ancestry close;
-- the child can restart without reconstructing omitted parent physics;
-- no target value or public comparison influenced generation;
-- the claim language matches what was proved or computed.
-
----
-
-# 6. Module-by-module repair plan
-
-## Module A - Triadic source kernel and governing relational law
-
-### Intended science
-
-Module A must complete the triad kernel with the universal arbitrary-finite relational carrier. It owns:
-
-- the ordered triad and First Action;
-- kernel boundedness, convergence, normalization, depth, and inheritance;
-- directed lanes and local witnesses;
-- route, gauge, multi-route, and branch classification;
-- event lift and collision/transition memory;
-- no-loss quotienting;
-- carrier activation, dormancy, promotion, refinement, latency, and reactivation;
-- add-one-constituent lane growth and lawful solution-capacity growth;
-- quantitative solution-capacity registers where a lawful measure exists;
-- local-to-global carrier gluing;
-- source, type, scale, parameter, measure, and correspondence schemas inherited downstream.
-
-### What 2-RFC got right
-
-Keep the terminal-kernel placement, the prephysical/physical type distinction, kernel boundedness under stated assumptions, directed-lane count, event ancestry, no-loss discipline, and the correction that a positive added mass generally perturbs old physical trajectories.
-
-### What must be fixed
-
-- Replace the sparse carrier outline with the complete scientific content recovered from RUN 000-007.
-- Correct all terminology to canonical `Recursive Fractal Lattice`.
-- Do not equate lane-count growth with strict solution-capacity growth. Strict growth requires at least one new independently witnessed non-gauge closure.
-- Keep structural embedding, physical perturbation, and the zero-backreaction limit as separate theorems.
-- Represent arbitrary finite-N capacity as a compatible family, not as an assumed physically infinite-N state.
-- Add the carrier lifecycle and route-local activation predicate.
-- Add dormant zero-backreaction semantics.
-- Add promotion/reopening and protected-information tests.
-- Add local-to-global gluing with identity, conservation, covariance, route, branch, and ownership compatibility.
-- Reconcile kernel-depth indexing across P29 and the N-body source without silently shifting indices.
-- Prevent double insertion of a second N-body route sum into an already route-indexed completed kernel.
-- Add the global parameter/DOF, unit/scale, branch-measure, probability/record, and source-identifiability schemas without populating downstream physical values prematurely.
-
-### Science carried from RUN 000-007
-
-Carry the definitions, theorems, event/memory/no-loss constructions, carrier lifecycle, activation/dormancy logic, route classifications, promotion/refinement science, and frozen Module A export content. Do not carry the old run directories, fixed sequencing machinery, or execution bureaucracy.
-
-### Accept Module A when
-
-Module B can consume one immutable completed-kernel packet without importing physical mass, space, gravity, or physical time before the Big Implosion, and every later module can inherit the carrier without adding it again.
+Module A should provide one completed triadic relational kernel that every later module inherits exactly once.
 
 ---
 
-## Module B - Big Implosion, first physical state, and dark-sector genesis
+# III. Module B - Big Implosion and the first physical universe
 
-### Intended science
+## Scientific goal
 
-Module B is the first physical cosmology module. It must produce:
+Module B must transform the completed prephysical kernel into the first physical state.
 
-- the cycle-indexed effective CIF envelope;
-- the Big Implosion as the sole first physical event;
-- the first manifested geometry- and field-bearing RFL state;
-- physical-time origin and recursive-entropy clock;
-- spacetime branch data, including dimension, signature, topology, causality, and locality status;
-- first physical scale and unit seeds;
-- route-resolved genesis graph;
-- symmetry/constraint and conservation descent;
-- exact ordinary, radiative, compression-relic, and dissipative-tail partition;
-- distinct background and perturbation contracts for every sector;
-- primordial signatures and dormant interfaces needed by C, H, I, J, K, and Q.
+It must produce:
 
-### What 2-RFC got right
+- the Big Implosion as the first physical event;
+- the first physical geometry or pregeometry;
+- the first physical fields and relational currents;
+- the origin of physical event ordering and time;
+- the first physical scales;
+- conservation and transfer laws;
+- the common ancestry and exact separation of ordinary, radiative, compression-relic, and dissipative-tail sectors;
+- the initial physical state needed for particle formation and later cosmological evolution.
 
-Keep the distinction between the prephysical First Action and the first physical event, the warning that a positive graph metric alone is not a complete spacetime theorem, the distinction between ancestry and duration, and the requirement that dark-sector labels be earned by dynamics rather than assigned to projectors.
+## Scientific work already available from RUN 008-013
 
-### What must be fixed
+Carry forward:
 
-2-RFC incorrectly resets the project to “physical realization absent” and blocks the Big Implosion behind one monolithic M3 theorem. Replace that blocker with the existing Module B science plus the actual remaining obligations.
+### Big Implosion
 
-### Science carried from RUN 008-013
+- compression occurs in modal-relational possibility, not inside an already existing space;
+- the first manifested state is regular rather than a manually inserted singularity;
+- the constant or total carrier mode is preserved while nonconstant relational modes are compressed;
+- protected prior information remains recoverable;
+- the first output contains relational geometry, currents, witness structure, memory, and ancestry;
+- physical time begins only after physical manifestation.
 
-Carry the following science, not its run machinery:
+### Intrinsic physical clock
 
-- **Big Implosion construction:** source-clean compression in modal-relational possibility space, not contraction inside an already existing universe; a regular first manifested image; total-carrier preservation; no-loss reversibility at the protected-state level; first geometry/field/current/memory state; physical time beginning only with the physical output.
-- **Intrinsic clock:** recursive entropy/compression ordering derived from the evolving state, distinct from kernel depth and ledger ancestry.
-- **Continuity and conservation:** route-resolved continuity, event transfer, conservation, and no-loss reopening.
-- **Sector genesis:** an exact nonduplicated four-sector partition.
-- **Compression relic:** the dark-matter-like stabilizing/clustering contract.
-- **Dissipative tail:** the dark-energy-like expansive/terminal contract and the dormant Module Q interface.
+- state change and witnessed compression generate an internal event ordering;
+- recursive entropy provides a monotonic physical clock variable;
+- this clock is distinct from kernel depth, ancestry rank, cycle index, and externally imposed Newtonian time.
 
-### Remaining Module B repairs
+### Continuity and conservation
 
-- Reconcile the discrete first-state theorem with the v3.1 spacetime constitution obligations.
-- Derive or preserve a lawful branch family for dimension, signature, topology, causal structure, connection, and locality.
-- Complete the source-derived physical scale and unit seed without empirical anchors.
-- Link each conservation law to a symmetry, constraint, or explicit balance/transfer law.
-- Complete uncertainty and covariance for the genesis state and sector partition.
-- Finish the background and perturbation contracts needed downstream.
-- Keep the first physical realization in B while allowing I to evolve and close the mature cosmological background later. Do not require the entire late universe before admitting its first physical state.
+- route-resolved currents connect the pre- and post-Implosion states;
+- local continuity closes to global conservation;
+- dissipated or transformed content is represented rather than silently deleted;
+- the event can be reopened at the protected-information level.
 
-### Accept Module B when
+### Four-sector genesis
 
-C receives a complete preparticle physical genesis state; the four sectors are normalized and nonduplicated; physical time, scale, geometry, conservation, uncertainty, and ancestry are explicit; and the Big Implosion is no longer merely target prose.
+- the first state can be decomposed exactly into four nonoverlapping sectors;
+- ordinary and radiative sectors are distinct from the compression-relic and dissipative-tail sectors;
+- the sectors share origin but must not be treated as interchangeable labels.
 
----
+### Compression relic
 
-## Module C - Particle, interaction, mass, hadron, and baryon-photon seed
+- a persistent contract exists for a clustering, structure-supporting relic component;
+- it should be developed into the dark-matter-like sector through later background, perturbation, halo, and lensing behavior.
 
-### Intended science
+### Dissipative tail
 
-Module C must turn the Module B state into a microscopic physical universe. It owns:
+- a distinct persistent tail exists with expansive and terminal relevance;
+- it should be developed into the dark-energy-like and Big-Rip-driving sector through later background and terminal dynamics.
 
-- particle and field identities;
-- state spaces, symmetries, representations, and interaction algebra;
-- normalized quantum probabilities and the microscopic record/decoherence interface;
-- charges, spins, statistics, chirality, antimatter, flavor, mixing, and CP structure;
-- mass and scale generation;
-- vertices, scattering, creation, annihilation, and decay;
-- confinement or its RFC-derived equivalent;
-- hadrons, proton/neutron states, binding, mass splitting, and stability/decay;
-- photon and neutrino seeds;
-- baryon/lepton/charge ledgers, asymmetry state, charge neutrality, baryon-photon state, and prethermal equation of state.
+## What 2-RFC got right
 
-### How the fabricated module misses the mark
+Preserve:
 
-The inspected branch contains no executed Module C. P29/P30 particle tables and scaffold values cannot substitute for the particle theory. An anchor, carried mass row, or target-facing residual is not a derivation.
+- First Action is prephysical while the Big Implosion is physical;
+- graph smoothing alone is not a complete spacetime theory;
+- ancestry is not physical duration;
+- dark-sector identities require actual dynamics and observables.
 
-### Repair
+## What needs scientific repair
 
-- Install the exact Module C plan as the target.
-- Build the actual microscopic ontology, equations, amplitude/probability law, symmetry and conservation descent, and physical-scale map.
-- Classify each physical ingredient as directly derived, RFC effective law, frozen interface physics, or benchmark only.
-- Preserve useful P30 particle code only as candidate implementation or diagnostic material.
-- Do not import measured masses, couplings, mixings, lifetimes, or baryon-photon values as hidden generators.
-- Produce the complete D handoff and a frozen microscopic prediction registry for later P validation.
+- Stop treating physical realization as wholly absent. Most of the first-state science already exists.
+- Integrate the RUN 008-013 science into the fabricated Module B.
+- Clarify the relation among graph compression, relational geometry, causal structure, and later relativistic geometry.
+- Determine the lawful possibilities for dimension, signature, topology, locality, and connection rather than silently assuming them.
+- Derive the first physical unit and scale structure without observational fitting.
+- Connect conservation to the actual symmetries, constraints, and transfer laws of the first state.
+- Complete the background and perturbation behavior of all four sectors.
+- Preserve the distinction between the first physical geometry produced in B and the mature cosmological background evolved in I.
 
-### Accept Module C when
+## Scientific end state
 
-D can begin from a complete prethermal microscopic state without inventing a Standard Model inventory, and N later has a normalized probability/record law rather than a metaphorical observer bridge.
+Module B should provide a complete preparticle physical universe at `t_phys = 0+`, with four physically meaningful sectors, time, scale, geometry, conservation, and uncertainty.
 
 ---
 
-## Module D - Early nonequilibrium thermal history, phase transitions, and transport
+# IV. Module C - Particle and interaction universe
 
-### Intended science
+## Scientific goal
 
-Module D must evolve C's particle state through:
+Module C must generate the microscopic physical contents of the universe from Module B.
 
-- nonequilibrium distribution dynamics;
-- collisions and reaction transport;
-- thermalization and entropy exchange;
-- finite-temperature phases and witnessed transitions;
-- annihilation, freeze-out, decoupling, and surviving relic populations;
-- matter-antimatter asymmetry transport and washout;
-- neutrino and photon evolution;
-- visible/dark-sector energy exchange;
-- equation-of-state and transport histories;
-- phase-transition relic and gravitational-wave source histories.
+It must account for:
 
-### How the fabricated module misses the mark
+- physical state spaces and fields;
+- particle and antiparticle identities;
+- charges, spin, statistics, chirality, and internal symmetries;
+- interaction structure and allowed vertices;
+- quantum amplitudes and normalized probabilities;
+- mass generation and massless-state protection;
+- flavor, generations, mixing, oscillation, and CP behavior;
+- creation, annihilation, scattering, and decay;
+- confinement or an RFC-derived equivalent;
+- composite states, hadrons, proton and neutron structure;
+- proton-neutron mass splitting and stability/decay;
+- photons and neutrinos;
+- baryon, lepton, charge, and matter-antimatter asymmetry;
+- the baryon-photon and prethermal equation-of-state state.
 
-A readiness schema, prescribed thermal timeline, or list of expected transitions is not thermal evolution.
+## What 2-RFC missed
 
-### Repair
+The fabricated repository has no complete particle module. Tables of expected particles, carried numerical values, anchors, or scaffolded masses do not constitute a particle theory.
 
-Construct the coupled kinetic/transport system, solve it over the declared domain, track all reservoirs and transfer currents, propagate uncertainty, and generate the actual nuclear-reaction-ready hypersurface.
+## Scientific repair
 
-### Accept Module D when
+- Construct the actual microscopic ontology and evolution law.
+- Distinguish elementary, composite, collective, and effective states.
+- Show how particle identities descend from the triadic and Big-Implosion state rather than being manually listed.
+- Establish gauge consistency and anomaly cancellation where gauge structure is used.
+- Derive or clearly isolate any physical law that is not directly triad-derived.
+- Build the probability law needed for later decoherence, records, and observation.
+- Derive the asymmetry source and its conservation/violation channels rather than assigning the observed asymmetry.
+- Produce a complete microscopic state for thermal evolution.
 
-E receives distributions, temperatures, chemical potentials, rates or rate contracts, asymmetry state, neutrino/photon state, covariance, and complete ancestry—not a Boolean indicating BBN readiness.
+## Scientific end state
 
----
-
-## Module E - Primordial nucleosynthesis, abundance closure, and nuclear memory
-
-### Intended science
-
-Module E must execute an isotope-resolved primordial nuclear network with:
-
-- nuclear species and state registry;
-- forward and reverse reaction graph;
-- weak conversion and neutron-decay history;
-- thresholds, Q values, detailed balance, and rate uncertainty;
-- stiff abundance/energy evolution;
-- baryon, charge, energy, positivity, and normalization closure;
-- adaptive network completeness;
-- isotope-level abundance covariance and reaction-flow ancestry.
-
-### How the fabricated module misses the mark
-
-P29's W2-R weighted proxy and P30's BBN readiness/adapter work are lessons about representation and source inheritance. They are not a complete public-quality BBN reaction network.
-
-### Repair
-
-Use the triadic-weight lesson to prevent scalar collapse, but construct the actual network and solve it from D. Do not carry old abundance targets, residuals, or the lithium closeout score as an upstream result.
-
-### Accept Module E when
-
-F receives a time-resolved isotope vector, covariance, nuclear memory, remaining free-particle state, radiation/energy ledger, and complete restart state.
+Module D should receive a complete interacting particle and field universe, not a readiness packet or borrowed Standard Model inventory.
 
 ---
 
-## Module F - Post-BBN plasma persistence and recombination-ready state
+# V. Module D - Early nonequilibrium thermal history
 
-### Intended science
+## Scientific goal
 
-Module F owns the continuous interval between nuclear freeze-out and atomic recombination:
+Module D must evolve the microscopic universe through its early high-temperature physical history.
 
-- plasma and radiation evolution;
-- isotope and ion identity persistence;
-- temperatures, chemical potentials, and species distributions;
-- opacity precursors, diffusion, conduction, viscosity, and drag;
-- residual reactions and decays;
-- magnetic, turbulent, and visible/dark interactions where generated;
-- perturbation and covariance persistence.
+It must include:
 
-### How the fabricated module misses the mark
+- nonequilibrium distribution functions;
+- species-dependent temperatures and chemical potentials where necessary;
+- collision and transport networks;
+- thermalization and entropy transfer;
+- electroweak-scale transition or crossover behavior;
+- baryogenesis or leptogenesis, conversion, washout, and survival;
+- strong-sector transition and hadronization;
+- particle-antiparticle annihilation;
+- freeze-out and decoupling;
+- neutrino transport and electron-positron entropy transfer;
+- visible-dark-sector exchange and decoupling;
+- phase-generated defects, turbulence, magnetic structure, shocks, or gravitational-wave sources where they physically arise;
+- a lawful relation among physical time, temperature, scale, and the evolving geometry.
 
-A BBN-to-recombination handoff packet is not the physical interval.
+## What 2-RFC missed
 
-### Repair
+A predetermined timeline, named phase list, or thermal-readiness schema is not thermal dynamics.
 
-Evolve the interval and make every omitted approximation explicit. Preserve all energy, entropy, charge, composition, perturbation, route, and uncertainty information required by G.
+## Scientific repair
 
-### Accept Module F when
+Build and solve the actual coupled kinetic and transport evolution. Preserve history dependence: two states with the same final temperature and density need not be physically identical if their transition, freeze-out, entropy, asymmetry, or defect histories differ.
 
-G can solve recombination directly without recreating missing plasma, photon, ionic, or perturbation histories from convention.
+## Scientific end state
+
+Module E should receive a reaction-ready plasma with complete distributions, rates, chemical state, asymmetry, neutrino/photon state, relics, and thermal history.
 
 ---
 
-## Module G - Nonequilibrium recombination and the physical CMB surface
+# VI. Module E - Primordial nucleosynthesis
 
-### Intended science
+## Scientific goal
 
-Module G must calculate:
+Module E must generate primordial nuclei and abundance histories from the Module D state.
 
-- level-resolved or lawfully reduced atomic and ionic populations;
-- capture, ionization, bound-bound, bound-free, two-photon, collisional, and scattering processes;
+It must include:
+
+- a complete relevant nuclear-species registry;
+- forward and reverse reaction channels;
+- weak neutron-proton conversion and neutron decay;
+- thresholds, binding energies, Q values, and partition functions;
+- thermally averaged rates and detailed balance;
+- screening, plasma, finite-temperature, radiative, recoil, weak-magnetism, and quantum-statistical corrections where material;
+- a stiff coupled abundance and energy evolution;
+- baryon, charge, energy, positivity, and normalization conservation;
+- radiation, lepton, entropy, and background feedback where required;
+- complete abundance trajectories and reaction ancestry;
+- correlated isotope uncertainties.
+
+## Useful earlier lesson
+
+The weighted triad representation must be preserved. The failed scalar treatment of the triad should not be revived. But old proxy abundance formulas and target-facing lithium scores are not the physical BBN solution.
+
+## What 2-RFC missed
+
+A BBN adapter, readiness flag, abundance proxy, or final target comparison is not a nuclear reaction network.
+
+## Scientific end state
+
+Module F should receive a full post-nuclear composition, nuclear memory, covariance, residual particles, radiation state, and decay/reaction history.
+
+---
+
+# VII. Module F - Post-nuclear plasma evolution
+
+## Scientific goal
+
+Module F must evolve the universe continuously from primordial nuclear freeze-out to the beginning of atomic recombination.
+
+It must track:
+
+- photons, electrons, positrons, ions, nuclei, neutrinos, and dark sectors;
+- species distributions, temperatures, and chemical potentials;
+- isotope and reaction ancestry;
+- residual reactions and radioactive decays;
+- opacity precursors;
+- diffusion, conduction, viscosity, drag, and energy exchange;
+- perturbations and their covariance;
+- magnetic, turbulent, or collective plasma behavior where generated;
+- spectral distortions;
+- the evolving relation among time, temperature, density, and geometry.
+
+## What 2-RFC missed
+
+A BBN-to-recombination bridge does not replace the physical interval.
+
+## Scientific end state
+
+Module G should receive a complete atomic-kinetics-ready plasma and photon state without reconstructing missing history from conventional assumptions.
+
+---
+
+# VIII. Module G - Recombination and the physical CMB surface
+
+## Scientific goal
+
+Module G must generate atomic recombination and the actual finite-width photon-decoupling and baryon-drag surfaces.
+
+It must include:
+
+- hydrogen, helium, and materially relevant light-element atomic states;
+- capture, ionization, bound-bound, bound-free, collisional, scattering, resonance, redistribution, and two-photon processes;
+- frequency-dependent line and continuum transport;
 - free-electron and matter-temperature histories;
-- opacity and optical depth;
-- the finite-width visibility function;
-- photon drag, diffusion, damping, polarization, and temperature source histories;
-- recombination radiation and spectral distortions;
-- perturbation-dependent recombination and covariance.
+- opacity and optical-depth evolution;
+- photon last-scattering and baryon-drag probability surfaces;
+- visibility width, skewness, perturbations, and frequency dependence;
+- diffusion damping, polarization source histories, recombination radiation, and intrinsic spectral distortions.
 
-### How the fabricated module misses the mark
+## What 2-RFC missed
 
-A symbolic “CMB surface,” imported recombination redshift, or readiness packet is not nonequilibrium recombination.
+An imported recombination redshift, symbolic CMB surface, or visibility placeholder is not recombination physics.
 
-### Repair
+## Scientific end state
 
-Implement and verify the atomic/radiative kinetics from F. Keep primordial recombination distinct from later astrophysical reionization.
-
-### Accept Module G when
-
-H receives the complete physical source histories needed to construct a transfer operator, not a proxy surface.
+Module H should receive the real source functions and histories needed to construct linear transport. Later astrophysical reionization remains distinct and belongs downstream.
 
 ---
 
-## Module H - Frozen universal linear Boltzmann and transfer operator
+# IX. Module H - Universal linear response and transfer physics
 
-### Intended science
+## Scientific goal
 
-Module H has two protected stages:
+Module H must construct the complete linear multi-species response of the universe.
 
-```text
-G -> H^U
-I -> H[I]
-```
+It must include:
 
-`H^U` must be built and frozen before I. It contains the background-parameterized multi-species linear response system, admissible background domain, scalar/vector/tensor sectors, gauge structure, metric and species hierarchies, collision terms, direct hierarchy and line-of-sight operators, Green functions, conservation laws, and limiting/correspondence contracts.
+- scalar, vector, and tensor sectors;
+- adiabatic, entropy, compensated, radiative, compression-relic, dissipative-tail, and other lawful modes;
+- metric, matter, photon, polarization, neutrino, and dark-sector hierarchies;
+- gauge structure and gauge-independent observables;
+- collision terms and source functions;
+- direct hierarchy and line-of-sight formulations;
+- complete regular initial modes;
+- Green functions, basis responses, derivatives, and covariance propagation;
+- convergence in multipole, momentum, species, time, and wavenumber resolution.
 
-After I derives the realized background, `H[I]` is an immutable instantiation, not a redesigned operator.
+## Required scientific order
 
-### How the fabricated module misses the mark
+The universal background-parameterized operator must be established before receiving the particular background from I. I then supplies the realized background, and H is instantiated on that background without changing its physics to fit a desired result.
 
-A generic transfer bridge or background-specific wrapper does not establish this two-stage operator constitution.
+## What 2-RFC missed
 
-### Repair
+A generic transfer bridge or background-specific wrapper is not a Boltzmann/linear-response system.
 
-- Build the actual multi-species operator from G.
-- Freeze its domain and approximations before I.
-- Verify gauge, conservation, truncation, stiffness, hierarchy/line-of-sight, and kinetic/fluid correspondence.
-- Instantiate on I without retuning or structural edits.
+## Scientific end state
 
-### Accept Module H when
-
-J can use reproducible `H[I]` basis responses and covariance maps, and a failed I-domain match cannot be repaired by secretly changing `H^U`.
+Module J should receive a realized, reproducible transfer operator capable of evolving every active linear mode from the primordial state to observable source fields.
 
 ---
 
-## Module I - Realized background geometry, expansion, distance, and dark-sector evolution
+# X. Module I - Cosmological background, geometry, expansion, and distance
 
-### Intended science
+## Scientific goal
 
-Module I evolves the first spacetime/sector constitution from B into the realized cosmological background. It owns:
+Module I must evolve the first geometry and sectors from B into the complete cosmological background on which H operates.
 
-- physical and conformal clocks;
-- geometry, connection, curvature, topology, anisotropy, and backreaction status;
+It must determine:
+
+- physical and conformal time;
+- geometry, connection, curvature, topology, isotropy/anisotropy, and backreaction;
 - expansion and acceleration histories;
-- sector densities, pressures, stresses, and transfer currents;
-- compression-relic and dissipative-tail background dynamics;
-- horizons, redshift, null propagation, rulers, clocks, sirens, and distance maps;
-- compatibility with the frozen `H^U` domain.
+- sector densities, pressures, stresses, equations of state, and exchange currents;
+- compression-relic and dissipative-tail background behavior;
+- stability, causality, hyperbolicity, sound speed, and absence or presence of ghost/gradient pathologies;
+- horizons and causal domains;
+- redshift, lookback time, age, redshift drift, null propagation, rulers, clocks, sirens, and distance measures;
+- Etherington reciprocity or any specific RFC departure;
+- internal BAO and supernova geometric quantities without observational calibration fitting;
+- compatibility with the earlier thermal, nuclear, plasma, and recombination chronology.
 
-### How the fabricated module misses the mark
+## What 2-RFC missed
 
-An expansion proxy, target-like background curve, or assertion that a dark projector is dark energy is not a realized background theorem.
+An expansion proxy, imported background curve, or dark-energy label does not constitute cosmological background dynamics.
 
-### Repair
+## Scientific end state
 
-Derive the governing geometry/stress-energy system and solve it from the B-G ancestry. I must evolve the spacetime branch established in B rather than redefine it. Familiar cosmological parameterizations may appear only as derived limits or transparently classified interfaces.
-
-### Accept Module I when
-
-The background is generated, constrained, uncertainty-bearing, source traceable, and accepted by frozen `H^U` without redesign.
+H should be instantiated on one internally generated background or an explicitly preserved lawful branch family, and J should receive complete background and distance histories.
 
 ---
 
-## Module J - Primordial covariance, linear spectra, growth, and nonlinear initial fields
+# XI. Module J - Primordial covariance, spectra, and growth
 
-### Intended science
+## Scientific goal
 
-Module J must derive the primordial mode covariance from triadic and Big-Implosion ancestry, then contract it with `H[I]` to produce:
+Module J must connect the Big-Implosion primordial state to the realized linear universe.
 
-- scalar, vector, tensor, entropy, compensated, dark-sector, and RFC-specific mode blocks;
-- amplitudes, phases, cross-correlations, features, and measure status;
-- Hermitian positive-semidefinite covariance;
-- CMB temperature/polarization and linear source spectra;
+It must generate:
+
+- primordial auto- and cross-covariances among all lawful modes;
+- amplitudes, phases, helicities, parity structure, non-Gaussianity, and features where derived;
+- a positive physically meaningful covariance state;
+- temperature and polarization source spectra;
 - matter, velocity, metric, neutrino, compression-relic, dissipative-tail, and cross spectra;
 - scale- and time-dependent growth;
-- finite-volume nonlinear initial fields;
-- a physically witnessed linearity boundary;
-- ensemble and observer-measure inputs needed later by N/O.
+- separation of physical realization/cosmic variance from future instrument noise;
+- finite-volume mass, position, velocity, momentum, stress, metric, and species fields for nonlinear evolution;
+- infrared and ultraviolet control;
+- a physically witnessed boundary between linear and nonlinear evolution.
 
-### How the fabricated module misses the mark
+## What 2-RFC missed
 
-A carried amplitude, fitted tilt, preselected normalization, or generic growth bridge is not a primordial covariance derivation.
+A carried amplitude, chosen tilt, generic growth factor, or preselected normalization is not a primordial covariance derivation.
 
-### Repair
+## Scientific end state
 
-Construct the covariance generator from A-B ancestry, preserve lawful route modes, freeze random/phase rules, prove positivity and gauge consistency, and generate K-ready fields without public target selection.
-
-### Accept Module J when
-
-K can restart from complete correlated fields, and all linear predictions and their uncertainty were frozen before public comparison.
+Module K should receive complete correlated physical initial fields that reconstruct the parent linear state and preserve its conservation laws and covariance.
 
 ---
 
-## Module K - Nonlinear relational gravity, halos, cosmic web, and lensing truth
+# XII. Module K - Nonlinear gravity, cosmic structure, and lensing truth
 
-### Intended science
+## Scientific goal
 
-Module K must promote J's fields into nonlinear gravity while preserving finite-N, continuum, and relativistic overlap. It owns:
+Module K must evolve J's fields into nonlinear gravitational structure.
 
-- phase-space and field evolution;
-- shell crossing, multistream flow, caustics, collapse, turnaround, relaxation, and virialization;
-- halos, subhalos, streams, mergers, disruption, accretion, and ejection;
-- cosmic-web and void topology;
-- nonlinear dark-sector structure;
-- metric and truth-level lensing fields;
-- route-resolved event and object ancestry;
-- the gravitational side of the K-L-M coupled system.
+It must include:
 
-### How the fabricated module misses the mark
+- phase-space and gravitational-field evolution;
+- shell crossing, multistreaming, caustics, collapse, turnaround, relaxation, and virialization;
+- halos, subhalos, streams, mergers, accretion, stripping, disruption, and ejection;
+- filaments, sheets, knots, cosmic web, and voids;
+- void walls, merging, crushing, compensation, velocities, and topology;
+- nonlinear compression-relic, dissipative-tail, neutrino, and free-streaming behavior according to their actual laws;
+- metric and gravitational-lensing truth fields;
+- direct-geodesic, Jacobi, lens-plane, and controlled approximation agreement;
+- compact-object and strong-field transition boundaries;
+- gravitational-wave-relevant mass, spin, multipole, recoil, and ancestry information.
 
-A nonlinear readiness bridge, halo schema, fitted halo relation, or public nonlinear correction does not constitute nonlinear structure formation.
+## What 2-RFC missed
 
-### Repair
+A halo schema, nonlinear readiness flag, empirical fitting relation, or catalogue generator is not nonlinear structure formation.
 
-Use explicit governing equations and declared approximation domains, establish finite-N/continuum/weak-field correspondence, build robust object/event definitions, and export provisional `K^(0)` to L. Final K is not frozen until K-L-M converges.
+## Scientific end state
 
-### Accept Module K when
-
-L can evolve baryons in a complete gravitational environment, truth lensing is internally generated, and final nonlinear claims wait for the fixed K-L-M state.
+Module L should receive a real gravitational environment for baryonic collapse. Module K remains coupled to L and M until their feedback and chemistry produce one consistent nonlinear universe.
 
 ---
 
-## Module L - Baryonic collapse, stars, feedback, remnants, and radiation sources
+# XIII. Module L - Baryonic collapse, stars, feedback, and compact objects
 
-### Intended science
+## Scientific goal
 
-Module L must evolve:
+Module L must generate stars and baryonic astrophysics from the nonlinear state.
+
+It must include:
 
 - hydrodynamics or MHD;
-- thermochemistry, cooling, heating, conduction, mixing, and turbulence;
+- cooling, heating, thermochemistry, conduction, mixing, and turbulence;
 - radiation transport and matter coupling;
-- gas accretion, shocks, discs, clouds, fragmentation, and collapse;
-- witnessed star-birth events;
-- generated stellar mass/multiplicity/cluster distributions;
-- protostars, stellar structure/evolution, binaries, winds, radiation, supernova dynamics, remnants, black holes, accretion, jets, and feedback;
-- mass, momentum, energy, radiation, remnant, and trajectory returns to K and M.
+- accretion, shocks, discs, clouds, fragmentation, and collapse;
+- star-birth events;
+- the stellar mass distribution as an outcome of completed births rather than an imposed IMF;
+- multiplicity, clusters, angular momentum, and birth correlations;
+- protostars, stellar structure, stellar evolution, winds, radiation, and mass loss;
+- binaries, mergers, supernovae, remnants, neutron stars, black holes, accretion, jets, and feedback;
+- cosmic-dawn and ionizing-source production;
+- mass, energy, momentum, radiation, metal, remnant, and trajectory return to K and M.
 
-### How the fabricated module misses the mark
+## What 2-RFC missed
 
-An imposed observed IMF, star-formation history, efficiency, wind law, or feedback calibration is not RFC stellar emergence.
+Imported star-formation histories, imposed IMFs, fitted efficiencies, and calibrated feedback recipes do not demonstrate stellar emergence from RFC.
 
-### Repair
+## Scientific end state
 
-Derive star formation from the generated collapse state or label any temporary closure honestly as interface physics. Preserve event identity, population promotion/reopening, composition dependence, energy/momentum closure, and uncertainty.
-
-### Accept Module L when
-
-M receives actual thermodynamic/event trajectories and K receives conservation-complete feedback; L remains provisional until K-L-M closure.
+Module M should receive actual stellar and explosive trajectories, while K receives conservation-complete baryonic feedback and compact-object evolution.
 
 ---
 
-## Module M - Stellar/explosive nucleosynthesis, chemistry, dust, and composition return
+# XIV. Module M - Stellar nucleosynthesis, chemistry, enrichment, and dust
 
-### Intended science
+## Scientific goal
 
-Module M must construct:
+Module M must generate the chemical universe from the stellar universe.
 
-- isotope- and nuclear-state registries;
-- a reaction/decay hypergraph;
-- hydrostatic and explosive networks tied to L's generated trajectories;
-- weak, neutrino, capture, photodisintegration, fission, spallation, and radioactive channels where activated;
+It must include:
+
+- isotope and nuclear-state networks for hydrostatic and explosive evolution;
+- forward/reverse reactions, weak processes, neutrino reactions, photodisintegration, capture, radioactive decay, fission, and spallation where relevant;
 - total, net, retained, fallback, escaped, radioactive, and dust-bearing yields;
-- ejecta parcels and delayed energy;
-- transport, mixing, retention, escape, reaccretion, phase exchange, dust, molecules, opacity, and composition-dependent cooling/heating;
-- chemical return that changes K and L through explicit physical channels.
+- spatially resolved ejecta and delayed deposition;
+- transport, turbulent mixing, retention, escape, reaccretion, and phase exchange;
+- chemical inhomogeneity, gradients, host variation, source clustering, and enrichment age;
+- dust creation, growth, destruction, and transport;
+- molecular chemistry where physically required;
+- composition-dependent cooling, heating, opacity, emissivity, and radiation coupling.
 
-### How the fabricated module misses the mark
+## What 2-RFC missed
 
-Grouped H-through-U cascades, solar-pattern proxies, yield tables, or a single metallicity scalar are not a nuclear and chemical universe.
+A single metallicity scalar, grouped element cascade, solar-pattern proxy, or imported yield table is not a chemical-evolution universe.
 
-### Repair
+## Scientific end state
 
-Use P29 W3/W4 only as representation and reporting lessons. Build the actual isotope networks and transport state. Return changed physics to K/L, replay only the affected nonlinear interval, and iterate until fixed point, lawful cycle, attractor, or classified branch closure.
-
-### Accept Module M when
-
-`(K*,L*,M*)` is chemically, baryonically, gravitationally, radiatively, and conservationally consistent without changing A-J.
-
----
-
-## Module N - Manifested-universe assembly, records, observers, and global lineage
-
-### Intended science
-
-Module N assembles the converged K-L-M state and immutable A-J ancestry into one universe. It owns:
-
-- universal identity and ownership registry;
-- global event and causal graphs;
-- worldlines/worldtubes, clocks, frames, gauges, and branch identities;
-- cross-domain conservation and covariance;
-- unified cosmic web, halos, galaxies, gas, stars, compact objects, isotopes, dust, radiation, magnetic/cosmic-ray fields, reionization, lensing, gravitational waves, transients, and lightcones;
-- local environments and truth-observable interfaces;
-- physical record carriers and observer-ready systems;
-- complete source-to-observable lineage.
-
-### How the fabricated module misses the mark
-
-A merged schema or catalogue list is not a manifested universe. “Observer-ready” cannot be asserted from an observer score or imported consciousness narrative.
-
-### Repair
-
-Build the actual cross-domain identity, ownership, event, causal, conservation, record, uncertainty, and observable state. Define observer readiness through localization, signal reception, physical state change, record retention, identity continuity, energy/entropy accounting, decoherence/branch status, and reproducible interaction. Keep consciousness outside the claim unless separately proved.
-
-### Accept Module N when
-
-O receives one mutually compatible, restartable universe with no orphaned entities, duplicated physical ownership, broken worldlines, unresolved provisional loops, or untraceable observables.
+K, L, and M should converge to one gravitational, baryonic, stellar, radiative, and chemical state. Planetary, prebiotic, biospheric, and consciousness chemistry are outside this module unless separately derived.
 
 ---
 
-## Module O - Immutable universe freeze and sibling-branch authorization
+# XV. Module N - Complete manifested universe, records, and observers
 
-### Intended science
+## Scientific goal
 
-Module O creates no new physics. It must:
+Module N must assemble all prior physical domains into one compatible manifested universe.
 
-- freeze the complete N state and A-N ancestry;
-- bind state, laws, sources, parameters, uncertainties, code, environment, precision, seeds, checkpoints, and evidence into one content-addressed universe identity;
-- prove clean restoration and independent reproduction;
-- freeze predictions, intrinsic signatures, branch/observer measure, and source-identifiability objects;
-- create isolated read-only P and physical-continuation Q descendants.
+It must contain:
 
-### How the fabricated module misses the mark
+- a unified identity and ownership structure for physical entities;
+- complete worldlines or worldtubes;
+- event and causal relations;
+- clocks, frames, and branch identities;
+- cosmic structures, gas, stars, remnants, isotopes, chemistry, dust, radiation, magnetic fields, cosmic rays, reionization, transients, gravitational waves, lensing, and lightcones;
+- complete conservation and covariance across domains;
+- local environments and physically generated records;
+- observer events and observing systems.
 
-A source manifest, checksum list, or repository PASS is not a frozen universe.
+Observer science must distinguish:
 
-### Repair
+### Geometric observer event
 
-Construct the actual content-addressed parent, restore it in a clean environment, and mechanically prove the absence of P-to-Q and child-to-parent dependency paths.
+- location;
+- velocity or frame;
+- proper time;
+- causal past;
+- tetrad or equivalent local measurement frame.
 
-### Accept Module O when
+### Physical observing system
 
-One exact universe can be reconstructed without mutable hidden state, and P and Q can proceed independently from the same immutable parent.
+- signal-receiving channels;
+- a physical state changed by the signal;
+- finite resolution and internally generated noise;
+- memory or record storage;
+- energy and entropy cost;
+- degradation, decoherence, and identity history;
+- measurable output.
+
+### Recursive identity candidate
+
+- state space;
+- memory and feedback;
+- identity-continuity rule;
+- stability or attractor behavior;
+- copying, splitting, merging, dormancy, reactivation, replacement, and termination behavior;
+- energy and dissipation account.
+
+None of these automatically proves subjective consciousness.
+
+## What 2-RFC missed
+
+A merged schema, observer score, catalogue list, or consciousness metaphor is not a complete manifested universe.
+
+## Scientific end state
+
+Module N should describe one physically coherent universe with traceable entities, events, records, observers, signals, and observables.
 
 ---
 
-## Module P - Blind empirical validation, falsification, and source identifiability
+# XVI. Module O - Freeze the generated universe
 
-### Intended science
+## Scientific goal
 
-Module P alone may use public data. It must implement:
+Module O does not add new physical laws. Its scientific purpose is to preserve exactly one generated universe before observation influences interpretation.
+
+It must preserve:
+
+- the complete physical state from A-N;
+- every law used to generate it;
+- its uncertainties and lawful branches;
+- its intrinsic predictions;
+- its observable truth fields;
+- its cyclic continuation state.
+
+The frozen universe must remain scientifically the same when restored, even when exact bitwise identity is not the physically relevant equivalence for a stochastic or ensemble object.
+
+## What 2-RFC missed
+
+A checksum list or source manifest is not the frozen physical universe.
+
+## Scientific end state
+
+Modules P and Q should begin from the same completed universe, but P's observations must not alter Q's physical future.
+
+---
+
+# XVII. Module P - Blind empirical test of the frozen universe
+
+## Scientific goal
+
+Module P must compare the completed universe with observations without using those observations to alter it.
+
+It must test:
+
+- microscopic and laboratory physics;
+- local gravity;
+- expansion and distance relations;
+- recombination and CMB structure;
+- primordial abundances;
+- linear growth and spectra;
+- nonlinear structure, halos, voids, and lensing;
+- stars, chemistry, and enrichment;
+- compact objects, gravitational waves, and transients;
+- RFC-specific cross-domain signatures;
+- the ability to distinguish RFC from comparably flexible alternatives.
+
+Comparison must proceed through actual physical observation:
 
 ```text
-frozen truth
--> signal propagation
--> instrument response
--> selection/noise
--> synthetic map/catalogue/event
+truth state
+-> propagation
+-> instrument or measurement interaction
+-> selection and noise
+-> map, catalogue, or event
 -> statistic
--> blind comparison
--> claim decision
+-> comparison
 ```
 
-It owns dataset-role separation, preregistration, unblinding, covariance, systematics, multi-probe testing, microscopic/laboratory/local-gravity tests, cosmological and astrophysical probes, source-identifiability testing, falsifiers, and independent reproduction.
+## What 2-RFC missed
 
-### How the fabricated module misses the mark
+A small residual table, average score, or direct target comparison is not full empirical validation.
 
-A small residual table, public target screen, or average score does not establish external validation.
+## Scientific end state
 
-### Repair
-
-Use one frozen parent for every probe. Process RFC outputs through like-for-like observation operators. Report all component residuals and mandatory failures. Test the frozen cross-domain triadic fingerprint against comparably flexible alternatives. Preserve P as an evidence-only child with no physical backflow.
-
-### Accept Module P when
-
-Every empirical claim has a preregistered dataset, operator, covariance, falsifier, decision rule, and independent reproduction, and no result altered O or Q.
+Every supported or conflicting claim should correspond to a physically comparable predicted observable, with no upstream repair based on the result.
 
 ---
 
-## Module Q - Big Rip, terminal dissolution, latent memory, and next-cycle conditioning
+# XVIII. Module Q - Big Rip, dissolution, memory, and next cycle
 
-### Intended science
+## Scientific goal
 
-Module Q continues only O's frozen physical branch. It must:
+Module Q must evolve the frozen universe to its terminal physical state and determine whether RFC's canonical cycle closes.
 
-- evolve the full future background, dark sectors, structures, fields, radiation, compact objects, chemistry, records, and uncertainty;
-- derive the dissipative-tail dynamics;
-- determine whether a finite-time, effective, or asymptotic Big-Rip-class terminal event occurs;
-- treat non-Big-Rip results as canonical cycle nonclosure/falsification;
-- resolve route-by-route unbinding, dissolution, horizon/causal change, event transitions, and scale reopening;
-- preserve conservation, information status, and distinct entropy ledgers;
-- prove the terminal equivalence/no-loss relation;
-- qualify latent memory only after active manifested RFL closure ends;
-- preserve `manifest RFL != latent memory != next effective CIF`;
-- derive pure-QV transition authority and the next effective CIF;
-- authorize the next Module B instance, which performs the next Big Implosion.
+It must include:
 
-### How the fabricated module misses the mark
+- future evolution of expansion, geometry, dark sectors, structures, fields, radiation, stars, remnants, chemistry, records, and horizons;
+- route-by-route unbinding and dissolution;
+- the dissipative-tail terminal dynamics;
+- finite-time, effective, or asymptotic Big-Rip-class behavior;
+- honest classification of any non-Big-Rip result as cycle nonclosure rather than renamed success;
+- thermodynamic entropy;
+- horizon or geometric entropy;
+- entanglement entropy for a stated partition;
+- coarse-grained entropy;
+- recursive memory entropy;
+- the physical status of information at the terminal state;
+- the distinction between accessible manifestation, inaccessible manifestation, radiation transfer, horizon encoding, true erasure, coarse-graining, representational redundancy, unresolved information, and qualified latent memory;
+- qualification of the surviving recursive memory;
+- construction of the next effective CIF;
+- authorization of the next First Action and next Big Implosion.
 
-Target prose describing a Big Rip and recurrence is not terminal evolution. A numerical stop, constant extrapolation, memory renaming, or direct `RFL -> CIF` identity is invalid.
-
-### Repair
-
-Solve the frozen future law, classify the terminal branch honestly, account for every long-lived reservoir and boundary flux, derive the memory qualification and next-source map, and preserve complete isolation from P. Do not claim infinite recurrence from one successful cycle.
-
-### Accept Module Q when
-
-A Big-Rip-class terminal state, complete dissolution ledger, qualified latent memory, next-CIF conditioning, and next-B authorization are derived and independently reproducible without external reset or empirical backflow.
-
----
-
-# 7. Cross-module repairs that cannot be postponed
-
-## 7.1 Replace readiness with physical state
-
-Every module must export the physical state its child actually needs. A packet saying a process is “ready” cannot replace the process.
-
-## 7.2 Keep source status visible
-
-Every equation, constant, closure, threshold, nuisance quantity, and numerical choice must be classified at first ownership as:
-
-- directly derived;
-- RFC effective/controlled limit;
-- frozen interface physics;
-- benchmark/comparison only.
-
-No interface quantity may be silently renamed triad-derived.
-
-## 7.3 Build one global parameter and degree-of-freedom ledger
-
-Every freedom must have an owner, source, domain, unit, uncertainty, freeze point, and allowed downstream use. This is required for scientific economy and source-identifiability claims.
-
-## 7.4 Derive units and scales across B, C, and I
-
-- B seeds the first physical scales and spacetime.
-- C derives microscopic scales.
-- I closes cosmological scales and distance maps.
-
-No measured anchor may masquerade as a prediction.
-
-## 7.5 Preserve probability, records, and measures
-
-- C owns microscopic probability normalization.
-- J owns primordial/realization measures.
-- N owns physical record and observer-context construction.
-- O freezes the measure before P.
-
-## 7.6 Preserve only valid A/B science from RUN 000-013
-
-The scientific content is reusable. The fixed run hierarchy, preflight layers, single-next-run mechanism, and Module-B-stalling operational model are not.
-
-## 7.7 Remove the current monolithic M3 blocker
-
-Physical-realization obligations are distributed across the modules that own them. B does not need the completed late-time universe before it can construct the first physical state, and Q cannot be required to finish before B begins.
-
----
-
-# 8. Repair order
-
-The most efficient sequence is:
-
-1. **Install authority:** exact v3.1 architecture/lock and exact A-Q plans, verified by hash.
-2. **Repair Module A:** use RUN 000-007 science and current 2-RFC foundation corrections.
-3. **Repair Module B:** use RUN 008-013 science, then close its remaining spacetime/scale/uncertainty contracts.
-4. **Repair C, D, E, F, and G in order:** replace schematic handoffs with actual microscopic, thermal, nuclear, plasma, and recombination physics.
-5. **Repair H^U, I, H[I], and J in protected order.**
-6. **Repair K, L, and M as a coupled system:** each module is repaired individually, but final acceptance occurs only at the fixed K-L-M state.
-7. **Repair N:** assemble one global manifested universe.
-8. **Repair O:** freeze and reproduce it.
-9. **Open P and Q as isolated siblings:** P tests; Q continues the physics.
-
-Only one module is actively rewritten at a time, except for the explicitly coupled K-L-M convergence stage and the immutable H/I instantiation relationship.
-
----
-
-# 9. Repository memory model
-
-GitHub should carry the durable context so future chats do not repeat full-library soaks.
-
-Recommended top-level structure:
+The following states must remain distinct:
 
 ```text
-architecture/
-  authority/                  # exact hash-verified architecture and locks
-  module_plans/               # exact A-Q plans, read-only
-  2RFC_MODULE_BY_MODULE_SCIENTIFIC_REPAIR_PLAN.md
-modules/
-  A/ ... Q/                   # repaired modules
-sources/
-  canonical/                  # admitted source bytes or deterministic acquisition
-  recovered_science/          # scientific content extracted from RUN 000-013
-recovery/                     # fuller prior fabricated modules awaiting audit
-quarantine/                   # failed, obsolete, contaminated, or forensic content
-validation/
-  source/
-  analytic/
-  numerical/
-  physical/
-  replay/
-STATE.json
-HANDOFF.md
+terminal manifested RFL
+qualified latent recursive memory
+next effective CIF
+next manifested RFL
 ```
 
-`STATE.json` should eventually record only the compact continuity needed for the active module:
+The next Big Implosion belongs to the next Module B instance, not to Module Q itself.
 
-```text
-activeModule
-activeModulePath
-exactModulePlanPath
-exactModulePlanSHA256
-parentModulePath
-parentExportHash
-repairStatus
-keptObjects
-replacedObjects
-missingScientificObjects
-currentBlockingQuestion
-nextAction
-requiredReadPaths
-publicDataMode
-```
+## What 2-RFC missed
 
-A future iteration should normally read only:
+Target prose about a Big Rip and restart is not terminal evolution. A numerical stopping point, constant extrapolation, unexplained entropy reset, archival record, or direct identity `RFL = CIF_next` is not a cycle theorem.
 
-1. `README.md`;
-2. `STATE.json`;
-3. `HANDOFF.md`;
-4. this repair plan;
-5. the exact active module plan;
-6. the active module files;
-7. the frozen parent export named in state.
+## Scientific repair
 
-It should not reload the entire library unless an authority object is missing, a source conflict appears, or a cross-module impact audit is required.
+- Solve the late-time physical evolution.
+- Determine the exact terminal branch.
+- Track every long-lived reservoir and boundary flux.
+- Explain what information physically survives and in what form.
+- Derive the memory-to-next-CIF map without external reset.
+- Test whether repeated cycles preserve law while allowing lawful novelty rather than exact copying or total memory loss.
+- Keep one completed cycle, finite multi-cycle behavior, and indefinite recurrence as distinct scientific claims.
+
+## Scientific end state
+
+Module Q should establish either a valid Big-Rip cycle closure or a precise failure of canonical recurrence.
 
 ---
 
-# 10. Immediate next action
+# XIX. Final repair direction
 
-Do not design a new run sequence.
+The efficient path is:
 
-The immediate work is:
+1. repair Module A using the science from RUN 000-007 and the valid pieces already present in 2-RFC;
+2. repair Module B using the science from RUN 008-013 and complete its remaining physical gaps;
+3. repair C through J in physical order;
+4. repair K, L, and M until they describe one coupled nonlinear universe;
+5. assemble N;
+6. freeze O;
+7. use P to test the universe and Q to continue its physical cycle.
 
-1. install and verify the exact source-reconciled architecture and A-Q plans;
-2. create the canonical `modules/A/` repair workspace;
-3. compare the current Module A foundation against its exact plan and the science recovered from RUN 000-007;
-4. repair Module A in place;
-5. freeze its export;
-6. then perform the same process for Module B using the science from RUN 008-013.
-
-The project advances by repairing the scientific universe that already has an A-Q shape—not by rebuilding another elaborate execution machine around it.
+No old execution model is being carried forward. Only its scientifically valid results and the scientific goals contained in the architecture are retained.
