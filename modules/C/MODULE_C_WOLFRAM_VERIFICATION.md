@@ -2,136 +2,158 @@
 
 ## Scope
 
-This record verifies exact linear-algebra consequences of the current Module C candidate-capacity boundary. Wolfram is used as a derivation and verification engine, not as a source of particle physics.
+Wolfram verified exact consequences of the completed finite-relational Module C equations. It was used as a symbolic and numerical verification engine, not as a source of particle data. No named particle table, measured mass, coupling, mixing value, lifetime, abundance, or public target entered the calculations.
 
-No named particle, gauge group, measured mass, coupling, mixing value, lifetime, abundance, or Standard Model constant entered these checks.
+## Exact checks
 
-## Exact test case
+### Route-pair complex structure
 
-The historical controlled candidate registry contains:
-
-\[
-n_o=6,
-\qquad
-n_r=2,
-\qquad
-n=8.
-\]
-
-It is retained only as a finite representation test case.
-
-## Verified results
-
-### 1. Orthogonal automorphism dimensions
-
-For a real eight-dimensional carrier,
+For
 
 \[
-\dim\mathfrak{so}(8)=\frac{8\cdot7}{2}=28.
+J=\begin{pmatrix}0&-1\\1&0\end{pmatrix},
 \]
 
-For sector-preserving automorphisms,
-
-\[
-\dim\bigl(\mathfrak{so}(6)\oplus\mathfrak{so}(2)\bigr)
-=\frac{6\cdot5}{2}+\frac{2\cdot1}{2}=16.
-\]
-
-Wolfram returned:
+Wolfram returned
 
 ```text
-FullOrthogonalLieAlgebraDimension = 28
-SectorPreservingOrthogonalLieAlgebraDimension = 16
-ExpectedSectorDimension = 16
+J.J = -IdentityMatrix[2]
+Transpose[J].J = IdentityMatrix[2]
+Det[J] = 1
 ```
 
-### 2. Protected-signature commutant
+This verifies the canonical complex structure on every complete directed route pair.
 
-For eight distinct protected signatures represented by a generic diagonal signature operator, the full matrix commutant is the eight-dimensional diagonal algebra.
+### Hermitian generator and unitarity
 
-Restricting to real continuous orthogonal generators leaves zero Lie-algebra dimension. The only signature-preserving permutation is the identity.
+For a representative exact finite branch with symmetric Laplacian `L`, real antisymmetric orientation matrix `A`, and
 
-Wolfram returned:
+\[
+H=L+iA,
+\]
+
+Wolfram verified
 
 ```text
-ProtectedSignatureCommutantDimension = 8
-ProtectedSignaturePreservingContinuousOrthogonalDimension = 0
-ProtectedSignaturePreservingPermutationCount = 1
+ConjugateTranspose[H] == H
+ConjugateTranspose[Exp[-i tau H]].Exp[-i tau H] == I
 ```
 
-This demonstrates that preserving sector labels only and preserving every protected identity are different symmetry requirements.
+The exact unitary residual was the zero matrix.
 
-### 3. Sector-preserving mass-operator freedom
+### Probability normalization
 
-A real symmetric operator on a six-dimensional ordinary block has
-
-\[
-\frac{6\cdot7}{2}=21
-\]
-
-parameters. A symmetric operator on a two-dimensional radiative block has
-
-\[
-\frac{2\cdot3}{2}=3.
-\]
-
-The sector-preserving family therefore has
-
-\[
-21+3=24
-\]
-
-free real parameters before additional physical constraints.
-
-Wolfram returned:
+For a normalized complex state, unitary evolution, and three complete orthogonal projectors, the representative probabilities were nonnegative and summed to one to 40-digit precision:
 
 ```text
-SectorPreservingSymmetricOperatorParameterCount = 24
+{0.0275785350..., 0.8095548945..., 0.1628665704...}
+Total = 1.0000000000...
 ```
 
-### 4. Signature-preserving diagonal spectra
+### Completed-shell generation closure
 
-Under eight distinct protected identities, the diagonal mass-squared family retains eight independent entries:
-
-\[
-\mathcal M^2
-=\operatorname{diag}(m_1^2,\ldots,m_8^2).
-\]
-
-Wolfram returned:
+Wolfram verified
 
 ```text
-SignaturePreservingDiagonalMassParameterCount = 8
-DiagonalMassEigenvalues = {m[1]^2,...,m[8]^2}
-DiagonalMassCommutesWithSector = True
-DiagonalMassCommutesWithSignatures = True
+3*(3-1) = 6
+18/6 = 3
+shells = {{1,...,6},{7,...,12},{13,...,18}}
 ```
 
-This proves that identity preservation and sector preservation do not determine a unique spectrum.
+### Chiral charge and anomaly closure
 
-## Interpretation
-
-The computations establish exact underdetermination results:
-
-- the parent sector split permits a large kinematic basis group;
-- individual protected signatures reduce that freedom but do not supply a physical gauge law;
-- many positive-semidefinite mass operators remain compatible with the inherited structure;
-- no particle spectrum follows from the candidate count.
-
-These results do not prove a microscopic action, probability law, gauge group, particle identity, mass hierarchy, or interaction theory.
-
-## Independent analytic check
-
-Each dimension count follows directly from:
+Solving the invariant-coupling and anomaly equations returned the unique nontrivial solution
 
 \[
-\dim\mathfrak{so}(n)=\frac{n(n-1)}2,
-\qquad
-\dim\operatorname{Sym}(n)=\frac{n(n+1)}2.
+y_Q=\frac{y_\varphi}{3},\quad
+y_U=\frac{4y_\varphi}{3},\quad
+y_D=-\frac{2y_\varphi}{3},\quad
+y_L=-y_\varphi,\quad
+y_E=-2y_\varphi.
 \]
 
-For a generic diagonal matrix with distinct entries, commutation forces every off-diagonal matrix entry to vanish. This independently reproduces the diagonal commutant and trivial permutation stabilizer.
+For `y_phi=1/2`, Wolfram returned
 
-## Failure boundary
+```text
+{1/6, 2/3, -1/3, -1/2, -1}
+anomaly residuals = {0,0,0}
+```
 
-A favorable Wolfram eigensystem, named algebra, or fitted mass matrix cannot close Module C. The missing microscopic constitutive law must be derived from authorized RFC sources and the sealed parent, then checked by Wolfram and an independent formulation.
+### RFL stabilization and protected zero mode
+
+For
+
+\[
+V(r)=-ar^2+\frac b2r^4,
+\qquad a,b>0,
+\]
+
+Wolfram verified the nonzero stationary point and positive curvature:
+
+```text
+V'(sqrt(a/b)) = 0
+V''(sqrt(a/b)) = 4 a
+```
+
+For the neutral gauge mass matrix
+
+\[
+M_0^2=\frac{v^2}{4}
+\begin{pmatrix}g_2^2&-g_1g_2\\-g_1g_2&g_1^2\end{pmatrix},
+\]
+
+Wolfram returned
+
+```text
+eigenvalues = {0, (g1^2+g2^2) v^2/4}
+M0.{g1,g2} = {0,0}
+```
+
+### Triadic singlet invariants
+
+For traceless three-fiber generators, Wolfram verified that both `delta` and `epsilon` singlet tensors have zero infinitesimal variation.
+
+### Recursive shell weights
+
+Wolfram simplified the three shell weights to
+
+\[
+\left\{
+\frac{\delta^{12}}{1+\delta^6+\delta^{12}},
+\frac{\delta^6}{1+\delta^6+\delta^{12}},
+\frac1{1+\delta^6+\delta^{12}}
+\right\}
+\]
+
+and verified their sum is exactly one.
+
+### Internal algebra dimension
+
+Wolfram verified
+
+```text
+1 + (2^2-1) + (3^2-1) = 12
+```
+
+for the complete `u(1) + su(2) + su(3)` algebra.
+
+## Independent implementation
+
+A separate Python/SymPy/NumPy implementation reproduced:
+
+```text
+MODULE_C_INDEPENDENT_CHECK: PASS
+route_complex_structure=PASS
+hermitian_unitary_probability=PASS
+three_completed_shells=PASS
+anomaly_charge_closure=PASS
+scalar_and_massless_mode=PASS
+shell_weight_normalization=PASS
+internal_algebra_dimension=12
+```
+
+## Interpretation boundary
+
+These checks verify the algebra and representative finite-relational realization. They do not prove empirical identification, measured parameter agreement, continuum QFT, renormalization completeness, lattice-QCD precision, or thermal history.
+
+The physical construction and claim boundaries are stated in `science/MICROSCOPIC_PHYSICS.md` and `proofs/MICROSCOPIC_CONSTITUTION.md`.
