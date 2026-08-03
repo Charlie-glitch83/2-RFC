@@ -3,56 +3,56 @@
 ## Current state
 
 ```text
-Modules A–I: COMPLETE_AND_FROZEN
+Modules A–J: COMPLETE_AND_FROZEN
 Module H^U: COMPLETE_AND_FROZEN
 Module H[I]: COMPLETE_AND_FROZEN
-Module J: ACTIVE
+Module K: ACTIVE
 ```
 
 The generated universe descends continuously from the ordered primitive triad `(CIF,QV,RFL)`, the First Action `QV(CIF) -> RFL`, the enhanced completed Module A triad kernel with terminal N-body relational completion, and the Big Implosion as the sole first physical event.
 
-## Completed Module I result
+## Completed Module J result
 
-Module I consumes the frozen Module G physical universe and the frozen Module H^U operator contract and derives:
+Module J consumes the immutable Module I background and H[I] basis responses and derives:
 
-- finite relational metric, connection, curvature, topology, averaging, and continuum-carrier constructions;
-- a constrained geometric and sector evolution law;
-- ordinary, radiative, relic, compression-relic, dissipative-tail, field, and defect background histories;
-- witnessed inter-sector transfer with exact zero-sum closure;
-- total conservation, geometric constraints, no-double-counting, and early-overlap closure;
-- internally generated dimensional units and reference events;
-- scale, expansion, acceleration, clocks, events, redshift, signal propagation, distances, reciprocity, horizons, and derivatives;
-- branch, stability, causality, pathology, covariance, memory, ancestry, and restart state;
-- proof grammar and verification for `B_I in D_B`;
-- immutable H[I] instantiation without redesigning H^U;
-- the complete background and basis-response parents required by Module J.
+- the complete independent primordial mode basis with scalar, vector, tensor, parity, helicity, entropy, compensated, relative-sector, field, defect, dark-sector, and route-memory states where active;
+- an endogenous route-, shell-, memory-, and common-ancestry covariance generator;
+- Hermitian, positive-semidefinite, dimensionally typed covariance with finite admitted power;
+- generated symmetry status without presuming homogeneity, isotropy, parity, Gaussianity, or scale invariance;
+- immutable covariance contraction through the frozen H[I] responses;
+- primary linear temperature and polarization spectra;
+- complete matter, radiation, neutrino, metric, compression-relic, dissipative-tail, and cross-sector spectrum matrices;
+- scale- and time-resolved growth and projected linear source histories;
+- gauge, conservation, constraint, compensation, reality, and covariance closure;
+- direct-ensemble versus transfer-contraction equivalence;
+- finite-volume fields with preserved phases, seeds, species, routes, uncertainty, memory, ancestry, and restart identity;
+- componentwise physical linearity and nonlinear-promotion surfaces;
+- the complete sealed `P_J->K` nonlinear-ready parent.
 
 Central files:
 
-- `science/REALIZED_BACKGROUND_GEOMETRY.md`
-- `proofs/REALIZED_BACKGROUND_GEOMETRY.md`
-- `modules/I/MODULE_I_WOLFRAM_VERIFICATION.md`
-- `science/INSTANTIATED_LINEAR_TRANSFER.md`
-- `modules/I/MODULE_I_TO_H_INSTANTIATED_SCIENTIFIC_HANDOFF.md`
+- `science/PRIMORDIAL_COVARIANCE_LINEAR_SPECTRA.md`
+- `proofs/PRIMORDIAL_COVARIANCE_LINEAR_SPECTRA.md`
+- `modules/J/MODULE_J_WOLFRAM_VERIFICATION.md`
+- `modules/J/MODULE_J_TO_K_SCIENTIFIC_HANDOFF.md`
 
 ## Exact boundary
 
-Module I and H[I] are complete at finite-relational, internally scaled generated-background and immutable linear-response scope. They do not claim measured expansion or distance values, public Boltzmann reproduction, primordial covariance, final CMB/matter spectra, nonlinear structure, or empirical confirmation.
+Module J is complete at finite-relational, internally normalized, linear-statistical scope. It does not claim nonlinear collapse, halos, nonlinear lensing, gas or stellar evolution, public primordial/CMB/matter agreement, observer or instrument closure, terminal Big-Rip dynamics, or empirical confirmation.
 
 ## Active frontier
 
-Module J must derive the primordial mode covariance, contract it with the frozen H[I] basis responses, generate realized linear spectra and growth histories, construct nonlinear-ready finite-volume fields, and identify the physical linearity boundary without importing a public primordial spectrum, observed normalization, fitted power law, or public transfer table.
+Module K must promote the sealed Module J fields without rescaling amplitudes or replacing phases, evolve the admitted sectors through shell crossing, multistream flow, nonlinear geometry, collapse, stabilized structures, cosmic-web and void dynamics, nonlinear metric/lensing fields, and prepare the gravitational interface to Modules L and M.
 
 ## Canonical reading order
 
 1. `HANDOFF.md`
 2. `STATE.json`
 3. `PLAN.md`
-4. `science/REALIZED_BACKGROUND_GEOMETRY.md`
-5. `proofs/REALIZED_BACKGROUND_GEOMETRY.md`
-6. `modules/I/MODULE_I_WOLFRAM_VERIFICATION.md`
-7. `science/INSTANTIATED_LINEAR_TRANSFER.md`
-8. `modules/I/MODULE_I_TO_H_INSTANTIATED_SCIENTIFIC_HANDOFF.md`
-9. Module J plan, triad lock, manuscript trace, and Wolfram revision
+4. `science/PRIMORDIAL_COVARIANCE_LINEAR_SPECTRA.md`
+5. `proofs/PRIMORDIAL_COVARIANCE_LINEAR_SPECTRA.md`
+6. `modules/J/MODULE_J_WOLFRAM_VERIFICATION.md`
+7. `modules/J/MODULE_J_TO_K_SCIENTIFIC_HANDOFF.md`
+8. Module K plan, triad lock, manuscript trace, and Wolfram revision
 
 Public observations may enter only Module P after Module O freezes the generated universe.
