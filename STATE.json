@@ -1,76 +1,68 @@
 {
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "project": "2-RFC",
   "objective": "Derive an evidence-complete triadic universe in which the Big Implosion is the sole first physical event and a Big-Rip-class terminal event is required for canonical cycle closure and next-cycle conditioning.",
-  "active_module": "K",
-  "active_milestone": "MODULE_K_NONLINEAR_GRAVITATIONAL_UNIVERSE",
-  "status": "MODULES_A_THROUGH_J_COMPLETE_FROZEN_H_UNIT_AND_H_I_COMPLETE_FROZEN_MODULE_K_ACTIVE",
-  "last_verified_utc": "2026-08-03T22:34:00Z",
-  "exact_next_action": "Repair Module K from the sealed Module J nonlinear-ready parent: promote the generated finite-volume linear universe without rescaling or phase replacement, evolve the admitted sectors through shell crossing, multistream flow, nonlinear geometry, collapse, stabilized structures, web and void dynamics, nonlinear lensing and lightcones, and prepare the gravitational interface to Modules L and M while preserving the K-L-M closure architecture.",
+  "active_module": "L",
+  "active_milestone": "MODULE_L_BARYONS_STARS_FEEDBACK_AND_RETURN",
+  "status": "MODULES_A_THROUGH_J_COMPLETE_FROZEN_MODULE_K_FIRST_PASS_COMPLETE_FROZEN_MODULE_L_ACTIVE_FINAL_K_CLOSURE_PENDING_KLM",
+  "last_verified_utc": "2026-08-03T22:47:00Z",
+  "exact_next_action": "Repair Module L from the sealed K^(0) gravitational parent: derive conservation-complete baryonic hydrodynamics, thermochemistry, radiation, clouds, witnessed star birth, stellar populations, feedback, remnants, and typed returns to Modules M and K without empirical star-formation, IMF, feedback, or galaxy-halo prescriptions.",
   "read_first": [
     "README.md",
     "HANDOFF.md",
     "PLAN.md",
-    "architecture/2RFC_TRIAD_KERNEL_UNIVERSE_DERIVATION_LOCK.md",
-    "science/PRIMORDIAL_COVARIANCE_LINEAR_SPECTRA.md",
-    "proofs/PRIMORDIAL_COVARIANCE_LINEAR_SPECTRA.md",
-    "modules/J/MODULE_J_WOLFRAM_VERIFICATION.md",
-    "modules/J/MODULE_J_TO_K_SCIENTIFIC_HANDOFF.md",
-    "modules/K/MODULE_K_DETAILED_SCIENTIFIC_REPAIR_PLAN.md",
-    "modules/K/MODULE_K_TRIAD_KERNEL_DERIVATION_LOCK.md"
+    "science/NONLINEAR_RELATIONAL_GRAVITY.md",
+    "proofs/NONLINEAR_RELATIONAL_GRAVITY.md",
+    "modules/K/MODULE_K_WOLFRAM_VERIFICATION.md",
+    "modules/K/MODULE_K_TO_L_SCIENTIFIC_HANDOFF.md",
+    "modules/L/MODULE_L_DETAILED_SCIENTIFIC_REPAIR_PLAN.md",
+    "modules/L/MODULE_L_TRIAD_KERNEL_DERIVATION_LOCK.md"
   ],
   "completed": [
-    "MODULES_A_THROUGH_I_COMPLETE_AND_FROZEN",
-    "MODULE_H_UNIT_AND_H_I_COMPLETE_AND_FROZEN",
-    "MODULE_J_IMMUTABLE_I_AND_H_I_PARENT_CONSUMPTION",
-    "MODULE_J_TRIAD_KERNEL_PRIMORDIAL_STATISTICAL_CONSTRUCTION",
-    "MODULE_J_COMPLETE_INDEPENDENT_MODE_BASIS",
-    "MODULE_J_ENDOGENOUS_ROUTE_SHELL_MEMORY_COVARIANCE",
-    "MODULE_J_HERMITIAN_PSD_DIMENSIONAL_AND_FINITE_POWER_CLOSURE",
-    "MODULE_J_SVT_PARITY_HELICITY_ENTROPY_COMPENSATED_AND_CROSS_MODE_BLOCKS",
-    "MODULE_J_IMMUTABLE_TRANSFER_COVARIANCE_CONTRACTION",
-    "MODULE_J_PRIMARY_LINEAR_RADIATIVE_SPECTRA",
-    "MODULE_J_COMPLETE_SPECIES_SECTOR_METRIC_AND_CROSS_SPECTRA",
-    "MODULE_J_GROWTH_AND_PROJECTED_SOURCE_HISTORIES",
-    "MODULE_J_GAUGE_CONSERVATION_CONSTRAINT_AND_REALITY_CLOSURE",
-    "MODULE_J_DIRECT_ENSEMBLE_AND_TRANSFER_CONTRACTION_EQUIVALENCE",
-    "MODULE_J_FINITE_VOLUME_FIELDS_PHASE_SEED_AND_COVARIANCE_RECOVERY",
-    "MODULE_J_UNCERTAINTY_IDENTIFIABILITY_AND_RESTART_CLOSURE",
-    "MODULE_J_COMPONENTWISE_LINEARITY_DOMAIN_AND_PROMOTION_SURFACE",
-    "MODULE_J_COMPLETE_EXPORT_TO_K",
-    "MODULE_J_COMPLETE_AND_FROZEN"
+    "MODULES_A_THROUGH_J_COMPLETE_AND_FROZEN",
+    "MODULE_K_IMMUTABLE_J_PARENT_CONSUMPTION",
+    "MODULE_K_NO_RESCALE_PHASE_PRESERVING_PROMOTION",
+    "MODULE_K_J_OVERLAP_RECOVERY",
+    "MODULE_K_FINITE_N_PHASE_SPACE_CONTINUUM_WEAK_FIELD_AND_RELATIVISTIC_REGIME_ATLAS",
+    "MODULE_K_CONSERVATION_FORCE_METRIC_EVENT_REFINEMENT_AND_RESTART_CLOSURE",
+    "MODULE_K_SHELL_CROSSING_MULTISTREAM_CAUSTIC_COLLAPSE_BINDING_AND_STABILIZATION",
+    "MODULE_K_HALOS_SUBHALOS_STREAMS_EVENT_GRAPH_WEB_AND_VOID_STATE",
+    "MODULE_K_NONLINEAR_COMPRESSION_RELIC_DISSIPATIVE_TAIL_AND_FREE_STREAMING_STATE",
+    "MODULE_K_NONLINEAR_METRIC_LENSING_JACOBI_AND_LIGHTCONE_TRUTH",
+    "MODULE_K_COVARIANCE_MEMORY_SIGNATURE_AND_FIRST_PASS_EXPORT_TO_L",
+    "MODULE_K_FIRST_PASS_K0_COMPLETE_AND_FROZEN"
   ],
   "active": [
-    "K1_SEALED_J_PARENT_AND_PROMOTION_OVERLAP",
-    "K2_NONLINEAR_MULTISECTOR_PHASE_SPACE_AND_GEOMETRY",
-    "K3_SHELL_CROSSING_CAUSTICS_COLLAPSE_AND_STABILIZATION",
-    "K4_HALOS_SUBHALOS_STREAMS_MERGERS_WEB_AND_VOIDS",
-    "K5_COMPRESSION_RELIC_DISSIPATIVE_TAIL_AND_FREE_STREAMING_NONLINEARITY",
-    "K6_NONLINEAR_METRIC_LENSING_AND_TRUTH_LIGHTCONES",
-    "K7_GRAVITATIONAL_INTERFACE_TO_L_AND_M",
-    "K8_K_L_M_CLOSURE_AND_EXPORT"
+    "L1_SEALED_K0_PARENT_CONSUMPTION",
+    "L2_HYDRODYNAMIC_MHD_THERMOCHEMICAL_AND_RADIATION_STATE",
+    "L3_CLOUD_FRAGMENTATION_AND_WITNESSED_STAR_BIRTH",
+    "L4_STELLAR_POPULATIONS_EVOLUTION_FEEDBACK_AND_REMNANTS",
+    "L5_RETURN_TO_M_AND_K",
+    "L6_K_L_M_RECURRENCE_PREPARATION"
   ],
-  "module_j_boundaries": [
-    "Finite relational internally normalized linear-statistical universe, not a fitted primordial power law",
-    "Generated covariance and complete mode blocks, not imported amplitude, tilt, running, tensor ratio, or mode mixture",
-    "Primary linear radiative and full species-sector-metric spectra, not observed or instrument-convolved spectra",
-    "Gauge-consistent finite-volume linear fields and promotion surfaces, not nonlinear collapsed structures",
-    "No public primordial spectrum, transfer table, CMB or matter spectrum, growth normalization, likelihood, or observed target entered generation"
+  "pending": [
+    "FINAL_MODULE_K_CLOSURE_AFTER_L_AND_M_RETURN_OPERATORS_EXIST",
+    "K_L_M_FIXED_POINT_CYCLE_ATTRACTOR_BRANCH_OR_NONCONVERGENCE_CLASSIFICATION"
+  ],
+  "module_k_boundaries": [
+    "K^(0) is a complete first-pass nonlinear gravitational state, not the final baryonically converged universe",
+    "Physical binding and stability witnesses, not density thresholds, define bound objects",
+    "Nonlinear metric and independent ray/Jacobi routes define lensing truth, not fitted density conversion",
+    "No public nonlinear spectrum, halo relation, concentration law, merger curve, lensing amplitude, or baryonic correction entered generation"
   ],
   "forbidden_shortcuts": [
-    "Reopen or retune frozen Modules A through J or H^U/H[I]",
-    "Rescale Module J amplitudes, replace phases, reassign species, or import conventional simulation initial conditions during Module K promotion",
-    "Import a public nonlinear spectrum, halo statistic, concentration law, merger curve, lensing amplitude, or baryonic correction during Module K generation",
-    "Treat a density threshold as sufficient proof of a bound object",
-    "Use public data or standard cosmology outside Module P",
-    "Average away any mandatory failure",
-    "Promote Wolfram output or code success into empirical truth"
+    "Reopen or retune frozen Modules A through J or K^(0)",
+    "Replace the sealed K^(0) gravitational parent with conventional galaxy-formation initial conditions",
+    "Import observed star-formation histories, IMFs, feedback efficiencies, galaxy-halo relations, or stellar-population fits during Module L generation",
+    "Declare final K closure before the L and M return maps exist and the K-L-M recurrence is classified",
+    "Use public data outside Module P",
+    "Average away any mandatory failure"
   ],
   "score_rule": {
     "mandatory_threshold": 0.95,
     "target": 1.0,
     "aggregation_can_override_failure": false,
-    "meaning": "Module P gate completeness only; never a truth probability"
+    "meaning": "Module P comparison completeness only; never a truth probability"
   },
   "source_of_truth": "This file is the only machine-readable project-state record."
 }
