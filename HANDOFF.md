@@ -10,9 +10,11 @@ Read:
 6. `modules/B/MODULE_B_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
 7. `modules/B/MODULE_B_TO_C_SCIENTIFIC_HANDOFF.md`
 8. `modules/C/MODULE_C_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
-9. the exact library plan for the active module
-10. the existing 2-RFC module being repaired
-11. the valid scientific source material named for that module
+9. `modules/C/MODULE_C_TO_D_SCIENTIFIC_HANDOFF.md`
+10. `modules/D/MODULE_D_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
+11. the exact library plan for the active module
+12. the existing 2-RFC module being repaired
+13. the valid scientific source material named for that module
 
 ## Governing method
 
@@ -37,8 +39,10 @@ completed Module A
 -> repaired Module B
 -> MODULE_B_TO_C_SCIENTIFIC_HANDOFF
 -> repaired Module C
--> future MODULE_C_TO_D_SCIENTIFIC_HANDOFF
--> future detailed Module D repair plan
+-> MODULE_C_TO_D_SCIENTIFIC_HANDOFF
+-> repaired Module D
+-> future MODULE_D_TO_E_SCIENTIFIC_HANDOFF
+-> future detailed Module E repair plan
 ```
 
 The A→B handoff distinguishes:
@@ -51,16 +55,18 @@ The A→B handoff distinguishes:
 
 The B→C handoff defines the complete preparticle parent state and requires Module C to derive particles, fields, masses, symmetries, interactions, probabilities, composites, and prethermal composition without importing measured microscopic values.
 
-The Module C plan is built from:
+The C→D handoff defines the complete microscopic and prethermal parent state and requires Module D to derive the thermal chronology rather than reconstruct particle physics or import conventional early-universe initial conditions.
+
+The Module D plan is built from:
 
 - the repository's detailed gap-to-library repair plan;
-- the sealed B→C handoff;
-- the exact Module C library plan;
-- Presentation 29 and Presentation 30 particle-facing science;
-- Simulation Logs 15 particle-mass and pre-BBN science at its exact supported scope;
-- N-body relational grammar;
-- completed-shell/legal-incidence science only after a physical mapping is proved.
+- the detailed Module C plan;
+- the sealed C→D handoff;
+- the exact Module D library plan;
+- the Module E library plan as the downstream nuclear-readiness boundary;
+- applicable Presentation 29 and Presentation 30 early-thermal science;
+- N-body event, route, witness, memory, and conservation grammar at its exact supported scope.
 
 ## Current scientific direction
 
-Treat Module A as complete and frozen. Repair Module B according to its detailed plan and sealed A→B handoff. Repair Module C according to `modules/C/MODULE_C_DETAILED_SCIENTIFIC_REPAIR_PLAN.md` and the sealed B→C handoff. The next planning task is to create the exact Module C→D scientific handoff and then the detailed Module D repair plan.
+Treat Module A as complete and frozen. Repair Module B according to its detailed plan and sealed A→B handoff. Repair Module C according to its detailed plan and sealed B→C handoff. Repair Module D according to `modules/D/MODULE_D_DETAILED_SCIENTIFIC_REPAIR_PLAN.md` and the sealed C→D handoff. The next planning task is to create the exact Module D→E scientific handoff and then the detailed Module E repair plan.
