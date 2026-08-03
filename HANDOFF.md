@@ -4,7 +4,9 @@
 
 ```text
 Modules A–G: COMPLETE_AND_FROZEN
-Module H^U: ACTIVE
+Module H^U: COMPLETE_AND_FROZEN
+Module I: ACTIVE
+Module H[I]: BLOCKED_BY_I
 ```
 
 ## Nonnegotiable universe-derivation rule
@@ -26,56 +28,55 @@ Every later module is a domain specialization of that same kernel. No module may
 9. Wolfram integration revision
 10. exact sources named by the trace
 
-For Module H^U, read first:
+For Module I, read first:
 
 ```text
-science/NONEQUILIBRIUM_RECOMBINATION.md
-proofs/NONEQUILIBRIUM_RECOMBINATION.md
-modules/G/MODULE_G_WOLFRAM_VERIFICATION.md
-modules/G/MODULE_G_TO_H_SCIENTIFIC_HANDOFF.md
-modules/H/MODULE_H_TRIAD_KERNEL_DERIVATION_LOCK.md
-modules/H/MODULE_H_DETAILED_SCIENTIFIC_REPAIR_PLAN.md
-modules/H/MODULE_H_MANUSCRIPT_SOURCE_TRACEABILITY.md
-modules/H/MODULE_H_WOLFRAM_INTEGRATION_REVISION.md
+science/LINEAR_BOLTZMANN_TRANSFER_OPERATOR.md
+proofs/LINEAR_BOLTZMANN_TRANSFER_OPERATOR.md
+modules/H/MODULE_H_WOLFRAM_VERIFICATION.md
+modules/G/MODULE_G_TO_H_UNIT_SCIENTIFIC_HANDOFF.md
+modules/I/MODULE_I_TRIAD_KERNEL_DERIVATION_LOCK.md
+modules/I/MODULE_I_DETAILED_SCIENTIFIC_REPAIR_PLAN.md
+modules/I/MODULE_I_MANUSCRIPT_SOURCE_TRACEABILITY.md
+modules/I/MODULE_I_WOLFRAM_INTEGRATION_REVISION.md
 ```
 
-## Completed Module G result
+## Completed Module Hᵁ result
 
-Module G now installs:
+Module Hᵁ now installs:
 
-- immutable consumption of the complete F→G parent;
-- explicit atomic-radiative CIF/QV/RFL specialization of the enhanced Module A kernel;
-- finite positive normalized atom-photon evolution;
-- generated atomic, ionic, continuum, and transition registries;
-- common-source forward/reverse rates and equilibrium-limit closure;
-- nonequilibrium hydrogen-, helium-, deuterium-, and material light-element histories;
-- exact nuclear-identity, charge, energy, momentum, probability, branch, memory, and ancestry ledgers;
-- generated free-electron and thermal histories;
-- frequency-, angle-, polarization-, and route-resolved radiation transport;
-- exact finite line escape, redistribution, feedback, two-photon, forbidden, metastable, continuum, and collisional flow;
-- process-resolved opacity and integrated optical depth;
-- raw visibility with explicit boundary mass and conditionally normalized primordial visibility;
-- a finite photon last-scattering probability structure;
-- a distinct baryon-drag history and release structure;
-- generated diffusion, viscosity, conduction, damping, temperature, and polarization source histories;
-- recombination radiation and intrinsic spectral distortions;
-- perturbation-dependent recombination response;
-- adaptive completeness, covariance, signatures, restart, and the complete `P_G->H^U` state.
+- immutable consumption of the complete G→Hᵁ parent;
+- explicit linear-response CIF/QV/RFL specialization of the enhanced Module A kernel;
+- a typed admissible-background domain independent of the realized Module I background;
+- exact Fréchet linearization of the frozen A–G law stack;
+- a complete multi-species perturbation state;
+- scalar/vector/tensor, helicity, and parity typing;
+- gauge transformations, physical quotient, and alternate-formulation verification grammar;
+- propagated geometric, charge, normalization, species, and momentum constraints;
+- collision and inter-sector conservation closure;
+- photon intensity/polarization, matter, neutrino/free-streaming, compression-relic, dissipative-tail, field, and authorized dark-sector blocks;
+- complete regular unit-mode basis and early-time series grammar;
+- controlled tight-coupling, fluid, free-streaming, and other stiff/asymptotic reductions;
+- hierarchy truncation with omitted-tail and no-reflection control;
+- direct fundamental-matrix propagation, composition, restart, unit responses, and Green functions;
+- line-of-sight source/projection grammar with direct-hierarchy closure;
+- response derivatives, adjoints, covariance propagation, stability/pathology rules, intrinsic signatures, memory, ancestry, restart, and complete `P_H^U->I` export.
 
-## Exact Module G boundary
+## Exact Module Hᵁ boundary
 
-Module G is complete only at finite-relational, internal-unit, generated atomic-radiative scope. It does not claim measured atomic precision, public recombination-code agreement, final angular CMB spectra, matter transfer functions, mature distance/horizon observables, late astrophysical reionization, nonlinear secondary anisotropies, lensing, or empirical confirmation.
+Hᵁ is complete only at finite-relational, background-parameterized linear-response scope. It does not contain the realized Module I background, H[I] basis-response histories, primordial covariance, final CMB/matter spectra, nonlinear structure, late reionization, public Boltzmann reproduction, or empirical confirmation.
 
-## Active Module H^U frontier
+## Active Module I frontier
 
-Module H^U receives the sealed recombination-resolved source packet and must construct the universal background-parameterized linear perturbation and transfer operator. It must preserve Module G ionization, opacity, optical-depth, visibility, drag, diffusion, damping, polarization-source, recombination-radiation, perturbation-response, covariance, memory, and ancestry state.
+Module I receives the frozen upstream universe and the immutable Hᵁ operator/domain packet. It must derive the complete realized RFC background and geometry, including coupled sector histories, expansion and acceleration, clocks, curvature, horizons, distances, dark-sector evolution, covariance, branches, stability, causality, and pathology state.
 
-It must not select the realized background that belongs to Module I. Its output is a frozen operator and admissible-background domain that Module H[I] later instantiates without redesign or retuning.
+It must prove that the realized background lies in the frozen Hᵁ domain. Only then may it instantiate H[I] through the declared insertion map. It may not modify Hᵁ to force compatibility.
 
 ## Governing rules
 
-- Do not reopen or retune Modules A–G.
-- Do not import a public cosmological background, Boltzmann output, CMB spectrum, matter spectrum, primordial spectrum, transfer function, or observed normalization.
+- Do not reopen or retune Modules A–G or frozen Hᵁ.
+- Do not import a public cosmological background, distance curve, Hubble normalization, observed acoustic scale, transfer function, CMB/matter spectrum, or dark-energy template.
+- Do not change Hᵁ equations, state dimension, mode basis, gauges, collision terms, source grammar, closure rules, solver rules, or uncertainty model after receiving Module I information.
 - Preserve every branch unless a physical equivalence theorem closes it.
 - Preserve active/dormant terminal N-body carrier information.
 - Preserve route, event, uncertainty, memory, promotion, reopening, and ancestry.
@@ -84,4 +85,4 @@ It must not select the realized background that belongs to Module I. Its output 
 
 ## Exact next action
 
-Repair Module H^U in place from the sealed Module G export.
+Repair Module I from the frozen Hᵁ operator and the sealed upstream universe, then prove H-domain compliance before immutable H[I] instantiation.
