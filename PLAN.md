@@ -1,36 +1,110 @@
-# Canonical Plan
+# Canonical Scientific Repair Plan
 
-This plan replaces the 17 large A–Q execution plans with seven proof milestones. The A–Q science is preserved in [evidence/MODULE_MAP.md](evidence/MODULE_MAP.md), but no downstream module may hide an upstream proof gap.
+## Governing sequence
 
-| Milestone | Deliverable | Exit gate | State |
-|---|---|---|---:|
-| M0 | Exact source lock and source audit | Manuscripts, metadata, hashes, and authority distinctions recorded | Complete |
-| M1 | Triad, First Action, weighted representation, and recursive kernel | Definitions typed; convergence and inheritance conditions proved | Complete |
-| M2 | Abstract terminal finite-N carrier | Lanes, routes, witnesses, event lift, no-loss memory, normalization scope, and corrected add-body refinement proved | Complete with explicit conditions |
-| M3 | Physical-realization theorem | R1–R9 all separately proved; no imported physical primitive; independent derivation check | **Active** |
-| M4 | Big Implosion and sector genesis | Unique first physical event, physical state, common sector ancestry, constraints, dark-sector discriminants, uncertainty packet | Blocked by M3 |
-| M5 | Minimum end-to-end universe | Background, particles/fields, thermal history, recombination, perturbations, nonlinear structure, and observer maps with recovered limits | Blocked by M4 |
-| M6 | Big Rip and cyclic closure | Terminal physical event, end-of-cycle proof, qualified memory map, next conditioned CIF, next Big Implosion | Blocked by M5 |
-| M7 | Frozen prediction and empirical adjudication | Generation frozen before targets; preregistered metrics; all mandatory gates ≥0.95; independent replay | Blocked by M6 |
+The module is the unit of work. The scientific chain is
 
-## M3 work order
+```text
+A -> B -> C -> D -> E -> F -> G -> H^U -> I -> H[I] -> J
+  -> K -> L -> M -> classified K-L-M closure -> N -> O -> {P,Q}
+```
 
-M3 is one theorem program, not a sequence of cosmetic “runs.” Work in this order:
+Every child consumes a sealed parent state. It may not reconstruct missing parent science or modify a frozen parent to fit a later result.
 
-1. Use the proved append-only ancestry order without confusing it with kernel depth or physical time.
-2. Prove the source-owned witness and law that enrich ancestry into causal structure.
-3. Derive or explicitly source the dimension/scale map.
-4. Derive physical variables and the governing action or evolution law.
-5. Derive constraints and conserved quantities from that law.
-6. Prove refinement, continuum, or a declared finite-domain validity regime.
-7. Define observables before looking at public targets.
-8. Run triad, carrier, and kernel ablations.
-9. Prove first-event and terminal-event predicates.
+---
 
-If any step requires an undeclared primitive, record the dependency and stop. Do not rename it as a triadic output.
+## Current status
 
-## Completion semantics
+| Module | Scientific responsibility | State |
+|---|---|---:|
+| A | Primitive triad, First Action, recursive kernel, finite-N relational carrier, witnesses, routes, events, no-loss memory, promotion, dormancy, uncertainty, universal inheritance | **COMPLETE_AND_FROZEN** |
+| B | Big Implosion, first physical state, first physical clock, geometry/fields, conservation, seed sectors, preparticle export | **ACTIVE** |
+| C | Microscopic particles, fields, interactions, mass, hadrons, nucleons, radiation carriers, neutrinos, asymmetry, baryon-photon seed | Blocked by B |
+| D | Nonequilibrium thermal and transport history | Blocked |
+| E | Primordial isotope-resolved nuclear history | Blocked |
+| F | Post-nuclear plasma and radiation persistence | Blocked |
+| G | Nonequilibrium recombination and CMB surface | Blocked |
+| H^U | Universal linear multi-species operator | Blocked |
+| I | Realized background geometry, expansion, causal and distance structure | Blocked |
+| H[I] | Immutable H operator instantiated on I | Blocked |
+| J | Primordial covariance, linear spectra and nonlinear-ready fields | Blocked |
+| K-L-M | Coupled nonlinear gravity, baryonic/stellar physics, and nuclear-chemical enrichment | Blocked |
+| N | One assembled observer-ready manifested universe | Blocked |
+| O | Immutable freeze, restoration and restart identity | Blocked |
+| P | Read-only public empirical adjudication | Blocked |
+| Q | Isolated terminal continuation, Big-Rip-class closure, latent memory and next-CIF conditioning | Blocked |
 
-Each obligation has one of four states: `OPEN`, `PROVED`, `FALSIFIED`, or `NOT_APPLICABLE_WITH_PROOF`. “Supported,” “ready,” “near pass,” and “architecturally complete” are not terminal proof states.
+---
 
-M7 may use numeric scores. M0–M6 use propositions, assumptions, derivations, counterexamples, proof certificates, convergence tests, and independent reproductions. Code success alone is never a theorem.
+## Completed Module A result
+
+Module A now directly installs:
+
+- canonical `(CIF,QV,RFL)` and `QV(CIF) -> RFL`;
+- source-memory-manifestation type separation;
+- reconciled recursive-kernel indexing;
+- convergence, norm, truncation, perturbation and derivative bounds;
+- normalized recursive-depth distribution and its nonthermodynamic entropy;
+- exact finite-N lane count and `2N` add-one growth;
+- locally generated witness blocks;
+- local/maximal noncollision route construction under declared regular domain laws;
+- route/gauge/multiroute/obstruction distinctions;
+- corrected add-one refinement and zero-backreaction recovery;
+- four-class partial event lift;
+- eighteen-field protected no-loss signature;
+- protected memory encode/decode;
+- promotion/reopening on the protected image;
+- dormant zero contribution and zero backreaction;
+- uncertainty-bearing immutable downstream inheritance.
+
+The direct N-body dynamics remain finite-N and domain-specific. Later modules inherit the relational grammar, not universal Newtonian activity.
+
+---
+
+## Active Module B work
+
+Module B begins from the sealed A→B handoff and must establish:
+
+1. an admitted non-obstructed finite connected genesis branch;
+2. the branch-specific directed relation matrix and pre-Implosion carrier;
+3. the Big-Implosion variational/compression law;
+4. the sole first physical event predicate;
+5. physical event order and intrinsic clock;
+6. physical scale and dimensional ancestry;
+7. the first manifested geometry, fields, currents and sector seeds;
+8. constraints, conservation and uncertainty propagation;
+9. exact protected reopening to the Module A parent;
+10. a complete preparticle B→C export.
+
+The graph-resolvent result is a valid compression/pregeometry component. It is not by itself Lorentzian spacetime or full cosmogenesis.
+
+---
+
+## Source and computation discipline
+
+For the active module, read together:
+
+```text
+MODULE_X_DETAILED_SCIENTIFIC_REPAIR_PLAN.md
+MODULE_X_MANUSCRIPT_SOURCE_TRACEABILITY.md
+MODULE_X_WOLFRAM_INTEGRATION_REVISION.md
+sealed incoming and outgoing handoffs
+```
+
+Each claim is typed as `DIRECT`, `INHERITED`, `REPRESENTATION`, `METADATA`, `EXTERNAL`, `NEW-DERIVATION`, or `FORBIDDEN`.
+
+Wolfram may verify and derive from authorized equations. It may not supply missing physics, fitted constants, public targets outside Module P, branch selection, or post-hoc repair.
+
+---
+
+## Failure and evidence rule
+
+- A failed mandatory scientific condition stops the affected claim.
+- Public evidence cannot repair Modules A–O or Q.
+- Module P compares only against a frozen Module O universe.
+- Every mandatory normalized Module P component below `0.95` fails.
+- No average may conceal a failure.
+- A code pass is not a theorem.
+- A theorem plan is not an implemented theorem.
+
+The exact next action is the actual Module B repair from the now-frozen Module A export.
