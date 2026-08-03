@@ -26,44 +26,46 @@ The controlling architecture is `architecture/2RFC_TRIAD_KERNEL_UNIVERSE_DERIVAT
 
 | Module | Scientific responsibility | State |
 |---|---|---:|
-| A–G | Frozen constitution through primordial recombination and physical CMB surface | **COMPLETE_AND_FROZEN** |
+| A–I | Frozen constitution through the realized background | **COMPLETE_AND_FROZEN** |
 | H^U | Background-parameterized universal linear transfer operator | **COMPLETE_AND_FROZEN** |
-| I | Realized geometry, expansion, sector histories, horizons, and distances | **COMPLETE_AND_FROZEN** |
-| H[I] | Immutable instantiation of H^U on the Module I background | **COMPLETE_AND_FROZEN** |
-| J | Primordial covariance, realized linear spectra, growth, and nonlinear-ready fields | **ACTIVE** |
-| K–Q | Remaining generated universe, freeze, testing, and terminal continuation | Blocked |
+| H[I] | Immutable instantiation on the realized Module I background | **COMPLETE_AND_FROZEN** |
+| J | Primordial covariance, linear spectra, growth, finite fields, and promotion boundary | **COMPLETE_AND_FROZEN** |
+| K | Nonlinear gravitational universe, collapse, structures, web, voids, lensing, and K–L–M gravity anchor | **ACTIVE** |
+| L–Q | Remaining generated universe, closure, freeze, testing, and terminal continuation | Blocked |
 
-## Completed Module I and H[I] theorem
+## Completed Module J theorem
 
-The sealed dual-parent construction now provides:
+Module J now provides:
 
-1. finite relational metric, connection, curvature, topology, averaging, and continuum-carrier geometry;
-2. a constrained geometric/sector action and branch-specific background evolution;
-3. stress-energy, witnessed inter-sector transfer, total conservation, geometric constraints, and no-double-counting closure;
-4. internal units and reference events without public normalization;
-5. early-to-late overlap with Modules B–G;
-6. generated ordinary, radiative, relic, field, defect, compression-relic, and dissipative-tail histories;
-7. generated clocks, scale, expansion, acceleration, events, redshift, signal propagation, distances, reciprocity, and horizons;
-8. derivative, covariance, branch, stability, causality, pathology, signature, memory, ancestry, and restart state;
-9. proof grammar and verified representative realization of `B_I in D_B`;
-10. immutable H[I] coefficient insertion with operator grammar preserved;
-11. basis-normalized species, metric, radiative, polarization, dark-sector, Green-function, and growth-response exports for Module J.
+1. immutable consumption of the Module I and H[I] parents;
+2. the complete independent physical primordial mode basis;
+3. endogenous route-, shell-, memory-, and common-ancestry covariance generation;
+4. Hermitian, positive-semidefinite, dimensionally typed covariance with finite admitted power;
+5. explicit symmetry, scalar/vector/tensor, parity, helicity, entropy, compensated, relative-sector, field, defect, dark-sector, and cross-mode status;
+6. immutable transfer-covariance contraction;
+7. primary linear radiative and complete species-sector-metric spectrum matrices;
+8. scale- and time-resolved growth and projected source histories;
+9. gauge, conservation, constraint, compensation, reality, and covariance closure;
+10. direct-ensemble and analytic-contraction equivalence;
+11. finite-volume fields with reproducible phase, seed, branch, route, covariance, memory, ancestry, and restart state;
+12. a componentwise physical linearity domain and nonlinear-promotion surface;
+13. the complete sealed `P_J->K` parent.
 
-## Active Module J theorem target
+## Active Module K theorem target
 
-Module J must consume the sealed Module I background and H[I] response packet and derive:
+Module K must consume the sealed Module J nonlinear-ready state and derive:
 
-1. the complete primordial mode covariance over the frozen independent mode basis;
-2. Hermiticity, positivity, symmetry, reality, finite-power, branch, and ancestry closure;
-3. contraction of the covariance with immutable H[I] responses;
-4. realized linear CMB, matter, metric, neutrino, dark-sector, and cross spectra;
-5. scale- and time-dependent growth and projected-source histories;
-6. finite-volume stochastic fields with reproducible realization variables;
-7. direct-ensemble versus transfer-covariance agreement;
-8. the physical linearity boundary and complete nonlinear-ready export to Module K.
+1. a lawful no-rescaling promotion into nonlinear particles, phase-space measures, meshes, fields, or hybrid representations;
+2. overlap closure between the Module J linear state and Module K nonlinear state;
+3. nonlinear multistream, shell-crossing, caustic, collapse, turnaround, relaxation, and stabilization dynamics;
+4. halos, subhalos, streams, mergers, tidal events, web, and void histories with physical membership and ancestry;
+5. nonlinear ordinary, compression-relic, dissipative-tail, neutrino, field, and other admitted gravitating-sector evolution;
+6. nonlinear metric, potential, lensing, and truth-lightcone fields;
+7. the gravitational interface to Modules L and M;
+8. the K–L–M fixed-point or branch-closure architecture and complete downstream export.
 
-Module J may not import a public primordial amplitude, tilt, running, tensor ratio, mode mixture, transfer function, CMB/matter spectrum, observed normalization, or fitted power law.
+Module K may not rescale the Module J amplitudes, replace phases, import conventional initial conditions, identify bound structures by density threshold alone, or import public nonlinear spectra, halo statistics, concentration laws, merger curves, lensing amplitudes, or baryonic corrections.
 
 ## Failure rule
 
-A failed mandatory condition obstructs the affected branch. It does not authorize upstream retuning, public substitution, observed-looking branch selection, hidden mode removal, averaging away failure, or lowering the `0.95` Module P comparison rule.
+A failed mandatory condition obstructs the affected branch. It does not authorize upstream retuning, public substitution, observed-looking branch selection, hidden mode or constituent removal, averaging away failure, or lowering the `0.95` Module P comparison rule.
