@@ -4,46 +4,48 @@
 
 ```text
 Modules A–G: COMPLETE_AND_FROZEN
-Module H^U: ACTIVE
+Module H^U: COMPLETE_AND_FROZEN
+Module I: ACTIVE
+Module H[I]: BLOCKED_BY_I
 ```
 
 The generated universe descends continuously from the ordered primitive triad `(CIF,QV,RFL)`, the First Action `QV(CIF) -> RFL`, the enhanced completed Module A triad kernel with terminal N-body relational completion, and the Big Implosion as the sole first physical event.
 
-## Completed Module G result
+## Completed Module Hᵁ result
 
-Module G consumes the sealed Module F recombination-ready state and derives:
+Module Hᵁ consumes the sealed Module G recombination and physical CMB-surface state and derives:
 
-- a finite positive normalized atomic-radiative evolution;
-- generated atomic, ionic, continuum, and transition registries;
-- common-source forward/reverse rates and equilibrium-limit closure;
-- nonequilibrium hydrogen-, helium-, deuterium-, and material light-element histories;
-- exact nuclear-identity, charge, energy, momentum, probability, branch, memory, and ancestry ledgers;
-- generated free-electron and thermal histories;
-- frequency-, angle-, polarization-, and route-resolved radiation transport;
-- finite line escape, redistribution, feedback, two-photon, forbidden, metastable, continuum, and collisional flow;
-- process-resolved opacity and integrated optical depth;
-- raw and conditionally normalized primordial visibility;
-- a finite photon last-scattering probability structure;
-- a distinct baryon-drag history and release structure;
-- diffusion, viscosity, conduction, damping, temperature, and polarization source histories;
-- recombination radiation and intrinsic spectral distortions;
-- perturbation-dependent recombination response;
-- complete covariance, signatures, ancestry, restart, and `P_G->H^U` export.
+- a typed admissible background domain independent of the realized Module I background;
+- the complete multi-species linear perturbation state;
+- scalar, vector, tensor, helicity, and parity typing;
+- exact Fréchet linearization of the frozen A–G law stack;
+- gauge transformations, a physical quotient, and alternate-formulation verification grammar;
+- propagated geometric, charge, normalization, and species constraints;
+- collision, energy-momentum, and inter-sector conservation closure;
+- photon intensity and polarization hierarchies;
+- baryon, charged/neutral matter, neutrino/free-streaming, compression-relic, dissipative-tail, field, and authorized dark-sector blocks;
+- a complete regular unit-mode basis and early-time series grammar;
+- controlled tight-coupling, fluid, free-streaming, and other stiff-regime reductions;
+- hierarchy truncation with omitted-tail and no-reflection control;
+- a direct fundamental-matrix propagator, composition law, unit responses, and Green functions;
+- line-of-sight source/projection grammar with direct-hierarchy closure;
+- response derivatives, adjoints, covariance propagation, stability/pathology rules, signatures, memory, ancestry, and restart state;
+- the complete frozen `P_H^U->I` operator packet.
 
-The central Module G files are:
+The central Module Hᵁ files are:
 
-- `science/NONEQUILIBRIUM_RECOMBINATION.md`
-- `proofs/NONEQUILIBRIUM_RECOMBINATION.md`
-- `modules/G/MODULE_G_WOLFRAM_VERIFICATION.md`
-- `modules/G/MODULE_G_TO_H_SCIENTIFIC_HANDOFF.md`
+- `science/LINEAR_BOLTZMANN_TRANSFER_OPERATOR.md`
+- `proofs/LINEAR_BOLTZMANN_TRANSFER_OPERATOR.md`
+- `modules/H/MODULE_H_WOLFRAM_VERIFICATION.md`
+- `modules/G/MODULE_G_TO_H_UNIT_SCIENTIFIC_HANDOFF.md`
 
-## Exact Module G boundary
+## Exact Module Hᵁ boundary
 
-Module G is complete at finite-relational, internal-unit, generated atomic-radiative scope. It does not claim measured atomic precision, public recombination-code agreement, a public recombination coordinate, final angular CMB spectra, matter transfer functions, mature distance/horizon observables, late astrophysical reionization, nonlinear secondary anisotropies, lensing, or empirical confirmation.
+Hᵁ is complete at finite-relational, background-parameterized linear-response scope. It does not contain the realized Module I background, completed H[I] instantiation, primordial covariance, final CMB or matter spectra, nonlinear structure, late astrophysical reionization, public Boltzmann reproduction, or empirical confirmation.
 
 ## Active frontier
 
-Module `H^U` must construct the background-parameterized universal linear Boltzmann/transfer operator from the sealed `P_G->H^U` source state without importing a public background, primordial spectrum, transfer function, CMB spectrum, matter spectrum, or observed normalization.
+Module I must derive the realized RFC geometry, expansion, clocks, horizons, distances, sector histories, and dark-sector background; prove that the resulting packet lies in the frozen Hᵁ admissible domain; and then activate immutable H[I] instantiation without redesigning Hᵁ or importing a public cosmological background.
 
 ## Canonical reading order
 
@@ -51,10 +53,10 @@ Module `H^U` must construct the background-parameterized universal linear Boltzm
 2. `STATE.json`
 3. `PLAN.md`
 4. `architecture/2RFC_TRIAD_KERNEL_UNIVERSE_DERIVATION_LOCK.md`
-5. `science/NONEQUILIBRIUM_RECOMBINATION.md`
-6. `proofs/NONEQUILIBRIUM_RECOMBINATION.md`
-7. `modules/G/MODULE_G_WOLFRAM_VERIFICATION.md`
-8. `modules/G/MODULE_G_TO_H_SCIENTIFIC_HANDOFF.md`
-9. Module H plan, triad lock, manuscript trace, and Wolfram revision
+5. `science/LINEAR_BOLTZMANN_TRANSFER_OPERATOR.md`
+6. `proofs/LINEAR_BOLTZMANN_TRANSFER_OPERATOR.md`
+7. `modules/H/MODULE_H_WOLFRAM_VERIFICATION.md`
+8. `modules/G/MODULE_G_TO_H_UNIT_SCIENTIFIC_HANDOFF.md`
+9. Module I plan, triad lock, manuscript trace, and Wolfram revision
 
 Public observations may enter only Module P after Module O freezes the generated universe.
