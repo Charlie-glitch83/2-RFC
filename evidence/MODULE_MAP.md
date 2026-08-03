@@ -14,55 +14,49 @@ The module is the work unit. Each child consumes a sealed parent and preserves f
 | H^U | Background-parameterized universal linear Boltzmann/transfer operator | **COMPLETE_AND_FROZEN** |
 | I | Realized RFC background, geometry, expansion, horizons, and distances | **COMPLETE_AND_FROZEN** |
 | H[I] | Immutable instantiation of H^U on the Module I background | **COMPLETE_AND_FROZEN** |
-| J | Primordial covariance, linear spectra, growth, and nonlinear-ready fields | **ACTIVE** |
-| K–Q | Remaining generated universe, freeze, testing, and terminal continuation | Blocked |
+| J | Primordial covariance, linear spectra, growth, finite fields, and promotion surface | **COMPLETE_AND_FROZEN** |
+| K | Nonlinear gravity, multistream flow, collapse, structures, web, voids, lensing, and K–L–M gravity anchor | **ACTIVE** |
+| L–Q | Remaining generated universe, closure, freeze, testing, and terminal continuation | Blocked |
 
-## Frozen Module I export
+## Frozen Module J export
 
-For every admitted compliant background branch, Module I exports
+For every admitted branch and realization, Module J exports
 
 ```text
-P_I->H[I] =
-(FrozenOperatorIdentity_H,BackgroundIdentity_I,B_I,VariableMap_I,UnitMap_I,
- Clock_I,Coordinate_I,Geometry_I,Curvature_I,Topology_I,Scale_I,Expansion_I,
- Sector_I,Transfer_I,RecombinationBackground_I,Event_I,Horizon_I,
- Redshift_I,Distance_I,Sampling_I,Derivative_I,Sigma_I,Branch_I,
- Pathology_I,Signature_I,Memory_I,Ancestry_I,Restart_I)
+P_J->K =
+(Identity_J,Background_J,Clock_J,Coordinate_J,Geometry_J,Boundary_J,
+ ModeBasis_J,PrimordialCovariance_J,HigherMomentStatus_J,
+ TransferIdentity_J,LinearSpectra_J,Growth_J,SpeciesFields_J,
+ SectorFields_J,MetricFields_J,RadiationFields_J,NeutrinoFields_J,
+ CompressionRelic_J,DissipativeTail_J,Stress_J,Constraint_J,
+ FiniteVolume_J,SeedPhase_J,Ensemble_J,LinearityDomain_J,
+ PromotionSurface_J,Sigma_J,Memory_J,Ancestry_J,Restart_J)
 ```
 
 This packet contains:
 
-- generated finite relational geometry, connection, curvature, topology, averaging, and background state;
-- internally defined units, clocks, scale, expansion, acceleration, and event histories;
-- ordinary, radiative, relic, compression-relic, dissipative-tail, field, and defect histories;
-- witnessed transfer, total conservation, geometric constraints, and early-overlap closure;
-- redshift, signal propagation, complete distances, reciprocity status, horizons, and causal domains;
-- derivative, covariance, branch, stability, pathology, signature, memory, ancestry, and restart state;
-- proof that the accepted branch lies in the frozen H^U domain.
-
-## Frozen H[I] export
-
-```text
-P_H[I]->J =
-(OperatorIdentity_H^U,BackgroundIdentity_I,InstantiationIdentity_H[I],
- DomainCompliance_I,ModeBasis_H,UnitResponses_H[I],SpeciesTransfer_H[I],
- MetricTransfer_H[I],PhotonTransfer_H[I],PolarizationTransfer_H[I],
- GrowthResponse_H[I],DirectHierarchy_H[I],LOSResponse_H[I],Green_H[I],
- ResponseDerivative_H[I],CovarianceMap_H[I],Constraint_H[I],
- Conservation_H[I],Gauge_H[I],Approximation_H[I],Signature_H[I],
- Memory_H[I],Ancestry_H[I],Restart_H[I])
-```
-
-H[I] changes no frozen operator grammar. It supplies basis-normalized responses and covariance maps but no primordial amplitude or mode mixture.
+- the immutable realized Module I background and H[I] response identities;
+- the complete independent primordial mode basis;
+- the endogenous Hermitian positive-semidefinite primordial covariance and higher-moment status;
+- complete scalar/vector/tensor, parity/helicity, entropy, compensated, relative-sector, field, defect, dark-sector, route-memory, and cross-mode state;
+- primary linear radiative spectra and complete matter, radiation, neutrino, metric, compression-relic, dissipative-tail, and cross-spectrum matrices;
+- scale- and time-resolved growth and projected source histories;
+- gauge, conservation, constraint, compensation, reality, covariance, and direct-ensemble closure;
+- finite-volume species, sector, metric, radiation, neutrino, stress, and memory fields;
+- exact phase, seed, factorization, volume, boundary, mesh/particle, and ensemble identities;
+- componentwise linearity-domain and nonlinear-promotion surfaces;
+- uncertainty, covariance, branch, route, event, scale, memory, ancestry, and restart state.
 
 ## Exact dependency
 
 ```text
-Modules A-G complete and frozen
--> H^U frozen universal operator/domain
--> Module I generated realized background and domain compliance
--> H[I] immutable instantiation and basis responses
--> Module J generated primordial covariance and realized linear spectra
+Modules A-I complete and frozen
+-> H^U and H[I] frozen operator/response chain
+-> Module J generated primordial covariance and linear universe
+-> sealed P_J->K nonlinear-ready realization
+-> Module K nonlinear gravitational evolution
+-> Modules L and M baryonic and chemical evolution
+-> classified K-L-M closure
 ```
 
-Module J may contract its internally derived covariance with the frozen H[I] responses. It may not redesign the background or transfer operator.
+Module K may promote the sealed Module J realization into lawful nonlinear representations. It may not rescale amplitudes, replace phases, reassign species, erase independent modes or routes, or import a conventional simulation initial-condition state.
