@@ -6,47 +6,67 @@ Read, in order:
 
 1. `README.md`
 2. `STATE.json`
-3. `PLAN.md`
-4. `proofs/GENESIS_REALIZATION.md`
+3. `architecture/2RFC_MODULE_BY_MODULE_SCIENTIFIC_REPAIR_PLAN.md`
+4. the exact plan for the active module
+5. the active module files and frozen parent export
 
-Before changing the architecture or claiming A-Q completion, read:
+For the earlier repository audit and detailed defect history, consult:
 
-5. `assessments/2RFC_A_Q_MODULE_REPAIR_ASSESSMENT.md`
+6. `assessments/2RFC_A_Q_MODULE_REPAIR_ASSESSMENT.md`
 
-That assessment records the module-by-module repair map, the valid work to preserve, the missing scientific architecture, and the recommended repository-memory structure. Use it instead of reconstructing the audit from chat history.
+The module-first repair plan is the primary working guide. It supersedes any implication that 2-RFC should copy the old fixed run-engineering system. The scientific content recovered from RUN 000-013 may be used to repair Modules A and B, but the old run machinery is not the project structure.
 
-Then run:
+## Governing method
+
+- The module is the unit of work.
+- Inspect the fabricated 2-RFC module against its exact individualized plan.
+- Classify existing content as KEEP, STRENGTHEN, REPLACE, ADD, or QUARANTINE.
+- Repair the module in place using the canonical manuscripts, N-body proof, architecture, module plan, and any valid recovered science.
+- Create proofs, calculations, simulations, and evidence only where the module's science requires them.
+- Freeze the repaired module and its child handoff before advancing.
+- Do not use public target data during Modules A-O or Q.
+
+## Repository validation
+
+The existing command may still be used as a smoke test:
 
 ```bash
 python validation/validate_repo.py
 ```
 
-If it passes, perform the `exact_next_action` from `STATE.json`. Do not redesign the repository before doing the science unless the repair assessment identifies the current plan itself as the object being corrected.
+It does not certify the repaired physical universe or replace module-specific validation.
 
-## What to edit
+## State discipline
 
-- Put the actual derivation in `proofs/GENESIS_REALIZATION.md` while the current branch remains an audit/foundation branch.
-- Add a minimal independent check under `validation/` only when it tests a stated proposition.
-- Change `STATE.json` only after the proposition and its check agree.
-- Update `PLAN.md` only through an explicit architecture-repair decision informed by the A-Q repair assessment.
+Keep one compact `STATE.json`. It should eventually identify:
 
-Avoid duplicate machine states and redundant context caches. Evidence-bearing run packets, exact source authorities, recovery objects, and quarantine records may be added when required by the repaired canonical architecture.
+- active module and path;
+- exact module-plan path and hash;
+- frozen parent export and hash;
+- repair status;
+- retained, replaced, and missing scientific objects;
+- current blocking scientific question;
+- exact next action;
+- required read paths;
+- public-data mode.
+
+Avoid duplicate machine states and large context caches. Store durable scientific context in the module, architecture, source, recovery, quarantine, and validation trees.
 
 ## Stop conditions
 
 Stop and expose the obstruction when:
 
-- a proof uses Newtonian time before the physical-realization map;
+- a required equation or physical object has no source or declared interface status;
 - a dimensionful quantity appears without scale ancestry;
-- a causal claim is inferred from an undirected positive metric alone;
+- a causal or spacetime claim is inferred from an insufficient object alone;
 - a sector name substitutes for a physical discriminator;
 - a target value influences generation;
-- an internal check is being presented as empirical evidence;
-- a historical result cannot be reconstructed from admitted assumptions.
+- an internal check is presented as empirical evidence;
+- a failed, contaminated, or superseded state is being made a scientific parent;
+- a child module must reconstruct physics its parent was required to export;
+- an average or readiness label is being used to hide a mandatory failure.
 
 ## Claim language
-
-Be bold at the level earned by evidence:
 
 - `We define` for axioms and definitions.
 - `We prove` only for a complete derivation under named assumptions.
@@ -54,8 +74,8 @@ Be bold at the level earned by evidence:
 - `We predict` only before target inspection.
 - `Observation supports/conflicts with` only after preregistered comparison.
 
-Do not add automatic disclaimers that undersell a proved theorem. Do not turn a target theorem into a current result.
+Be bold at the level earned by evidence. Do not turn a target theorem into a current result, and do not weaken a proved theorem with automatic disclaimers.
 
-## Current scientific judgment
+## Current scientific direction
 
-The current branch contains valuable source, type, kernel, ancestry, graph-limitation, and add-body corrections, but it is not a completed A-Q universe proof. The repair assessment is the durable authority for deciding what to preserve and what to rebuild. The next canonical action is to install and hash-verify the exact architecture, module plans, and clean RUN 001-013 boundary before choosing the next scientific run.
+Install and hash-verify the exact source-reconciled architecture and A-Q module plans. Then repair Module A in place using the valid science recovered from RUN 000-007 and the useful foundation corrections already present in 2-RFC. After freezing Module A, repair Module B using the valid science recovered from RUN 008-013, without importing the old run bureaucracy or artificial RUN 014 barrier. Continue C through Q one fabricated module at a time.
