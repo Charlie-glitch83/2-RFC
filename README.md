@@ -2,60 +2,92 @@
 
 ## Objective
 
-Construct one auditable proof in which the primitive triad produces a completed relational carrier, the **Big Implosion is the first physical event**, the carrier is inherited through a physically realized universe, and the **Big Rip is the terminal physical event that conditions the next cycle**.
+Construct one source-traced proof in which the primitive triad produces a completed relational carrier, the **Big Implosion is the sole first physical event**, the carrier is inherited through a physically realized universe, and a **Big-Rip-class terminal event** is required for canonical cycle closure and next-cycle conditioning.
 
-The N-body work is integrated exactly once: at the terminal end of the triad kernel. Every later domain inherits that completed carrier. It is not a detached module and it is not repeatedly re-added.
+The N-body work is integrated exactly once at the terminal end of the triad kernel. Every later domain inherits the completed carrier. It is not a detached downstream module and is not repeatedly re-added.
+
+---
 
 ## Current state
 
-**Foundation recovered; one decisive bridge is open.**
+**Module A is repaired, complete, and frozen. Module B is active.**
 
-Established results include the bounded recursive kernel, the finite directed-lane grammar, witnessed routes, no-loss quotient rules, typed event memory, and a corrected add-one-body refinement statement. The old Module B graph-resolvent results are also valid algebraic pregeometry.
+Module A now contains the full prephysical theorem rather than a reduced carrier outline:
 
-What is not established yet is the map from that prephysical carrier to a physically typed universe. A graph metric and smoothing operator do not by themselves supply causal spacetime, dimensions, a governing action, conservation laws, or observables. Calling them physical does not prove that they are physical.
+- the ordered `(CIF,QV,RFL)` triad;
+- the First Action `QV(CIF) -> RFL`;
+- source, memory, and manifestation type separation;
+- recursive-kernel convergence, norm, truncation, perturbation, and derivative bounds;
+- a depth-tagged modal basis and nonthermodynamic recursive-depth entropy;
+- arbitrary finite-N directed relation capacity and exact `2N` add-one growth;
+- source-generated witness blocks;
+- local/maximal noncollision route construction under declared regular domain laws;
+- route, gauge, independent multiroute, unlawful, and obstruction distinctions;
+- corrected add-one refinement with zero-backreaction recovery;
+- a four-outcome partial event multifunction;
+- an eighteen-field protected no-loss signature;
+- exact protected memory encode/decode;
+- scale promotion and reopening on the protected image;
+- dormant zero output and zero backreaction;
+- uncertainty-bearing immutable downstream inheritance.
 
-## Exact next action
+Module A does **not** claim physical time, spacetime, matter, radiation, cosmological evolution, infinite-N physical realization, all-time regularity, unconditional solution growth, indefinite memory capacity, or empirical truth.
 
-Complete **Causal Enrichment Lemma 2** in [proofs/GENESIS_REALIZATION.md](proofs/GENESIS_REALIZATION.md): derive the source-owned witness that selects physical causal precedence from the proved append-only ancestry order, without importing Newtonian time. Then test it jointly against R1 and R4.
+---
 
-Do not begin particle physics, BBN, recombination, structure formation, scoring, or public-data comparison until the realization bridge passes.
+## Active next action
 
-## Four-layer proof spine
+Repair Module B from the sealed Module A export.
 
-| Layer | Object | Status | Meaning |
-|---|---|---:|---|
-| L0 | Triad: CIF, QV, RFL | Axiomatic foundation | Ontological primitives and First Action |
-| L1 | Recursive triad kernel | Proved under stated bounds | Retains depth, suppression, and inheritance |
-| L2 | Completed relational carrier | Conditional theorem stack | Abstract finite-N lanes, routes, witnesses, events, and memory |
-| L3 | Physical realization map | **Active blocker** | Adds causality, units, dynamics, constraints, limits, and observables |
+Module B must derive and certify:
 
-The Big Implosion begins at L3. Newtonian N-body mechanics is a physical specialization after L3; it cannot be used as a hidden prephysical primitive.
+1. the branch-specific Big-Implosion law;
+2. the sole first physical event predicate;
+3. physical event order and intrinsic clock;
+4. dimensions and scale ancestry;
+5. first manifested geometry, fields, currents, and sector seeds;
+6. governing post-event dynamics;
+7. constraints and conservation;
+8. uncertainty propagation and protected reopening;
+9. the complete B→C preparticle export.
 
-## Read order
+The existing graph resolvent is a valid compression/pregeometry component. It is not by itself Lorentzian spacetime or full cosmogenesis.
 
-A new research iteration needs only four files to orient:
+---
 
-1. this README;
-2. [STATE.json](STATE.json);
-3. [PLAN.md](PLAN.md);
-4. [proofs/GENESIS_REALIZATION.md](proofs/GENESIS_REALIZATION.md).
+## Canonical reading order
 
-Use [HANDOFF.md](HANDOFF.md) for the exact work protocol. [sources/SOURCE_MANIFEST.json](sources/SOURCE_MANIFEST.json) points to the canonical public copies in `1RFC`; the source audit and hashes are in [evidence/SOURCE_AUDIT.md](evidence/SOURCE_AUDIT.md).
+1. `HANDOFF.md`
+2. `PLAN.md`
+3. `science/FOUNDATION.md`
+4. `proofs/KERNEL_COMPLETION.md`
+5. `modules/A/MODULE_A_MANUSCRIPT_SOURCE_TRACEABILITY.md`
+6. `modules/A/MODULE_A_WOLFRAM_REVISION.md`
+7. `modules/A/MODULE_A_TO_B_SCIENTIFIC_HANDOFF.md`
+8. `proofs/GENESIS_REALIZATION.md`
+9. the Module B plan, manuscript trace, Wolfram revision, and B→C handoff
 
-## Evidence policy
+---
 
-- A definition is not a derivation.
-- A symbolic or numerical check is not empirical validation.
-- A module is not complete because its handoff schema exists.
-- A score of `1.0000` means every preregistered mandatory gate passed separately; it is not a probability that the theory is true.
-- No average may conceal a mandatory failure.
-- Public observations may compare with a frozen prediction but may not generate, select, tune, or repair it.
-- Historical failed states are not proof parents in this repository.
+## Source and evidence policy
 
-## One command
+- Every load-bearing claim must retain its manuscript class and exact source anchor during implementation.
+- `DIRECT`, `INHERITED`, `REPRESENTATION`, `METADATA`, `EXTERNAL`, `NEW-DERIVATION`, and `FORBIDDEN` material remain distinct.
+- Manuscript scaffolds, proxy screens, metadata, trace audits, and public comparisons do not prove stronger physical theorems.
+- Wolfram is an exact derivation and verification instrument, not an RFC source.
+- Public observations may compare with a frozen Module O universe only in Module P.
+- No public target, fitted constant, standard cosmology, or external known trajectory may generate or repair Modules A–O or Q.
+- Every mandatory Module P component below `0.95` fails; no average may conceal it.
+- Code success is not a theorem.
+
+---
+
+## Validation
+
+Repository validation checks the implemented Module A algebraic identities, required files, source rules, frozen status, and transition to Module B:
 
 ```bash
 python validation/validate_repo.py
 ```
 
-That command checks repository consistency and exact algebraic invariants. It does not pretend to prove the physical-realization theorem.
+That command verifies repository consistency and exact/finite checks. It does not replace the manuscript derivations or prove the active Module B physical theorem.
