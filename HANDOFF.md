@@ -32,9 +32,11 @@ Read:
 28. `modules/M/MODULE_M_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
 29. `modules/M/MODULE_KLM_TO_N_SCIENTIFIC_HANDOFF.md`
 30. `modules/N/MODULE_N_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
-31. the exact library plan for the active module
-32. the existing 2-RFC module being repaired
-33. the valid scientific source material named for that module
+31. `modules/N/MODULE_N_TO_O_SCIENTIFIC_HANDOFF.md`
+32. `modules/O/MODULE_O_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
+33. the exact library plan for the active module
+34. the existing 2-RFC module being repaired
+35. the valid scientific source material named for that module
 
 ## Governing method
 
@@ -81,8 +83,12 @@ completed Module A
 -> classified K–L–M closure architecture
 -> converged K–L–M→N handoff
 -> repaired Module N plan
--> future N→O physical freeze handoff
--> future detailed Module O plan
+-> N→O handoff
+-> repaired Module O plan
+-> future O→P read-only empirical handoff
+-> future detailed Module P plan
+-> future O→Q physical-continuation handoff
+-> future detailed Module Q plan
 ```
 
 The protected early and linear architecture remains:
@@ -105,12 +111,14 @@ K^(n) -> L^(n) -> M^(n) -> K^(n+1)
 - Module M owns isotope-resolved hydrostatic and explosive nucleosynthesis, radioactive descendants, chemical transport, dust, source attribution, and composition-dependent microphysics.
 - Modules A–J remain frozen during K–L–M replay. Only the earliest affected forward interval may reopen.
 - The K–L–M→N handoff admits only a fixed point, bounded cycle, slowly evolving attractor, classified branch family, or explicitly retained nonconvergent state with declared restrictions.
-- Module N reconciles K, L, and M as typed views of one universe. A gravitational star, stellar-structure star, and isotope-bearing star are not three stars.
-- Module N owns the universal identity registry, entity ownership, global event graph, global causal graph, worldline/worldtube continuity, geometry–matter compatibility, cross-domain conservation, radiation-background and reionization assembly, truth lightcones, multimessenger truth, physical record carriers, measurement interactions, observer-readiness classification, decoherence/branch distinction, memory separation, no-loss promotion, cross-domain covariance, and the read-only truth-observable interface.
+- Module N reconciles K, L, and M as typed views of one universe and owns global physical identity, event, causal, lineage, records, observer-readiness, truth-lightcone, and truth-observable closure.
 - Module N stops at physically witnessed observer readiness. It does not prove consciousness.
-- Module N exports one complete restartable manifested universe to Module O. It does not freeze the parent, compare with public data, or execute terminal evolution.
+- The N→O handoff requires one complete physical universe, a physically defined freeze surface, exact continuation state, complete uncertainty and lineage, and no public-data influence.
+- Module O preserves rather than repairs the Module N universe.
+- Module O owns immutable scientific identity, law and realization freeze, restoration, restart continuity, scientific-equivalence classes, uncertainty and memory preservation, lawful supersession, and child isolation.
+- A failed restoration or reproduction test is not permission to retune the parent under the same identity.
 
-The protected final branch architecture remains:
+The protected final branch architecture is:
 
 ```text
 N -> O -> {P,Q}
@@ -119,6 +127,12 @@ P -/-> Q
 Q -/-> O
 ```
 
+- Module P is a read-only empirical child. It may build instruments, survey models, selection, noise, catalogues, statistics, likelihoods, and public comparisons in its own child state.
+- Module Q is a physical-continuation child. It inherits the exact restart state, frozen laws, active future sectors, recursive memory, uncertainty, and terminal-facing variables.
+- Neither child may mutate the parent.
+- Module P information may never enter Module Q.
+- A physical correction after freeze requires a new A–N descendant and a new Module O parent; the prior parent remains immutable.
+
 ## Current scientific direction
 
-Treat Module A as complete and frozen. Repair Modules B-N according to their detailed plans and sealed handoffs. The next planning task is to create the exact Module N→O physical freeze handoff and then the detailed Module O plan for immutable universe identity, physical-state freeze, restart and restoration sufficiency, reproducibility, and strict separation of the read-only empirical child P from the continued-physics child Q.
+Treat Module A as complete and frozen. Repair Modules B–O according to their detailed plans and sealed handoffs. The next planning task is to create the exact Module O→P read-only empirical handoff and then the detailed Module P plan for observation-equivalent transformations, instruments, surveys, selection, noise, covariance, preregistered public comparison, falsification, and evidence-matched claim decisions. After P is planned, create the separate Module O→Q physical-continuation handoff and detailed Module Q plan for late accelerated evolution, dissipative-tail dynamics, the canonical Big Rip, route-by-route dissolution, latent-memory qualification, and next-cycle conditioning.
