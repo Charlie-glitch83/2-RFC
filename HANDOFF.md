@@ -4,86 +4,54 @@
 
 ```text
 Modules A–J: COMPLETE_AND_FROZEN
-Module H^U: COMPLETE_AND_FROZEN
-Module H[I]: COMPLETE_AND_FROZEN
-Module K: ACTIVE
+Module K^(0): COMPLETE_AND_FROZEN
+Module L: ACTIVE
+Final K*: PENDING_K_L_M_RECURRENCE
 ```
 
-## Nonnegotiable universe-derivation rule
+## Nonnegotiable derivation rule
 
-The entire RFC universe must emerge from the primitive ordered triad `(CIF,QV,RFL)`, the First Action `QV(CIF) -> RFL`, the enhanced completed Module A triad kernel, its terminal N-body relational completion, and the Big Implosion as the sole first physical event.
+The universe must remain one continuous specialization of `(CIF,QV,RFL)`, the First Action, the enhanced completed Module A triad kernel with terminal N-body completion, and the Big Implosion. No module may attach an independent conventional theory or import observed targets as generators.
 
-Every later module is a domain specialization of that same kernel. No module may attach an independent conventional theory, import known values as the generator, or select a branch because it resembles observation.
-
-## Required read order
-
-1. `README.md`
-2. `STATE.json`
-3. `PLAN.md`
-4. active module triad-kernel lock
-5. active detailed scientific repair plan
-6. sealed parent-to-child handoff
-7. manuscript-source traceability
-8. Wolfram integration revision
-9. exact sources named by the trace
-
-For Module K, read first:
+## Read first for Module L
 
 ```text
-science/PRIMORDIAL_COVARIANCE_LINEAR_SPECTRA.md
-proofs/PRIMORDIAL_COVARIANCE_LINEAR_SPECTRA.md
-modules/J/MODULE_J_WOLFRAM_VERIFICATION.md
-modules/J/MODULE_J_TO_K_SCIENTIFIC_HANDOFF.md
-modules/K/MODULE_K_TRIAD_KERNEL_DERIVATION_LOCK.md
-modules/K/MODULE_K_DETAILED_SCIENTIFIC_REPAIR_PLAN.md
-modules/K/MODULE_K_MANUSCRIPT_SOURCE_TRACEABILITY.md
-modules/K/MODULE_K_WOLFRAM_INTEGRATION_REVISION.md
+science/NONLINEAR_RELATIONAL_GRAVITY.md
+proofs/NONLINEAR_RELATIONAL_GRAVITY.md
+modules/K/MODULE_K_WOLFRAM_VERIFICATION.md
+modules/K/MODULE_K_TO_L_SCIENTIFIC_HANDOFF.md
+modules/L/MODULE_L_TRIAD_KERNEL_DERIVATION_LOCK.md
+modules/L/MODULE_L_DETAILED_SCIENTIFIC_REPAIR_PLAN.md
+modules/L/MODULE_L_MANUSCRIPT_SOURCE_TRACEABILITY.md
+modules/L/MODULE_L_WOLFRAM_INTEGRATION_REVISION.md
 ```
 
-## Completed Module J result
+## Frozen Module K first pass
 
-Module J now installs:
+`K^(0)` now contains:
 
-- immutable consumption of the Module I background and H[I] basis-response parents;
-- explicit primordial-statistical CIF/QV/RFL specialization of the enhanced completed Module A kernel;
-- the complete independent physical primordial mode basis;
-- declared stochastic variables, phase, symmetry, and higher-moment status;
-- an endogenous route-, shell-, memory-, and common-ancestry covariance generator;
-- Hermitian, positive-semidefinite, dimensionally typed covariance with controlled admitted infrared and ultraviolet power;
-- complete scalar/vector/tensor, parity, helicity, entropy, compensated, relative-sector, dark-sector, field, defect, route-memory, and cross-mode status;
-- immutable transfer-covariance contraction;
-- primary linear radiative and complete species-sector-metric spectrum matrices;
-- scale- and time-resolved growth and projected source histories;
-- gauge, conservation, constraint, compensation, reality, and covariance closure;
-- direct-ensemble versus analytic-contraction equivalence;
-- finite-volume fields with preserved phase, seed, species, route, branch, uncertainty, memory, ancestry, and restart identity;
-- a componentwise physical linearity domain and nonlinear-promotion surface;
-- the complete sealed `P_J->K` parent.
+- no-rescale, phase-preserving promotion from Module J;
+- linear/nonlinear overlap closure;
+- finite-N, phase-space, continuum, weak-field, and local relativistic regime maps;
+- conservation, constraints, events, refinement, reopening, and restart;
+- shell crossing, multistream flow, caustics, collapse, binding, relaxation, and stabilization;
+- ancestry-preserving objects, mergers/disruptions, web, and voids;
+- nonlinear compression-relic, dissipative-tail, neutrino/free-streaming, baryonic-gravity, and strong-field interfaces;
+- nonlinear metric, lensing/Jacobi truth, and lightcones;
+- covariance, uncertainty, signatures, memory, ancestry, and complete `P_K->L^(0)`.
 
-## Exact Module J boundary
+## Boundary
 
-Module J is complete only at finite-relational, internally normalized, linear-statistical scope.
+`K^(0)` is a complete first-pass gravitational state, not the final baryonically and compositionally returned universe. Final `K*` requires Modules L and M and classification of the K–L–M recurrence.
 
-It does not establish nonlinear collapse, shell crossing, halos, nonlinear lensing, gas or stellar histories, public primordial/CMB/matter agreement, observer/instrument closure, terminal Big-Rip dynamics, or empirical confirmation.
+## Active Module L frontier
 
-## Active Module K frontier
-
-Module K receives the complete nonlinear-ready Module J state and must promote it without hidden smoothing, amplitude rescaling, phase replacement, species reassignment, or loss of covariance and ancestry.
-
-It owns nonlinear multistream evolution, shell crossing, caustics, collapse, stabilization, halos, streams, mergers, web and void dynamics, nonlinear gravitating-sector behavior, metric/lensing truth fields, lightcones, and the gravitational anchor for the K–L–M feedback loop.
+Module L must derive hydrodynamics/MHD, thermochemistry, radiation transport, turbulence, clouds, fragmentation, witnessed star birth, stellar populations/evolution, feedback, remnants, and typed returns to M and K.
 
 ## Governing rules
 
-- Do not reopen or retune Modules A–J or Hᵁ/H[I].
-- Do not rescale Module J amplitudes, replace phases, collapse independent constituents, or import a conventional initial-condition generator.
-- Do not import public nonlinear spectra, halo statistics, concentration relations, merger rates, lensing amplitudes, or baryonic corrections.
-- Do not certify a bound structure from density threshold alone.
-- Preserve active/dormant terminal N-body carrier information.
-- Preserve route, event, uncertainty, memory, promotion, reopening, phase, seed, and ancestry.
-- Preserve the K–L–M closure architecture rather than treating K as a one-pass gravity-only endpoint.
-- Public data enter only Module P.
-- Any mandatory Module P component below `0.95` fails and cannot be hidden by averaging.
-
-## Exact next action
-
-Repair Module K from the sealed Module J nonlinear-ready parent and prove promotion overlap before nonlinear evolution.
+- Do not reopen or retune frozen A–J or `K^(0)`.
+- Do not import observed star-formation histories, IMFs, feedback efficiencies, galaxy-halo relations, stellar-population fits, or baryonic corrections.
+- Preserve conservation, phase, route, event, object, branch, scale, uncertainty, memory, ancestry, and restart identity.
+- Do not declare final K closure before the L and M return maps exist.
+- Public data enter only Module P; mandatory components below `0.95` fail without averaging.
