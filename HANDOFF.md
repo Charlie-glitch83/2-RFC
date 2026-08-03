@@ -7,14 +7,15 @@ Read, in order:
 1. `README.md`
 2. `STATE.json`
 3. `architecture/2RFC_MODULE_BY_MODULE_SCIENTIFIC_REPAIR_PLAN.md`
-4. the exact plan for the active module
-5. the active module files and frozen parent export
+4. `architecture/2RFC_MODULE_REPAIR_PLAN_SECOND_SOAK_ADDENDUM.md`
+5. the exact plan for the active module
+6. the active module files and frozen parent export
 
 For the earlier repository audit and detailed defect history, consult:
 
-6. `assessments/2RFC_A_Q_MODULE_REPAIR_ASSESSMENT.md`
+7. `assessments/2RFC_A_Q_MODULE_REPAIR_ASSESSMENT.md`
 
-The module-first repair plan is the primary working guide. It supersedes any implication that 2-RFC should copy the old fixed run-engineering system. The scientific content recovered from RUN 000-013 may be used to repair Modules A and B, but the old run machinery is not the project structure.
+The module-first repair plan and second-soak addendum are the primary working guides. They supersede any implication that 2-RFC should copy the old fixed run-engineering system. The scientific content recovered from RUN 000-013 may be used to repair Modules A and B, but the old run machinery is not the project structure.
 
 ## Governing method
 
