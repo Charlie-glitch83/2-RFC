@@ -11,53 +11,49 @@ The module is the work unit. Each child consumes a sealed parent and preserves f
 | E | Primordial isotope-resolved nuclear reaction history and post-nuclear export | **COMPLETE_AND_FROZEN** |
 | F | Post-nuclear plasma persistence, opacity/transport seeds, and recombination readiness | **COMPLETE_AND_FROZEN** |
 | G | Nonequilibrium atomic recombination and physical primordial CMB surface | **COMPLETE_AND_FROZEN** |
-| H^U | Background-parameterized universal linear Boltzmann/transfer operator | **ACTIVE** |
-| I | Mature realized RFC background and geometry | Blocked by H^U |
-| H[I] | Immutable instantiation of the frozen H operator on the Module I background | Blocked |
+| H^U | Background-parameterized universal linear Boltzmann/transfer operator | **COMPLETE_AND_FROZEN** |
+| I | Realized RFC background, geometry, expansion, horizons, and distances | **ACTIVE** |
+| H[I] | Immutable instantiation of H^U on the Module I background | Blocked by I |
 | J–Q | Remaining generated universe, freeze, testing, and terminal continuation | Blocked |
 
-## Frozen Module G export
+## Frozen Module Hᵁ export
 
-For every admitted branch `(beta,gamma,delta,epsilon,phi,psi)`, Module G exports
+For every admitted Module G branch, Hᵁ exports
 
 ```text
-P_G->H^U =
-(Coord_G,Bkg_G,IonHist_G,LevelHist_G,ElectronHist_G,ProtonHist_G,
- Photon_G,Polarization_G,Temp_G,TransitionHist_G,RadTransfer_G,
- Opacity_G,dotTau_G,Tau_G,Visibility_G,LastScattering_G,
- Drag_G,DragSurface_G,Slip_G,Sound_G,Diffusion_G,Viscosity_G,
- Conduction_G,Damping_G,Source_G,RecombRad_G,SpectralDist_G,
- PertResponse_G,SVTSeed_G,MetricInterface_G,Dark_G,Field_G,
- Entropy_G,Sigma_G,Conservation_G,Memory_G,Ancestry_G,Restart_G)
+P_H^U->I =
+(B_RFC[B],D_B,PerturbationState_H,ModeBasis_H,Gauge_H,Constraint_H,
+ Conservation_H,SVT_H,PhotonHierarchy_H,PolarizationHierarchy_H,
+ MatterHierarchy_H,NeutrinoHierarchy_H,DarkHierarchy_H,Collision_H,
+ SourceGrammar_H,InitialSeries_H,StiffRegime_H,Truncation_H,
+ DirectSolver_H,LOSGrammar_H,GreenSchema_H,ResponseDerivativeSchema_H,
+ UncertaintyOperator_H,BackgroundInsertionMap_H,IntrinsicSignature_H,
+ Memory_H,Ancestry_H,Restart_H,FrozenOperatorIdentity_H)
 ```
 
-This state contains:
+This packet contains:
 
-- generated physical/conformal time, scale, temperature, and internal redshift-like histories through primordial recombination;
-- atomic/ionic charge and level histories for hydrogen-role, helium-role, deuterium-role, and every material light-element carrier;
-- free-electron and free-proton histories;
-- frequency-, angle-, polarization-, and route-resolved photon state;
-- transition and radiative-transfer histories;
-- process-resolved opacity, differential/integrated optical depth, and normalized visibility;
-- finite photon last-scattering and distinct baryon-drag probability structures;
-- slip, sound, diffusion, viscosity, conduction, and damping histories;
-- temperature and polarization source ingredients;
-- recombination radiation and intrinsic spectral distortions;
-- perturbation-dependent recombination response and active scalar/vector/tensor interfaces;
-- dark/field permissions or witnessed zero-backreaction;
-- covariance, conservation, entropy, memory, ancestry, and restart state.
+- the exact background-parameterized Fréchet linearization of the frozen A–G law stack;
+- the admissible background domain and immutable insertion map;
+- complete species, sector, scalar/vector/tensor, helicity, parity, mode, and route registries;
+- gauge transformations, physical quotient, constraint and conservation grammar;
+- photon intensity/polarization, matter, neutrino/free-streaming, compression-relic, dissipative-tail, field, and dark blocks;
+- the regular unit-mode basis and early-time initialization grammar;
+- tight-coupling, fluid, free-streaming, truncation, promotion, and reopening rules;
+- direct fundamental-matrix, unit-response, Green-function, and line-of-sight grammars;
+- response derivatives, adjoints, covariance propagation, stability, pathology, signatures, memory, ancestry, and restart state.
 
-It does not contain a completed universal linear transfer operator, realized Module I background, final CMB spectra, matter transfer functions, observed normalization, or empirical validation.
+It does not contain the realized Module I background, completed H[I] instantiation, primordial covariance, final CMB/matter spectra, public transfer functions, observed normalization, or empirical validation.
 
 ## Exact dependency
 
 ```text
 Modules A-G complete and frozen
 -> sealed P_G->H^U recombination/transfer-source state
--> Module H^U universal background-parameterized linear operator
--> Module I realized background
+-> frozen H^U universal operator and admissible background domain
+-> Module I realized background and H-domain compliance
 -> immutable H[I] instantiation
--> Module J realized primordial covariance and spectra
+-> Module J primordial covariance and realized spectra
 ```
 
-Module H^U may construct and verify the universal operator over an admissible background domain. It may not select or import the realized RFC background, primordial spectrum, public transfer functions, observed spectra, or normalization.
+Module I may populate only the declared background coefficient slots. It may not redesign H^U or force an out-of-domain background into the operator.
