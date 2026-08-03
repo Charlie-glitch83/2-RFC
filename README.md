@@ -6,78 +6,61 @@
 Module A: COMPLETE_AND_FROZEN
 Module B: COMPLETE_AND_FROZEN
 Module C: COMPLETE_AND_FROZEN
-Module D: ACTIVE
+Module D: COMPLETE_AND_FROZEN
+Module E: COMPLETE_AND_FROZEN
+Module F: ACTIVE
 ```
 
-Module A supplies the prephysical finite-relational constitution. Module B supplies the Big Implosion as the sole first physical event. Module C now supplies the complete finite-relational microscopic law and prethermal parent state.
+The entire generated universe descends from the primitive ordered triad `(CIF,QV,RFL)`, the First Action `QV(CIF) -> RFL`, the enhanced completed Module A triad kernel with terminal N-body relational completion, and the Big Implosion as the sole first physical event.
 
-## Completed Module C result
+## Completed Module E result
 
-The repository now derives from the sealed Big-Implosion parent, ordered triad, recursive kernel, route grammar and completed-shell law:
+Module E consumes the sealed Module D nuclear-ready state and derives:
 
-- complex amplitudes from complete directed route pairs;
-- a Hermitian microscopic generator, unitary intrinsic-clock evolution and normalized probabilities;
-- three generation shells from eighteen recursive depths and six-lane completed triadic shells;
-- a maximal complete `U(1) x SU(2) x SU(3)` internal branch;
-- minimal chiral representations, anomaly cancellation and rational charges;
-- spin, statistics, chirality and particle-antiparticle conjugation;
-- an endogenous positive microscopic scale family;
-- stabilization, gauge-carrier, fermion and recursive-memory neutral mass operators;
-- protected massless modes;
-- flavor, mixing, CP-facing and neutrino operators;
-- a complete invariant vertex and rate-generating grammar;
-- finite singlet confinement, bound states, hadrons, proton-role and neutron-role states;
-- conservation, antimatter, no-loss annihilation and asymmetry-source ledgers;
-- photon, neutrino, charge-neutrality, baryon-photon and prethermal equation-of-state seeds;
-- the sealed `P_C->D(beta,gamma)` parent state.
+- finite antisymmetrized nuclear state spaces;
+- spectral isotope admission, binding, thresholds, partition states, and decay classes;
+- a channel-complete directed reaction hypergraph;
+- forward and reverse rate laws from one kernel-derived amplitude law;
+- detailed-balance closure;
+- a positive normalized exact nuclear configuration process;
+- isotope-resolved abundance trajectories as exact process moments;
+- baryon, charge, proton, neutron, probability, energy, and ancestry closure;
+- continuous neutron-proton and weak evolution;
+- dynamically generated deuterium-bottleneck release;
+- core light-isotope and route-resolved Li/Be evolution;
+- generated medium corrections and nuclear feedback;
+- species- and route-specific freeze-out and late-decay schedules;
+- adaptive network closure and spatial sufficiency;
+- correlated covariance, sensitivity, route attribution, and isotope ancestry;
+- the complete restartable `P_E->F` post-nuclear plasma state.
 
-The central scientific files are:
+W2-R and the earlier Li/Be results are preserved as structural guidance and future frozen shadow comparisons. They are not used as the reaction-network generator.
 
-- `science/MICROSCOPIC_PHYSICS.md`
-- `proofs/MICROSCOPIC_CONSTITUTION.md`
-- `modules/C/MODULE_C_WOLFRAM_VERIFICATION.md`
-- `modules/C/MODULE_C_TO_D_SCIENTIFIC_HANDOFF.md`
+The central Module E files are:
 
-## Exact Module C boundary
+- `science/PRIMORDIAL_NUCLEOSYNTHESIS.md`
+- `proofs/PRIMORDIAL_NUCLEOSYNTHESIS.md`
+- `modules/E/MODULE_E_WOLFRAM_VERIFICATION.md`
+- `modules/E/MODULE_E_TO_F_SCIENTIFIC_HANDOFF.md`
 
-Module C is complete at finite-relational, internal-unit, prethermal scope. It does not claim:
+## Exact Module E boundary
 
-- empirical identification with nature;
-- measured particle parameters;
-- a unique SI scale;
-- continuum renormalized quantum field theory;
-- loop or lattice-QCD precision;
-- thermal history;
-- surviving baryon asymmetry;
-- public empirical agreement.
+Module E is complete at finite-relational, internal-unit, generated-network scope. It does not claim measured nuclear-data precision, public BBN-code equivalence, observed primordial-abundance agreement, a unique SI scale, continuum infinite-volume nuclear theory, post-nuclear plasma evolution, recombination, CMB formation, or empirical confirmation.
 
-The internal resemblance of some generated structures to familiar particle physics is not used as a generative input or as empirical proof.
+## Active frontier
 
-## Active scientific frontier
-
-Module D must lift the sealed microscopic law into a complete nonequilibrium thermal and transport history:
-
-- phase-space evolution;
-- thermalization and temperature emergence;
-- collision and inverse-channel operators;
-- symmetry-breaking and confinement chronology;
-- asymmetry transport and washout;
-- annihilation, freeze-out and decoupling;
-- photon and neutrino transport;
-- entropy redistribution and visible-dark transfer;
-- nuclear-reaction readiness for Module E.
-
-No observed thermal history, transition temperature, baryon ratio, abundance or neutrino-decoupling result may generate Module D.
+Module F must evolve the sealed post-nuclear isotope, radiation, lepton, plasma, background, perturbation, dark-sector, covariance, memory, and decay state into a recombination-ready plasma without importing a conventional post-BBN timeline or resetting the Module E composition.
 
 ## Canonical reading order
 
 1. `HANDOFF.md`
 2. `STATE.json`
 3. `PLAN.md`
-4. `science/MICROSCOPIC_PHYSICS.md`
-5. `proofs/MICROSCOPIC_CONSTITUTION.md`
-6. `science/CLAIMS.md`
-7. `modules/C/MODULE_C_TO_D_SCIENTIFIC_HANDOFF.md`
-8. Module D plan, manuscript trace and Wolfram revision
+4. `architecture/2RFC_TRIAD_KERNEL_UNIVERSE_DERIVATION_LOCK.md`
+5. `science/PRIMORDIAL_NUCLEOSYNTHESIS.md`
+6. `proofs/PRIMORDIAL_NUCLEOSYNTHESIS.md`
+7. `modules/E/MODULE_E_WOLFRAM_VERIFICATION.md`
+8. `modules/E/MODULE_E_TO_F_SCIENTIFIC_HANDOFF.md`
+9. Module F plan, triad lock, manuscript trace, and Wolfram revision
 
 Public observations may enter only Module P after Module O freezes the generated universe.
