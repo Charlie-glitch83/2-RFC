@@ -3,10 +3,10 @@
 ## Current state
 
 ```text
-Modules A–I: COMPLETE_AND_FROZEN
+Modules A–J: COMPLETE_AND_FROZEN
 Module H^U: COMPLETE_AND_FROZEN
 Module H[I]: COMPLETE_AND_FROZEN
-Module J: ACTIVE
+Module K: ACTIVE
 ```
 
 ## Nonnegotiable universe-derivation rule
@@ -27,66 +27,63 @@ Every later module is a domain specialization of that same kernel. No module may
 8. Wolfram integration revision
 9. exact sources named by the trace
 
-For Module J, read first:
+For Module K, read first:
 
 ```text
-science/REALIZED_BACKGROUND_GEOMETRY.md
-proofs/REALIZED_BACKGROUND_GEOMETRY.md
-modules/I/MODULE_I_WOLFRAM_VERIFICATION.md
-science/INSTANTIATED_LINEAR_TRANSFER.md
-modules/I/MODULE_I_TO_H_INSTANTIATED_SCIENTIFIC_HANDOFF.md
-modules/J/MODULE_J_TRIAD_KERNEL_DERIVATION_LOCK.md
-modules/J/MODULE_J_DETAILED_SCIENTIFIC_REPAIR_PLAN.md
-modules/J/MODULE_J_MANUSCRIPT_SOURCE_TRACEABILITY.md
-modules/J/MODULE_J_WOLFRAM_INTEGRATION_REVISION.md
+science/PRIMORDIAL_COVARIANCE_LINEAR_SPECTRA.md
+proofs/PRIMORDIAL_COVARIANCE_LINEAR_SPECTRA.md
+modules/J/MODULE_J_WOLFRAM_VERIFICATION.md
+modules/J/MODULE_J_TO_K_SCIENTIFIC_HANDOFF.md
+modules/K/MODULE_K_TRIAD_KERNEL_DERIVATION_LOCK.md
+modules/K/MODULE_K_DETAILED_SCIENTIFIC_REPAIR_PLAN.md
+modules/K/MODULE_K_MANUSCRIPT_SOURCE_TRACEABILITY.md
+modules/K/MODULE_K_WOLFRAM_INTEGRATION_REVISION.md
 ```
 
-## Completed Module I result
+## Completed Module J result
 
-Module I now installs:
+Module J now installs:
 
-- immutable consumption of the Module G physical parent and frozen Hᵁ operator contract;
-- explicit realized-background CIF/QV/RFL specialization of the enhanced completed Module A kernel;
-- finite relational metric, connection, curvature, topology, averaging, and continuum-carrier constructions;
-- a constrained geometric and sector evolution law;
-- generated stress-energy, witnessed inter-sector transfer, total conservation, constraints, and no-double-counting closure;
-- internal dimensional units and reference events;
-- early-to-late continuity with the frozen B–G chronology;
-- ordinary, radiative, relic, field, defect, compression-relic, and dissipative-tail background histories;
-- generated physical/conformal clocks, scale, expansion, acceleration, events, redshift, signal propagation, distances, reciprocity, horizons, and derivatives;
-- complete covariance, branch, stability, causality, pathology, signatures, memory, ancestry, and restart state;
-- Hᵁ domain-compliance construction and representative independent verification;
-- immutable H[I] instantiation and complete Module J parents.
+- immutable consumption of the Module I background and H[I] basis-response parents;
+- explicit primordial-statistical CIF/QV/RFL specialization of the enhanced completed Module A kernel;
+- the complete independent physical primordial mode basis;
+- declared stochastic variables, phase, symmetry, and higher-moment status;
+- an endogenous route-, shell-, memory-, and common-ancestry covariance generator;
+- Hermitian, positive-semidefinite, dimensionally typed covariance with controlled admitted infrared and ultraviolet power;
+- complete scalar/vector/tensor, parity, helicity, entropy, compensated, relative-sector, dark-sector, field, defect, route-memory, and cross-mode status;
+- immutable transfer-covariance contraction;
+- primary linear radiative and complete species-sector-metric spectrum matrices;
+- scale- and time-resolved growth and projected source histories;
+- gauge, conservation, constraint, compensation, reality, and covariance closure;
+- direct-ensemble versus analytic-contraction equivalence;
+- finite-volume fields with preserved phase, seed, species, route, branch, uncertainty, memory, ancestry, and restart identity;
+- a componentwise physical linearity domain and nonlinear-promotion surface;
+- the complete sealed `P_J->K` parent.
 
-## Exact Module I/H[I] boundary
+## Exact Module J boundary
 
-Module I is complete only at finite-relational, internally scaled, generated-background scope. H[I] is complete only as immutable evaluation of the frozen Hᵁ operator on a compliant Module I branch.
+Module J is complete only at finite-relational, internally normalized, linear-statistical scope.
 
-They do not establish measured expansion or distances, a fitted dark sector, primordial covariance, final spectra, nonlinear structure, or empirical confirmation.
+It does not establish nonlinear collapse, shell crossing, halos, nonlinear lensing, gas or stellar histories, public primordial/CMB/matter agreement, observer/instrument closure, terminal Big-Rip dynamics, or empirical confirmation.
 
-## Active Module J frontier
+## Active Module K frontier
 
-Module J receives:
+Module K receives the complete nonlinear-ready Module J state and must promote it without hidden smoothing, amplitude rescaling, phase replacement, species reassignment, or loss of covariance and ancestry.
 
-```text
-Module I realized background
-+
-frozen H[I] basis-normalized response packet
-```
-
-It must derive the primordial covariance, preserve the complete independent mode and route basis, contract that covariance with immutable responses, generate realized linear spectra and growth histories, construct nonlinear-ready finite-volume fields, and identify the physical linearity boundary.
+It owns nonlinear multistream evolution, shell crossing, caustics, collapse, stabilization, halos, streams, mergers, web and void dynamics, nonlinear gravitating-sector behavior, metric/lensing truth fields, lightcones, and the gravitational anchor for the K–L–M feedback loop.
 
 ## Governing rules
 
-- Do not reopen or retune Modules A–I or Hᵁ/H[I].
-- Do not import a public primordial spectrum, amplitude, tilt, running, tensor ratio, transfer function, CMB/matter spectrum, growth normalization, or observed mode mixture.
-- Do not modify the Module I background or H[I] responses after seeing a desired spectrum.
-- Do not delete or merge independent modes without a no-loss equivalence theorem.
+- Do not reopen or retune Modules A–J or Hᵁ/H[I].
+- Do not rescale Module J amplitudes, replace phases, collapse independent constituents, or import a conventional initial-condition generator.
+- Do not import public nonlinear spectra, halo statistics, concentration relations, merger rates, lensing amplitudes, or baryonic corrections.
+- Do not certify a bound structure from density threshold alone.
 - Preserve active/dormant terminal N-body carrier information.
-- Preserve route, event, uncertainty, memory, promotion, reopening, and ancestry.
+- Preserve route, event, uncertainty, memory, promotion, reopening, phase, seed, and ancestry.
+- Preserve the K–L–M closure architecture rather than treating K as a one-pass gravity-only endpoint.
 - Public data enter only Module P.
 - Any mandatory Module P component below `0.95` fails and cannot be hidden by averaging.
 
 ## Exact next action
 
-Repair Module J from the sealed Module I background and immutable H[I] responses.
+Repair Module K from the sealed Module J nonlinear-ready parent and prove promotion overlap before nonlinear evolution.
