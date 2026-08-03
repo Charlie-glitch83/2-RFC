@@ -4,76 +4,90 @@
 
 The project seeks to establish, under explicit axioms and realization conditions, that the completed triadic kernel generates every admitted state in the constructed RFC universe, that the Big Implosion is the sole first physical event, that a Big-Rip-class result is required for canonical closure, and that frozen predictions survive preregistered empirical testing without fitting or target leakage.
 
-Modules A and B now establish the prephysical relational constitution and the first finite-relational physical genesis. They do not yet prove the complete universe.
+Modules A and B establish the prephysical relational constitution and the first finite-relational physical genesis. Module C is partially implemented and active.
 
 ---
 
 ## Module A status
 
-Module A is `COMPLETE_AND_FROZEN` at its prephysical finite-relational scope. Its exact claims and boundaries remain those installed in `science/FOUNDATION.md` and `proofs/KERNEL_COMPLETION.md`.
+Module A is `COMPLETE_AND_FROZEN` at its prephysical finite-relational scope.
+
+## Module B status
+
+Module B is `COMPLETE_AND_FROZEN` at its finite-relational preparticle scope.
 
 ---
 
-## Module B claim ledger
+## Module C claim ledger
 
 | Claim | Evidence class | State |
 |---|---|---:|
-| The Big Implosion is distinct from the prephysical First Action | Type theorem | `ESTABLISHED` |
-| The Big Implosion is the sole first physical event type | Finite-relational genesis theorem | `PROVED_WITHIN_DECLARED_DOMAIN` |
-| A fixed admitted finite connected branch has a unique manifested image | Strict-convexity theorem | `PROVED` |
-| `Q_imp=(I+ell_delta L)^-1` exists and is positive definite for the declared domain | Linear-algebra theorem | `PROVED` |
-| The constant carrier is preserved | Spectral/conservation theorem | `PROVED` |
-| Every admitted nonconstant mode is strictly compressed | Spectral theorem | `PROVED` |
-| The protected pre-event carrier reopens exactly | Algebraic theorem | `PROVED` |
-| Directed currents satisfy local continuity | Algebraic theorem | `PROVED` |
-| Total carrier is globally conserved | Conservation theorem | `PROVED` |
-| The compression/storage budget closes exactly | Algebraic theorem | `PROVED` |
-| Effective resistance gives a first finite relational metric | Graph theorem | `PROVED` |
-| Effective resistance is already a Lorentzian spacetime interval | Physical claim | **FALSE; PROHIBITED** |
-| Physical event order begins at the manifested Big-Implosion state | Typed event theorem | `PROVED_WITHIN_GENESIS_DOMAIN` |
-| The intrinsic clock is strictly increasing for `alpha>0` | Analytic theorem | `PROVED` |
-| Kernel depth, ancestry rank, route order, cycle index, and physical time are identical | Type claim | **FALSE; PROHIBITED** |
-| Module B derives a unique SI calibration | Physical claim | **NOT_PROVED; NOT_CLAIMED** |
-| Module B derives a positive unit-equivalence family | Dimensionalization theorem | `ESTABLISHED` |
-| Four genesis projectors are complete, orthogonal, and nonduplicating | Projector theorem | `PROVED` |
-| The four seed states reopen the full genesis carrier | Reconstruction theorem | `PROVED` |
-| The ordinary seed is already the mature observed matter sector | Physical claim | **FALSE; PROHIBITED** |
-| The radiative seed is already a photon field | Physical claim | **FALSE; PROHIBITED** |
-| The compression relic is already a dark-matter particle or halo population | Physical claim | **FALSE; PROHIBITED** |
-| The dissipative tail already has a dark-energy equation of state | Physical claim | **FALSE; PROHIBITED** |
-| The compression-relic semigroup is non-growing on the nonconstant finite graph subspace | Spectral theorem | `PROVED` |
-| The dissipative-tail pair seed vanishes for exactly reciprocal routes | Algebraic theorem | `PROVED` |
-| All four seeds share one Big-Implosion and Module A ancestry | Common-ancestry theorem | `PROVED` |
-| Source, scale, branch, model, and numerical uncertainty remain attached | State theorem | `ESTABLISHED` |
-| The complete preparticle parent state is exported to Module C | Boundary construction | `SEALED` |
-| Module B is complete and frozen at its finite-relational preparticle scope | Module theorem | `ESTABLISHED` |
+| Module C consumes the sealed Module B parent without retuning | Boundary theorem | `ESTABLISHED` |
+| The microscopic CIF/QV/RFL roles are typed without scalarizing the triad | Type construction | `ESTABLISHED` |
+| A complete microscopic ontology and type registry exists | Definition/type registry | `ESTABLISHED` |
+| The ordinary and radiative seed images define a finite nonduplicated candidate-capacity space | Linear-algebra theorem | `PROVED` |
+| Candidate-capacity coordinates are already physical particles | Physical claim | **FALSE; PROHIBITED** |
+| The historical six-plus-two registry is a controlled representation object | Representation result | `ESTABLISHED_WITH_SCOPE` |
+| The historical six-plus-two registry proves eight physical particles | Physical claim | **FALSE; PROHIBITED** |
+| Sector and norm preservation alone admit `O(n_o) x O(n_r)` kinematic automorphisms | Linear-algebra theorem | `PROVED` |
+| Kinematic automorphisms are already the physical gauge group | Physical claim | **FALSE; PROHIBITED** |
+| Distinct protected identities trivialize the signature-preserving permutation group | Finite combinatorial theorem | `PROVED` |
+| The sealed parent uniquely determines a microscopic symmetry algebra | Mathematical/physical claim | **FALSE; UNDERDETERMINED** |
+| The sealed parent uniquely determines a mass operator or spectrum | Mathematical/physical claim | **FALSE; UNDERDETERMINED** |
+| The sealed real carrier uniquely determines a complex probability law and unitarity | Physical claim | **FALSE; UNDERDETERMINED** |
+| The directed relational carrier uniquely determines vertices, couplings, widths, or lifetimes | Physical claim | **FALSE; UNDERDETERMINED** |
+| A complete admission witness for a future microscopic constitutive law is defined | Construction theorem | `ESTABLISHED` |
+| A physical microscopic constitutive law has been derived | Module theorem | `OPEN` |
+| Particle, antiparticle, spin, statistics, chirality, charge, and flavor identities are derived | Physical theorem | `OPEN` |
+| Masses, interactions, scattering, decay, and probabilities are derived | Physical theorem | `OPEN` |
+| Confinement, hadrons, proton, and neutron are derived | Physical theorem | `OPEN` |
+| Photon, neutrino, asymmetry, charge neutrality, and baryon-photon seed are derived | Physical theorem | `OPEN` |
+| Module C is complete and ready for Module D | Module theorem | `OPEN` |
 
 ---
 
-## Explicit Module B boundaries
+## Current Module C frontier
 
-Module B does not prove:
+The active theorem is
 
-- a Big Bang;
-- expansion inside pre-existing spacetime;
-- a unique SI scale;
-- mature Lorentzian geometry, curvature, horizons, redshift, or distance;
-- a continuum stress-energy tensor;
-- microscopic particle, charge, gauge, mass, photon, neutrino, hadron, or nucleon identities;
-- physical halo, clustering, or lensing behavior of the compression relic;
-- physical pressure, acceleration, or Big-Rip behavior of the dissipative tail;
-- thermal chronology, nucleosynthesis, recombination, stars, observers, or empirical agreement.
+\[
+P_{B\to C}\longrightarrow\mathfrak C_C,
+\]
 
-These are downstream theorem responsibilities, not defects inside Module B.
+where `mathfrak C_C` must supply the scalar/state structure, norm, probability law, physical symmetry algebra, representations, action/generator, mass operator, vertex grammar, binding law, conservation/anomaly structure, and causal/locality conditions.
+
+A proposed branch must pass the parent, triadic, basis, algebra, probability, symmetry, mass, vertex, anomaly, causal, no-loss, and public-data firewall witnesses defined in `science/MICROSCOPIC_PHYSICS.md`.
 
 ---
 
-## Active next claims
+## Explicit Module C boundaries
+
+Module C does not yet prove:
+
+- a complex quantum state space;
+- a Born-type probability law or unitary dynamics;
+- a physical gauge/internal symmetry algebra;
+- a closed particle catalogue;
+- spin/statistics/chirality;
+- masses, couplings, mixing, or CP phases;
+- photon, neutrino, hadron, proton, or neutron identities;
+- confinement or bound-state dynamics;
+- scattering amplitudes, decay widths, or lifetimes;
+- baryon/lepton asymmetry;
+- charge neutrality or baryon-photon ratio;
+- a prethermal equation of state;
+- Module D readiness;
+- empirical agreement.
+
+No familiar particle table or public value may fill these gaps.
+
+---
+
+## Downstream state
 
 | Claim | Owner | State |
 |---|---|---:|
-| A complete conservation-closed microscopic state follows from the sealed preparticle parent | Module C | `ACTIVE` |
-| Nonequilibrium thermal chronology follows from the microscopic state | Module D | `BLOCKED_BY_C` |
+| Nonequilibrium thermal chronology follows from a complete microscopic state | Module D | `BLOCKED_BY_C` |
 | Mature geometry and background expansion follow from the frozen upstream state | Module I | `BLOCKED` |
 | The full A-N universe is frozen reproducibly | Module O | `BLOCKED` |
 | Frozen predictions satisfy every mandatory empirical component at `>=0.95` | Module P | `BLOCKED` |
@@ -92,4 +106,4 @@ These are downstream theorem responsibilities, not defects inside Module B.
 7. preregistered public-data comparison;
 8. independent reproduction.
 
-A code pass is not a theorem. A finite-relational theorem is not automatically a continuum theorem. No average, global score, or favorable example may hide a failed mandatory condition. Public observations may test a frozen Module O universe only in Module P.
+A code pass is not a theorem. A finite capacity space is not a particle theory. No average, global score, or favorable example may hide a failed mandatory condition.
