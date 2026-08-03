@@ -36,89 +36,90 @@ Read:
 32. `modules/O/MODULE_O_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
 33. `modules/O/MODULE_O_TO_P_SCIENTIFIC_HANDOFF.md`
 34. `modules/P/MODULE_P_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
-35. the exact library plan for the active module
-36. the existing 2-RFC module being repaired
-37. the valid scientific source material named for that module
+35. `modules/O/MODULE_O_TO_Q_SCIENTIFIC_HANDOFF.md`
+36. `modules/Q/MODULE_Q_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
+37. the existing 2-RFC module being repaired
+38. the exact valid scientific sources named by the active module plan
 
 ## Governing method
 
 - The module is the unit of work.
-- The detailed gap-to-library repair plan is the primary scientific spine for every individual module plan.
-- Use each sealed parent-child handoff to define the exact inherited state and prevent a child from reconstructing missing parent science.
+- The detailed gap-to-library repair plan is the primary scientific spine.
+- Every child consumes a sealed parent state; it may not reconstruct missing parent science.
 - Preserve correct science already present in 2-RFC.
-- Use RUN 000-007 only for completed Module A science.
-- Use RUN 008-013 only for completed Module B science.
-- Reuse later library science only at its exact supported scope; do not promote scaffolds, anchors, proxies, scores, or public audits into generative laws.
-- Do not copy the old run system, run numbering, preflight machinery, lifecycle machinery, status taxonomies, repository schemas, certificates, manifests, or evidence bureaucracy into the scientific plans.
-- Use architecture and module-plan files only for scientific goals, physical dependencies, equations, required outputs, and lawful downstream boundaries.
-- Public observations may test the finished universe but may not generate or repair it.
+- RUN 000–007 supply only completed Module A science.
+- RUN 008–013 supply only completed Module B science.
+- Reuse later library science only at its exact supported scope.
+- Do not copy the old run system, numbering, preflights, lifecycle machinery, status taxonomies, repository schemas, gates, certificates, manifests, or evidence bureaucracy into the scientific architecture.
+- Public observations may test the frozen universe in Module P but may not generate or repair it.
+- Any mandatory normalized comparison component below `0.95` fails; no averaging may hide it.
 
-## Current scientific chain
+## Completed scientific planning chain
 
 ```text
-completed Module A
--> A→B handoff
--> repaired Module B
--> B→C handoff
--> repaired Module C
--> C→D handoff
--> repaired Module D
--> D→E handoff
--> repaired Module E
--> E→F handoff
--> repaired Module F
--> F→G handoff
--> repaired Module G
--> G→Hᵁ handoff
--> repaired Module Hᵁ
--> Hᵁ→I handoff
--> repaired Module I
--> immutable I→H[I] handoff
--> frozen H[I] basis responses
--> repaired Module J
--> J→K handoff
--> repaired Module K^(0)
--> K→L handoff
--> repaired Module L^(0)
--> L→M handoff
--> repaired Module M^(0)
--> classified K–L–M closure architecture
--> converged K–L–M→N handoff
--> repaired Module N plan
--> N→O handoff
--> repaired Module O plan
--> O→P read-only empirical handoff
--> repaired Module P plan
--> future O→Q physical-continuation handoff
--> future detailed Module Q plan
+A
+-> A→B -> B
+-> B→C -> C
+-> C→D -> D
+-> D→E -> E
+-> E→F -> F
+-> F→G -> G
+-> G→Hᵁ -> Hᵁ
+-> Hᵁ→I -> I
+-> I→H[I] -> H[I]
+-> J
+-> J→K -> K^(0)
+-> K→L -> L^(0)
+-> L→M -> M^(0)
+-> classified K–L–M closure
+-> (K*,L*,M*)→N -> N
+-> N→O -> O
+-> O→P -> P
+-> O→Q -> Q
 ```
 
-The protected early and linear architecture remains:
+Every Module A–Q detailed scientific plan and every required parent-child scientific handoff now exists on `agent/triadic-proof-rebuild`.
+
+These files are authoritative plans and boundary definitions. They are not yet the in-place implementation of the repaired proof modules.
+
+## Protected architectures
+
+### Early and linear
 
 ```text
 G -> Hᵁ -> I -> H[I] -> J -> K
 ```
 
-The nonlinear and manifested-universe architecture is:
+- `Hᵁ` is frozen before the realized Module I background.
+- `H[I]` is immutable coefficient insertion, not operator redesign.
+- Module J supplies primordial covariance, realized linear spectra, growth, finite-volume fields, and the nonlinear-promotion surface.
+
+### Coupled nonlinear universe
 
 ```text
 J -> K^(0) -> L^(0) -> M^(0)
 K^(n) -> L^(n) -> M^(n) -> K^(n+1)
+(K*,L*,M*) -> N
+```
+
+- K owns nonlinear gravity, phase space, collapse, structures, web/voids, metric, lensing, and lightcones.
+- L owns hydrodynamics, MHD, thermochemistry, radiation, star formation, stellar evolution, feedback, remnants, and baryonic return.
+- M owns isotope-resolved stellar/explosive nucleosynthesis, radioactive descendants, enrichment transport, dust, and composition feedback.
+- Modules A–J remain frozen during K–L–M replay.
+- Only a fixed point, bounded cycle, slowly evolving attractor, classified branch family, or explicit nonconvergence proceeds to N.
+
+### Manifested universe and freeze
+
+```text
 (K*,L*,M*) -> N -> O
 ```
 
-- Module J owns primordial covariance, linear spectra, growth, finite-volume fields, and the witnessed nonlinear-promotion surface.
-- Module K owns nonlinear phase space, shell crossing, caustics, collapse, stabilized structures, merger ancestry, cosmic-web and void dynamics, nonlinear dark-sector behavior, metric/lensing truth fields, and lightcones.
-- Module L owns hydrodynamics, MHD, thermochemistry, radiation transport, turbulence, witnessed star birth, stellar evolution, binaries, feedback, compact remnants, accretion, cosmic rays, ionizing sources, and baryonic return.
-- Module M owns isotope-resolved hydrostatic and explosive nucleosynthesis, radioactive descendants, chemical transport, dust, source attribution, and composition-dependent microphysics.
-- Modules A–J remain frozen during K–L–M replay. Only the earliest affected forward interval may reopen.
-- Module N reconciles K, L, and M as typed views of one universe and owns global physical identity, event, causal, lineage, records, observer-readiness, truth-lightcone, and truth-observable closure.
-- Module N stops at physically witnessed observer readiness. It does not prove consciousness.
-- Module O preserves rather than repairs the Module N universe.
-- Module O owns immutable scientific identity, law and realization freeze, restoration, restart continuity, scientific-equivalence classes, uncertainty and memory preservation, lawful supersession, and child isolation.
-- A failed restoration or reproduction test is not permission to retune the parent under the same identity.
+- N reconciles all domains as one physical universe, with one identity, event, causal, worldline/worldtube, conservation, lineage, record, observer-readiness, truth-lightcone, and truth-observable state.
+- N stops at physically witnessed observer readiness and does not claim consciousness.
+- O preserves one immutable parent, exact restart state, law and realization identity, uncertainty, covariance, lineage, restoration, restart continuity, and scientific equivalence.
+- Failed restoration or reproduction never permits retuning the same parent.
 
-The protected final branch architecture is:
+### Final isolated branches
 
 ```text
 N -> O -> {P,Q}
@@ -127,15 +128,48 @@ P -/-> Q
 Q -/-> O
 ```
 
-- The O→P handoff exposes frozen truth, predictions, claims, signatures, falsifiers, uncertainty, covariance, branch, realization, observer-location, scope, and lineage only through read-only interfaces.
-- Module P owns signal and propagation maps, instruments, surveys, selection, noise, foregrounds, catalogues, statistics, public comparisons, residuals, likelihoods, falsifiers, evidence-matched claim decisions, forecast preservation, and independent replication.
-- Module P distinguishes statistical agreement, empirical validation, predictive confirmation, support, inconclusiveness, mandatory-condition failure, and falsification.
-- Every mandatory normalized comparison component below `0.95` fails. No average or favorable probe can hide it.
-- Module P may localize discrepancies but may not retune the frozen universe.
-- Module P exports evidence only. It exports no physical state to Module O, Modules A–N, or Module Q.
-- Module Q remains the separate physical-continuation child and may receive only the exact Module O restart state, frozen laws, active future sectors, recursive memory, uncertainty, and terminal-facing variables.
-- Neither child may mutate the parent, and no Module P information may ever enter Module Q.
+- P is read-only empirical testing: observation operators, instruments, surveys, selection, noise, catalogues, covariance, public comparison, residuals, falsifiers, evidence decisions, forecasts, and replication.
+- P exports evidence only and can never alter O, A–N, or Q.
+- Q is isolated physical continuation from O's exact restart state under the frozen law stack.
+
+## Module Q terminal-cycle locks
+
+Successful canonical RFC cycle closure requires a Big-Rip-class result:
+
+```text
+finite-time Big Rip
+or effective Big Rip
+or asymptotic Big-Rip completion
+```
+
+Recollapse, terminal stasis, reconnection, no terminal event, terminal-law insufficiency, unresolved branches, and pathologies may be valid physical outputs, but they are nonclosure results for the canonical RFC cycle unless they satisfy the Big-Rip-class predicates.
+
+The protected cycle order is:
+
+```text
+RFL_s^manifest
+-> M_rec,s^latent
+-> CIF_(s+1)^eff
+-> RFL_A,(s+1)^pre
+-> BigImplosion_(s+1)
+-> RFL_B,(s+1)^phys
+```
+
+All five states are distinct.
+
+- The old manifested RFL dissolves route by route.
+- Latent memory is a qualified source-relevant residue, not an active surviving universe.
+- Memory conditions but does not equal the next CIF.
+- The unchanged First Action remains prephysical.
+- The next Big Implosion remains Module B's sole first physical event.
+- Module Q authorizes the next A→B sequence but does not execute the next Big Implosion.
+- No external reset, exact-copy recurrence, memory-erasure recurrence, Module P input, or public branch selection is allowed.
+- One cycle does not prove indefinite recurrence.
 
 ## Current scientific direction
 
-Treat Module A as complete and frozen. Repair Modules B–P according to their detailed plans and sealed handoffs. The final module-planning task is to create the exact Module O→Q physical-continuation handoff and then the detailed Module Q plan for late accelerated evolution, dissipative-tail dynamics, the canonical Big Rip, route-by-route dissolution, entropy and information separation, latent-memory qualification, next effective CIF conditioning, and authorization of the next Module B cycle without external reset or Module P backflow.
+The canonical A–Q scientific architecture and all detailed module/handoff plans are complete.
+
+The next work is no longer another module plan. It is to begin the actual repository repair in module order, replacing the fabricated or incomplete 2-RFC shell with the planned science while preserving valid existing work.
+
+Start with Module A as already scientifically complete and frozen, integrate its full established science into the repository, then repair Module B from its achieved boundary, and continue forward through the sealed chain. Do not revive RUN014 or any old run-centered architecture.
