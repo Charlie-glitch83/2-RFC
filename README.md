@@ -8,48 +8,46 @@ Module B: COMPLETE_AND_FROZEN
 Module C: COMPLETE_AND_FROZEN
 Module D: COMPLETE_AND_FROZEN
 Module E: COMPLETE_AND_FROZEN
-Module F: ACTIVE
+Module F: COMPLETE_AND_FROZEN
+Module G: ACTIVE
 ```
 
-The entire generated universe descends from the primitive ordered triad `(CIF,QV,RFL)`, the First Action `QV(CIF) -> RFL`, the enhanced completed Module A triad kernel with terminal N-body relational completion, and the Big Implosion as the sole first physical event.
+The generated universe descends continuously from the ordered primitive triad `(CIF,QV,RFL)`, the First Action `QV(CIF) -> RFL`, the enhanced completed Module A triad kernel with terminal N-body relational completion, and the Big Implosion as the sole first physical event.
 
-## Completed Module E result
+## Completed Module F result
 
-Module E consumes the sealed Module D nuclear-ready state and derives:
+Module F consumes the sealed isotope-resolved Module E parent and derives:
 
-- finite antisymmetrized nuclear state spaces;
-- spectral isotope admission, binding, thresholds, partition states, and decay classes;
-- a channel-complete directed reaction hypergraph;
-- forward and reverse rate laws from one kernel-derived amplitude law;
-- detailed-balance closure;
-- a positive normalized exact nuclear configuration process;
-- isotope-resolved abundance trajectories as exact process moments;
-- baryon, charge, proton, neutron, probability, energy, and ancestry closure;
-- continuous neutron-proton and weak evolution;
-- dynamically generated deuterium-bottleneck release;
-- core light-isotope and route-resolved Li/Be evolution;
-- generated medium corrections and nuclear feedback;
-- species- and route-specific freeze-out and late-decay schedules;
-- adaptive network closure and spatial sufficiency;
-- correlated covariance, sensitivity, route attribution, and isotope ancestry;
-- the complete restartable `P_E->F` post-nuclear plasma state.
+- a finite post-nuclear state space and exact positive normalized evolution;
+- exact primordial-composition persistence except through witnessed residual events;
+- residual-reaction and late-decay continuation;
+- generated physical-time, scale, background, density, pressure, entropy, and sector-temperature histories;
+- lawful kinetic, moment, multifluid, fluid, and background reductions with reopening;
+- relational Gauss-law charge closure;
+- generated plasma response, screening, conductivity, diffusion, viscosity, conduction, drag, collective modes, and damping;
+- photon spectral and neutrino/flavor persistence;
+- reciprocal electron-ion-radiation-field energy and momentum exchange;
+- generated equation of state, sound, opacity, redistribution, tight-coupling, diffusion, and damping seeds;
+- perturbation, field, spatial, and authorized dark-sector continuity;
+- generated atomic-candidate Hamiltonians, bound-state and transition seed registries;
+- no-loss atomic promotion and ionization reopening;
+- a physical atomic-readiness criterion and complete recombination-entry surface;
+- complete covariance, memory, ancestry, restart, and `P_F->G` export.
 
-W2-R and the earlier Li/Be results are preserved as structural guidance and future frozen shadow comparisons. They are not used as the reaction-network generator.
+The central Module F files are:
 
-The central Module E files are:
+- `science/POST_NUCLEAR_PLASMA.md`
+- `proofs/POST_NUCLEAR_PERSISTENCE.md`
+- `modules/F/MODULE_F_WOLFRAM_VERIFICATION.md`
+- `modules/F/MODULE_F_TO_G_SCIENTIFIC_HANDOFF.md`
 
-- `science/PRIMORDIAL_NUCLEOSYNTHESIS.md`
-- `proofs/PRIMORDIAL_NUCLEOSYNTHESIS.md`
-- `modules/E/MODULE_E_WOLFRAM_VERIFICATION.md`
-- `modules/E/MODULE_E_TO_F_SCIENTIFIC_HANDOFF.md`
+## Exact Module F boundary
 
-## Exact Module E boundary
-
-Module E is complete at finite-relational, internal-unit, generated-network scope. It does not claim measured nuclear-data precision, public BBN-code equivalence, observed primordial-abundance agreement, a unique SI scale, continuum infinite-volume nuclear theory, post-nuclear plasma evolution, recombination, CMB formation, or empirical confirmation.
+Module F is complete at finite-relational, internal-unit, generated-plasma scope. It does not claim measured plasma or atomic coefficients, public recombination-code agreement, a public recombination temperature/redshift, full atomic population evolution, integrated optical depth, visibility, last scattering, baryon-drag release, the physical CMB surface, or empirical confirmation.
 
 ## Active frontier
 
-Module F must evolve the sealed post-nuclear isotope, radiation, lepton, plasma, background, perturbation, dark-sector, covariance, memory, and decay state into a recombination-ready plasma without importing a conventional post-BBN timeline or resetting the Module E composition.
+Module G must solve nonequilibrium atomic recombination and radiative transfer from the sealed `P_F->G` state, generating the free-electron history, opacity, optical depth, normalized visibility, last-scattering and baryon-drag structures, recombination radiation, perturbation response, and the complete transfer-source state without importing a public recombination history or CMB normalization.
 
 ## Canonical reading order
 
@@ -57,10 +55,10 @@ Module F must evolve the sealed post-nuclear isotope, radiation, lepton, plasma,
 2. `STATE.json`
 3. `PLAN.md`
 4. `architecture/2RFC_TRIAD_KERNEL_UNIVERSE_DERIVATION_LOCK.md`
-5. `science/PRIMORDIAL_NUCLEOSYNTHESIS.md`
-6. `proofs/PRIMORDIAL_NUCLEOSYNTHESIS.md`
-7. `modules/E/MODULE_E_WOLFRAM_VERIFICATION.md`
-8. `modules/E/MODULE_E_TO_F_SCIENTIFIC_HANDOFF.md`
-9. Module F plan, triad lock, manuscript trace, and Wolfram revision
+5. `science/POST_NUCLEAR_PLASMA.md`
+6. `proofs/POST_NUCLEAR_PERSISTENCE.md`
+7. `modules/F/MODULE_F_WOLFRAM_VERIFICATION.md`
+8. `modules/F/MODULE_F_TO_G_SCIENTIFIC_HANDOFF.md`
+9. Module G plan, triad lock, manuscript trace, and Wolfram revision
 
 Public observations may enter only Module P after Module O freezes the generated universe.
