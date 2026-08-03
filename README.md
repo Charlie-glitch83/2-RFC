@@ -2,50 +2,65 @@
 
 ## Current state
 
-**Modules A and B are repaired, complete, and frozen. Module C is active.**
+```text
+Module A: COMPLETE_AND_FROZEN
+Module B: COMPLETE_AND_FROZEN
+Module C: PARTIALLY_IMPLEMENTED_ACTIVE
+Module D: BLOCKED_BY_C
+```
 
-Module A supplies the prephysical finite-relational constitution. Module B now supplies the Big Implosion as the sole first physical event and exports a complete finite-relational preparticle universe.
+Module A supplies the prephysical finite-relational constitution. Module B supplies the Big Implosion as the sole first physical event and a sealed finite-relational preparticle universe.
 
-## Module B implemented result
+Module C now has an implemented microscopic foundation in `science/MICROSCOPIC_PHYSICS.md`.
 
-The repository now contains:
+## Implemented Module C result
 
-- `Q_imp=(I+ell_delta L)^-1` as the finite Big-Implosion variational law;
-- one unique manifested image per fixed admitted source branch;
-- strict nonconstant-mode compression and total-carrier preservation;
-- exact protected reopening;
-- first finite relational geometry/pregeometry;
-- directed currents, local continuity and global conservation;
-- intrinsic event order and clock for `alpha>0`;
-- a positive unit-scale family without fabricated SI calibration;
-- four exact nonduplicated genesis sectors;
-- compression-relic and dissipative-tail initial contracts;
-- branch-complete uncertainty, covariance and common ancestry;
-- the sealed `P_B->C(beta)` preparticle export.
+The repository now establishes:
 
-Module B does not claim mature Lorentzian spacetime, particles, photons, baryons, continuum stress-energy, dark-matter halos, dark-energy acceleration, the Big Rip or empirical agreement.
+- immutable consumption of the sealed B-to-C parent;
+- microscopic CIF, QV and RFL role typing;
+- a complete microscopic ontology and type registry;
+- a finite ordinary-plus-radiative candidate-capacity space;
+- exact no-double-counting of those capacity sectors;
+- the distinction between candidate capacity, basis slots and physical particles;
+- classification of the historical six-plus-two candidate registry as representation-only support;
+- the maximal parent-preserving kinematic automorphism family;
+- exact underdetermination of microscopic symmetry, mass, probability and interaction laws;
+- a mandatory witness stack for admitting a future physical microscopic constitutive law.
 
-## Active next action
+Exact Wolfram checks are recorded in `modules/C/MODULE_C_WOLFRAM_VERIFICATION.md`.
 
-Repair Module C from the sealed B→C state. Module C must derive microscopic state spaces, probability, symmetries, particles and antiparticles, masses, interactions, bound states, hadrons, nucleons, radiation carriers, neutrinos, charge ledgers, matter-antimatter structure, asymmetry source, charge neutrality and the prethermal baryon-photon seed without importing measured particle physics.
+## Active scientific frontier
+
+The next theorem is
+
+\[
+P_{B\to C}\longrightarrow\mathfrak C_C,
+\]
+
+where `mathfrak C_C` must derive the microscopic scalar/state structure, probability and composition law, physical internal symmetry algebra, representations, governing action or generator, mass operator, vertex grammar, binding law, anomaly closure and locality/causality conditions.
+
+The current sources do not uniquely determine those objects. They remain `NEW-DERIVATION` work.
+
+Module C is not complete, and Module D cannot begin, until the resulting microscopic branch also derives particles, antiparticles, spin/statistics, chirality, masses, interactions, bound states, hadrons, nucleons, photon and neutrino identities, asymmetry, charge neutrality and the prethermal population packet.
+
+## Prohibited shortcuts
+
+- no retuning of Modules A or B;
+- no promotion of eight formal slots into eight particles;
+- no imported Standard Model table, familiar gauge group or measured constant;
+- no public-data branch selection;
+- no claim that Wolfram output or code success supplies missing physics.
 
 ## Canonical reading order
 
 1. `HANDOFF.md`
 2. `STATE.json`
 3. `PLAN.md`
-4. `science/FOUNDATION.md`
-5. `proofs/KERNEL_COMPLETION.md`
-6. `proofs/GENESIS_REALIZATION.md`
-7. `science/PHYSICAL_REALIZATION.md`
-8. `science/CLAIMS.md`
-9. Module B plan, source trace, Wolfram records and B→C handoff
-10. Module C plan, source trace, Wolfram revision and C→D handoff
+4. `science/MICROSCOPIC_PHYSICS.md`
+5. `science/CLAIMS.md`
+6. `modules/B/MODULE_B_TO_C_SCIENTIFIC_HANDOFF.md`
+7. Module C plan, manuscript trace, Wolfram revision and verification record
+8. `modules/C/MODULE_C_TO_D_SCIENTIFIC_HANDOFF.md`
 
-## Source and evidence policy
-
-Every load-bearing claim retains its manuscript class and source anchor. Wolfram verifies authorized equations but is not a source of RFC physics. Public observations may enter only Module P after Module O freezes the universe. No public target, fitted constant, standard cosmology or external known solution may generate or repair Modules A–O or Q.
-
-## Validation
-
-`validation/validate_repo.py` is an integrity and finite-algebra check. It does not replace the manuscript derivations or prove downstream physical identities.
+Public observations may enter only Module P after Module O freezes the generated universe.
