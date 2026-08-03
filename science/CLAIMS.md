@@ -4,7 +4,7 @@
 
 The project seeks to establish, under explicit axioms and realization conditions, that the enhanced completed Module A triad kernel generates every admitted state in the constructed RFC universe, that the Big Implosion is the sole first physical event, that a Big-Rip-class result is required for canonical closure, and that frozen predictions survive preregistered empirical testing without fitting or target leakage.
 
-Modules A through I, Module Hᵁ, and Module H[I] are complete and frozen at their declared scopes. Module J is active.
+Modules A through J, Module Hᵁ, and Module H[I] are complete and frozen at their declared scopes. Module K is active.
 
 ## Frozen status
 
@@ -12,62 +12,69 @@ Modules A through I, Module Hᵁ, and Module H[I] are complete and frozen at the
 - Module Hᵁ: `COMPLETE_AND_FROZEN` at finite-relational, background-parameterized linear-response scope.
 - Module I: `COMPLETE_AND_FROZEN` at finite-relational, internally scaled, generated-background scope.
 - Module H[I]: `COMPLETE_AND_FROZEN` as immutable instantiation of Hᵁ on compliant Module I branches.
+- Module J: `COMPLETE_AND_FROZEN` at finite-relational, internally normalized, linear-statistical scope.
 
-## Module I claim ledger
-
-| Claim | Evidence class | State |
-|---|---|---:|
-| Module I consumes the sealed Module G physical parent and frozen Hᵁ operator contract without retuning | Boundary theorem | `PROVED` |
-| Module I CIF/QV/RFL roles specialize the enhanced completed Module A kernel | Type/construction theorem | `PROVED` |
-| Finite relational metric, connection, curvature, topology, and averaging carriers are constructed from inherited relations | Geometric construction | `ESTABLISHED_WITHIN_DECLARED_REFINEMENT` |
-| The constrained geometric/sector initial-value problem has a unique local solution on each regular branch | Finite constrained-evolution theorem | `PROVED_UNDER_NAMED_ASSUMPTIONS` |
-| Witnessed sector transfers sum to zero and total conservation closes | Conservation theorem | `PROVED` |
-| Geometric and physical constraints propagate on admitted branches | Constraint theorem | `PROVED_UNDER_NAMED_CLOSURE` |
-| Interaction and sector energy are represented without double counting | Source construction | `ESTABLISHED_WITH_RESIDUAL_FALSIFIER` |
-| Internal units and reference events descend from upstream RFC quantities | Dimensional construction | `ESTABLISHED` |
-| The realized background preserves the frozen early B–G chronology on the overlap domain | Continuity theorem | `PROVED_CONDITIONALLY; REPRESENTATIVE_OVERLAP_VERIFIED` |
-| Ordinary, radiative, relic, field, and defect backgrounds descend from frozen upstream inventories | Background construction | `ESTABLISHED` |
-| Compression-relic density and pressure are generated from its inherited energy functional | Constitutive theorem | `ESTABLISHED` |
-| Dissipative-tail density, pressure, dissipation, and terminal interface are generated rather than inserted | Constitutive theorem | `ESTABLISHED` |
-| Scale, expansion, acceleration, events, and clocks derive from one constrained trajectory | Background theorem | `ESTABLISHED` |
-| Redshift derives from generated signal transport and observer congruences | Propagation theorem | `ESTABLISHED` |
-| Null/Jacobi propagation generates the distance family and reciprocity under named assumptions | Distance theorem | `PROVED_UNDER_NAMED_ASSUMPTIONS` |
-| Particle, sound, drag, diffusion, free-streaming, and sector horizons are generated from carrier reachability | Horizon construction | `ESTABLISHED` |
-| Background derivatives and covariance are propagated | Sensitivity/covariance construction | `ESTABLISHED` |
-| Branch, stability, causality, pathology, signature, memory, ancestry, and restart states are attached | Boundary construction | `ESTABLISHED` |
-| Hᵁ domain compliance is a conjunction of mandatory predicates and residual bounds | Domain theorem | `PROVED` |
-| The complete Module I packet is exported | Boundary construction | `SEALED` |
-| Module I is complete and frozen | Module theorem | `ESTABLISHED_WITHIN_DECLARED_BOUNDARY` |
-
-## Module H[I] claim ledger
+## Module J claim ledger
 
 | Claim | Evidence class | State |
 |---|---|---:|
-| H[I] begins only after `B_I in D_B` | Admission theorem | `PROVED` |
-| Instantiation populates only frozen Hᵁ coefficient slots | Immutability theorem | `PROVED` |
-| Operator state dimension, block grammar, modes, gauges, collisions, sources, and closures remain unchanged | Structural theorem | `PROVED_BY_CONSTRUCTION; REPRESENTATIVE_PATTERN_CHECKED` |
-| Basis-normalized direct, Green-function, and line-of-sight responses are generated | Transfer construction | `ESTABLISHED` |
-| Gauge, constraint, conservation, restart, and covariance grammar remain active after insertion | Closure theorem | `ESTABLISHED` |
-| Complete `P_H[I]->J` is exported without assigning primordial covariance | Boundary construction | `SEALED` |
-| H[I] is complete and frozen | Module theorem | `ESTABLISHED_WITHIN_DECLARED_BOUNDARY` |
+| Module J consumes the sealed Module I and H[I] parents without retuning | Boundary theorem | `PROVED` |
+| Module J CIF/QV/RFL roles specialize the enhanced completed Module A kernel | Type/construction theorem | `PROVED` |
+| The complete independent physical primordial mode basis is preserved | Basis construction | `ESTABLISHED` |
+| The primordial covariance descends from generated route, shell, memory, source, and common-ancestry carriers | Covariance construction | `ESTABLISHED` |
+| The factorized primordial covariance is Hermitian | Algebraic theorem | `PROVED` |
+| The factorized primordial covariance is positive semidefinite | Algebraic theorem | `PROVED` |
+| Covariance support lies on the frozen physical gauge/constraint quotient | Constraint theorem | `PROVED_BY_CONSTRUCTION` |
+| Generated symmetry projection preserves Hermiticity and positivity | Symmetry theorem | `PROVED` |
+| Infrared and ultraviolet power are finite under named source-tail and incidence-map bounds | Integrability theorem | `PROVED_UNDER_NAMED_ASSUMPTIONS` |
+| Scalar/vector/tensor, parity, helicity, entropy, compensated, relative-sector, field, defect, dark-sector, route-memory, and cross-mode blocks retain their derived status | Block construction | `ESTABLISHED` |
+| H[I] transfer contraction preserves Hermiticity and positive semidefiniteness | Transfer theorem | `PROVED` |
+| Primary projected radiative channel matrices are positive semidefinite | Projection theorem | `PROVED` |
+| Complete species, sector, metric, radiation, neutrino, compression-relic, dissipative-tail, and cross-spectrum matrices are generated | Spectrum construction | `ESTABLISHED` |
+| Growth histories and logarithmic rates derive from the generated covariance and frozen response operator | Growth theorem | `ESTABLISHED` |
+| Gauge, conservation, compensation, reality, and field-level constraints remain attached | Closure theorem | `ESTABLISHED` |
+| Direct ensemble evolution and covariance contraction are equivalent in expectation | Ensemble theorem | `PROVED` |
+| Paired transform modes generate real finite-volume fields | Reality theorem | `PROVED` |
+| Finite-volume estimators recover the target covariance under declared convergence conditions | Sampling theorem | `PROVED_UNDER_NAMED_ASSUMPTIONS` |
+| Uncertainty and cross-covariance are propagated without replacing physical variance | Covariance construction | `ESTABLISHED` |
+| Mode identifiability and transfer null spaces are classified without deleting physical modes | Identifiability construction | `ESTABLISHED` |
+| The linearity domain is a conjunction of componentwise physical witnesses | Domain theorem | `PROVED` |
+| The nonlinear-promotion surface is the first bracketed mandatory-witness crossing | Event construction | `ESTABLISHED` |
+| The complete `P_J->K` nonlinear-ready parent is exported | Boundary construction | `SEALED` |
+| Module J is complete and frozen | Module theorem | `ESTABLISHED_WITHIN_DECLARED_BOUNDARY` |
 
 ## Verification status
 
-Wolfram and an independent NumPy/SciPy implementation verify representative finite algebra and synthetic systems for zero-sum sector transfer, total continuity, geometric constraint closure, generated energy-volume pressure relations, distance reciprocity, dual background formulations, independent null-distance reconstruction, horizon monotonicity, derivative consistency, immutable H[I] operator grammar, propagator restart/composition, covariance positivity, and conjunction-based Hᵁ domain compliance.
+Wolfram and an independent NumPy/SciPy implementation verify representative finite algebra and synthetic systems for covariance Hermiticity and positive semidefiniteness, generated symmetry projection, physical constraint support, transfer-contracted covariance, projected spectrum positivity, covariance-derived growth rates, uncertainty pushforward, direct-ensemble agreement, finite-volume reality and covariance recovery, componentwise linearity classification, and restart composition.
 
-These checks verify algebra and finite implementation examples. They do not establish a unique full-universe numerical branch, measured expansion or distances, fitted dark-sector behavior, final spectra, or empirical truth.
+The independent implementation returned:
 
-## Explicit Module I/H[I] boundaries
+```text
+MODULE_J_INDEPENDENT_CHECK: PASS
+primordial_hermitian_psd=PASS
+constraint_support=PASS
+transfer_contraction_psd=PASS
+projected_spectrum_psd=PASS
+direct_ensemble_agreement=PASS
+finite_volume_reality=PASS
+finite_volume_covariance=PASS
+growth_rate_consistency=PASS
+covariance_pushforward_psd=PASS
+linearity_domain_componentwise=PASS
+restart_composition=PASS
+```
 
-They do not prove:
+These checks verify algebra and finite implementation examples. They do not establish a unique full-universe covariance, measured primordial statistics, observed spectra, nonlinear structures, or empirical truth.
 
-- public `H0`, density fractions, curvature, age, distances, or ruler agreement;
-- a measured present-day reference epoch;
-- fitted CDM, `Lambda`, or `w(a)` behavior;
-- public Boltzmann-code reproduction;
-- primordial mode covariance;
-- final CMB, matter, lensing, or growth spectra;
-- nonlinear structure or astrophysical histories;
+## Explicit Module J boundaries
+
+Module J does not prove:
+
+- a measured primordial amplitude, tilt, running, feature, tensor ratio, or mode mixture;
+- public CLASS/CAMB or transfer-table reproduction;
+- observed CMB, matter, lensing, or growth agreement;
+- nonlinear collapse, shell crossing, halos, mergers, web, voids, or nonlinear lensing;
+- gas, stars, feedback, enrichment, galaxies, or observer records;
 - terminal Big-Rip dynamics;
 - empirical validation.
 
@@ -75,8 +82,9 @@ They do not prove:
 
 | Claim | Owner | State |
 |---|---|---:|
-| Primordial covariance and realized linear spectra follow from the sealed I and H[I] parents | Module J | `ACTIVE` |
-| The physical linearity boundary and nonlinear-ready fields are generated | Module J | `ACTIVE` |
+| Nonlinear promotion preserves the sealed Module J realization without hidden rescaling | Module K | `ACTIVE` |
+| Shell crossing, collapse, stabilized structures, web, voids, nonlinear metric, and lensing fields follow from the promoted state | Module K | `ACTIVE` |
+| The K–L–M gravitational/baryonic/chemical closure is physically classified | Modules K–M | `BLOCKED_BY_K` |
 | The full A–N universe is frozen reproducibly | Module O | `BLOCKED` |
 | Frozen predictions satisfy every mandatory empirical component at `>=0.95` | Module P | `BLOCKED` |
 | A Big-Rip-class result closes the canonical cycle and qualifies next-cycle memory | Module Q | `BLOCKED` |
