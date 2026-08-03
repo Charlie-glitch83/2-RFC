@@ -1,45 +1,120 @@
-# Kernel Completion Proof Record
+# Module A Integrated Triadic Relational Governance Theorem
 
-## K1 — Kernel convergence
+## Theorem A
 
-**Status:** `PROVED` under bounded-feature, \(\delta>1\), \(\alpha\ge0\), \(t\ge0\) assumptions.
-
-The proof is recorded in `science/FOUNDATION.md`. Uniform bounds also justify the stated derivative when feature coefficients are time-independent.
-
-## K2 — Finite lane growth
-
-**Status:** `PROVED`.
+Let the primitive ordered triad be
 
 \[
-|\Lambda_N|=N(N-1),\qquad
-|\Lambda_{N+1}\setminus\Lambda_N|=2N.
+\mathcal T=(\mathrm{CIF},\mathrm{QV},\mathrm{RFL}),
+\qquad
+\mathrm{QV}(\mathrm{CIF})\to\mathrm{RFL},
 \]
 
-This is structural capacity, not proof of a physical solution.
-
-## K3 — Route normalization
-
-**Status:** `CONDITIONAL`.
-
-For a finite nonempty admitted route family \(\mathcal R_N\) with strictly positive finite weights \(w_\rho\),
+and let
 
 \[
-Z_N=\sum_{\rho\in\mathcal R_N}w_\rho
+K_f(t)=\sum_{j=0}^{\infty}\delta^{-j}e^{-\alpha jt}f_j(t)
 \]
 
-is finite and nonzero, so \(p_\rho=w_\rho/Z_N\) is normalized. The singleton route used on a maximal noncollision solution interval has \(Z_N=1\). Infinite or singular route families require a separate measure/convergence proof and are not silently covered.
+satisfy the boundedness and regularity assumptions stated in `science/FOUNDATION.md`.
 
-## K4 — Corrected add-one-body refinement
+For every finite constituent set \(\mathbf C_N\), suppose the active domain specialization supplies:
 
-**Status:** `PROVED_CONDITIONALLY`; the original unchanged-trajectory inclusion statement is rejected.
+1. a declared evolution or constraint law;
+2. a finite noncollision source state in that law's regularity domain;
+3. locally generated witness blocks for residuals, invariants, projection, packet continuity, events, and kernel validity;
+4. a protected signature preserving every independent scientific distinction;
+5. no public-target or pre-solved-trajectory admission rule.
 
-Let \(x_N(t)\) be an \(N\)-body Newtonian solution on \([0,T]\) whose relevant pair separations remain at least \(d>0\). Add a body of mass \(\mu\) with an admissible trajectory that also remains at least \(d\) from the original bodies. For each original body, the added acceleration has magnitude at most
+Then the terminal kernel admits a finite-N relational completion
 
 \[
-\frac{G\mu}{d^2}.
+\widehat{\mathcal K}_N
+=
+\operatorname{Complete}_{NB}
+(K_f,\mathbf C_N,
+\mathsf{Witness},\mathsf{Route},\mathsf{Event},
+\mathsf{Memory},\mathsf{NoLoss},\mathsf{Promote},
+\mathsf{Specialize},\mathsf{Uncertainty})
 \]
 
-On a compact noncollision neighborhood the first-order ODE vector field is locally Lipschitz with constant \(L\). Continuous dependence and Grönwall's inequality give a bound of the form
+with the following properties at its stated scope.
+
+### A1 — Kernel completion
+
+The series is absolutely and uniformly convergent. Its norm, truncation tail, bounded-family perturbation, and conditional derivative satisfy
+
+\[
+\|K_f(t)\|
+\le \frac{M}{1-q(t)},
+\qquad
+q(t)=\delta^{-1}e^{-\alpha t}<1,
+\]
+
+\[
+\|K_f-K_f^{(m)}\|
+\le M\frac{q(t)^{m+1}}{1-q(t)},
+\]
+
+\[
+\|K_f-K_g\|
+\le\frac{\varepsilon}{1-q(t)},
+\]
+
+and, under the derivative bound in the foundation,
+
+\[
+\|\partial_tK_f\|
+\le
+\frac{M_1}{1-q(t)}
++\alpha M\frac{q(t)}{(1-q(t))^2}.
+\]
+
+The \(j=0\) and \(j=1\) source conventions differ only by the explicit basal mode.
+
+### A2 — Exact finite relational capacity
+
+The directed lane set
+
+\[
+L_N=\{(i\mid j):i\ne j\}
+\]
+
+has
+
+\[
+|L_N|=N(N-1),
+\qquad
+|L_{N+1}|-|L_N|=2N.
+\]
+
+This proves exact capacity growth, not unconditional physical solution growth.
+
+### A3 — Locally witnessed route atlas
+
+For each admitted regular finite source state, the active domain law and complete witness give local existence and uniqueness within the declared route class. Compatible overlapping charts patch to a maximal noncollision route domain.
+
+The result is local/maximal and conditional on the declared domain law. It is not a universal all-time regularity theorem.
+
+### A4 — Route multiplicity is physically typed
+
+Candidate routes are separated into:
+
+```text
+representational equivalence
+gauge equivalence
+independent witnessed multiroutes
+unwitnessed or unlawful candidates
+obstruction
+```
+
+Only independent witnessed non-gauge closures count as distinct lawful routes. A known external orbit cannot serve as an admission witness.
+
+### A5 — Correct add-one refinement
+
+The old source/problem family embeds into the enlarged problem, and the enlarged relation set gains exactly \(2N\) directed lanes. Positive added influence generally perturbs the old subsystem. On a certified compact noncollision interval, continuous dependence bounds the perturbation and recovers the old trajectory at the zero-backreaction boundary.
+
+For the direct Newtonian specialization,
 
 \[
 \sup_{0\le t\le T}
@@ -47,18 +122,99 @@ On a compact noncollision neighborhood the first-order ODE vector field is local
 \le C_T\mu,
 \]
 
-where \(C_T\) depends on the compact domain, masses, \(d\), and \(T\), but not on \(\mu\) near zero. Hence the projected augmented solution converges to the original solution as \(\mu\to0^+\).
+so the projection converges to the original route as \(\mu\to0^+\). Exact unchanged positive-mass trajectories are prohibited.
 
-For every positive \(\mu\), the additional acceleration is generally nonzero; exact unchanged trajectory inclusion is not true. The lawful refinement is the expanded source/problem map plus the zero-backreaction limit, not literal preservation of the old orbit.
+### A6 — Event outcomes are partial and non-fabricating
 
-## K5 — Event lift and no-loss memory
+At a witnessed boundary, the event multifunction returns exactly one class:
 
-**Status:** `CONSTRUCTION_PROVED_WITH_SCOPE`.
+```text
+OBSTRUCTION
+UNIQUE_CONTINUATION
+GAUGE_FAMILY
+INDEPENDENT_MULTI_ROUTE_FAMILY
+```
 
-A partial set-valued event lift may carry branch packets across a singular boundary only when each output retains a protected signature containing source identity, route/witness identity, invariants or residuals, branch identity, uncertainty, and ancestry. A quotient is lossless only if the protected signature factors injectively through it.
+No branch is created merely because continuation is desired. Empty lawful branch support is a scientific obstruction.
 
-This proves a safe representation protocol. It does not solve every collision, establish all-time regularity, or choose a unique physical continuation.
+### A7 — Protected no-loss quotient
 
-## Kernel completion conclusion
+Let \(\sigma_{\mathrm{prot}}\) be the eighteen-field protected signature fixed in the foundation. A quotient is lawful only when
 
-K1–K5 establish the abstract relational carrier needed at the terminal triad kernel. Physical activation is delegated to the realization interface. That interface is the current proof frontier.
+\[
+x\sim_{\mathrm{NL}}y
+\Longleftrightarrow
+\sigma_{\mathrm{prot}}(x)=\sigma_{\mathrm{prot}}(y).
+\]
+
+The quotient may remove duplicate representation only. Any independent protected difference remains recoverable.
+
+### A8 — Exact protected memory
+
+On the protected image,
+
+\[
+\operatorname{Decode}_M\circ\operatorname{Encode}_M
+=\operatorname{id}.
+\]
+
+Source, route, witness, branch, event, topology, scale, uncertainty, provenance, and memory ancestry remain recoverable. Append-only ancestry is parentage, not physical time.
+
+### A9 — Promotion and reopening
+
+For every declared abstract promotion,
+
+\[
+\Pi_{\downarrow}\Pi_{\uparrow}
+=\operatorname{id}
+\]
+
+on its protected image. This establishes information-preserving promotion at the carrier level. Each later physical domain must still derive its own valid coarse-graining and effective law.
+
+### A10 — Dormant inheritance
+
+For a witnessed activation predicate \(a_D\in\{0,1\}\),
+
+\[
+\mathcal O_D=a_D\mathcal O_D^{\mathrm{active}},
+\qquad
+\mathcal B_D=a_D\mathcal B_D^{\mathrm{active}}.
+\]
+
+Thus dormancy gives zero physical contribution and zero backreaction while preserving the carrier for possible lawful later activation.
+
+### A11 — Immutable downstream grammar
+
+Every child receives the same completed carrier and must derive its own source, action, stabilized output, witnesses, events, uncertainty, and physical specialization without modifying Module A to fit later outcomes.
+
+## Proof
+
+A1 follows by geometric majorants and the uniform derivative majorant stated in the foundation. A2 is direct ordered-pair counting. A3 follows from the active law's local regularity plus witness-certified admissibility and unique-chart patching on overlaps. A4 is enforced by equality of protected signatures for representative/gauge classes and inequality for independent closures. A5 follows from source/problem embedding, exact lane counting, local continuous dependence, and the zero-backreaction limit. A6 follows by partitioning the witnessed output-signature set into empty, singleton, one-equivalence-class, or multiple-independent-class cases. A7 follows by defining quotient equivalence exactly through the protected signature; the induced signature map is injective by construction. A8 and A9 are the declared left-inverse identities on their protected images. A10 is immediate from the activation equations. A11 follows because the carrier is frozen and every physical law is required downstream of its own domain realization.
+
+No step promotes Newtonian variables into prephysical primitives, converts kernel depth into physical time, uses public targets for generation, or asserts that one finite-N theorem is an infinite-N physical state. ∎
+
+---
+
+## Source and claim typing
+
+### Direct manuscript support
+
+The ordered triad, First Action, recursive-kernel role, finite-N N-body theorem, directed lane grammar, locally generated witness protocol, collision/event policy, route/gauge distinctions, return-memory discipline, public-validation separation, and finite-N claim boundary are direct or exact-scope manuscript results.
+
+### Integrated Module A constructions
+
+The eighteen-field cross-domain protected signature, universal abstract promotion/reopening type, dormant downstream specialization law, and immutable child grammar are Module A integration constructions. They are established here as abstract carrier laws. They are **not** direct proofs that every later physical domain has already supplied a valid specialization.
+
+### Explicitly unproved by Module A
+
+Module A does not prove physical spacetime, a full physical realization map, every later coarse graining, indefinite memory capacity, infinite recurrence, or empirical truth.
+
+---
+
+## Completion conclusion
+
+Module A is complete and frozen at its earned scope:
+
+> the ordered triad, First Action, recursive kernel, and finite-N relational theorem jointly yield a bounded, constructive, witness-governed, no-loss, memory-bearing, promotion-capable carrier inherited by every later RFC module.
+
+The active scientific frontier is no longer an undefined realization theorem inside Module A. It is Module B's derivation of the Big Implosion and first physical state from the sealed Module A export.
