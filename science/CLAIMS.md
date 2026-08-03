@@ -2,64 +2,69 @@
 
 ## Project claim target
 
-The project seeks to establish, under explicit axioms and realization conditions, that the completed triadic kernel generates every admitted state in the constructed RFC universe, that the Big Implosion is the sole first physical event, that the Big Rip is the terminal same-cycle physical event required for canonical closure, and that frozen predictions survive preregistered empirical testing without fitting or target leakage.
+The project seeks to establish, under explicit axioms and realization conditions, that the completed triadic kernel generates every admitted state in the constructed RFC universe, that the Big Implosion is the sole first physical event, that a Big-Rip-class result is required for canonical closure, and that frozen predictions survive preregistered empirical testing without fitting or target leakage.
 
-That whole-universe claim is not yet proved by Module A.
+Modules A and B now establish the prephysical relational constitution and the first finite-relational physical genesis. They do not yet prove the complete universe.
 
 ---
 
-## Module A claim ledger
+## Module A status
+
+Module A is `COMPLETE_AND_FROZEN` at its prephysical finite-relational scope. Its exact claims and boundaries remain those installed in `science/FOUNDATION.md` and `proofs/KERNEL_COMPLETION.md`.
+
+---
+
+## Module B claim ledger
 
 | Claim | Evidence class | State |
 |---|---|---:|
-| CIF, QV, and RFL form the primitive ordered triad | Definition/axiom | `ESTABLISHED` |
-| The First Action is `QV(CIF) -> RFL` and is prephysical | Definition/type theorem | `ESTABLISHED` |
-| RFL means Recursive Fractal Lattice | Canonical definition | `ESTABLISHED` |
-| Source, qualified memory, conditioned CIF, and stabilized output remain distinct | Type theorem | `ESTABLISHED` |
-| The recursive kernel converges under its stated bounds | Formal theorem | `PROVED` |
-| Kernel indexing beginning at `j=0` reconciles with `j=1` by an explicit basal term | Algebraic identity | `PROVED` |
-| Kernel norm and truncation tail are geometrically bounded | Formal theorem | `PROVED` |
-| The kernel is stable under bounded feature perturbations | Formal theorem | `PROVED` |
-| Termwise differentiation is valid under the named derivative bound | Conditional theorem | `PROVED_WITH_ASSUMPTIONS` |
-| Recursive-depth weights normalize and define a depth-dispersion entropy | Formal theorem | `PROVED`; not thermodynamic entropy |
-| A finite `N` carrier has `N(N-1)` directed lanes | Combinatorial theorem | `PROVED` |
-| An admitted `N -> N+1` extension adds exactly `2N` lanes | Combinatorial theorem | `PROVED` |
-| Lane growth alone proves strict physical solution growth | Mathematical claim | **FALSE; PROHIBITED** |
-| Complete locally generated witnesses admit local routes under a declared regular domain law | Conditional theorem | `PROVED_WITH_ASSUMPTIONS` |
-| Compatible local charts patch to a maximal noncollision route domain | Conditional theorem | `PROVED_WITH_ASSUMPTIONS` |
-| Module A proves universal all-time N-body regularity | Mathematical claim | **FALSE; PROHIBITED** |
-| Representative, gauge, independent multiroute, unlawful, and obstructed candidates are distinct classes | Construction/theorem | `ESTABLISHED` |
-| External known trajectories may serve as route-admission witnesses | Methodological claim | **FALSE; PROHIBITED** |
-| Positive added influence leaves old trajectories exactly unchanged | Mathematical claim | **FALSE; PROHIBITED** |
-| On compact noncollision intervals, the old route is recovered in the zero-backreaction limit | Conditional theorem | `PROVED_WITH_ASSUMPTIONS` |
-| Event output is classified as obstruction, unique continuation, gauge family, or independent multiroute family | Set-valued event theorem | `ESTABLISHED_WITH_SCOPE` |
-| A lawful quotient removes only duplicate representation and preserves the protected signature injectively | Construction theorem | `ESTABLISHED_AT_ABSTRACT_CARRIER_SCOPE` |
-| Memory encode/decode reopens the protected state | Left-inverse theorem | `ESTABLISHED_ON_PROTECTED_IMAGE` |
-| Promotion/reopening is a split monomorphism on the declared protected image | Left-inverse theorem | `ESTABLISHED_AT_ABSTRACT_CARRIER_SCOPE` |
-| Dormancy gives zero physical output and zero backreaction while preserving the carrier | Activation theorem | `ESTABLISHED_AT_ABSTRACT_CARRIER_SCOPE` |
-| Every later module inherits the same frozen relational grammar | Architecture theorem | `ESTABLISHED` |
-| Every later physical specialization is already proved by Module A | Physical claim | **FALSE; PROHIBITED** |
-| Module A is complete and frozen at its prephysical finite-relational scope | Module theorem | `ESTABLISHED` |
+| The Big Implosion is distinct from the prephysical First Action | Type theorem | `ESTABLISHED` |
+| The Big Implosion is the sole first physical event type | Finite-relational genesis theorem | `PROVED_WITHIN_DECLARED_DOMAIN` |
+| A fixed admitted finite connected branch has a unique manifested image | Strict-convexity theorem | `PROVED` |
+| `Q_imp=(I+ell_delta L)^-1` exists and is positive definite for the declared domain | Linear-algebra theorem | `PROVED` |
+| The constant carrier is preserved | Spectral/conservation theorem | `PROVED` |
+| Every admitted nonconstant mode is strictly compressed | Spectral theorem | `PROVED` |
+| The protected pre-event carrier reopens exactly | Algebraic theorem | `PROVED` |
+| Directed currents satisfy local continuity | Algebraic theorem | `PROVED` |
+| Total carrier is globally conserved | Conservation theorem | `PROVED` |
+| The compression/storage budget closes exactly | Algebraic theorem | `PROVED` |
+| Effective resistance gives a first finite relational metric | Graph theorem | `PROVED` |
+| Effective resistance is already a Lorentzian spacetime interval | Physical claim | **FALSE; PROHIBITED** |
+| Physical event order begins at the manifested Big-Implosion state | Typed event theorem | `PROVED_WITHIN_GENESIS_DOMAIN` |
+| The intrinsic clock is strictly increasing for `alpha>0` | Analytic theorem | `PROVED` |
+| Kernel depth, ancestry rank, route order, cycle index, and physical time are identical | Type claim | **FALSE; PROHIBITED** |
+| Module B derives a unique SI calibration | Physical claim | **NOT_PROVED; NOT_CLAIMED** |
+| Module B derives a positive unit-equivalence family | Dimensionalization theorem | `ESTABLISHED` |
+| Four genesis projectors are complete, orthogonal, and nonduplicating | Projector theorem | `PROVED` |
+| The four seed states reopen the full genesis carrier | Reconstruction theorem | `PROVED` |
+| The ordinary seed is already the mature observed matter sector | Physical claim | **FALSE; PROHIBITED** |
+| The radiative seed is already a photon field | Physical claim | **FALSE; PROHIBITED** |
+| The compression relic is already a dark-matter particle or halo population | Physical claim | **FALSE; PROHIBITED** |
+| The dissipative tail already has a dark-energy equation of state | Physical claim | **FALSE; PROHIBITED** |
+| The compression-relic semigroup is non-growing on the nonconstant finite graph subspace | Spectral theorem | `PROVED` |
+| The dissipative-tail pair seed vanishes for exactly reciprocal routes | Algebraic theorem | `PROVED` |
+| All four seeds share one Big-Implosion and Module A ancestry | Common-ancestry theorem | `PROVED` |
+| Source, scale, branch, model, and numerical uncertainty remain attached | State theorem | `ESTABLISHED` |
+| The complete preparticle parent state is exported to Module C | Boundary construction | `SEALED` |
+| Module B is complete and frozen at its finite-relational preparticle scope | Module theorem | `ESTABLISHED` |
 
 ---
 
-## Explicit Module A boundaries
+## Explicit Module B boundaries
 
-Module A does not prove:
+Module B does not prove:
 
-- one physically infinite-N state;
-- universal all-time regularity;
-- unconditional solution-count growth;
-- physical time from kernel depth or ancestry rank;
-- thermodynamic entropy from recursive-depth entropy;
-- the Big Implosion;
-- Lorentzian spacetime;
-- particles, fields, matter, radiation, or dark-sector identities;
-- physical cosmological evolution;
-- indefinite memory capacity or infinite recurrence;
-- empirical truth in nature.
+- a Big Bang;
+- expansion inside pre-existing spacetime;
+- a unique SI scale;
+- mature Lorentzian geometry, curvature, horizons, redshift, or distance;
+- a continuum stress-energy tensor;
+- microscopic particle, charge, gauge, mass, photon, neutrino, hadron, or nucleon identities;
+- physical halo, clustering, or lensing behavior of the compression relic;
+- physical pressure, acceleration, or Big-Rip behavior of the dissipative tail;
+- thermal chronology, nucleosynthesis, recombination, stars, observers, or empirical agreement.
 
-These limitations are theorem boundaries, not unresolved defects inside Module A.
+These are downstream theorem responsibilities, not defects inside Module B.
 
 ---
 
@@ -67,10 +72,10 @@ These limitations are theorem boundaries, not unresolved defects inside Module A
 
 | Claim | Owner | State |
 |---|---|---:|
-| The Big Implosion is the sole first physical event | Module B | `ACTIVE` |
-| The first manifested physical state has derived causal, dimensional, dynamical, and conservation structure | Module B | `ACTIVE` |
-| The derived microscopic universe is complete and conservation-closed | Module C | `BLOCKED_BY_B` |
-| The full A–N generated universe is frozen reproducibly | Module O | `BLOCKED` |
+| A complete conservation-closed microscopic state follows from the sealed preparticle parent | Module C | `ACTIVE` |
+| Nonequilibrium thermal chronology follows from the microscopic state | Module D | `BLOCKED_BY_C` |
+| Mature geometry and background expansion follow from the frozen upstream state | Module I | `BLOCKED` |
+| The full A-N universe is frozen reproducibly | Module O | `BLOCKED` |
 | Frozen predictions satisfy every mandatory empirical component at `>=0.95` | Module P | `BLOCKED` |
 | A Big-Rip-class result closes the canonical cycle and qualifies next-cycle memory | Module Q | `BLOCKED` |
 
@@ -87,4 +92,4 @@ These limitations are theorem boundaries, not unresolved defects inside Module A
 7. preregistered public-data comparison;
 8. independent reproduction.
 
-No average, global score, or favorable example may hide a failed mandatory condition. Public observations may test a frozen Module O universe only in Module P.
+A code pass is not a theorem. A finite-relational theorem is not automatically a continuum theorem. No average, global score, or favorable example may hide a failed mandatory condition. Public observations may test a frozen Module O universe only in Module P.
