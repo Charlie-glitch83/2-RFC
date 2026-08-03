@@ -2,14 +2,13 @@
 
 ## Current state
 
-Module A has been repaired in place according to its detailed scientific plan, manuscript-source trace, Wolfram revision, and A→B handoff.
-
 ```text
 Module A: COMPLETE_AND_FROZEN
-Module B: ACTIVE
+Module B: COMPLETE_AND_FROZEN
+Module C: ACTIVE
 ```
 
-This is no longer an A–Q planning-only repository. The Module A implementation is now present in the scientific and proof files. Modules B–Q remain planned but not yet implemented in place.
+Modules A and B are implemented in place. Modules C–Q retain completed scientific plans, manuscript-source traces, Wolfram revisions, and sealed handoffs but are not yet implemented in place.
 
 ## Required read order
 
@@ -20,108 +19,118 @@ Read:
 3. `PLAN.md`
 4. `science/FOUNDATION.md`
 5. `proofs/KERNEL_COMPLETION.md`
-6. `science/CLAIMS.md`
-7. `modules/A/MODULE_A_MANUSCRIPT_SOURCE_TRACEABILITY.md`
-8. `modules/A/MODULE_A_WOLFRAM_REVISION.md`
-9. `modules/A/MODULE_A_WOLFRAM_VERIFICATION.md`
-10. `modules/A/MODULE_A_TO_B_SCIENTIFIC_HANDOFF.md`
-11. `proofs/GENESIS_REALIZATION.md`
-12. `science/PHYSICAL_REALIZATION.md`
-13. `modules/B/MODULE_B_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
-14. `modules/B/MODULE_B_MANUSCRIPT_SOURCE_TRACEABILITY.md`
-15. `modules/B/MODULE_B_WOLFRAM_REVISION.md`
-16. `modules/B/MODULE_B_TO_C_SCIENTIFIC_HANDOFF.md`
-17. the exact manuscript sources named by the Module B trace.
+6. `modules/A/MODULE_A_TO_B_SCIENTIFIC_HANDOFF.md`
+7. `proofs/GENESIS_REALIZATION.md`
+8. `science/PHYSICAL_REALIZATION.md`
+9. `science/CLAIMS.md`
+10. `science/COSMIC_CYCLE.md`
+11. `modules/B/MODULE_B_MANUSCRIPT_SOURCE_TRACEABILITY.md`
+12. `modules/B/MODULE_B_WOLFRAM_REVISION.md`
+13. `modules/B/MODULE_B_WOLFRAM_VERIFICATION.md`
+14. `modules/B/MODULE_B_TO_C_SCIENTIFIC_HANDOFF.md`
+15. `modules/C/MODULE_C_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
+16. `modules/C/MODULE_C_MANUSCRIPT_SOURCE_TRACEABILITY.md`
+17. `modules/C/MODULE_C_WOLFRAM_INTEGRATION_REVISION.md`
+18. `modules/C/MODULE_C_TO_D_SCIENTIFIC_HANDOFF.md`
+19. the exact manuscript sources named by the Module C trace.
 
-The architecture-wide manuscript and Wolfram laws remain:
+Architecture-wide laws remain:
 
 - `architecture/2RFC_MANUSCRIPT_SOURCE_TRACEABILITY_RULES.md`
 - `architecture/2RFC_WOLFRAM_INTEGRATION_RULES.md`
 
-## Module A implemented result
+## Implemented Module B result
 
-Module A now installs:
+Module B now installs:
 
-- the primitive ordered triad `(CIF,QV,RFL)`;
-- the prephysical First Action `QV(CIF) -> RFL`;
-- source, qualified memory, conditioned CIF, and stabilized-output separation;
-- reconciled recursive-kernel indexing;
-- convergence, norm, truncation, perturbation, and conditional derivative bounds;
-- a depth-tagged modal basis;
-- a normalized recursive-depth influence distribution and nonthermodynamic entropy;
-- finite-N directed relational capacity and exact `2N` add-one growth;
-- six source-generated witness blocks;
-- local/maximal noncollision route construction under declared regular domain laws;
-- representative, gauge, independent multiroute, unlawful, and obstruction distinctions;
-- corrected add-one refinement and zero-backreaction recovery;
-- a four-class partial event multifunction;
-- an eighteen-field protected no-loss signature;
-- protected memory encode/decode;
-- abstract promotion/reopening on the protected image;
-- dormant zero output and zero backreaction;
-- uncertainty-bearing immutable downstream inheritance.
+- finite connected branch admissibility and explicit genesis obstruction;
+- null prior memory for the first boundary cycle and typed later-cycle conditioning;
+- Big-Implosion variational law `Q_imp=(I+ell_delta L)^-1`;
+- a unique manifested image for every fixed admitted source branch;
+- the sole first physical event type;
+- strict nonconstant-mode compression and constant-carrier preservation;
+- exact protected reopening;
+- first finite relational geometry/pregeometry and resistance metric;
+- intrinsic event order and clock for `alpha>0`;
+- positive unit-scale freedom without fabricated SI values;
+- directed currents, local continuity, global conservation, and compression storage;
+- exact orthogonal and complete four-sector projectors;
+- ordinary and radiative genesis contracts;
+- compression-relic semigroup contract;
+- dissipative-tail nonreciprocity, geometry-load, and dormant terminal contract;
+- symmetry, lawful branch state, covariance, and primordial signatures;
+- common Big-Implosion ancestry;
+- the complete sealed B→C preparticle state.
 
-The integrated theorem is in `proofs/KERNEL_COMPLETION.md`, not merely in a planning file.
+The central theorem is now in `proofs/GENESIS_REALIZATION.md`, not only in planning documents.
 
-## Module A exact boundaries
+## Module B exact boundaries
 
-Module A proves an abstract prephysical finite-relational carrier. It does not prove:
+Module B proves a finite-relational preparticle genesis. It does not prove:
 
-- one physically infinite-N state;
-- universal all-time N-body regularity;
-- unconditional physical solution-count growth;
-- unchanged trajectories after adding positive influence;
-- physical time from kernel depth or ancestry;
-- thermodynamic entropy from recursive-depth dispersion;
-- physical spacetime, particles, fields, or cosmology;
-- a completed physical specialization for every later module;
-- indefinite memory capacity or infinite recurrence;
-- empirical realization in nature.
+- a Big Bang or pre-existing spacetime;
+- a unique SI calibration;
+- mature Lorentzian geometry, expansion, horizons, or distances;
+- continuum stress-energy;
+- particles, photons, baryons, neutrinos, or gauge structure;
+- physical dark-matter halo/lensing behavior;
+- physical dark-energy acceleration;
+- a Big Rip;
+- empirical truth.
 
-The eighteen-field protected signature, abstract promotion/reopening, dormancy law, and downstream grammar are transparently classified as Module A integration constructions. Every child still owes its own physically valid specialization.
+Seed names remain genesis contracts, not mature physical identities.
 
 ## Wolfram status
 
-Exact Wolfram checks were executed for:
+`modules/B/MODULE_B_WOLFRAM_VERIFICATION.md` records exact or representative checks for:
 
-- the infinite geometric kernel majorant;
-- truncation tail;
-- derivative-depth sum;
-- exact `2N` lane growth;
-- a finite promotion/reopening left-inverse example;
-- recursive-depth entropy closed form.
+- invertibility, spectrum, and variational minimization of `Q_imp`;
+- exact reopening;
+- current continuity and conservation;
+- effective resistance;
+- four-projector completeness and orthogonality;
+- intrinsic-clock monotonicity;
+- compression-relic generator and semigroup;
+- dissipative-tail reciprocity limit;
+- covariance positivity in a representative arbitrary-precision branch.
 
-The record and limitations are in `modules/A/MODULE_A_WOLFRAM_VERIFICATION.md`.
+These checks do not establish downstream physical identities or empirical realization.
 
-`validation/validate_repo.py` has also been rewritten to check the repaired Module A repository state and finite algebraic examples. It is an integrity script, not a theorem or physical validation.
+## Active Module C frontier
 
-## Active Module B frontier
+Module C receives the sealed state
 
-Module B receives one sealed non-obstructed Module A branch and must derive:
+```text
+P_B->C(beta) =
+(G_B, Phi_B, J_B, T_B, S_B,
+ X_ord, X_rad, X_comp, X_tail,
+ Sym_B, Br_B, U_B, Sigma_B, M_B, A_B)
+```
 
-1. the branch-specific Big-Implosion law;
-2. the sole first physical event predicate;
-3. physical event order and intrinsic clock;
-4. dimensions and scale ancestry;
-5. the first manifested physical state;
-6. post-event dynamics;
-7. constraints and conservation;
-8. sector differentiation;
-9. uncertainty propagation and protected reopening;
-10. the complete preparticle B→C export.
+and must derive:
 
-The graph resolvent remains a valid compression/pregeometry component. It is not by itself Lorentzian spacetime or complete cosmogenesis.
+1. microscopic state space and probability law;
+2. internal symmetries and representations;
+3. particles, antiparticles, spin, statistics, chirality, and flavor;
+4. interaction, creation, annihilation, scattering, and decay laws;
+5. mass and scale generation;
+6. confinement or equivalent bound states, hadrons, and nucleons;
+7. radiative and neutrino identities;
+8. charge, matter-antimatter, CP-facing, and asymmetry structure;
+9. charge neutrality, baryon-photon state, and a complete prethermal export to Module D.
+
+Module C may not import measured particle tables, masses, couplings, mixings, lifetimes, asymmetries, or abundances.
 
 ## Governing rules
 
-- The module is the unit of work.
-- Every child consumes a sealed parent and may not reconstruct or retune it.
-- Every claim remains typed as `DIRECT`, `INHERITED`, `REPRESENTATION`, `METADATA`, `EXTERNAL`, `NEW-DERIVATION`, or `FORBIDDEN`.
-- Wolfram verifies or derives from authorized equations; it does not supply missing RFC physics.
-- Public observations enter only Module P after Module O freezes the universe.
-- Any mandatory normalized Module P component below `0.95` fails; no average may conceal it.
-- Do not revive RUN014 or any run-centered architecture.
+- Do not reopen or retune Modules A or B.
+- Every new claim retains its manuscript-source class.
+- Missing support is `NEW-DERIVATION`, not permission to import conventional physics.
+- Wolfram verifies authorized equations but does not supply missing RFC laws.
+- Public data enter only Module P after Module O freezes the universe.
+- Any mandatory Module P component below `0.95` fails; no average may conceal it.
+- Do not revive RUN014 or run-centered architecture.
 
 ## Exact next action
 
-Repair Module B in place from the sealed Module A export. Do not create another Module A plan, rerun Module A, or reopen its frozen science.
+Repair Module C in place from the sealed B→C state. Do not create another Module B plan or reopen the completed Big-Implosion theorem.
