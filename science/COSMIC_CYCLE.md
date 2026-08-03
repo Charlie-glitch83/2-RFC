@@ -2,64 +2,55 @@
 
 ## Big Implosion
 
-The First Action \(\mathrm{QV}(\mathrm{CIF})\to\mathrm{RFL}\) is prephysical. The Big Implosion is the first event in physical cosmological chronology.
-
-Define the candidate Big Implosion transition in cycle \(c\) by
+The First Action `QV(CIF) -> RFL_A^pre` is prephysical. Module B now establishes the Big Implosion as the sole first physical event type:
 
 \[
-\mathrm{BI}_c:\mathcal C_{N,c}\longmapsto P_{c,0},
+\mathrm{BI}_{B,\beta}:RFL_A^{\mathrm{pre}}
+\longrightarrow RFL_B^{\mathrm{phys}}.
 \]
 
-where \(P_{c,0}\in\mathsf P_D\) is the first physically typed state. Certification requires:
+For each admitted finite connected source branch, the strict-convexity law produces one unique manifested image, preserves the total carrier, opens physical event order, and generates the four common-ancestry genesis seeds.
 
-1. no member of \(\mathsf P_D\) precedes \(P_{c,0}\) within cycle \(c\);
-2. \(P_{c,0}\) is unique or its lawful equivalence class is uniquely specified;
-3. it satisfies the realized action/evolution law and all constraints;
-4. its units, uncertainty, and ancestry are explicit;
-5. all later physical sectors descend from it without double counting;
-6. dark-sector labels are earned by dynamics and observables, not assigned by projector names.
-
-The graph compression \(x^+=Qx^-\) may become part of \(\mathrm{BI}_c\), but it cannot constitute the full event until the realization obligations are met.
+This closes first-event genesis at finite-relational scope. It does not prove mature spacetime or terminal cycle closure.
 
 ## Big Rip
 
-In this theory's target cosmology, the Big Rip is not an optional late-time metaphor. It is the event that ends a universe.
+A Big-Rip-class result remains the required terminal event for canonical RFC closure. Module Q owns that proof.
 
-Let \(P_{c,\mathrm{rip}}\) be the terminal physical state/event in cycle \(c\). It must satisfy a model-derived terminal predicate \(\Theta_{\mathrm{rip}}\) and
-
-\[
-\nexists P\in\mathsf P_D
-\quad\text{such that}\quad
-P_{c,\mathrm{rip}}\prec P
-\quad\text{within the same cycle}.
-\]
-
-The terminal map is typed as
+The protected order is
 
 \[
-P_{c,\mathrm{rip}}
-\xrightarrow{\mathcal Q_{\rm mem}}
-M^{\rm qualified}_c
-\xrightarrow{\mathcal C_{\rm next}}
-\mathrm{CIF}_{c+1}
-\xrightarrow{\mathrm{QV}}
-\mathrm{RFL}_{c+1}
-\xrightarrow{\mathcal K,\mathcal L_N,\mathcal R_D}
-P_{c+1,0}.
+RFL_s^{\mathrm{manifest}}
+\to M_{\mathrm{rec},s}^{\mathrm{latent}}
+\to CIF_{s+1}^{\mathrm{eff}}
+\to RFL_{A,s+1}^{\mathrm{pre}}
+\xrightarrow{\mathrm{BI}_{B,s+1}}
+RFL_{B,s+1}^{\mathrm{phys}}.
 \]
 
-Qualified memory, next-cycle CIF, and next-cycle RFL are not the same type. The map must prove exactly what survives and what is discarded. The next Big Implosion is the first physical event of cycle \(c+1\); the CIF conditioning between cycles is prephysical.
+All states are distinct.
 
-## Required cyclic proof
+Module B exports only:
 
-A completed cycle theorem must prove:
+- the dissipative-tail seed and its dormant terminal interface;
+- the source-memory type distinction;
+- the lawful later-cycle source envelope;
+- the rule that Module B executes the next Big Implosion only after Module Q qualifies memory and Module A admits the next source.
 
-- existence and uniqueness/equivalence of the first physical event;
-- causal and dynamical evolution through admitted states;
-- existence of the Big Rip terminal event under stated conditions;
+Module B does not prove a Big Rip, qualify terminal memory, or execute an external reset.
+
+## Remaining cyclic proof
+
+The later chain must still prove:
+
+- lawful evolution of the complete manifested universe;
+- a finite-time, effective, or asymptotic Big-Rip-class terminal result;
 - absence of later same-cycle physical states;
-- a loss-audited memory qualification map;
-- lawful construction of the next conditioned CIF;
-- restart without making the new Big Implosion identical to the old state.
+- route-resolved dissolution;
+- qualified latent-memory construction;
+- a distinct next effective CIF;
+- authorization of the next prephysical First Action and physical Big Implosion;
+- no exact-copy or memory-erasure recurrence;
+- no Module P or public-data backflow.
 
-Until those propositions are established, the cycle is the project's precise target theorem rather than a completed cosmological result.
+One completed first-event theorem does not prove indefinite recurrence.
