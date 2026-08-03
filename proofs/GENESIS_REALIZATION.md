@@ -1,90 +1,160 @@
-# Active Proof: Genesis Realization
+# Module B Frontier: Genesis Realization from the Frozen Module A Parent
 
 ## Purpose
 
-Construct the first noncircular map from the completed abstract carrier \(\mathcal C_N\) to a physically typed state. This proof owns the boundary between the terminal kernel and the Big Implosion.
+Module A is complete and frozen. This proof file now owns the Module B task of deriving the first physical state from the sealed Module A export.
 
-## Current theorem frontier
-
-The positive graph metric and resolvent already derived in 1RFC can supply spatial/pregeometric compression, but they cannot supply causal signature or physical time alone. RUN 006 supplies an append-only protected signature containing event ancestry; it also explicitly states that kernel depth measures inherited influence dispersion and is not physical time. Therefore kernel depth \(j\) cannot lawfully be repurposed as event succession.
-
-Bridge Lemma 1 below extracts the order that the admitted source actually earns: immutable construction ancestry. Causal Enrichment Lemma 2 owns the still-open promotion from ancestry to physical causal precedence.
-
-## Bridge Lemma 1 — append-only ancestry order
-
-### Candidate construction
-
-Represent every prephysical carrier event by
+The boundary is
 
 \[
-e=(c,a,\rho,b,\sigma),
+RFL_A^{\mathrm{pre}}
+\xrightarrow{\mathrm{BI}_B}
+RFL_B^{\mathrm{phys}}.
 \]
 
-where \(c\in\mathbb N\) is cycle index, \(a\in\mathbb N\) is append-only ancestry rank, \(\rho\) is a witnessed route identifier, \(b\) is branch identity, and \(\sigma\) is the protected no-loss signature. The rank \(a\) is ledger/derivation order, not kernel depth \(j\) and not physical duration.
-
-Admit a directed edge \(e\to e'\) only if:
-
-1. the source and target signatures pass the witness and no-loss predicates;
-2. the child packet is appended after its immutable parent and carries the parent's identifier in its protected event ancestry;
-3. either \(c'=c\) and \(a'>a\), or a certified terminal-memory transition has occurred and \(c'=c+1\);
-4. a cross-cycle edge terminates physical ancestry in cycle \(c\), passes through a prephysical qualified-memory/CIF state, and begins a new carrier in cycle \(c+1\).
-
-Define \(e\prec_0 e'\) when an admitted edge exists and \(e\prec e'\) by nonempty directed reachability.
-
-### Proof obligation
-
-Prove, without using Newtonian or cosmological time, that:
-
-- \(\prec\) is irreflexive and transitive;
-- witness/no-loss signatures are preserved along every path;
-- finite \(N\), finite admitted branching, and bounded depth intervals give local finiteness;
-- the construction does not make kernel depth or ancestry rank identical to eventual physical duration;
-- the cross-cycle rule does not place the next CIF inside the old cycle's physical event set.
-
-### Proof draft
-
-RUN 006 defines return memory as an append-only typed ledger and includes event ancestry in the protected signature. Give every newly appended packet the next ancestry rank and assign each carrier event the lexicographic rank \(r(e)=(c,a)\). Every admitted same-cycle parent-child edge strictly increases \(a\); every admitted cross-cycle ancestry edge strictly increases \(c\). Therefore every directed path strictly increases lexicographic rank. A nonempty path from \(e\) to itself would require \(r(e)<r(e)\), impossible, so reachability is irreflexive. Concatenation of nonempty paths proves transitivity.
-
-Each edge is admitted only after its protected signature passes the witness/no-loss predicate. Induction on path length preserves the signature ancestry along finite paths. If the number of admitted routes and branches at each event is finite and only finitely many integer ancestry ranks lie between two ranks, the interval \(\{z:e\prec_A z\prec_A e'\}\) is finite.
-
-The rank proves ancestry, not duration: no map from \(a\), kernel depth \(j\), or cycle index \(c\) to seconds has been defined. The qualified-memory and conditioned-CIF objects are explicitly outside \(\mathsf P_D\); a cross-cycle carrier edge records derivational ancestry but is not a later physical event in the terminated cycle.
-
-### Current status
-
-`PROVED_AS_ANCESTRY_ORDER`.
-
-The source review resolves the earlier open issue: kernel depth is not event succession, so a strict-kernel-depth rule would be a new and invalid type identification. Append-only event ancestry supports the theorem above, but ancestry alone is not yet physical causality.
-
-## Causal Enrichment Lemma 2 — active
-
-Let \(\prec_A\) be the proved ancestry order. Derive a source-owned witness predicate \(W_{\rm causal}(e,e')\), independent of public targets, and define
+The First Action and Big Implosion remain distinct:
 
 \[
-e\prec_C e'
-\quad\Longleftrightarrow\quad
-e\prec_A e'
-\ \text{and}\ 
-W_{\rm causal}(e,e')=\mathrm{PASS}.
+\mathrm{QV}(\mathrm{CIF})\to RFL_A^{\mathrm{pre}},
+\qquad
+\mathrm{BI}_B:RFL_A^{\mathrm{pre}}\to RFL_B^{\mathrm{phys}}.
 \]
 
-The witness must come from the realized QV/domain law and establish the discrete analogue of causal admissibility, including compatibility with the governing evolution, locality or declared nonlocality, constraint propagation, and branch ancestry. Because a subset of an acyclic ancestry relation remains acyclic, the mathematical order is inherited; the missing proof is why the selected edges have **physical causal meaning**.
+Module A supplies the complete prephysical relational constitution. Module B must derive physical causality, physical variables, scale, conservation, geometry, and chronology from that immutable parent without rewriting it.
 
-RUN 006 explicitly generates candidate event branches from a declared domain law. Therefore R1 and R4 are coupled: the causal witness cannot be completed before the governing physical law is derived, and the law cannot use an undeclared clock or geometry. The next derivation must construct these together rather than label an ancestry edge “causal.”
+---
 
-## Realization obligations R1–R9
+## 1. Frozen Module A input
 
-| ID | State | Current evidence | Exact missing item |
-|---|---:|---|---|
-| R1 | ACTIVE | Bridge Lemma 1 proves append-only ancestry order; graph-resistance insufficiency theorem proved | QV/domain-law causal witness and physical interpretation |
-| R2 | OPEN | Dimensionless kernel and graph operators typed | Derive scale map or prove the minimal external unit convention |
-| R3 | OPEN | Abstract carrier state only | Define physically dimensioned state variables |
-| R4 | ACTIVE_WITH_R1 | Graph resolvent is a candidate map; RUN 006 requires a declared domain law | Derive action/generator, allowed histories, and the causal witness jointly |
-| R5 | OPEN | Graph total-mode preservation | Derive constraints/conservation from R4 |
-| R6 | OPEN | Finite-N and zero-backreaction refinement | Prove graph/carrier refinement or declared finite validity regime |
-| R7 | OPEN | None admitted | Define observer/instrument maps before target inspection |
-| R8 | OPEN | No-target rule frozen | Predeclare CIF/QV/RFL, depth, memory, and carrier ablations |
-| R9 | OPEN | Big Implosion/Big Rip predicates specified | Prove unique first and terminal physical events |
+Module B receives one admitted non-obstructed Module A branch
 
-## Exit gate
+\[
+A^*_eta=(
+CIF_A,
+K_A,
+\delta,
+\alpha,
+\mathbf C_N,
+L_N,
+[r]_eta,
+W_\beta,
+E_\beta,
+\sigma_{\mathrm{prot},\beta},
+M_\beta,
+\Pi_\beta,
+\Sigma_\beta
+).
+\]
 
-This proof closes only when R1–R9 are `PROVED` or `NOT_APPLICABLE_WITH_PROOF`, an independent derivation reproduces the critical results, and no physical primitive appears upstream of its declared realization.
+The input contains no physical clock, metric, stress-energy tensor, particle catalogue, or public observational target.
+
+The branch must satisfy the admissibility conditions in `modules/A/MODULE_A_TO_B_SCIENTIFIC_HANDOFF.md`. An empty admissible branch set is a genesis obstruction, not permission to fabricate a universe.
+
+---
+
+## 2. Preserved ancestry theorem
+
+Module A's append-only event ancestry is inherited as provenance order.
+
+Represent a protected carrier event as
+
+\[
+e=(c,a,[r],b,\sigma_{\mathrm{prot}}),
+\]
+
+where \(c\) is cycle index and \(a\) is append-only ancestry rank. Every admitted parent-child edge strictly increases the lexicographic rank \((c,a)\). Reachability is therefore irreflexive and transitive.
+
+This establishes ancestry only. Neither \(a\), kernel depth \(j\), nor cycle index is physical duration.
+
+---
+
+## 3. Module B physical realization obligations
+
+Module B must derive, from the frozen parent and its own authorized source laws:
+
+| ID | Required physical result | Exact obligation |
+|---|---|---|
+| B1 | Big Implosion event law | Derive the branch-specific physical realization map rather than relabeling the parent |
+| B2 | First physical order and clock | Show how physical event succession begins at the Big Implosion |
+| B3 | Dimensions and scale ancestry | Derive every dimensionful scale or state the minimal authorized unit convention |
+| B4 | Physical state variables | Define the first manifested geometry, fields, currents, sectors, and uncertainty |
+| B5 | Evolution/action law | State the law selecting physical histories after the event |
+| B6 | Constraints and conservation | Derive and verify all balance or conservation identities |
+| B7 | Refinement and finite validity | Prove refinement/continuum behavior or declare a finite certified regime |
+| B8 | Sector differentiation | Derive sector projectors and discriminants without naming mature cosmological substances prematurely |
+| B9 | Child boundary | Export one complete preparticle physical universe to Module C |
+
+These are Module B obligations. They are no longer described as unfinished Module A carrier work.
+
+---
+
+## 4. Big-Implosion candidate law
+
+For an admitted branch \(\beta\), construct the directed relation matrix \(W_\beta\) from witnessed Module A lanes. Preserve the full directed matrix and derive its symmetric conductance shadow
+
+\[
+C_\beta=W_\beta+W_\beta^{\mathsf T},
+\qquad
+L_\beta=D_\beta-C_\beta.
+\]
+
+With
+
+\[
+\ell_\delta=\frac{1}{\delta-1},
+\]
+
+define the candidate compression map
+
+\[
+Q_{\mathrm{imp},\beta}
+=(I+\ell_\delta L_\beta)^{-1},
+\qquad
+x^+_\beta=Q_{\mathrm{imp},\beta}x^-_\beta.
+\]
+
+Equivalently, \(x^+_\beta\) minimizes
+
+\[
+S_{\mathrm{imp}}[y]
+=\frac12\|y-x^-_\beta\|^2
++\frac{\ell_\delta}{2}y^{\mathsf T}L_\beta y.
+\]
+
+For a fixed finite connected admitted branch, this gives a regular unique compressed image, preserves the constant mode, contracts nonconstant Laplacian modes, and permits exact informational reopening
+
+\[
+x^-_\beta=(I+\ell_\delta L_\beta)x^+_\beta.
+\]
+
+These algebraic properties do not by themselves prove Lorentzian spacetime or physical causality. Module B must derive the additional physical typing and dynamics.
+
+---
+
+## 5. Active physical frontier
+
+The exact next work is to complete the Big-Implosion theorem at its stated scope by joining the compression law to:
+
+- the source-owned causal/event witness;
+- intrinsic physical event progression;
+- scale and dimensional emergence;
+- physical state variables;
+- governing post-event evolution;
+- conservation and constraints;
+- sector differentiation;
+- uncertainty propagation;
+- the B→C preparticle export.
+
+No public data, observed particle inventory, standard cosmology, or fitted target may fill a missing physical law.
+
+---
+
+## 6. Claim boundary
+
+This file does not reopen Module A and does not claim that graph compression alone is cosmogenesis.
+
+It records the proper scientific frontier:
+
+> Given one sealed non-obstructed Module A branch, Module B must derive and certify the Big Implosion as the sole first physical event and generate the first conservation-complete physical RFL state while preserving the full directed ancestry and protected parent information.
+
+Until B1–B9 are proved, Module B remains active. Module A remains complete and frozen.
