@@ -3,13 +3,8 @@
 ## Current state
 
 ```text
-Module A: COMPLETE_AND_FROZEN
-Module B: COMPLETE_AND_FROZEN
-Module C: COMPLETE_AND_FROZEN
-Module D: COMPLETE_AND_FROZEN
-Module E: COMPLETE_AND_FROZEN
-Module F: COMPLETE_AND_FROZEN
-Module G: ACTIVE
+Modules A–G: COMPLETE_AND_FROZEN
+Module H^U: ACTIVE
 ```
 
 ## Nonnegotiable universe-derivation rule
@@ -31,63 +26,62 @@ Every later module is a domain specialization of that same kernel. No module may
 9. Wolfram integration revision
 10. exact sources named by the trace
 
-For Module G, read first:
+For Module H^U, read first:
 
 ```text
-science/POST_NUCLEAR_PLASMA.md
-proofs/POST_NUCLEAR_PERSISTENCE.md
-modules/F/MODULE_F_WOLFRAM_VERIFICATION.md
-modules/F/MODULE_F_TO_G_SCIENTIFIC_HANDOFF.md
-modules/G/MODULE_G_TRIAD_KERNEL_DERIVATION_LOCK.md
-modules/G/MODULE_G_DETAILED_SCIENTIFIC_REPAIR_PLAN.md
-modules/G/MODULE_G_MANUSCRIPT_SOURCE_TRACEABILITY.md
-modules/G/MODULE_G_WOLFRAM_INTEGRATION_REVISION.md
+science/NONEQUILIBRIUM_RECOMBINATION.md
+proofs/NONEQUILIBRIUM_RECOMBINATION.md
+modules/G/MODULE_G_WOLFRAM_VERIFICATION.md
+modules/G/MODULE_G_TO_H_SCIENTIFIC_HANDOFF.md
+modules/H/MODULE_H_TRIAD_KERNEL_DERIVATION_LOCK.md
+modules/H/MODULE_H_DETAILED_SCIENTIFIC_REPAIR_PLAN.md
+modules/H/MODULE_H_MANUSCRIPT_SOURCE_TRACEABILITY.md
+modules/H/MODULE_H_WOLFRAM_INTEGRATION_REVISION.md
 ```
 
-## Completed Module F result
+## Completed Module G result
 
-Module F now installs:
+Module G now installs:
 
-- immutable consumption of the complete E→F parent;
-- explicit post-nuclear CIF/QV/RFL specialization of the enhanced Module A kernel;
-- finite positive normalized post-nuclear evolution;
-- exact stable-composition persistence except through witnessed events;
-- residual-reaction and late-decay continuation;
-- generated physical-time, conformal-time, scale, background, density, pressure, entropy, and sector-temperature histories;
-- lawful kinetic, moment, multifluid, fluid, and background reductions with reopening;
-- relational Gauss-law charge closure;
-- plasma response, screening, collective modes, conductivity, diffusion, viscosity, conduction, and drag;
-- photon spectral and neutrino/flavor persistence;
-- reciprocal electron-ion-radiation-field energy and momentum exchange;
-- generated equation of state, sound, opacity, redistribution, tight-coupling, diffusion, and damping seeds;
-- perturbation, field, spatial, and authorized dark-sector continuity;
-- atomic-candidate Hamiltonians, bound-state and transition seed registries;
-- no-loss atomic promotion and ionization reopening;
-- internally generated atomic readiness and a complete recombination-entry surface;
-- covariance, branch, memory, ancestry, convergence, and restart closure;
-- the complete restartable `P_F->G` state.
+- immutable consumption of the complete F→G parent;
+- explicit atomic-radiative CIF/QV/RFL specialization of the enhanced Module A kernel;
+- finite positive normalized atom-photon evolution;
+- generated atomic, ionic, continuum, and transition registries;
+- common-source forward/reverse rates and equilibrium-limit closure;
+- nonequilibrium hydrogen-, helium-, deuterium-, and material light-element histories;
+- exact nuclear-identity, charge, energy, momentum, probability, branch, memory, and ancestry ledgers;
+- generated free-electron and thermal histories;
+- frequency-, angle-, polarization-, and route-resolved radiation transport;
+- exact finite line escape, redistribution, feedback, two-photon, forbidden, metastable, continuum, and collisional flow;
+- process-resolved opacity and integrated optical depth;
+- raw visibility with explicit boundary mass and conditionally normalized primordial visibility;
+- a finite photon last-scattering probability structure;
+- a distinct baryon-drag history and release structure;
+- generated diffusion, viscosity, conduction, damping, temperature, and polarization source histories;
+- recombination radiation and intrinsic spectral distortions;
+- perturbation-dependent recombination response;
+- adaptive completeness, covariance, signatures, restart, and the complete `P_G->H^U` state.
 
-## Exact Module F boundary
+## Exact Module G boundary
 
-Module F is complete only at finite-relational, internal-unit, generated-plasma scope. It does not claim measured atomic/plasma coefficients, public recombination-code agreement, a public recombination coordinate, full atomic population evolution, integrated optical depth, normalized visibility, last scattering, baryon-drag release, the physical CMB surface, or empirical confirmation.
+Module G is complete only at finite-relational, internal-unit, generated atomic-radiative scope. It does not claim measured atomic precision, public recombination-code agreement, final angular CMB spectra, matter transfer functions, mature distance/horizon observables, late astrophysical reionization, nonlinear secondary anisotropies, lensing, or empirical confirmation.
 
-## Active Module G frontier
+## Active Module H^U frontier
 
-Module G consumes the sealed `P_F->G` background, composition, ionic seed, electron, positron, photon, neutrino, temperature, chemical, plasma, opacity, drag, sound, diffusion, damping, atomic, transition, residual, perturbation, field, dark, entropy, covariance, memory, ancestry, and restart state.
+Module H^U receives the sealed recombination-resolved source packet and must construct the universal background-parameterized linear perturbation and transfer operator. It must preserve Module G ionization, opacity, optical-depth, visibility, drag, diffusion, damping, polarization-source, recombination-radiation, perturbation-response, covariance, memory, and ancestry state.
 
-It must derive complete nonequilibrium atomic populations and radiative transfer, the free-electron and thermal histories, process-resolved opacity, differential and integrated optical depth, normalized visibility, distinct photon last-scattering and baryon-drag structures, recombination radiation and spectral distortions, perturbation response, and the complete transfer-source export to Module H.
+It must not select the realized background that belongs to Module I. Its output is a frozen operator and admissible-background domain that Module H[I] later instantiates without redesign or retuning.
 
 ## Governing rules
 
-- Do not reopen or retune Modules A-F.
-- Do not import a public ionization history, optical-depth curve, visibility template, recombination redshift, or CMB normalization.
+- Do not reopen or retune Modules A–G.
+- Do not import a public cosmological background, Boltzmann output, CMB spectrum, matter spectrum, primordial spectrum, transfer function, or observed normalization.
 - Preserve every branch unless a physical equivalence theorem closes it.
 - Preserve active/dormant terminal N-body carrier information.
 - Preserve route, event, uncertainty, memory, promotion, reopening, and ancestry.
-- Recursive entropy is not atomic opacity or an ionization rate.
 - Public data enter only Module P.
 - Any mandatory Module P component below `0.95` fails and cannot be hidden by averaging.
 
 ## Exact next action
 
-Repair Module G in place from the sealed Module F export.
+Repair Module H^U in place from the sealed Module G export.
