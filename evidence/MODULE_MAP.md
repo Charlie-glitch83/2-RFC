@@ -1,29 +1,59 @@
-# A–Q Module Map Compressed to the Proof Spine
+# A–Q Scientific Module Map
 
-The 17 detailed plans remain source research programs; they are not 17 simultaneously active execution contexts.
+The module is the work unit. Each child consumes a sealed parent state and preserves the frozen Module A carrier.
 
-| Original module | Scientific ownership | New milestone |
+| Module | Scientific ownership | Current state |
 |---|---|---:|
-| A | Triad, kernel, abstract relational/N-body carrier | M1–M2 |
-| B | Big Implosion, first physical state, sector genesis | M3–M4 |
-| C | Particle, gauge, mass, binding, decay, baryon/lepton structure | M5 |
-| D | Early nonequilibrium thermal, transport, reaction history | M5 |
-| E | Physical BBN network and primordial abundances | M5 |
-| F | Plasma/radiation evolution toward recombination | M5 |
-| G | Nonequilibrium recombination and visibility history | M5 |
-| H | Boltzmann hierarchy and transfer architecture | M5 |
-| I | Geometry, background expansion, dark-sector dynamics | M4–M5 |
-| J | Linear spectra, growth, and distance observables | M5 |
-| K | Nonlinear gravity, halos, cosmic web, lensing | M5 |
-| L | Star formation, stellar populations, feedback | M5 |
-| M | Stellar nucleosynthesis, chemistry, enrichment | M5 |
-| N | Assembled observer-ready universe and cross-domain consistency | M5 |
-| O | Freeze predictions and generation lineage | M7 |
-| P | Preregistered public validation and independent replay | M7 |
-| Q | Big Rip, terminal memory qualification, next conditioned CIF | M6 |
+| A | Ordered triad; First Action; recursive kernel; finite-N relational completion; witnesses; routes; event alternatives; no-loss memory; promotion/reopening; dormancy; uncertainty; immutable inheritance | **COMPLETE_AND_FROZEN** |
+| B | Big Implosion; sole first physical event; first physical clock; first geometry, fields, currents and sector seeds; conservation; preparticle export | **ACTIVE** |
+| C | Microscopic fields, particles, interactions, masses, hadrons, nucleons, radiation carriers, neutrinos, asymmetry and baryon-photon seed | Blocked by B |
+| D | Nonequilibrium thermal history, transport, transitions, freeze-out, neutrino kinetics and nuclear readiness | Blocked |
+| E | Primordial isotope-resolved nuclear network and abundances | Blocked |
+| F | Post-nuclear plasma, radiation, opacity, perturbation and atomic-readiness evolution | Blocked |
+| G | Nonequilibrium recombination, optical depth, visibility, drag, damping and CMB surface | Blocked |
+| H^U | Frozen universal multi-species linear operator, modes, hierarchies, gauges, collision terms and solution forms | Blocked |
+| I | Realized RFC background geometry, expansion, causal structure, distances, horizons and background uncertainty | Blocked |
+| H[I] | Immutable insertion of the I background into the frozen H operator | Blocked |
+| J | Primordial covariance, transfer composition, linear spectra, growth and nonlinear-ready fields | Blocked |
+| K | Nonlinear gravity, phase space, collapse, halos, web/voids, metric, lensing and lightcones | Blocked |
+| L | Hydrodynamics, MHD, thermochemistry, radiation, star formation/evolution, remnants and feedback | Blocked |
+| M | Stellar/explosive nucleosynthesis, radioactive descendants, enrichment, dust and composition feedback | Blocked |
+| N | One causally, conservatively and genealogically assembled observer-ready manifested universe | Blocked |
+| O | Immutable freeze, restoration, restart, scientific identity and branch isolation | Blocked |
+| P | Read-only observation operators, instruments, statistics, public comparison, falsification and replication | Blocked |
+| Q | Isolated terminal continuation, Big-Rip-class closure, route dissolution, latent memory and next-CIF conditioning | Blocked |
 
-## Dependency rule
+## Module A export
 
-M3 is a hard cut. No downstream numerical realism can repair a missing physical-realization map. Once M3 and M4 close, work may advance through a minimal end-to-end universe before maximum realism, but every admitted physical lane must supply its actual equation, solver, limits, uncertainty, and observables.
+The frozen Module A carrier contains:
 
-The N-body carrier is inherited by all later milestones. Where a domain realizes many-body interaction it is active; otherwise it remains a typed dormant carrier with zero contribution and zero backreaction, while ancestry is preserved.
+```text
+triadic source and First Action
+recursive kernel and certified bounds
+finite constituent and directed-lane identities
+route classes and local witnesses
+event and branch state
+protected no-loss signature
+identity-preserving memory
+promotion and reopening
+activation/dormancy state
+uncertainty, provenance and falsifiers
+```
+
+The N-body machinery completes the terminal kernel once. Later modules do not re-add it.
+
+Where a later domain derives a lawful many-body specialization, the carrier is active. Where it does not, the specialization remains present, information-bearing, dormant, zero-output and zero-backreaction.
+
+## Direct scope boundary
+
+The N-body manuscript directly supports finite-N Newtonian dynamics at its stated scope. Module A extracts and freezes the reusable relational grammar. It does not silently impose Newtonian point-mass equations on cosmology, quantum fields, fluids, stars, observers, or any other later domain.
+
+## Current dependency
+
+```text
+Module A complete and frozen
+-> sealed A→B handoff
+-> Module B Big-Implosion and first-physical-state repair
+```
+
+No downstream numerical realism or public comparison may repair a missing Module B law.
