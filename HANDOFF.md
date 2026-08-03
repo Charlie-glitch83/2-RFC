@@ -9,22 +9,28 @@ Read, in order:
 3. `PLAN.md`
 4. `proofs/GENESIS_REALIZATION.md`
 
+Before changing the architecture or claiming A-Q completion, read:
+
+5. `assessments/2RFC_A_Q_MODULE_REPAIR_ASSESSMENT.md`
+
+That assessment records the module-by-module repair map, the valid work to preserve, the missing scientific architecture, and the recommended repository-memory structure. Use it instead of reconstructing the audit from chat history.
+
 Then run:
 
 ```bash
 python validation/validate_repo.py
 ```
 
-If it passes, perform the `exact_next_action` from `STATE.json`. Do not redesign the repository before doing the science.
+If it passes, perform the `exact_next_action` from `STATE.json`. Do not redesign the repository before doing the science unless the repair assessment identifies the current plan itself as the object being corrected.
 
 ## What to edit
 
-- Put the actual derivation in `proofs/GENESIS_REALIZATION.md`.
+- Put the actual derivation in `proofs/GENESIS_REALIZATION.md` while the current branch remains an audit/foundation branch.
 - Add a minimal independent check under `validation/` only when it tests a stated proposition.
 - Change `STATE.json` only after the proposition and its check agree.
-- Update `PLAN.md` only when a milestone exit gate changes.
+- Update `PLAN.md` only through an explicit architecture-repair decision informed by the A-Q repair assessment.
 
-No additional state files, run folders, context packets, authority mirrors, planning engines, or recovery trees are permitted. Git history already preserves change history.
+Avoid duplicate machine states and redundant context caches. Evidence-bearing run packets, exact source authorities, recovery objects, and quarantine records may be added when required by the repaired canonical architecture.
 
 ## Stop conditions
 
@@ -52,4 +58,4 @@ Do not add automatic disclaimers that undersell a proved theorem. Do not turn a 
 
 ## Current scientific judgment
 
-The correct next move is not another cosmology simulation. Bridge Lemma 1 already proves an append-only ancestry order, while source review proves kernel depth cannot be used as an event clock. The next move is Causal Enrichment Lemma 2: derive a QV/domain-law witness that promotes selected ancestry edges to physical causal precedence. The N-body manuscript contributes a powerful carrier grammar, but its Newtonian witness specialization already presupposes physical structure. The abstract carrier can sit at the terminal kernel; Newtonian and cosmological realizations occur only afterward.
+The current branch contains valuable source, type, kernel, ancestry, graph-limitation, and add-body corrections, but it is not a completed A-Q universe proof. The repair assessment is the durable authority for deciding what to preserve and what to rebuild. The next canonical action is to install and hash-verify the exact architecture, module plans, and clean RUN 001-013 boundary before choosing the next scientific run.
