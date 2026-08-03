@@ -10,45 +10,54 @@ The module is the work unit. Each child consumes a sealed parent and preserves f
 | D | Nonequilibrium thermal history, transport, phase evolution, freeze-out, nuclear readiness | **COMPLETE_AND_FROZEN** |
 | E | Primordial isotope-resolved nuclear reaction history and post-nuclear export | **COMPLETE_AND_FROZEN** |
 | F | Post-nuclear plasma persistence, opacity/transport seeds, and recombination readiness | **COMPLETE_AND_FROZEN** |
-| G | Nonequilibrium atomic recombination and the physical primordial CMB surface | **ACTIVE** |
-| H^U-Q | Remaining generated universe, freeze, testing, and terminal continuation | Blocked |
+| G | Nonequilibrium atomic recombination and physical primordial CMB surface | **COMPLETE_AND_FROZEN** |
+| H^U | Background-parameterized universal linear Boltzmann/transfer operator | **ACTIVE** |
+| I | Mature realized RFC background and geometry | Blocked by H^U |
+| H[I] | Immutable instantiation of the frozen H operator on the Module I background | Blocked |
+| J–Q | Remaining generated universe, freeze, testing, and terminal continuation | Blocked |
 
-## Frozen Module F export
+## Frozen Module G export
 
-For every admitted branch `(beta,gamma,delta,epsilon,phi)`, Module F exports
+For every admitted branch `(beta,gamma,delta,epsilon,phi,psi)`, Module G exports
 
 ```text
-P_F->G =
-(G_F,Coord_F,Bkg_F,Comp_F,IonSeed_F,Electron_F,Positron_F,
- Photon_F,Neutrino_F,Temp_F,Chem_F,Plasma_F,OpacitySeed_F,
- DragSeed_F,Sound_F,Diffusion_F,Damping_F,Atomic_F,Transition_F,
- Residual_F,Pert_F,Field_F,Dark_F,Entropy_F,Sigma_F,Memory_F,
- Ancestry_F,Restart_F)
+P_G->H^U =
+(Coord_G,Bkg_G,IonHist_G,LevelHist_G,ElectronHist_G,ProtonHist_G,
+ Photon_G,Polarization_G,Temp_G,TransitionHist_G,RadTransfer_G,
+ Opacity_G,dotTau_G,Tau_G,Visibility_G,LastScattering_G,
+ Drag_G,DragSurface_G,Slip_G,Sound_G,Diffusion_G,Viscosity_G,
+ Conduction_G,Damping_G,Source_G,RecombRad_G,SpectralDist_G,
+ PertResponse_G,SVTSeed_G,MetricInterface_G,Dark_G,Field_G,
+ Entropy_G,Sigma_G,Conservation_G,Memory_G,Ancestry_G,Restart_G)
 ```
 
 This state contains:
 
-- generated time, scale, internal redshift-like, density, pressure, and entropy histories;
-- persistent isotope-resolved composition and covariance;
-- residual reaction and late-decay schedules;
-- full electron, positron, photon, neutrino, ion, plasma, field, and temperature states;
-- charge and chemical-potential closure;
-- plasma response, conductivity, diffusion, viscosity, conduction, collective-mode, and damping operators;
-- opacity, redistribution, drag, sound, diffusion, and damping seeds;
-- atomic-candidate, level, continuum, and transition seed registries;
-- atomic promotion and ionization reopening maps;
-- recombination-entry surface and witnesses;
-- perturbation, spatial, authorized dark, entropy, memory, ancestry, uncertainty, and restart states.
+- generated physical/conformal time, scale, temperature, and internal redshift-like histories through primordial recombination;
+- atomic/ionic charge and level histories for hydrogen-role, helium-role, deuterium-role, and every material light-element carrier;
+- free-electron and free-proton histories;
+- frequency-, angle-, polarization-, and route-resolved photon state;
+- transition and radiative-transfer histories;
+- process-resolved opacity, differential/integrated optical depth, and normalized visibility;
+- finite photon last-scattering and distinct baryon-drag probability structures;
+- slip, sound, diffusion, viscosity, conduction, and damping histories;
+- temperature and polarization source ingredients;
+- recombination radiation and intrinsic spectral distortions;
+- perturbation-dependent recombination response and active scalar/vector/tensor interfaces;
+- dark/field permissions or witnessed zero-backreaction;
+- covariance, conservation, entropy, memory, ancestry, and restart state.
 
-It does not contain a solved nonequilibrium recombination history, integrated optical depth, visibility, last-scattering surface, baryon-drag surface, observed CMB normalization, or empirical validation.
+It does not contain a completed universal linear transfer operator, realized Module I background, final CMB spectra, matter transfer functions, observed normalization, or empirical validation.
 
 ## Exact dependency
 
 ```text
-Modules A-F complete and frozen
--> sealed P_F->G recombination-ready state
--> Module G nonequilibrium atomic/radiative derivation
--> Module H transfer-source state
+Modules A-G complete and frozen
+-> sealed P_G->H^U recombination/transfer-source state
+-> Module H^U universal background-parameterized linear operator
+-> Module I realized background
+-> immutable H[I] instantiation
+-> Module J realized primordial covariance and spectra
 ```
 
-Module G may refine atomic candidates and evolve populations, radiation transfer, opacity, and decoupling. It may not reconstruct or replace the frozen post-nuclear plasma parent.
+Module H^U may construct and verify the universal operator over an admissible background domain. It may not select or import the realized RFC background, primordial spectrum, public transfer functions, observed spectra, or normalization.
