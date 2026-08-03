@@ -16,9 +16,11 @@ Read:
 12. `modules/E/MODULE_E_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
 13. `modules/E/MODULE_E_TO_F_SCIENTIFIC_HANDOFF.md`
 14. `modules/F/MODULE_F_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
-15. the exact library plan for the active module
-16. the existing 2-RFC module being repaired
-17. the valid scientific source material named for that module
+15. `modules/F/MODULE_F_TO_G_SCIENTIFIC_HANDOFF.md`
+16. `modules/G/MODULE_G_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
+17. the exact library plan for the active module
+18. the existing 2-RFC module being repaired
+19. the valid scientific source material named for that module
 
 ## Governing method
 
@@ -49,37 +51,35 @@ completed Module A
 -> repaired Module E
 -> MODULE_E_TO_F_SCIENTIFIC_HANDOFF
 -> repaired Module F
--> future MODULE_F_TO_G_SCIENTIFIC_HANDOFF
--> future detailed Module G repair plan
+-> MODULE_F_TO_G_SCIENTIFIC_HANDOFF
+-> repaired Module G
+-> future MODULE_G_TO_H_SCIENTIFIC_HANDOFF
+-> future detailed Module H repair plan
 ```
 
-The A→B handoff distinguishes:
+The A→B handoff distinguishes prephysical RFL from the first physically manifested RFL and prevents the First Action from being conflated with the Big Implosion.
 
-- prephysical `RFL_A^pre` from physical `RFL_B^phys`;
-- the First Action from the Big Implosion;
-- Module A ancestry from Module B physical event time;
-- the full directed carrier from the symmetrized compression shadow;
-- an admitted non-obstructed genesis branch from a fabricated universe.
+The B→C handoff defines the complete preparticle parent state and requires Module C to derive particles, fields, masses, symmetries, interactions, probabilities, composites, and prethermal composition.
 
-The B→C handoff defines the complete preparticle parent state and requires Module C to derive particles, fields, masses, symmetries, interactions, probabilities, composites, and prethermal composition without importing measured microscopic values.
+The C→D handoff requires Module D to derive the thermal chronology from the complete microscopic parent instead of reconstructing particle physics.
 
-The C→D handoff defines the complete microscopic and prethermal parent state and requires Module D to derive the thermal chronology rather than reconstruct particle physics or import conventional early-universe initial conditions.
+The D→E handoff defines the complete nuclear-ready plasma and requires Module E to derive the full isotope-resolved reaction history.
 
-The D→E handoff defines the complete nuclear-reaction-ready plasma and requires Module E to derive isotope identities, nuclear properties, reaction routes, reverse rates, deuterium-bottleneck release, abundance trajectories, freeze-out, and post-nuclear composition rather than importing a conventional BBN history or target abundance vector.
+The E→F handoff preserves the complete post-nuclear composition and requires Module F to evolve the actual plasma to a physically witnessed recombination-entry surface.
 
-The E→F handoff defines the complete isotope-resolved post-nuclear state and requires Module F to preserve primordial composition, continue residual reactions and late decays, evolve the post-nuclear plasma, photons, neutrinos, ions, perturbations, opacity, and atomic readiness without importing a standard post-BBN or recombination history.
+The F→G handoff defines the complete recombination-ready plasma and requires Module G to derive nonequilibrium atomic populations, radiative transfer, free-electron history, opacity, optical depth, visibility, drag, diffusion, damping, recombination radiation, and the finite physical CMB surface without importing a public recombination history.
 
-The Module F plan is built from:
+The Module G plan is built from:
 
 - the repository's detailed gap-to-library repair plan;
-- the detailed Module E plan;
-- the sealed E→F handoff;
-- the exact Module F library plan;
-- the Module G library plan as the downstream recombination boundary;
-- applicable Presentation 29 and Presentation 30 post-BBN, plasma, atomic-readiness, and opacity science;
-- earlier weighted persistence work only at its exact candidate scope;
-- N-body route, event, promotion, memory, and obstruction grammar only after a physical plasma or atomic mapping is proved.
+- the detailed Module F plan;
+- the sealed F→G handoff;
+- the exact Module G library plan;
+- the Module H library plan as the downstream linear-transfer boundary;
+- applicable Presentation 29 and Presentation 30 recombination, CMB-seed, opacity, recursive-memory, and transfer-facing science;
+- symbolic transparency work only as a historical diagnostic, not as atomic physics;
+- N-body route, event, promotion, memory, and obstruction grammar only after a physical atomic or radiative mapping is proved.
 
 ## Current scientific direction
 
-Treat Module A as complete and frozen. Repair Modules B-F according to their detailed plans and sealed parent-child handoffs. The next planning task is to create the exact Module F→G scientific handoff and then the detailed Module G repair plan.
+Treat Module A as complete and frozen. Repair Modules B-G according to their detailed plans and sealed parent-child handoffs. The next planning task is to create the exact Module G→H scientific handoff and then the detailed Module H repair plan while preserving the locked `H^U -> I -> H[I] -> J` architecture.
