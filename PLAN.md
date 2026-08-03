@@ -11,8 +11,6 @@ Every child consumes a sealed parent and may not reconstruct or retune frozen up
 
 ## Universe-wide derivation lock
 
-The complete physical universe must emerge from one continuous chain:
-
 ```text
 primitive CIF/QV/RFL triad
 -> First Action QV(CIF) -> RFL
@@ -28,47 +26,44 @@ The controlling architecture is `architecture/2RFC_TRIAD_KERNEL_UNIVERSE_DERIVAT
 
 | Module | Scientific responsibility | State |
 |---|---|---:|
-| A–G | Frozen constitution through primordial recombination and the physical CMB surface | **COMPLETE_AND_FROZEN** |
+| A–G | Frozen constitution through primordial recombination and physical CMB surface | **COMPLETE_AND_FROZEN** |
 | H^U | Background-parameterized universal linear transfer operator | **COMPLETE_AND_FROZEN** |
-| I | Realized RFC background, geometry, expansion, clocks, horizons, and distances | **ACTIVE** |
-| H[I] | Immutable instantiation of the frozen H^U operator on the Module I background | Blocked by I |
-| J–Q | Remaining generated universe, freeze, testing, and terminal continuation | Blocked |
+| I | Realized geometry, expansion, sector histories, horizons, and distances | **COMPLETE_AND_FROZEN** |
+| H[I] | Immutable instantiation of H^U on the Module I background | **COMPLETE_AND_FROZEN** |
+| J | Primordial covariance, realized linear spectra, growth, and nonlinear-ready fields | **ACTIVE** |
+| K–Q | Remaining generated universe, freeze, testing, and terminal continuation | Blocked |
 
-## Completed Module Hᵁ theorem
+## Completed Module I and H[I] theorem
 
-Module Hᵁ derives from the sealed G→Hᵁ parent:
+The sealed dual-parent construction now provides:
 
-1. a typed admissible-background domain independent of the realized background;
-2. the complete multi-species linear perturbation state;
-3. scalar/vector/tensor, helicity, and parity typing;
-4. exact Fréchet linearization of the frozen A–G evolution;
-5. gauge transformations, physical quotient, and alternate-formulation verification grammar;
-6. propagated geometric, charge, normalization, and species constraints;
-7. collision and energy-momentum conservation closure;
-8. photon intensity/polarization, matter, neutrino/free-streaming, compression-relic, dissipative-tail, field, and dark-sector blocks;
-9. a complete regular unit-mode basis and early-time series grammar;
-10. controlled tight-coupling, fluid, free-streaming, and other stiff/asymptotic reductions;
-11. hierarchy truncation with omitted-tail and no-reflection control;
-12. a direct fundamental-matrix propagator, composition law, unit responses, and Green functions;
-13. line-of-sight source/projection grammar with direct-hierarchy closure;
-14. response derivatives, adjoints, covariance propagation, stability/pathology rules, signatures, memory, ancestry, restart, and frozen `P_H^U->I` export.
+1. finite relational metric, connection, curvature, topology, averaging, and continuum-carrier geometry;
+2. a constrained geometric/sector action and branch-specific background evolution;
+3. stress-energy, witnessed inter-sector transfer, total conservation, geometric constraints, and no-double-counting closure;
+4. internal units and reference events without public normalization;
+5. early-to-late overlap with Modules B–G;
+6. generated ordinary, radiative, relic, field, defect, compression-relic, and dissipative-tail histories;
+7. generated clocks, scale, expansion, acceleration, events, redshift, signal propagation, distances, reciprocity, and horizons;
+8. derivative, covariance, branch, stability, causality, pathology, signature, memory, ancestry, and restart state;
+9. proof grammar and verified representative realization of `B_I in D_B`;
+10. immutable H[I] coefficient insertion with operator grammar preserved;
+11. basis-normalized species, metric, radiative, polarization, dark-sector, Green-function, and growth-response exports for Module J.
 
-## Active Module I theorem target
+## Active Module J theorem target
 
-Module I must consume the frozen upstream universe and `P_H^U->I` and derive:
+Module J must consume the sealed Module I background and H[I] response packet and derive:
 
-1. the lawful map from the route-resolved universe into background source variables;
-2. coupled ordinary, radiative, compression-relic, dissipative-tail, curvature, and permitted memory-sector evolution;
-3. the realized geometry, scale, physical and conformal clocks, expansion and acceleration histories;
-4. stable dark-sector constitutive histories and inter-sector transfer closure;
-5. horizons, curvature, distance, and standard-ruler geometry;
-6. a complete uncertainty, covariance, branch, stability, causality, and pathology state;
-7. proof that the realized background lies inside the frozen H^U domain;
-8. immutable H[I] instantiation without changing the H^U operator;
-9. the complete realized-background and instantiated-transfer parent for Module J.
+1. the complete primordial mode covariance over the frozen independent mode basis;
+2. Hermiticity, positivity, symmetry, reality, finite-power, branch, and ancestry closure;
+3. contraction of the covariance with immutable H[I] responses;
+4. realized linear CMB, matter, metric, neutrino, dark-sector, and cross spectra;
+5. scale- and time-dependent growth and projected-source histories;
+6. finite-volume stochastic fields with reproducible realization variables;
+7. direct-ensemble versus transfer-covariance agreement;
+8. the physical linearity boundary and complete nonlinear-ready export to Module K.
 
-Module I may not import a public expansion history, distance curve, Hubble normalization, dark-energy template, observed acoustic scale, supernova calibration, or public cosmological background.
+Module J may not import a public primordial amplitude, tilt, running, tensor ratio, mode mixture, transfer function, CMB/matter spectrum, observed normalization, or fitted power law.
 
 ## Failure rule
 
-A failed mandatory condition obstructs the affected branch. It does not authorize retuning frozen upstream modules, modifying H^U after seeing the realized background, importing conventional cosmology, selecting an observed-looking branch, hiding failure in an average, or lowering the `0.95` Module P comparison rule.
+A failed mandatory condition obstructs the affected branch. It does not authorize upstream retuning, public substitution, observed-looking branch selection, hidden mode removal, averaging away failure, or lowering the `0.95` Module P comparison rule.
