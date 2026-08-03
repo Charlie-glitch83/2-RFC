@@ -7,78 +7,66 @@ A -> B -> C -> D -> E -> F -> G -> H^U -> I -> H[I] -> J
   -> K -> L -> M -> classified K-L-M closure -> N -> O -> {P,Q}
 ```
 
-Every child consumes a sealed parent state and may not reconstruct or retune frozen parent science.
+Every child consumes a sealed parent and may not reconstruct or retune frozen upstream science.
 
 ## Current status
 
 | Module | Scientific responsibility | State |
 |---|---|---:|
-| A | Triad, First Action, recursive kernel, finite-N relational carrier, witnesses, events, memory, promotion, dormancy and uncertainty | **COMPLETE_AND_FROZEN** |
-| B | Big Implosion, sole first physical event, finite relational state, clock, conservation, four seed sectors and preparticle export | **COMPLETE_AND_FROZEN** |
-| C | Microscopic state space, particles, fields, probabilities, symmetries, masses, interactions, bound states, radiation carriers, neutrinos, charge and asymmetry source | **ACTIVE** |
-| D | Nonequilibrium thermal and transport history | Blocked by C |
-| E | Primordial isotope-resolved nuclear history | Blocked |
-| F | Post-nuclear plasma and radiation persistence | Blocked |
-| G | Nonequilibrium recombination and CMB surface | Blocked |
-| H^U | Universal linear multi-species operator | Blocked |
-| I | Realized background geometry, expansion, causal and distance structure | Blocked |
-| H[I] | Immutable H operator instantiated on I | Blocked |
-| J | Primordial covariance, linear spectra and nonlinear-ready fields | Blocked |
-| K-L-M | Coupled nonlinear gravity, baryonic/stellar physics and nuclear-chemical enrichment | Blocked |
-| N | One assembled observer-ready manifested universe | Blocked |
-| O | Immutable freeze, restoration and restart identity | Blocked |
-| P | Read-only public empirical adjudication | Blocked |
-| Q | Isolated terminal continuation, Big-Rip-class closure, latent memory and next-CIF conditioning | Blocked |
+| A | Primitive triad, First Action, recursive kernel, finite-N relational carrier, witnesses, routes, events, no-loss memory, promotion, dormancy and uncertainty | **COMPLETE_AND_FROZEN** |
+| B | Big Implosion, sole first physical event, intrinsic clock, finite relational geometry, conservation, four seed sectors and preparticle export | **COMPLETE_AND_FROZEN** |
+| C | Microscopic particles, fields, interactions, mass, hadrons, nucleons, radiation carriers, neutrinos, asymmetry and baryon-photon seed | **ACTIVE** |
+| D-Q | Downstream universe, freeze, testing and terminal continuation | Blocked by upstream chain |
 
 ## Completed Module B result
 
-Module B now installs:
+Module B installs:
 
-- admitted finite connected branch conditions;
-- first-cycle null prior-memory and later-cycle conditioned-CIF typing;
-- Big-Implosion variational law `Q_imp=(I+ell_delta L)^-1`;
-- unique manifested image per fixed source branch;
-- sole first physical event typing;
-- finite relational geometry/pregeometry and resistance metric;
-- intrinsic event order and clock for `alpha>0`;
-- positive unit-scale family without fabricated SI calibration;
-- directed currents, local continuity and global carrier conservation;
-- exact compression/storage ledger;
-- exact four-projector seed partition;
-- ordinary and radiative seed contracts;
-- compression-relic semigroup contract;
-- dissipative-tail nonreciprocity and terminal-interface contract;
-- symmetry, branch, uncertainty and covariance state;
-- common Big-Implosion ancestry;
-- complete sealed B→C preparticle export.
+- the branch-specific variational law `Q_imp=(I+ell_delta L)^-1`;
+- one unique manifested state per fixed admitted finite connected branch;
+- the Big Implosion as the sole first physical event type;
+- strict nonconstant-mode compression and total-carrier preservation;
+- exact protected reopening;
+- directed currents, local continuity and global conservation;
+- compression/storage closure;
+- first finite relational geometry/pregeometry;
+- an intrinsic physical clock for `alpha>0`;
+- a positive unit-equivalence family rather than fabricated SI values;
+- four orthogonal complete genesis seed sectors;
+- ordinary, radiative, compression-relic and dissipative-tail contracts;
+- common cosmogenic ancestry;
+- uncertainty and covariance propagation;
+- a complete sealed preparticle parent state for Module C.
 
-Module B does not claim mature Lorentzian spacetime, continuum stress-energy, microscopic particle identities, dark-matter halos, dark-energy acceleration, the Big Rip or empirical agreement.
+Module B does not claim mature spacetime, continuum stress-energy, particle identities, mature dark sectors, acceleration, Big Rip or empirical agreement.
 
 ## Active Module C work
 
-Module C begins only from the sealed `P_B->C(beta)` state and must derive:
+Module C begins only from `modules/B/MODULE_B_TO_C_SCIENTIFIC_HANDOFF.md` and must derive:
 
-1. microscopic state spaces and probability law;
-2. internal symmetry, generators and representations;
-3. particle/antiparticle, spin/statistics and chirality structure;
-4. interactions, creation/annihilation, scattering and decay;
-5. mass and scale generation;
-6. confinement or equivalent bound-state physics;
-7. hadrons, proton and neutron identities;
-8. photon-like, neutrino-like and other radiative states;
-9. charges, conservation ledgers and matter-antimatter relations;
-10. asymmetry source or exact deferral to Module D;
-11. charge-neutrality and baryon-photon seed;
-12. complete prethermal export to Module D.
+1. microscopic state space and probability law;
+2. internal symmetries and representations;
+3. particle, antiparticle, field and collective identities;
+4. spin/statistics, chirality, flavor and mixing;
+5. interactions, creation, annihilation, scattering and decay;
+6. mass and scale generation;
+7. confinement or lawful bound-state structure;
+8. hadrons, nucleons, photon-like and neutrino-like states;
+9. charge, baryon/lepton or RFC-equivalent ledgers;
+10. asymmetry source or exact unresolved contract;
+11. charge neutrality, baryon-photon seed and prethermal equation of state;
+12. complete uncertainty, branch, memory and ancestry export to Module D.
 
-Module C may not import a Standard Model table, measured masses, couplings, mixing parameters, lifetimes, baryon asymmetry, baryon-photon ratio, observed dark-sector abundance or public cosmology.
+No measured particle table, masses, couplings, mixing data, abundances or public targets may generate Module C.
 
 ## Source and computation discipline
 
-For the active module, read together its detailed plan, manuscript-source trace, Wolfram revision, and sealed incoming/outgoing handoffs.
+Read the active detailed plan, manuscript trace, Wolfram revision, and sealed handoffs together. Every claim remains typed as `DIRECT`, `INHERITED`, `REPRESENTATION`, `METADATA`, `EXTERNAL`, `NEW-DERIVATION`, or `FORBIDDEN`.
 
-Wolfram may verify authorized equations but may not supply missing RFC physics, fitted constants, public targets, branch selection or post-hoc repair.
+Wolfram may verify and derive from authorized equations. It may not provide missing physics, fitted constants, branch selection or public-target repair.
 
 ## Failure rule
 
-A failed mandatory scientific condition stops the affected claim. Code success is not a theorem. Public evidence cannot repair Modules A-O or Q. Module P compares only against a frozen Module O universe.
+A failed mandatory scientific condition stops the affected claim. Public evidence enters only Module P after Module O freezes the universe. Every mandatory Module P component below `0.95` fails, and no average may conceal it.
+
+The exact next action is the actual Module C repair from the sealed Module B export.
