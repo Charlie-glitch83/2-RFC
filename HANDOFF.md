@@ -1,45 +1,65 @@
 # Handoff for Future Iterations
 
-Read:
+## Required read order
 
 1. `README.md`
 2. `architecture/2RFC_DETAILED_SCIENTIFIC_GAP_TO_LIBRARY_REPAIR_PLAN.md`
 3. `architecture/2RFC_MODULE_BY_MODULE_SCIENTIFIC_REPAIR_PLAN.md`
-4. `modules/A/MODULE_A_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
-5. `modules/A/MODULE_A_TO_B_SCIENTIFIC_HANDOFF.md`
-6. `modules/B/MODULE_B_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
-7. `modules/B/MODULE_B_TO_C_SCIENTIFIC_HANDOFF.md`
-8. `modules/C/MODULE_C_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
-9. `modules/C/MODULE_C_TO_D_SCIENTIFIC_HANDOFF.md`
-10. `modules/D/MODULE_D_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
-11. `modules/D/MODULE_D_TO_E_SCIENTIFIC_HANDOFF.md`
-12. `modules/E/MODULE_E_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
-13. `modules/E/MODULE_E_TO_F_SCIENTIFIC_HANDOFF.md`
-14. `modules/F/MODULE_F_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
-15. `modules/F/MODULE_F_TO_G_SCIENTIFIC_HANDOFF.md`
-16. `modules/G/MODULE_G_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
-17. `modules/G/MODULE_G_TO_H_UNIT_SCIENTIFIC_HANDOFF.md`
-18. `modules/H/MODULE_H_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
-19. `modules/H/MODULE_H_UNIT_TO_I_SCIENTIFIC_HANDOFF.md`
-20. `modules/I/MODULE_I_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
-21. `modules/I/MODULE_I_TO_H_INSTANTIATED_SCIENTIFIC_HANDOFF.md`
-22. `modules/J/MODULE_J_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
-23. `modules/J/MODULE_J_TO_K_SCIENTIFIC_HANDOFF.md`
-24. `modules/K/MODULE_K_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
-25. `modules/K/MODULE_K_TO_L_SCIENTIFIC_HANDOFF.md`
-26. `modules/L/MODULE_L_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
-27. `modules/L/MODULE_L_TO_M_SCIENTIFIC_HANDOFF.md`
-28. `modules/M/MODULE_M_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
-29. `modules/M/MODULE_KLM_TO_N_SCIENTIFIC_HANDOFF.md`
-30. `modules/N/MODULE_N_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
-31. `modules/N/MODULE_N_TO_O_SCIENTIFIC_HANDOFF.md`
-32. `modules/O/MODULE_O_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
-33. `modules/O/MODULE_O_TO_P_SCIENTIFIC_HANDOFF.md`
-34. `modules/P/MODULE_P_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
-35. `modules/O/MODULE_O_TO_Q_SCIENTIFIC_HANDOFF.md`
-36. `modules/Q/MODULE_Q_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
-37. the existing 2-RFC module being repaired
-38. the exact valid scientific sources named by the active module plan
+4. `architecture/2RFC_WOLFRAM_INTEGRATION_RULES.md`
+5. `modules/A/MODULE_A_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
+6. `modules/A/MODULE_A_WOLFRAM_REVISION.md`
+7. `modules/A/MODULE_A_TO_B_SCIENTIFIC_HANDOFF.md`
+8. `modules/B/MODULE_B_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
+9. `modules/B/MODULE_B_WOLFRAM_REVISION.md`
+10. `modules/B/MODULE_B_TO_C_SCIENTIFIC_HANDOFF.md`
+11. `modules/C/MODULE_C_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
+12. `modules/C/MODULE_C_WOLFRAM_REVISION.md`
+13. `modules/C/MODULE_C_TO_D_SCIENTIFIC_HANDOFF.md`
+14. `modules/D/MODULE_D_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
+15. `modules/D/MODULE_D_WOLFRAM_REVISION.md`
+16. `modules/D/MODULE_D_TO_E_SCIENTIFIC_HANDOFF.md`
+17. `modules/E/MODULE_E_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
+18. `modules/E/MODULE_E_WOLFRAM_REVISION.md`
+19. `modules/E/MODULE_E_TO_F_SCIENTIFIC_HANDOFF.md`
+20. `modules/F/MODULE_F_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
+21. `modules/F/MODULE_F_WOLFRAM_REVISION.md`
+22. `modules/F/MODULE_F_TO_G_SCIENTIFIC_HANDOFF.md`
+23. `modules/G/MODULE_G_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
+24. `modules/G/MODULE_G_WOLFRAM_REVISION.md`
+25. `modules/G/MODULE_G_TO_H_UNIT_SCIENTIFIC_HANDOFF.md`
+26. `modules/H/MODULE_H_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
+27. `modules/H/MODULE_H_WOLFRAM_REVISION.md`
+28. `modules/H/MODULE_H_UNIT_TO_I_SCIENTIFIC_HANDOFF.md`
+29. `modules/I/MODULE_I_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
+30. `modules/I/MODULE_I_WOLFRAM_REVISION.md`
+31. `modules/I/MODULE_I_TO_H_INSTANTIATED_SCIENTIFIC_HANDOFF.md`
+32. `modules/J/MODULE_J_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
+33. `modules/J/MODULE_J_WOLFRAM_REVISION.md`
+34. `modules/J/MODULE_J_TO_K_SCIENTIFIC_HANDOFF.md`
+35. `modules/K/MODULE_K_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
+36. `modules/K/MODULE_K_WOLFRAM_REVISION.md`
+37. `modules/K/MODULE_K_TO_L_SCIENTIFIC_HANDOFF.md`
+38. `modules/L/MODULE_L_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
+39. `modules/L/MODULE_L_WOLFRAM_REVISION.md`
+40. `modules/L/MODULE_L_TO_M_SCIENTIFIC_HANDOFF.md`
+41. `modules/M/MODULE_M_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
+42. `modules/M/MODULE_M_WOLFRAM_REVISION.md`
+43. `modules/M/MODULE_KLM_TO_N_SCIENTIFIC_HANDOFF.md`
+44. `modules/N/MODULE_N_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
+45. `modules/N/MODULE_N_WOLFRAM_REVISION.md`
+46. `modules/N/MODULE_N_TO_O_SCIENTIFIC_HANDOFF.md`
+47. `modules/O/MODULE_O_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
+48. `modules/O/MODULE_O_WOLFRAM_REVISION.md`
+49. `modules/O/MODULE_O_TO_P_SCIENTIFIC_HANDOFF.md`
+50. `modules/P/MODULE_P_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
+51. `modules/P/MODULE_P_WOLFRAM_REVISION.md`
+52. `modules/O/MODULE_O_TO_Q_SCIENTIFIC_HANDOFF.md`
+53. `modules/Q/MODULE_Q_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
+54. `modules/Q/MODULE_Q_WOLFRAM_REVISION.md`
+55. the existing 2-RFC module being repaired
+56. the exact valid scientific sources named by the active module plan
+
+Each `MODULE_X_WOLFRAM_REVISION.md` is a binding revision of the corresponding detailed plan, not an optional addendum.
 
 ## Governing method
 
@@ -53,6 +73,16 @@ Read:
 - Do not copy the old run system, numbering, preflights, lifecycle machinery, status taxonomies, repository schemas, gates, certificates, manifests, or evidence bureaucracy into the scientific architecture.
 - Public observations may test the frozen universe in Module P but may not generate or repair it.
 - Any mandatory normalized comparison component below `0.95` fails; no averaging may hide it.
+
+## Wolfram operating law
+
+Wolfram is now an explicit computational instrument throughout A–Q.
+
+It is authorized for exact symbolic derivation, arbitrary-precision numerics, asymptotics, graph and event analysis, differential and integral equations, optimization, uncertainty and covariance propagation, statistical comparison, and independent verification.
+
+It is not an RFC source and may not supply missing physics, fitted constants, standard-cosmology replacements, public-data targets outside Module P, post-hoc repair, or empirical branch selection.
+
+Every load-bearing Wolfram result must preserve its equations, assumptions, domains, units, branch conditions, code or query, precision, errors or residuals, uncertainty, interpretation, and independent check. A Wolfram disagreement stops the affected claim until localized and resolved; it never authorizes retuning.
 
 ## Completed scientific planning chain
 
@@ -78,7 +108,7 @@ A
 -> O→Q -> Q
 ```
 
-Every Module A–Q detailed scientific plan and every required parent-child scientific handoff now exists on `agent/triadic-proof-rebuild`.
+Every Module A–Q detailed scientific plan, its binding Wolfram revision, and every required parent-child scientific handoff now exists on `agent/triadic-proof-rebuild`.
 
 These files are authoritative plans and boundary definitions. They are not yet the in-place implementation of the repaired proof modules.
 
@@ -168,8 +198,6 @@ All five states are distinct.
 
 ## Current scientific direction
 
-The canonical A–Q scientific architecture and all detailed module/handoff plans are complete.
+The canonical A–Q scientific architecture, all detailed module/handoff plans, and the binding Wolfram revisions are complete.
 
-The next work is no longer another module plan. It is to begin the actual repository repair in module order, replacing the fabricated or incomplete 2-RFC shell with the planned science while preserving valid existing work.
-
-Start with Module A as already scientifically complete and frozen, integrate its full established science into the repository, then repair Module B from its achieved boundary, and continue forward through the sealed chain. Do not revive RUN014 or any old run-centered architecture.
+The next work is the actual repository repair in module order. Start with Module A as already scientifically complete and frozen, integrate its full established science and its Wolfram verification workload into the repository, then repair Module B from its achieved boundary and continue through the sealed chain. Do not revive RUN014 or any old run-centered architecture.
