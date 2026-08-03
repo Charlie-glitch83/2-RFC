@@ -1,111 +1,150 @@
-# Physical-Realization Boundary After Module A
+# Physical Realization After Modules A and B
 
-## 1. Scientific placement
+## 1. Completed boundary
 
-Module A has completed the prephysical relational carrier. Physical realization is therefore a Module B responsibility.
-
-The typed boundary is
+Module A supplies the frozen prephysical relational carrier. Module B now supplies the first physically manifested finite-relational state:
 
 \[
 \mathsf C_A
 \xrightarrow{\mathrm{BI}_B}
-\mathsf P_{B,0},
+\mathsf P_{B,0}.
 \]
 
-where \(\mathsf C_A\) is the frozen Module A carrier and \(\mathsf P_{B,0}\) is the first physically manifested state.
-
-The First Action is not the Big Implosion, and the prephysical RFL is not the first physical RFL.
-
----
-
-## 2. Module A completion does not imply physical relabeling
-
-Module A proves a bounded recursive kernel, finite-N relational grammar, witnessed route atlas, event alternatives, no-loss memory, promotion/reopening, dormancy, uncertainty, and immutable downstream inheritance.
-
-It does not prove that any abstract carrier coordinate is already:
-
-- physical time;
-- a spatial coordinate;
-- a Lorentzian interval;
-- mass or energy;
-- stress-energy;
-- a particle or field;
-- a cosmological sector;
-- an observable.
-
-Those identities require a Module B derivation.
-
----
-
-## 3. Graph-resolvent theorem retained at the B boundary
-
-For a finite connected weighted undirected graph with Laplacian \(L\) and \(\ell>0\),
+The First Action remains prephysical:
 
 \[
-Q=(I+\ell L)^{-1}
+\mathrm{QV}(\mathrm{CIF})\to RFL_A^{\mathrm{pre}}.
 \]
 
-is symmetric positive definite. It preserves the constant mode, contracts nonconstant Laplacian modes, and decreases graph Dirichlet energy.
-
-These are exact compression and pregeometry properties.
-
-### Physical-typing necessity theorem
-
-The pair \((Q,d_R)\), with effective-resistance distance
+The Big Implosion is the sole first physical event:
 
 \[
-d_R(i,j)=(e_i-e_j)^{\mathsf T}L^+(e_i-e_j),
+\mathrm{BI}_B:RFL_A^{\mathrm{pre}}\to RFL_B^{\mathrm{phys}}.
 \]
 
-is insufficient by itself to establish Lorentzian spacetime, physical time, stress-energy, or a dark-sector identity.
-
-A positive separating metric does not provide an indefinite causal signature or nontrivial null relations. A dimensionless smoothing operator does not generate unique physical units. Spectral subspaces do not become named substances without independent dynamics and discriminants.
-
-This theorem does not weaken Module A. It identifies the exact physical work Module B must perform.
+Module B is complete at its declared finite-relational and preparticle scope.
 
 ---
 
-## 4. Module B realization requirements
+## 2. Established finite-relational realization
 
-A certified realization must supply:
+For one admitted finite connected branch,
 
-1. the Big-Implosion map and event predicate;
-2. physical event order and intrinsic clock;
-3. dimensions and scale ancestry;
-4. physically typed state variables;
-5. an action, generator, or evolution law;
-6. constraints and conservation identities;
-7. refinement, continuum, or finite-validity control;
-8. physically derived sector differentiation;
-9. a complete preparticle export to Module C.
+\[
+Q_{\mathrm{imp}}=(I+\ell_{\delta}L)^{-1},
+\qquad
+x^+=Q_{\mathrm{imp}}x^-,
+\qquad
+\ell_{\delta}=\frac1{\delta-1}.
+\]
 
-The graph resolvent may be one component of the Big-Implosion map, but no requirement is discharged by renaming the operator.
+This law establishes:
+
+- a regular unique manifested image for a fixed branch;
+- strict compression of every nonconstant Laplacian mode;
+- preservation of the constant mode and total carrier;
+- exact protected reopening;
+- directed current and antisymmetric flux structure;
+- local continuity and global conservation;
+- finite relational geometry through the witnessed graph and effective resistance;
+- physical event origin and intrinsic event order;
+- a complete four-sector seed partition;
+- a positive physical unit family;
+- a complete preparticle export to Module C.
+
+The event is generated from the sealed Module A source and not from public targets, a Big-Bang template, or an imported particle inventory.
 
 ---
 
-## 5. Preserved Module A information
+## 3. Retained limitation theorem
 
-A physical realization may transform the carrier but may not erase:
+For connected finite support,
 
-- source identity;
-- kernel and depth ancestry;
+\[
+d_R(i,j)=(e_i-e_j)^{\mathsf T}L^+(e_i-e_j)
+\]
+
+is a positive relational metric. It is not by itself a Lorentzian interval.
+
+The pair \((Q_{\mathrm{imp}},d_R)\) does not independently establish:
+
+- timelike, spacelike, and null classification;
+- a continuum metric tensor;
+- connection and curvature evolution;
+- a stress-energy tensor;
+- global horizons;
+- redshift or cosmological distance;
+- mature dark-sector physical identities.
+
+This limitation no longer means that Module B lacks a physical state. It means that Module B supplies the first finite relational physical slice and that mature spacetime remains a later derivation, principally in Module I.
+
+---
+
+## 4. Scale result
+
+Module B determines physical ordering and dimensionless relational ratios but not a unique SI calibration.
+
+It exports
+
+\[
+U_B=(t_B,\ell_B,\phi_B,\mathcal E_B),
+\qquad
+t_B,\ell_B,\phi_B,\mathcal E_B>0,
+\]
+
+with
+
+\[
+t_{
+\mathrm{phys}}=t_B\tau_B,
+\qquad
+d_B=\ell_Bd_R,
+\qquad
+\Phi_B^{\mathrm{phys}}=\phi_Bx^+,
+\qquad
+\mathcal E^{\mathrm{phys}}=\mathcal E_BE.
+\]
+
+Positive changes of unit representative do not alter event order, conservation, branch identity, projector identities, or source ancestry.
+
+No public observation may choose these representatives during generation.
+
+---
+
+## 5. Downstream ownership
+
+Module C owns microscopic particles, fields, charges, probabilities, interactions, masses, hadrons, photons, neutrinos, and prethermal composition.
+
+Module I owns mature metric geometry, expansion, curvature, causal cones, horizons, redshift, distance, and the physical large-scale behavior of the compression relic and dissipative tail.
+
+Modules H and J own linear propagation and spectra. Module K owns nonlinear gravitational realization. Module N owns observer-ready physical records. Module Q owns terminal same-cycle continuation and Big-Rip-class closure.
+
+None of those later results are prerequisites for the finite-relational first physical state already established in Module B.
+
+---
+
+## 6. Preserved parent information
+
+The Module B state preserves and reopens:
+
+- CIF and Module A source identity;
+- kernel and recursive-depth ancestry;
 - constituent and directed-lane identity;
 - route and witness identity;
-- event and branch identity;
-- protected memory;
-- scale ancestry;
-- uncertainty and numerical-error state;
+- branch and event identity;
+- pre-event carrier state;
+- topology and scale ancestry;
+- uncertainty and covariance;
+- numerical precision and error state;
 - manuscript and derivation provenance;
-- claim boundary and falsifiers.
+- claim boundaries and falsifiers.
 
-Informational reopening is not backward physical time.
+Informational reopening is not physical backward evolution.
 
 ---
 
-## 6. Active frontier
+## 7. Current frontier
 
-The current physical frontier is Module B's theorem:
+The active scientific frontier is no longer physical genesis.
 
-> For every admitted non-obstructed finite connected Module A branch, derive the Big Implosion as the sole first physical event, generate a conservation-complete physical RFL state, preserve the protected parent information, and export a complete preparticle universe to Module C.
-
-Module A is not reopened while this theorem is developed.
+Module C now receives the sealed Module B preparticle state and must derive the microscopic physical universe without modifying Modules A or B and without importing measured particle properties.
