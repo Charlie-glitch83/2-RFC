@@ -14,9 +14,11 @@ Read:
 10. `modules/D/MODULE_D_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
 11. `modules/D/MODULE_D_TO_E_SCIENTIFIC_HANDOFF.md`
 12. `modules/E/MODULE_E_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
-13. the exact library plan for the active module
-14. the existing 2-RFC module being repaired
-15. the valid scientific source material named for that module
+13. `modules/E/MODULE_E_TO_F_SCIENTIFIC_HANDOFF.md`
+14. `modules/F/MODULE_F_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
+15. the exact library plan for the active module
+16. the existing 2-RFC module being repaired
+17. the valid scientific source material named for that module
 
 ## Governing method
 
@@ -45,8 +47,10 @@ completed Module A
 -> repaired Module D
 -> MODULE_D_TO_E_SCIENTIFIC_HANDOFF
 -> repaired Module E
--> future MODULE_E_TO_F_SCIENTIFIC_HANDOFF
--> future detailed Module F repair plan
+-> MODULE_E_TO_F_SCIENTIFIC_HANDOFF
+-> repaired Module F
+-> future MODULE_F_TO_G_SCIENTIFIC_HANDOFF
+-> future detailed Module G repair plan
 ```
 
 The A→B handoff distinguishes:
@@ -63,17 +67,19 @@ The C→D handoff defines the complete microscopic and prethermal parent state a
 
 The D→E handoff defines the complete nuclear-reaction-ready plasma and requires Module E to derive isotope identities, nuclear properties, reaction routes, reverse rates, deuterium-bottleneck release, abundance trajectories, freeze-out, and post-nuclear composition rather than importing a conventional BBN history or target abundance vector.
 
-The Module E plan is built from:
+The E→F handoff defines the complete isotope-resolved post-nuclear state and requires Module F to preserve primordial composition, continue residual reactions and late decays, evolve the post-nuclear plasma, photons, neutrinos, ions, perturbations, opacity, and atomic readiness without importing a standard post-BBN or recombination history.
+
+The Module F plan is built from:
 
 - the repository's detailed gap-to-library repair plan;
-- the detailed Module D plan;
-- the sealed D→E handoff;
-- the exact Module E library plan;
-- the Module F library plan as the downstream persistent-plasma boundary;
-- earlier RFC abundance and reaction-bridge science only at its exact candidate scope;
-- N-body route, witness, event, memory, and obstruction grammar;
-- completed-shell/legal-incidence science only after a physical mapping to nuclear channels is proved.
+- the detailed Module E plan;
+- the sealed E→F handoff;
+- the exact Module F library plan;
+- the Module G library plan as the downstream recombination boundary;
+- applicable Presentation 29 and Presentation 30 post-BBN, plasma, atomic-readiness, and opacity science;
+- earlier weighted persistence work only at its exact candidate scope;
+- N-body route, event, promotion, memory, and obstruction grammar only after a physical plasma or atomic mapping is proved.
 
 ## Current scientific direction
 
-Treat Module A as complete and frozen. Repair Modules B-E according to their detailed plans and sealed parent-child handoffs. The next planning task is to create the exact Module E→F scientific handoff and then the detailed Module F repair plan.
+Treat Module A as complete and frozen. Repair Modules B-F according to their detailed plans and sealed parent-child handoffs. The next planning task is to create the exact Module F→G scientific handoff and then the detailed Module G repair plan.
