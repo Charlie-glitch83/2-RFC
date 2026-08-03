@@ -5,8 +5,8 @@
 ```text
 Module A: COMPLETE_AND_FROZEN
 Module B: COMPLETE_AND_FROZEN
-Module C: PARTIALLY_IMPLEMENTED_ACTIVE
-Module D: BLOCKED_BY_C
+Module C: COMPLETE_AND_FROZEN
+Module D: ACTIVE
 ```
 
 ## Required read order
@@ -15,74 +15,104 @@ Module D: BLOCKED_BY_C
 2. `STATE.json`
 3. `PLAN.md`
 4. `science/MICROSCOPIC_PHYSICS.md`
-5. `science/CLAIMS.md`
-6. `modules/B/MODULE_B_TO_C_SCIENTIFIC_HANDOFF.md`
-7. `modules/C/MODULE_C_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
-8. `modules/C/MODULE_C_MANUSCRIPT_SOURCE_TRACEABILITY.md`
-9. `modules/C/MODULE_C_WOLFRAM_INTEGRATION_REVISION.md`
-10. `modules/C/MODULE_C_WOLFRAM_VERIFICATION.md`
-11. `modules/C/MODULE_C_TO_D_SCIENTIFIC_HANDOFF.md`
-12. the exact manuscript sources named by the Module C trace.
+5. `proofs/MICROSCOPIC_CONSTITUTION.md`
+6. `science/CLAIMS.md`
+7. `modules/C/MODULE_C_MANUSCRIPT_SOURCE_TRACEABILITY.md`
+8. `modules/C/MODULE_C_WOLFRAM_INTEGRATION_REVISION.md`
+9. `modules/C/MODULE_C_WOLFRAM_VERIFICATION.md`
+10. `modules/C/MODULE_C_TO_D_SCIENTIFIC_HANDOFF.md`
+11. `modules/D/MODULE_D_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
+12. `modules/D/MODULE_D_MANUSCRIPT_SOURCE_TRACEABILITY.md`
+13. `modules/D/MODULE_D_WOLFRAM_INTEGRATION_REVISION.md`
+14. the exact manuscript sources named by the Module D trace.
 
 ## Implemented Module C result
 
 Module C now installs:
 
-- frozen-parent consumption;
-- microscopic triadic ownership and type separation;
-- ontology and state-type registries;
-- finite ordinary-plus-radiative candidate capacity;
-- exact capacity-sector no-double-counting;
-- separation of formal candidate slots from particle identity;
-- representation-only classification of the historical six-plus-two registry;
-- exact kinematic automorphism dimensions;
-- exact constitutive underdetermination of symmetry, mass, probability and interaction laws;
-- a twelve-part admission witness for a future physical microscopic constitutive law.
+- frozen-parent consumption and triadic descent;
+- canonical complex route-pair structure;
+- Hermitian microscopic generator, unitary evolution and normalized probabilities;
+- three completed generation shells;
+- maximal complete `U(1) x SU(2) x SU(3)` internal branch;
+- minimal chiral representation and anomaly-free charge closure;
+- spin, statistics, chirality and antiparticle conjugation;
+- endogenous microscopic scale family;
+- stabilization, gauge, fermion and neutral-memory mass operators;
+- protected massless modes;
+- flavor, mixing, CP-facing and neutrino operators;
+- complete microscopic vertex and rate-generating grammar;
+- finite singlet confinement and bound-state operators;
+- hadron, proton-role and neutron-role construction;
+- antimatter, conservation, anomaly and asymmetry-source ledgers;
+- photon, neutrino, neutrality, baryon-photon and prethermal equation-of-state seeds;
+- complete covariance, memory, ancestry and sealed C-to-D export.
 
-The implemented science is in `science/MICROSCOPIC_PHYSICS.md`, not only in a planning document.
+The implemented science is in `science/MICROSCOPIC_PHYSICS.md` and `proofs/MICROSCOPIC_CONSTITUTION.md`, not only in planning files.
 
-## Exact active frontier
+## Exact Module C boundary
 
-Derive
+Module C is complete at finite-relational, internal-unit, prethermal scope.
+
+It does not claim:
+
+- empirical identity with nature;
+- measured masses, couplings, mixings, widths, lifetimes or abundances;
+- a unique SI scale;
+- continuum renormalized QFT;
+- loop or lattice-QCD precision;
+- thermal chronology;
+- surviving baryon asymmetry;
+- public empirical agreement.
+
+## Wolfram and independent-check status
+
+Exact Wolfram checks and an independent SymPy/NumPy implementation verify:
+
+- route-pair complex structure;
+- Hermiticity, unitarity and probability normalization;
+- three six-lane completed shells;
+- unique anomaly-free charge solution up to normalization;
+- stable RFL minimum and protected neutral zero mode;
+- exact shell-weight normalization;
+- internal algebra dimension twelve;
+- invariant singlet tensors.
+
+These checks verify the implemented algebra. They are not empirical validation.
+
+## Active Module D frontier
+
+Module D receives the sealed state
 
 ```text
-P_B->C -> C_C
+P_C->D(beta,gamma) =
+(G_C, T_C, X_C, F_C, R_C, M_C, Q_C, V_C, A_C, B_C,
+ N_C, L_C, Y_C, P_C, E_C, D_C, Sigma_C, Mrec_C, Anc_C)
 ```
 
-where `C_C` contains:
+and must derive:
 
-- scalar and state-space structure;
-- positive norm or RFC replacement;
-- probability and composition law;
-- physical internal symmetry algebra and representations;
-- governing action/Hamiltonian/generator;
-- mass and protected-zero-mode operator;
-- complete vertex and event grammar;
-- locality, causality and anomaly closure;
-- confinement or binding law;
-- uncertainty and ancestry propagation.
+1. nonequilibrium phase-space evolution;
+2. temperature existence and sector temperatures;
+3. collision, inverse-channel and transport operators;
+4. phase-transition and hadronization chronology;
+5. asymmetry activation, conversion, washout and survival;
+6. annihilation, freeze-out and decoupling;
+7. photon and neutrino transport;
+8. entropy redistribution and visible-dark transfer;
+9. the nuclear-reaction-ready Module E parent.
 
-The current manuscripts and completed C002 assets do not uniquely determine these objects. This is `NEW-DERIVATION` work.
+Module D may not reconstruct microscopic identities or import observed thermal history.
 
-## Boundaries
+## Governing rules
 
-Do not:
+- Do not reopen or retune Modules A-C.
+- Use the sealed C-to-D handoff as the sole microscopic parent.
+- Preserve every physical branch unless an equivalence theorem closes it.
+- Wolfram verifies authorized equations but does not supply missing RFC physics.
+- Public data enter only Module P after Module O freezes the universe.
+- Any mandatory Module P component below `0.95` fails; no average may conceal it.
 
-- reopen Modules A or B;
-- treat eight formal slots as eight particles;
-- identify sector-preserving orthogonal transformations with a physical gauge group;
-- infer a quantum probability law from a real normed carrier;
-- import a familiar particle table, gauge group, measured mass, coupling, mixing matrix or lifetime;
-- begin Module D before the C-to-D microscopic export is materially complete.
+## Exact next action
 
-## Wolfram status
-
-`modules/C/MODULE_C_WOLFRAM_VERIFICATION.md` records exact checks for the historical `6+2` controlled example:
-
-- `dim so(8)=28`;
-- `dim[so(6) direct-sum so(2)]=16`;
-- distinct protected signatures leave no continuous orthogonal mixing;
-- sector-preserving real symmetric mass operators retain 24 parameters;
-- identity-preserving diagonal mass operators retain eight independent spectral entries.
-
-These results prove underdetermination; they do not supply the missing microscopic physics.
+Repair Module D in place from the sealed Module C microscopic and prethermal export.
