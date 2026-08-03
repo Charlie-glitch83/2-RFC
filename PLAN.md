@@ -33,43 +33,45 @@ The controlling architecture is `architecture/2RFC_TRIAD_KERNEL_UNIVERSE_DERIVAT
 | C | Microscopic quantum law, particles, masses, interactions, binding, prethermal export | **COMPLETE_AND_FROZEN** |
 | D | Nonequilibrium thermal history, transport, transitions, freeze-out, nuclear readiness | **COMPLETE_AND_FROZEN** |
 | E | Primordial isotope-resolved nuclear reaction history and post-nuclear export | **COMPLETE_AND_FROZEN** |
-| F | Persistent post-nuclear plasma evolution and recombination readiness | **ACTIVE** |
-| G-Q | Remaining generated universe, freeze, testing, and terminal continuation | Blocked by upstream chain |
+| F | Persistent post-nuclear plasma evolution and recombination readiness | **COMPLETE_AND_FROZEN** |
+| G | Nonequilibrium recombination and the physical primordial CMB surface | **ACTIVE** |
+| H^U-Q | Remaining generated universe, freeze, testing, and terminal continuation | Blocked by upstream chain |
 
-## Completed Module E theorem
+## Completed Module F theorem
 
-Module E derives from the sealed D→E parent:
+Module F derives from the sealed E→F parent:
 
-1. finite nuclear Hilbert/configuration spaces;
-2. spectral binding, threshold, isotope, partition, resonance, and decay registries;
-3. a witnessed channel-complete reaction hypergraph;
-4. kernel-derived forward/reverse rates and detailed balance;
-5. positive normalized exact nuclear evolution;
-6. isotope-resolved abundance trajectories and integrated route fluxes;
-7. exact baryon, charge, nucleon, probability, energy, and ancestry closure;
-8. continuous weak and neutron-proton history;
-9. generated deuterium-bottleneck release;
-10. core light-isotope and branch-resolved Li/Be evolution;
-11. nuclear feedback, material medium corrections, and spatial/dark sufficiency;
-12. species- and route-specific freeze-out and late decay;
-13. adaptive network closure, covariance, sensitivity, and isotope ancestry;
-14. a complete restartable E→F post-nuclear plasma state.
+1. a finite post-nuclear state space and exact positive normalized evolution;
+2. stable-isotope persistence except through witnessed routes;
+3. complete residual-reaction and late-decay continuation;
+4. generated coordinate and background continuation;
+5. lawful kinetic, moment, multifluid, fluid, and background reductions with reopening;
+6. relational Gauss-law charge closure;
+7. plasma response, collective modes, screening, conductivity, diffusion, viscosity, conduction, and drag;
+8. photon, neutrino, electron, ion, field, and thermal persistence;
+9. generated equation of state, sound, opacity, redistribution, tight-coupling, diffusion, and damping seeds;
+10. perturbation, spatial, field, and authorized dark-sector continuity;
+11. generated atomic-candidate Hamiltonians, bound-state and transition seed registries;
+12. no-loss atomic promotion and ionization reopening;
+13. an internally generated atomic-readiness event and recombination-entry surface;
+14. complete covariance, memory, ancestry, restart, and `P_F->G` export.
 
-W2-R/W3/W4 remain bounded historical and structural assets. They do not supply the final reaction-network physics or observed targets.
+## Active Module G theorem target
 
-## Active Module F theorem target
+Module G must consume the sealed `P_F->G` state and derive:
 
-Module F must preserve the complete E→F isotope, reaction, decay, radiation, lepton, plasma, background, perturbation, dark-sector, covariance, memory, ancestry, and restart state while deriving:
+1. the complete atomic and ionic registry required by the claimed precision;
+2. nonequilibrium hydrogen, helium, deuterium, and material light-element level and charge-state populations;
+3. bound-bound, bound-free, free-bound, collisional, two-photon, forbidden, and resonance-transfer routes;
+4. frequency-dependent radiative transfer and recombination-radiation feedback;
+5. the generated free-electron and matter-radiation thermal histories;
+6. process-resolved opacity, differential optical depth, integrated optical depth, and normalized visibility;
+7. finite photon last-scattering and distinct baryon-drag structures;
+8. diffusion, damping, temperature, and polarization source histories;
+9. perturbation-dependent recombination response;
+10. the complete transfer-source export to Module H.
 
-1. composition-preserving post-nuclear expansion/evolution;
-2. residual reactions and radioactive decay continuation;
-3. photon, neutrino, ion, electron, and positron persistence;
-4. thermodynamic and multifluid plasma evolution;
-5. charge, transport, screening, conductivity, diffusion, and opacity precursors;
-6. perturbation and spatial continuity;
-7. atomic-carrier activation and the complete recombination-ready handoff to G.
-
-Module F may not reset the nuclear composition, import a standard post-BBN timeline, assign a recombination temperature, or erase material spectral, spatial, covariance, memory, or branch information.
+Module G may not import a public ionization history, recombination redshift, optical-depth curve, visibility template, CMB normalization, or branch chosen for observational resemblance.
 
 ## Failure rule
 
