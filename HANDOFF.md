@@ -24,9 +24,11 @@ Read:
 20. `modules/I/MODULE_I_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
 21. `modules/I/MODULE_I_TO_H_INSTANTIATED_SCIENTIFIC_HANDOFF.md`
 22. `modules/J/MODULE_J_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
-23. the exact library plan for the active module
-24. the existing 2-RFC module being repaired
-25. the valid scientific source material named for that module
+23. `modules/J/MODULE_J_TO_K_SCIENTIFIC_HANDOFF.md`
+24. `modules/K/MODULE_K_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
+25. the exact library plan for the active module
+26. the existing 2-RFC module being repaired
+27. the valid scientific source material named for that module
 
 ## Governing method
 
@@ -37,9 +39,8 @@ Read:
 - Use RUN 000-007 only for completed Module A science.
 - Use RUN 008-013 only for completed Module B science.
 - Reuse later library science only at its exact supported scope; do not promote scaffolds, anchors, proxies, scores, or public audits into generative laws.
-- Do not copy the old run system, run numbering, preflight machinery, lifecycle machinery, status taxonomies, repository schemas, or evidence bureaucracy.
+- Do not copy the old run system, run numbering, preflight machinery, lifecycle machinery, status taxonomies, repository schemas, certificates, or evidence bureaucracy.
 - Use architecture and module-plan files only for scientific goals, physical dependencies, equations, and required outputs.
-- Repair each module in place, then move to the next.
 - Public observations may test the finished universe but may not generate or repair it.
 
 ## Current scientific chain
@@ -65,22 +66,36 @@ completed Module A
 -> immutable I→H[I] handoff
 -> frozen H[I] basis responses
 -> repaired Module J
--> future J→K scientific handoff
--> future detailed Module K repair plan
+-> J→K handoff
+-> repaired Module K^(0)
+-> future K→L scientific handoff
+-> future detailed Module L repair plan
+-> future L→M handoff and Module M plan
+-> future coupled K–L–M closure
 ```
 
-The protected architecture remains:
+The protected early and linear architecture remains:
 
 ```text
 G -> Hᵁ -> I -> H[I] -> J -> K
 ```
 
-- `Hᵁ` owns the complete background-parameterized linear operator, perturbation state, modes, gauges, collisions, hierarchies, source grammar, closure laws, uncertainty model, and admissible background domain.
-- Module I owns the realized dimensional geometry, clocks, expansion, sector histories, horizons, redshift, null propagation, distances, covariance, and proof that `B_I in D_B`.
-- `H[I]` is immutable instantiation only. It may populate frozen coefficients and generate basis responses but may not redesign the operator or retune the background.
-- Module J derives the primordial covariance from triadic and Big-Implosion ancestry, contracts it with H[I], generates the complete linear spectrum matrix and growth histories, constructs finite-volume fields, and derives the physical linearity boundary.
-- Module K must receive a complete nonlinear-ready state and may not infer missing phases, gauges, species, stresses, normalizations, covariance, or ancestry.
+The nonlinear late-universe architecture is:
+
+```text
+J -> K^(0) -> L^(0) -> M^(0)
+K^(n) -> L^(n) -> M^(n) -> K^(n+1)
+(K*,L*,M*) -> N
+```
+
+- Module J owns primordial covariance, linear spectra, growth, finite-volume fields, and the witnessed nonlinear-promotion surface.
+- The J→K handoff forbids hidden smoothing, amplitude rescaling, phase replacement, species reassignment, or reconstruction from conventional simulation initial conditions.
+- Module K owns nonlinear phase space, shell crossing, caustics, collapse, stabilized bound structures, event-truth merger ancestry, cosmic-web and void dynamics, nonlinear dark-sector behavior, metric/lensing truth fields, and lightcones.
+- `K^(0)` is only the first-pass gravitational state sufficient for Module L to restart.
+- Module K does not own closed hydrodynamics, MHD, star formation, stellar evolution, nucleosynthesis, or chemical evolution.
+- Module K remains the gravitational anchor of the K–L–M loop and may re-ingest L/M returns only through declared mass, momentum, energy, stress, radiation, remnant, and composition-tagged source channels.
+- Only a converged, cyclic, attractor, classified branch, or explicit nonconvergent K–L–M outcome may proceed to Module N. A raw first-pass halo simulation is not the final manifested universe.
 
 ## Current scientific direction
 
-Treat Module A as complete and frozen. Repair Modules B-J according to their detailed plans and sealed handoffs. The next planning task is to create the exact Module J→K scientific handoff and then the detailed Module K repair plan for nonlinear gravitational evolution, shell crossing, collapse, halo formation, merger history, and the coupled K↔L↔M interval.
+Treat Module A as complete and frozen. Repair Modules B-K according to their detailed plans and sealed handoffs. The next planning task is to create the exact Module K→L scientific handoff and then the detailed Module L plan for hydrodynamics, MHD, thermochemistry, radiation transport, gas collapse, witnessed star birth, stellar populations, feedback, compact remnants, and conservative return into the K–L–M loop.
