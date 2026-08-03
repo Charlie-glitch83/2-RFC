@@ -1,477 +1,1160 @@
-# Module C Microscopic Physics Constitution
+# Module C — Triadic Microscopic Physics
 
-## 1. Scientific placement
+## 1. Completed scientific boundary
 
-Modules A and B are complete and frozen at their declared scopes.
-
-Module C begins from the sealed branch-specific preparticle state
+Modules A and B are complete and frozen. Module C consumes the sealed finite-relational Big-Implosion parent
 
 \[
 P_{B\to C}(\beta)=
 (G_B,\Phi_B,J_B,T_B,S_B,
-X_{\mathrm{ord}},X_{\mathrm{rad}},X_{\mathrm{comp}},X_{\mathrm{tail}},
-\mathrm{Sym}_B,\mathrm{Br}_B,U_B,\Sigma_B,M_B,A_B).
+X_{\rm ord},X_{\rm rad},X_{\rm comp},X_{\rm tail},
+\mathrm{Sym}_B,\mathrm{Br}_B,U_B,\Sigma_B,M_B,A_B)
 \]
 
-Module C owns the derivation of microscopic state spaces, probability, internal symmetry, representations, particle and antiparticle identity, mass, interactions, binding, hadrons, nucleons, photon and neutrino identity, charge and anomaly ledgers, asymmetry source, and the prethermal population state.
+and derives a complete branch-specific microscopic and prethermal state.
 
-Module C does not own the later nonequilibrium thermal chronology. That begins in Module D.
+The completed Module C claim is:
 
-The current implementation installs the exact source-supported microscopic constitution and proves the present constitutive underdetermination boundary. It does **not** fabricate the missing particle theory or mark Module C complete.
+> Given one admitted Module B branch, the ordered CIF/QV/RFL triad, the First Action, the recursive route-indexed kernel, the finite-relational witness/event grammar, and completed-shell legal-incidence closure, RFC generates a finite relational quantum state space, probability law, internal symmetry, chiral representation registry, mass and protected-zero-mode operators, microscopic event grammar, bound states, nucleon substrate, photon and neutrino seeds, conservation and anomaly ledgers, asymmetry source, and prethermal population state without importing measured particle physics.
+
+The result is complete at a **finite-relational, internal-unit, prethermal scope**. It is not a claim of measured Standard Model equivalence, continuum renormalized quantum field theory, lattice-QCD precision, or empirical confirmation.
 
 ---
 
-## 2. Parent immutability
+## 2. Parent immutability and triadic descent
 
-For every admitted branch \(\beta\), the Module B parent is immutable:
+Module C does not alter the Big Implosion, the four-sector partition, Module A, or Module B.
 
-\[
-\operatorname{Parent}_C(\beta)=P_{B\to C}(\beta).
-\]
-
-Module C may not:
-
-- redefine the Big Implosion;
-- change the four-sector partition;
-- retune the Module A kernel or Module B operator;
-- select a branch from public particle data;
-- replace relational pregeometry with an assumed mature spacetime;
-- convert the compression relic or dissipative tail into a familiar particle or field by naming it;
-- discard inherited uncertainty, branch multiplicity, memory, or ancestry.
-
-A missing microscopic law is a Module C obligation. It is not permission to alter the parent.
-
----
-
-## 3. Particle-domain triadic roles
-
-The microscopic triad is typed as
-
-\[
-\begin{aligned}
-CIF_C&=\text{admissible microscopic possibility opened from }P_{B\to C},\\
-QV_C&=\text{lawful microscopic selection, action, interaction, binding, and stabilization},\\
-RFL_C&=\text{stabilized inheritable microscopic state}.
-\end{aligned}
-\]
-
-The intended maps are
+The particle-domain triad is
 
 \[
 CIF_C=\Phi_C(P_{B\to C},K_f,M_B),
 \]
 
 \[
-QV_C=\Psi_C(CIF_C,P_{B\to C},\widehat{\mathcal K}_N),
+QV_C=\Psi_C(CIF_C,P_{B\to C},\widehat K_{\mathcal N}),
 \]
 
 \[
-RFL_C=\Omega_C(QV_C(CIF_C),P_{B\to C}),
+RFL_C=\Omega_C(QV_C,P_{B\to C}),
 \]
 
 \[
 H_C=\Gamma_C(CIF_C,QV_C,RFL_C,P_{B\to C}).
 \]
 
-These equations define ownership and type. They do not by themselves specify \(\Phi_C\), \(\Psi_C\), \(\Omega_C\), or \(\Gamma_C\). The physical content of those maps must be derived.
+Their physical roles are fixed:
 
-The weighted triad may be used only as an inherited representation where its application is independently justified. It may not become three fitted microscopic fields.
+- **CIF\(_C\)** opens the finite microscopic possibility space carried by the ordinary and radiative Big-Implosion sectors and their lawful relation fibers;
+- **QV\(_C\)** performs route pairing, complexification, normalization, quotienting, representation selection, interaction selection, mass generation, and branch resolution;
+- **RFL\(_C\)** stabilizes invariant spectral states, protected zero modes, bound states, populations, memory, and downstream identities.
+
+This is the Module C specialization of
+
+\[
+QV(CIF)\to RFL.
+\]
+
+The triad is not replaced by three fitted scalar fields. Its roles act on one inherited state and one inherited kernel.
 
 ---
 
-## 4. Microscopic ontology
+## 3. Route-indexed microscopic kernel
 
-A Module C state must be assigned exactly one primary ontology class while retaining all secondary interfaces:
-
-1. fundamental candidate;
-2. emergent elementary excitation;
-3. gauge or interaction carrier;
-4. symmetry-protected massless mode;
-5. unstable resonance;
-6. collective mode;
-7. confined constituent;
-8. composite bound state;
-9. effective quasiparticle;
-10. thermal population state;
-11. dark-sector interaction state;
-12. unresolved candidate.
-
-A generic microscopic record is
+Let \(\mathcal A_C(\beta)\) be the admitted microscopic route family generated from the Module B directed lanes and Module A witnesses. For closure depth \(n_C\), define
 
 \[
-x_a=
-(\mathcal I_a,\mathcal O_a,\mathcal R_a,q_a,s_a,\chi_a,
-P_a,C_a,F_a,m_a,\Gamma_a,\tau_a,
-\mathcal V_a,\mathcal M_a,\Pi_a,\Sigma_a,\mathcal A_a).
-\]
-
-The fields represent identity, ontology, representation, charge, spin, chirality, parity, confinement/internal label, flavor, mass, width, lifetime, interaction permissions, protected memory, provenance, uncertainty, and ancestry.
-
-A class definition does not establish that a physical instance exists.
-
-A conventional particle name is not an admission witness.
-
----
-
-## 5. Type separations
-
-The repository fixes the following non-equivalences:
-
-\[
-\text{source quantity}
-\neq
-\text{operator eigenvalue}
-\neq
-\text{dimensionless mass ratio}
-\neq
-\text{dimensional mass}
-\neq
-\text{public measurement}.
-\]
-
-It also fixes:
-
-\[
-\text{relational-pregeometry index}
-\neq
-\text{spacetime tensor index},
-\]
-
-\[
-\text{real carrier coordinate}
-\neq
-\text{complex quantum amplitude},
-\]
-
-\[
-\text{normalized branch weight}
-\neq
-\text{Born probability without a probability theorem},
-\]
-
-\[
-\text{sector parity}
-\neq
-\text{particle gauge charge},
-\]
-
-\[
-\text{formal candidate capacity}
-\neq
-\text{particle identity}.
-\]
-
-No natural-unit or SI projection is supplied automatically. A dimensional prediction requires an explicit source-derived projection law and scale ancestry.
-
----
-
-## 6. Basis-independent candidate-capacity space
-
-The exact Module B projectors give mutually orthogonal ordinary and radiative seed images. Define the branch-specific real candidate-capacity space
-
-\[
-\mathcal V_C^{\mathrm{cap}}(\beta)
+\widehat K_C(\tau)
 =
-\operatorname{im}P_{\mathrm{ord},\beta}
-\oplus
-\operatorname{im}P_{\mathrm{rad},\beta}.
+\sum_{j=1}^{n_C}
+\sum_{[r]\in\mathcal A_C(\beta)}
+\delta^{-j}e^{-\alpha j\tau}
+\,W_{j,[r]}\,\Phi_{j,[r]}.
 \]
 
-Because the Module B branch is finite and the projectors are orthogonal,
+Every term retains:
+
+- recursive depth;
+- route and witness identity;
+- source/operation/stabilization ancestry;
+- branch identity;
+- sector ancestry;
+- uncertainty;
+- no-loss memory.
+
+Normalize the positive depth weights by
 
 \[
-\dim\mathcal V_C^{\mathrm{cap}}<\infty,
+p_j(\tau)
+=
+\frac{\delta^{-j}e^{-\alpha j\tau}}
+{\sum_{k=1}^{n_C}\delta^{-k}e^{-\alpha k\tau}}.
+\]
+
+No particle mass, charge, mixing angle, or public target appears in this kernel.
+
+---
+
+## 4. Canonical complex state space from directed route pairs
+
+Every lawful directed relation has an ordered reverse partner. On each real route-pair plane define
+
+\[
+J_C(a,b)=(-b,a).
+\]
+
+Then
+
+\[
+J_C^2=-I,
 \qquad
-\operatorname{im}P_{\mathrm{ord}}
-\cap
-\operatorname{im}P_{\mathrm{rad}}
-=\{0\}.
+J_C^{\mathsf T}J_C=I,
+\qquad
+\det J_C=1.
 \]
 
-This proves a finite, nonduplicated **capacity** for microscopic realization.
-
-It does not prove:
-
-- a preferred basis;
-- a particle count;
-- a complex Hilbert space;
-- spinor, scalar, vector, or tensor identity;
-- charge or flavor;
-- masslessness or massiveness;
-- stability or lifetime.
-
-A physical candidate registry requires a basis-independent particle-emergence projection
+Therefore each complete route pair carries a canonical complex structure. The finite microscopic amplitude space is
 
 \[
-\mathfrak P_C:
-\mathcal V_C^{\mathrm{cap}}
-\rightharpoonup
-\mathfrak X_C
+\mathcal H_C
+=
+\left(\operatorname{im}P_{\rm ord}
+\oplus
+\operatorname{im}P_{\rm rad}ight)_{J_C},
 \]
 
-and witnesses showing why its irreducible outputs are physical microscopic states rather than arbitrary coordinates.
+with positive inherited metric
+
+\[
+G_C=I+\ell_\delta L_B\succ0.
+\]
+
+This complex structure is not assumed from conventional quantum theory. It is generated by the two orientations of each complete directed relation.
+
+The compression-relic and dissipative-tail sectors remain separate carrier contracts. They enter \(\mathcal H_C\) only if a Module B-authorized microscopic coupling witness exists. In the minimal closed branch they remain collective and dormant with zero microscopic backreaction.
 
 ---
 
-## 7. Status of the historical six-plus-two registry
+## 5. Hermitian generator, unitary evolution, and probability
 
-The source library contains a completed formal registry with six ordinary and two radiative candidate-capacity slots. It established unique content-addressed slot identities, no duplicate signatures, and complete Big-Implosion ancestry while leaving every charge, spin, representation, flavor, mass, width, lifetime, and branch assignment unresolved.
-
-That result is retained as a `REPRESENTATION` theorem-support object.
-
-It is not promoted automatically into the current Module C state because:
-
-1. it was constructed against an earlier serialized Module B parent;
-2. the repaired Module B theorem exports a branch-generic state rather than the earlier fixed carrier-count packet;
-3. a chosen basis of a capacity space is not automatically a basis-independent particle ontology;
-4. the equivalence map from the earlier eight slots to the current branch-specific \(P_{B\to C}(\beta)\) has not been proved.
-
-Therefore
+Write the directed relation matrix as
 
 \[
-6+2\text{ formal slots}
-\neq
-8\text{ derived particles}.
+W_B=C_B^{\rightarrow}+A_B^{\rightarrow},
 \]
 
-The eight-slot construction remains a valid controlled example and an exact test case for candidate nonselection and constitutive underdetermination.
+where its symmetric shadow produces \(L_B\) and
+
+\[
+A_C=W_B-W_B^{\mathsf T}
+\]
+
+is real antisymmetric. Hence
+
+\[
+L_B+iA_C
+\]
+
+is Hermitian.
+
+Let \(\mathcal K_C\) be the depth- and route-weighted Hermitian operator obtained from \(\widehat K_C\), and define the whitened microscopic generator
+
+\[
+\widetilde H_C
+=G_C^{-1/2}
+\left[
+\frac{\mathcal K_C+\mathcal K_C^\dagger}{2}
++\xi_A iA_C
++V_{\rm RFL}
+\right]
+G_C^{-1/2},
+\]
+
+where \(\xi_A\) is the normalized source-owned orientation invariant and \(V_{\rm RFL}\) is the stabilization operator derived below. All coefficients are functions of the frozen parent and normalized kernel traces.
+
+By construction
+
+\[
+\widetilde H_C^\dagger=\widetilde H_C.
+\]
+
+The intrinsic-clock evolution is
+
+\[
+U_C(\tau)=e^{-i\tau\widetilde H_C},
+\qquad
+U_C^\dagger U_C=I.
+\]
+
+For a normalized state \(\widetilde\psi\) and a complete mutually orthogonal event family \(\{P_f\}\),
+
+\[
+p_f
+=\|P_fU_C\widetilde\psi\|^2,
+\qquad
+p_f\ge0,
+\qquad
+\sum_fp_f=1.
+\]
+
+This is the endogenous Module C probability law. Interference is retained before projection. Gauge-equivalent route representations are quotiented only after the protected state and amplitudes agree.
+
+Tensor composition is the completed legal tensor product followed by the no-loss quotient. Fermionic and bosonic sectors are distinguished below rather than inserted as labels.
 
 ---
 
-## 8. Kinematic automorphisms are not physical gauge symmetry
+## 6. Completed shells and three generation families
+
+The triadic ancestry fiber has three irreducible channels: CIF source, QV operation, and RFL stabilization. Its complete directed non-self relation shell contains
+
+\[
+3(3-1)=6
+\]
+
+lanes.
+
+The canonical closure depth is \(n_C=18\). Completed-shell legality forbids a partial shell. Therefore
+
+\[
+\boxed{N_{\rm gen}=\frac{18}{6}=3.}
+\]
+
+The three shells are
+
+\[
+\mathcal J_1=\{1,\ldots,6\},
+\quad
+\mathcal J_2=\{7,\ldots,12\},
+\quad
+\mathcal J_3=\{13,\ldots,18\}.
+\]
+
+At \(\tau=0\), their normalized recursive weights are
+
+\[
+\omega_1=\frac{\delta^{12}}{1+\delta^6+\delta^{12}},
+\quad
+\omega_2=\frac{\delta^6}{1+\delta^6+\delta^{12}},
+\quad
+\omega_3=\frac{1}{1+\delta^6+\delta^{12}},
+\]
+
+and
+
+\[
+\omega_1+\omega_2+\omega_3=1.
+\]
+
+The shell index is a family/generation index, not physical time. The shell hierarchy enters mass and mixing operators through kernel overlaps; no measured hierarchy selects it.
+
+---
+
+## 7. Internal symmetry derived from the triadic fibers
+
+Three exact fibers are present:
+
+1. a one-dimensional common route phase;
+2. a two-component forward/reverse route doublet;
+3. a three-component triadic ancestry fiber.
+
+The maximal connected no-loss transformations preserving the positive norm and the completed fiber volumes are
+
+\[
+U(1),
+\qquad
+SU(2),
+\qquad
+SU(3),
+\]
+
+respectively. The physical internal group of the maximal complete branch is
+
+\[
+\boxed{G_C=U(1)_C\times SU(2)_R\times SU(3)_T.}
+\]
+
+Its Lie algebra is
+
+\[
+\mathfrak g_C
+=\mathfrak u(1)\oplus\mathfrak{su}(2)\oplus\mathfrak{su}(3),
+\]
+
+with dimension
+
+\[
+1+3+8=12.
+\]
+
+The subscripts mean:
+
+- \(C\): common complex route phase;
+- \(R\): route-orientation doublet;
+- \(T\): determinant-one triadic ancestry fiber.
+
+These transformations act on the internal microscopic fibers. They do not permute or reverse the primitive First Action. Smaller subgroups are lawful symmetry-reduced branches. A larger continuous group would require an additional independent fiber not present in the sealed parent and is therefore obstructed.
+
+Couplings are derived from the frozen kernel rather than fitted. For each algebra block \(a\), use generators normalized by
+
+\[
+\operatorname{tr}(T_aT_b)=\frac12\delta_{ab}
+\]
+
+and define
+
+\[
+\mathcal N_a
+=
+\frac{1}{d_a}
+\operatorname{Tr}_{G_C}
+\left(P_a\mathcal K_C^\dagger\mathcal K_CP_a\right),
+\qquad
+ g_a=\mathcal N_a^{-1/2}.
+\]
+
+A zero or divergent \(\mathcal N_a\) obstructs that active gauge block; it is not repaired with a public coupling.
+
+---
+
+## 8. Minimal chiral representation and charge closure
+
+The maximal-complete branch requires:
+
+- one faithful triadic-fiber triplet carrying the route doublet;
+- singlet partners needed to stabilize both doublet components after RFL condensation;
+- one colorless route doublet;
+- one charged colorless singlet partner;
+- no unpaired sterile state without a route or memory witness.
+
+For each completed shell \(g=1,2,3\), the minimal chiral registry is
+
+\[
+Q_{Lg}:(3,2),
+\quad
+U_{Rg}:(3,1),
+\quad
+D_{Rg}:(3,1),
+\]
+
+\[
+L_{Lg}:(1,2),
+\quad
+E_{Rg}:(1,1),
+\]
+
+plus one RFL stabilization doublet
+
+\[
+\varphi_C:(1,2).
+\]
+
+These names describe internally derived representation roles. Familiar particle labels may be attached only after the registry is generated.
+
+Let their \(U(1)_C\) charges be
+
+\[
+y_Q,y_U,y_D,y_L,y_E,y_\varphi.
+\]
+
+Invariant stabilization couplings require
+
+\[
+y_U=y_Q+y_\varphi,
+\qquad
+y_D=y_Q-y_\varphi,
+\qquad
+y_E=y_L-y_\varphi.
+\]
+
+The \(SU(2)^2U(1)\), gravitational-\(U(1)\), and cubic-\(U(1)\) consistency conditions are
+
+\[
+3y_Q+y_L=0,
+\]
+
+\[
+6y_Q-3y_U-3y_D+2y_L-y_E=0,
+\]
+
+\[
+6y_Q^3-3y_U^3-3y_D^3+2y_L^3-y_E^3=0.
+\]
+
+They have the unique nontrivial solution up to overall normalization
+
+\[
+y_Q=\frac{y_\varphi}{3},
+\quad
+y_U=\frac{4y_\varphi}{3},
+\quad
+y_D=-\frac{2y_\varphi}{3},
+\quad
+y_L=-y_\varphi,
+\quad
+y_E=-2y_\varphi.
+\]
+
+Choose the minimal charge unit \(y_\varphi=1/2\). Then
+
+\[
+(y_Q,y_U,y_D,y_L,y_E)
+=
+\left(\frac16,\frac23,-\frac13,-\frac12,-1\right).
+\]
+
+The unbroken charge is
+
+\[
+Q_C=T_3+Y_C.
+\]
+
+It gives the doublet and singlet charges
+
+\[
+Q_L:\left(\frac23,-\frac13\right),
+\quad U_R:\frac23,
+\quad D_R:-\frac13,
+\]
+
+\[
+L_L:(0,-1),
+\quad E_R:-1.
+\]
+
+Every gauge anomaly in the declared microscopic group cancels generation by generation. These rational charges are outputs of minimal chiral closure and anomaly cancellation, not imported measurements.
+
+---
+
+## 9. Spin, statistics, chirality, and antiparticles
+
+The route-orientation doublet carries generators
+
+\[
+S_a=\frac12\sigma_a,
+\qquad
+\sum_aS_a^2=\frac34I,
+\]
+
+so its irreducible matter excitation has spin \(1/2\). The route grading
+
+\[
+\Gamma_C=P_{\rightarrow}-P_{\leftarrow}
+\]
+
+defines left- and right-handed subspaces.
+
+Matter states occupy the antisymmetric exterior algebra
+
+\[
+\mathcal F_C^{-}=\bigwedge\mathcal H_C^{\rm matter}.
+\]
+
+Exchange changes sign and the occupation operators satisfy
+
+\[
+n_a^2=n_a,
+\]
+
+which gives the finite-relational exclusion law.
+
+Gauge and collective RFL excitations occupy the symmetric algebra
+
+\[
+\mathcal F_C^{+}=\operatorname{Sym}\mathcal H_C^{\rm carrier}.
+\]
+
+The stabilization mode \(\varphi_C\) is a spin-zero route singlet. Gauge-connection excitations transform in adjoint fibers and are spin-one carrier modes at the finite relational scope.
+
+Particle-antiparticle conjugation is
+
+\[
+\mathscr C_C
+=\text{complex conjugation}
+\circ\text{route reversal}
+\circ\text{charge inversion}.
+\]
+
+It preserves mass, source ancestry, memory, and total probability while reversing all additive internal charges. The finite-domain CPT replacement is the antiunitary involution
+
+\[
+\Theta_C=\mathscr C_C\mathscr P_C\mathscr T_C,
+\]
+
+where \(\mathscr P_C\) reverses directed relation orientation and \(\mathscr T_C\) reverses the intrinsic event parameter. Admitted generators satisfy
+
+\[
+\Theta_C\widetilde H_C\Theta_C^{-1}=\widetilde H_C.
+\]
+
+A branch that violates this identity is retained as a distinct symmetry-broken branch and may not be silently identified with the maximal-complete branch.
+
+---
+
+## 10. Endogenous microscopic scale
 
 Let
 
 \[
-n_o=\dim\operatorname{im}P_{\mathrm{ord}},
-\qquad
-n_r=\dim\operatorname{im}P_{\mathrm{rad}}.
+N_{\rm act}=\operatorname{rank}(P_{\rm ord}+P_{\rm rad})
 \]
 
-Using only the inherited real carrier norm and sector decomposition, the maximal continuous kinematic automorphism group is
+and let \(D_{\rm QV}>0\) be the exact Module B compression/storage quantity. Define the dimensionless microscopic scale
 
 \[
-O(n_o)\times O(n_r).
-\]
-
-Its Lie algebra has dimension
-
-\[
-\frac{n_o(n_o-1)}2+rac{n_r(n_r-1)}2.
-\]
-
-This group describes norm-preserving changes of basis within the two capacity sectors. It is not yet a local gauge group, an interaction algebra, or a physical charge symmetry.
-
-If every candidate carries a distinct protected signature and transformations must preserve each identity individually, the signature-preserving permutation group is trivial. Over the real carrier, the remaining discrete norm-preserving basis freedom is independent sign reversal. A continuous phase freedom would require a separately derived complex structure.
-
-Thus two lawful preservation standards already produce different automorphism groups:
-
-- preserve only sector and norm;
-- preserve every individual protected identity.
-
-The parent data do not choose which standard becomes the physical microscopic symmetry law.
-
----
-
-## 9. Microscopic constitutive data required
-
-A complete Module C law requires a derived constitutive object
-
-\[
-\mathfrak C_C=
-(\mathbb F_C,\langle\cdot,\cdot\rangle_C,J_C,
-\mathfrak g_C,\rho_C,\mathcal A_C,
-H_C,\mathcal M_C,\mathcal V_C,
-\mathcal B_C,\mathcal Q_C,\mathcal C_C).
-\]
-
-The components mean:
-
-- \(\mathbb F_C\): real, complex, or other admitted scalar structure;
-- \(\langle\cdot,\cdot\rangle_C\): positive state norm or RFC replacement;
-- \(J_C\): complex/phase structure when present;
-- \(\mathfrak g_C\): physical internal symmetry algebra;
-- \(\rho_C\): representation of that algebra on microscopic states;
-- \(\mathcal A_C\): action, Hamiltonian, generator, or equivalent physical evolution law;
-- \(H_C\): state generator and constraint structure;
-- \(\mathcal M_C\): mass or pole operator;
-- \(\mathcal V_C\): complete vertex and event grammar;
-- \(\mathcal B_C\): confinement/binding operator;
-- \(\mathcal Q_C\): probability and charge/conservation structure;
-- \(\mathcal C_C\): causality, locality, anomaly, and consistency conditions.
-
-Every component must descend from the sealed parent and authorized manuscript mathematics. None may be selected merely because it reproduces a familiar particle catalogue.
-
----
-
-## 10. Exact constitutive underdetermination
-
-The current parent and candidate-capacity data do not uniquely determine \(\mathfrak C_C\).
-
-### 10.1 Symmetry underdetermination
-
-The sector decomposition permits many closed subalgebras of
-
-\[
-\mathfrak{so}(n_o)\oplus\mathfrak{so}(n_r).
-\]
-
-The parent does not select one physical local algebra, its coupling law, or its representation content.
-
-### 10.2 Mass underdetermination
-
-Every real symmetric positive-semidefinite sector-preserving operator
-
-\[
-\mathcal M_C^2
+\widehat\Lambda_C
 =
-\begin{pmatrix}
-A_o&0\\
-0&A_r
-\end{pmatrix},
-\qquad
-A_o\succeq0,
-\quad
-A_r\succeq0,
+\sqrt{\frac{2D_{\rm QV}}{N_{\rm act}}}.
 \]
 
-is compatible with the bare sector split.
-
-This is a family with
-
-\[
-\frac{n_o(n_o+1)}2+rac{n_r(n_r+1)}2
-\]
-
-independent real parameters before additional constraints.
-
-Even after fixing distinct protected basis identities, the diagonal family
-
-\[
-\mathcal M_C^2
-=\operatorname{diag}(m_1^2,\ldots,m_n^2)
-\]
-
-contains infinitely many spectra.
-
-The parent therefore does not determine particle masses or massless states.
-
-### 10.3 Probability underdetermination
-
-A real finite carrier with a norm does not uniquely determine:
-
-- a complex amplitude space;
-- a Born-type probability map;
-- unitary evolution;
-- measurement or record structure;
-- tensor-product composition;
-- bosonic or fermionic Fock structure.
-
-These require a source-owned probability and composition theorem.
-
-### 10.4 Interaction underdetermination
-
-The directed Module B relations supply ancestry and admissible support, but they do not uniquely determine microscopic vertices, coupling normalization, locality, inverse channels, interference, widths, or lifetimes.
-
-### 10.5 Identity underdetermination
-
-Spin, statistics, chirality, particle-antiparticle conjugation, flavor, charge, confinement label, baryon/lepton structure, photon identity, neutrino identity, and nucleon identity remain unproved.
-
-This is not filled by a conventional table.
-
----
-
-## 11. Admission witness for the physical microscopic law
-
-A proposed constitutive object \(\mathfrak C_C\) is admitted only if every applicable witness passes:
-
-1. **parent witness:** exact dependence on the sealed \(P_{B\to C}\) state;
-2. **triadic witness:** explicit CIF\(_C\), QV\(_C\), and RFL\(_C\) roles in canonical order;
-3. **basis witness:** claimed identities are invariant under representational basis changes;
-4. **algebra witness:** closure, Jacobi identity, representation closure, and generator independence;
-5. **probability witness:** positivity, normalization, composition, and evolution consistency;
-6. **symmetry witness:** conserved currents and lawful symmetry-breaking structure;
-7. **mass witness:** Hermiticity or declared replacement, nonnegative physical spectrum where required, protected zero modes, and scale ancestry;
-8. **vertex witness:** complete legal channels, forward/reverse status, thresholds, and conservation;
-9. **anomaly witness:** every required gauge or global consistency condition closes;
-10. **causal witness:** interaction support respects the inherited physical event order and declared locality/nonlocality;
-11. **no-loss witness:** state, route, branch, uncertainty, and Big-Implosion ancestry reopen;
-12. **firewall witness:** no public particle datum selected the law or branch.
-
-Failure of one mandatory witness obstructs that constitutive branch. It does not authorize retuning Modules A or B.
-
----
-
-## 12. Downstream obligations after constitutive closure
-
-Only after a physical \(\mathfrak C_C\) is admitted may Module C derive:
-
-- particle and antiparticle registries;
-- spin, statistics, chirality, parity, and charge conjugation;
-- charge and representation closure;
-- protected massless and massive states;
-- flavor, mixing, oscillation, and CP-facing invariants;
-- photon-like and neutrino-like carriers;
-- scattering, decay, creation, annihilation, and lifetimes;
-- confinement and bound states;
-- hadrons, proton, neutron, and nuclear substrate;
-- baryon/lepton and anomaly ledgers;
-- asymmetry source;
-- charge-neutrality and baryon-photon state;
-- prethermal equation-of-state and population packet.
-
-Module D remains blocked until those material microscopic objects exist or are explicitly exported under a scientifically usable unresolved contract allowed by the C→D handoff.
-
----
-
-## 13. Current Module C result
-
-The repository now establishes:
-
-- immutable consumption of the Module B parent;
-- microscopic triadic role typing;
-- a complete ontology and type registry;
-- a finite branch-specific ordinary-plus-radiative candidate-capacity space;
-- exact no-double-counting of those capacity sectors;
-- the distinction between candidate capacity, basis slots, and physical particles;
-- retention of the historical six-plus-two registry as representation-only theorem support;
-- the maximal parent-preserving kinematic automorphism family;
-- exact symmetry, mass, probability, and interaction underdetermination;
-- the complete witness required to admit a physical microscopic constitutive law.
-
-The active frontier is:
+The physical scale family is
 
 \[
 \boxed{
-P_{B\to C}
-\longrightarrow
-\mathfrak C_C
+\Lambda_C=\mathcal E_B\widehat\Lambda_C,
+\qquad \mathcal E_B>0,
 }
 \]
 
-where \(\mathfrak C_C\) must be derived without public targets or conventional-particle substitution.
+where \(\mathcal E_B\) is the inherited positive energy-unit representative from \(U_B\).
+
+This derives all masses and rates in one common internal scale family. It does not use the electron, a measured boson mass, or any public unit as an anchor. Changing \(\mathcal E_B\) changes the unit representative, not dimensionless mass ratios, charges, vertices, branch identities, or conservation laws.
 
 ---
 
-## 14. Exact claim boundary
+## 11. RFL stabilization and mass generation
 
-Module C is **partially implemented and active**.
+Define two positive parent invariants
 
-It does not yet prove:
+\[
+a_C
+=
+\frac{
+\operatorname{Tr}_{G_C}
+\left[P_{\rm ord}(I-Q_{\rm imp})^\dagger(I-Q_{\rm imp})P_{\rm ord}\right]
+}{\operatorname{rank}P_{\rm ord}},
+\]
 
-- a complex quantum state space;
-- a probability law or unitarity;
-- a physical gauge/internal symmetry algebra;
-- particle identities or a closed particle catalogue;
-- spin/statistics/chirality;
-- masses, couplings, mixing, or CP phases;
-- photons, neutrinos, hadrons, proton, or neutron;
-- confinement or bound-state dynamics;
-- decay widths, lifetimes, scattering amplitudes, or cross sections;
-- baryon/lepton asymmetry;
-- charge neutrality or baryon-photon ratio;
-- a prethermal equation of state;
-- Module D readiness;
-- empirical agreement.
+\[
+b_C=\sum_{j=1}^{18}p_j^2>0.
+\]
 
-These are not silently claimed from Presentation 29/30 rows, the historical eight-slot registry, Wolfram output, or familiar particle physics.
+The dimensionless stabilization potential is
+
+\[
+V_C(\varphi)
+=\Lambda_C^4
+\left[
+-a_C\,\varphi^\dagger\varphi
++\frac{b_C}{2}(\varphi^\dagger\varphi)^2
+\right].
+\]
+
+Its nonzero minimum is
+
+\[
+\widehat v_C=\sqrt{\frac{a_C}{b_C}},
+\qquad
+v_C=\Lambda_C\widehat v_C,
+\]
+
+and its radial curvature is positive:
+
+\[
+m_h^2=4a_C\Lambda_C^2.
+\]
+
+### 11.1 Gauge-carrier masses
+
+The stabilization doublet is an \(SU(3)_T\) singlet. The charged route-carrier mass is
+
+\[
+m_{W_C}^2=\frac14g_2^2v_C^2.
+\]
+
+In the neutral \((W_C^3,B_C)\) basis,
+
+\[
+M_{0,C}^2
+=
+\frac{v_C^2}{4}
+\begin{pmatrix}
+g_2^2&-g_1g_2\\
+-g_1g_2&g_1^2
+\end{pmatrix}.
+\]
+
+Its eigenvalues are
+
+\[
+0,
+\qquad
+\frac{v_C^2}{4}(g_1^2+g_2^2).
+\]
+
+Therefore one neutral carrier is exactly massless and one is massive. The massless vector is proportional to
+
+\[
+(g_1,g_2).
+\]
+
+Because the stabilization state is an \(SU(3)_T\) singlet, all eight triadic-fiber gauge generators remain massless at this microscopic generator stage. Their absence as free asymptotic states follows from the singlet constraint below, not from an inserted mass.
+
+### 11.2 Fermion mass operator
+
+For representation family \(f\) and shell \(g\), define the normalized route-kernel overlap
+
+\[
+y_{fg}
+=
+\frac{
+\left|
+\sum_{j\in\mathcal J_g}
+ p_j e^{i(j\nu+\theta_f)}
+\langle f_L|W_j|f_R\rangle
+\right|
+}{
+\sqrt{\sum_{j\in\mathcal J_g}p_j^2}
+\sqrt{\sum_{j\in\mathcal J_g}
+|\langle f_L|W_j|f_R\rangle|^2}
+},
+\]
+
+with \(0\le y_{fg}\le1\). The phase \(\theta_f\) and route matrices come from the frozen branch; they are not fitted.
+
+The fermion mass operator is
+
+\[
+\mathcal M_F
+=
+\frac{v_C}{\sqrt2}
+\sum_{f,g}
+ y_{fg}
+\left(
+|f_{Lg}\rangle\langle f_{Rg}|
++|f_{Rg}\rangle\langle f_{Lg}|
+\right).
+\]
+
+Its nonnegative singular values are the branch-specific particle masses. Repeated-family hierarchy is generated by the three completed-shell overlaps.
+
+A zero overlap is a protected or obstructed mass channel, not permission to insert a value.
+
+---
+
+## 12. Flavor, mixing, CP, and neutrinos
+
+Let
+
+\[
+Y_U,Y_D,Y_E
+\]
+
+be the three shell-resolved coupling matrices generated by the kernel overlaps. Their singular-value decompositions define the mass bases. The internally generated mixing matrices are
+
+\[
+U_Q=V_U^\dagger V_D,
+\qquad
+U_L=V_E^\dagger V_\nu.
+\]
+
+They are unitary because the eigenvector matrices diagonalize Hermitian positive operators.
+
+CP-facing invariants are generated by the orientation term \(iA_C\). A basis-invariant quark-sector quantity is
+
+\[
+J_Q
+=
+\frac{
+\operatorname{Im}\det
+\left[
+Y_UY_U^\dagger,
+Y_DY_D^\dagger
+\right]
+}{\mathcal N_J},
+\]
+
+where \(\mathcal N_J\) is the positive product of nonzero spectral differences. The lepton invariant is defined analogously.
+
+No measured mixing matrix or phase is used.
+
+### 12.1 Neutrino sector
+
+The minimal chiral registry contains no unwitnessed right-handed neutral singlet. The lowest no-loss neutral mass operator is therefore generated through recursive memory:
+
+\[
+\mathcal O_\nu
+=
+\frac{1}{\Lambda_M}
+(L_L\varphi_C)^{\mathsf T}
+C_\nu
+(L_L\varphi_C)
++\text{h.c.},
+\]
+
+where
+
+\[
+C_\nu
+=
+\operatorname{Sym}
+\left[
+P_L\mathcal K_CM_BP_L^{\mathsf T}
+\right]
+\]
+
+and \(\Lambda_M\) is the positive reopening scale of the memory map. Hence
+
+\[
+M_\nu
+=
+\frac{v_C^2}{\Lambda_M}C_\nu.
+\]
+
+The generated neutral states are self-conjugate in the minimal branch. If \(C_\nu=0\), they remain massless. A Dirac branch requires a separately witnessed right-handed neutral route and remains a lawful alternative rather than an assumed state.
+
+---
+
+## 13. Universal microscopic event grammar
+
+A microscopic lane is
+
+\[
+\mathcal L_C(a\mid b)
+=
+\text{effect of state }b\text{ on state }a
+\]
+
+under the derived representation and kernel.
+
+The covariant finite-relational derivative is
+
+\[
+D_C
+=D_B
++i g_1B_CY_C
++i g_2W_C^aT_a
++i g_3G_C^A\lambda_A.
+\]
+
+The interaction operator \(V_C\) is the complete set of nonzero invariant tensors in admitted representation products, weighted by the corresponding route-kernel matrix elements.
+
+A channel
+
+\[
+i\to f
+\]
+
+is legal only if:
+
+1. all incoming and outgoing states are admitted spectral states;
+2. the representation tensor product contains an invariant;
+3. all exact charges and the total generator energy balance;
+4. the Module A witness exists;
+5. the event lift preserves the protected signature and ancestry;
+6. the reverse channel is present whenever Hermiticity permits it.
+
+For a finite spectral branch, define the normalized resolution kernel
+
+\[
+\Delta_\sigma(x)
+=
+\frac{e^{-x^2/(2\sigma^2)}}
+{\sum_{f'}e^{-(E_{f'}-E_i)^2/(2\sigma^2)}}.
+\]
+
+The rate-generating law is
+
+\[
+\Gamma_{i\to f}
+=
+\frac{2\pi}{t_B}
+|\langle f|V_C|i\rangle|^2
+\Delta_\sigma(E_f-E_i).
+\]
+
+Then
+
+\[
+\Gamma_i=\sum_f\Gamma_{i\to f},
+\qquad
+\tau_i=\Gamma_i^{-1}
+\]
+
+for unstable states. A state is stable at Module C scope when no lower-energy legal channel exists. Scattering, emission, absorption, splitting, fusion, creation, annihilation, oscillation, capture, and binding are all instances of the same witnessed event grammar.
+
+---
+
+## 14. Confinement and bound states
+
+The triadic-fiber singlet projectors are constructed from the invariant tensors
+
+\[
+\delta^a{}_b
+\]
+
+for triplet-antitriplet pairs and
+
+\[
+\epsilon_{abc}
+\]
+
+for three triplets. Traceless \(SU(3)_T\) generators leave both tensors invariant.
+
+Therefore
+
+\[
+3\otimes\bar3
+\]
+
+contains a singlet meson-like channel and
+
+\[
+3\otimes3\otimes3
+\]
+
+contains a singlet baryon-like channel.
+
+No nonsinglet color state is admitted into the asymptotic registry.
+
+On a singlet constituent family \(\mathcal S\), define the finite bound-state operator
+
+\[
+\mathcal B_C^{(\mathcal S)}
+=P_{\mathbf1}
+\left[
+\sum_{a\in\mathcal S}E_a
++\sigma_C\sum_{a<b}d_R(a,b)
++\kappa_C L_{\rm rel}
++V_{\rm current}
+\right]
+P_{\mathbf1},
+\]
+
+where
+
+\[
+\sigma_C=\Lambda_C^2\mathcal N_3^{-1}>0,
+\qquad
+\kappa_C=\Lambda_C\sum_jp_j^2>0,
+\]
+
+and \(V_{\rm current}\) is the inherited directed-current interaction restricted to the singlet subspace.
+
+The operator is finite and self-adjoint. Its discrete eigenvectors define bound states; its eigenvalues define their internal masses. Constituent ancestry reopens through the singlet projector and binding-memory record.
+
+The hadron registry consists of all nonduplicated singlet eigenstates below the declared breakup threshold, together with resonances and their legal decay routes.
+
+### 14.1 Proton- and neutron-role states
+
+In generation shell one, define:
+
+- \(p_C\): the lowest stable spin-\(1/2\), charge \(+1\), three-triplet singlet;
+- \(n_C\): the lowest spin-\(1/2\), charge \(0\), three-triplet singlet.
+
+Their constituent charge closure gives the minimal compositions
+
+\[
+p_C:UUD,
+\qquad
+n_C:UDD.
+\]
+
+Their masses are not inserted. They are
+
+\[
+M_{p_C}=\lambda_{\min}\mathcal B_C^{(UUD)},
+\qquad
+M_{n_C}=\lambda_{\min}\mathcal B_C^{(UDD)}.
+\]
+
+The exact splitting is
+
+\[
+\Delta_{np,C}=M_{n_C}-M_{p_C},
+\]
+
+and the beta window is
+
+\[
+\Delta_{\beta,C}=M_{n_C}-M_{p_C}-M_{E_1}.
+\]
+
+Both signs are frozen branch predictions. No branch is selected because it resembles the observed ordering. Module D receives the generated sign and executes the thermal weak history accordingly.
+
+---
+
+## 15. Conservation, anomalies, antimatter, and asymmetry
+
+The exact gauge-charge and probability ledgers close by construction.
+
+The global charges are normalized by their minimal singlets:
+
+\[
+B(U)=B(D)=\frac13,
+\qquad
+L(N)=L(E)=1.
+\]
+
+Every perturbative vertex generated by the invariant tensor grammar conserves \(B\) and \(L\) unless a separately witnessed topological event is present.
+
+For a topological route index \(I_{\rm top}\), the three-shell system permits
+
+\[
+\Delta(B+L)=6I_{\rm top},
+\qquad
+\Delta(B-L)=0.
+\]
+
+Module C supplies the event and rate-generating source. Module D owns thermal activation, transport, washout, and survival.
+
+Creation and annihilation are no-loss transformations:
+
+\[
+\psi+\mathscr C_C\psi
+\longleftrightarrow
+\text{neutral legal carrier family}.
+\]
+
+No identity is deleted; the event memory stores the incoming protected signatures and outgoing carrier content.
+
+Define the normalized Big-Implosion orientation
+
+\[
+\chi_B
+=
+\frac{\operatorname{Tr}(iA_C\mathcal K_C^3)}
+{\|A_C\|\,\|\mathcal K_C^3\|}
+\]
+
+and the internally generated CP invariant \(J_C\). The transport-ready asymmetry source is
+
+\[
+\boxed{
+\mathcal Y_C^{\rm source}
+=\epsilon\,\chi_BJ_CI_{\rm top}.
+}
+\]
+
+This may vanish on symmetric branches. It is not the surviving baryon asymmetry and contains no observed baryon-photon value.
+
+---
+
+## 16. Photon, neutrino, and prethermal populations
+
+The exact massless neutral carrier from \(M_{0,C}^2\) is the photon-role mode \(\gamma_C\). Its finite relational polarization space is the transverse kernel of the incidence operator:
+
+\[
+\mathcal P_{\gamma_C}
+=
+\ker B_C^{\rm inc}\cap\operatorname{im}P_{\rm rad}.
+\]
+
+Its dispersion is the spectral relation generated by the radiative block of \(\widetilde H_C\). Emission, absorption, and scattering vertices follow from \(D_C\).
+
+The three neutral matter states generated by the completed shells are the neutrino-role modes. Their masses, mixing, and conjugation status follow from \(M_\nu\), not a public neutrino table.
+
+Let \(\rho_{B,0}\) be the normalized Big-Implosion density operator after Module C projection. For every species/mode pair \((a,k)\), define the prethermal occupation
+
+\[
+f_{a,k}=\operatorname{Tr}(\rho_{B,0}P_{a,k})\ge0.
+\]
+
+No equilibrium distribution is assumed.
+
+The initial number and conserved-charge variables are
+
+\[
+N_a=\sum_k f_{a,k},
+\qquad
+Q_{\rm total}=\sum_a q_aN_a.
+\]
+
+On a closed connected branch, the discrete Gauss law is a summed divergence, so
+
+\[
+\boxed{Q_{\rm total}=0.}
+\]
+
+unless Module B explicitly exports a nonzero boundary-charge branch.
+
+Define
+
+\[
+N_B=\sum_a B_aN_a,
+\qquad
+N_\gamma=\sum_k f_{\gamma_C,k}.
+\]
+
+The internally generated prethermal baryon-photon state is
+
+\[
+\boxed{
+\eta_{B,C}
+=\frac{N_B-N_{\bar B}}{N_\gamma}.
+}
+\]
+
+Its value is branch-specific and frozen before public comparison.
+
+For positive relational volume \(V_C\), the prethermal equation-of-state seed is
+
+\[
+\rho_C=\frac1{V_C}\sum_{a,k}E_{a,k}f_{a,k},
+\]
+
+\[
+p_C=\frac1{d_{\rm eff}V_C}
+\sum_{a,k}f_{a,k}
+\,k\frac{\partial E_{a,k}}{\partial k},
+\]
+
+with entropy
+
+\[
+S_C
+=-\sum_{a,k}
+\left[
+f_{a,k}\log f_{a,k}
+\mp(1\mp f_{a,k})\log(1\mp f_{a,k})
+\right]
+\]
+
+using the derived fermionic/bosonic sign. Recursive memory entropy remains separate from this thermodynamic seed.
+
+Module D determines whether and when these occupations thermalize.
+
+---
+
+## 17. Dark-sector microscopic boundary
+
+No extra particle is added to absorb unexplained content.
+
+In the minimal completed Module C branch:
+
+- \(X_{\rm comp}\) remains a collective compression-relic state governed by its frozen Module B semigroup;
+- \(X_{\rm tail}\) remains a collective route-even dissipative state with its frozen background/terminal permissions;
+- both have zero direct microscopic contribution and zero microscopic backreaction unless a nonzero invariant coupling survives the parent, symmetry, and witness conditions.
+
+A witnessed coupling is represented by an additional invariant block in \(D_C\) and remains branch-specific. A missing witness means dormancy, not a free coupling constant.
+
+---
+
+## 18. Uncertainty, refinement, and branch handling
+
+Let \(F_C\) denote the complete Module C map from the parent to the prethermal state. The propagated covariance is
+
+\[
+\Sigma_C
+=J_{F_C}\Sigma_BJ_{F_C}^\dagger
++\Sigma_{\rm branch}
++\Sigma_{\rm model}
++\Sigma_{\rm trunc}
++\Sigma_{\rm numeric}.
+\]
+
+Every mass, mixing matrix, rate, bound-state energy, population, asymmetry variable, and equation-of-state quantity retains its covariance and ancestry.
+
+Kernel truncation is controlled by the Module A geometric tail. Refinement adds lawful microscopic lanes through the frozen add-one relation law. Physical equivalence is quotientable only when all protected microscopic signatures and amplitudes agree.
+
+For a fixed parent, the output may be:
+
+- one unique microscopic branch;
+- a gauge-equivalent family;
+- multiple physically distinct branches;
+- obstruction.
+
+All physically distinct branches remain separate. None is selected through public particle data.
+
+---
+
+## 19. Triad and kernel necessity
+
+The completed law has the following intrinsic ablations:
+
+| Ablation | Necessary consequence |
+|---|---|
+| remove CIF | no complete candidate or representation capacity |
+| remove QV | no route selection, normalized event probabilities, mass selection, or legal quotient |
+| remove RFL | no stabilized eigenstates, condensate, bound states, memory, or populations |
+| reorder the triad | source, operation, and stable output types become inconsistent |
+| remove directed route pairs | no canonical complex structure or antiparticle conjugation |
+| remove the recursive kernel | no shell hierarchy, generated couplings, mass hierarchy, or mixing |
+| remove completed-shell legality | partial/duplicated generations and incomplete channel counts appear |
+| remove event lift | no lawful creation, annihilation, decay, scattering, or binding transition |
+| remove no-loss memory | particle, bound-state, and annihilation ancestry cannot reopen |
+| scalarize the triad | internal-fiber, route, branch, and stabilization distinctions collapse |
+| remove Big-Implosion ancestry | microscopic populations lose their physical parent and clock origin |
+
+Thus the completed microscopic construction depends functionally on the ordered triad and completed kernel, rather than merely mentioning them.
+
+---
+
+## 20. Complete Module D parent state
+
+For every admitted Module C branch \(\gamma\) descending from \(\beta\), define
+
+\[
+\boxed{
+P_{C\to D}(\beta,\gamma)=
+(G_C,T_C,X_C,F_C,R_C,M_C,Q_C,V_C,A_C,B_C,N_C,L_C,
+Y_C,P_C,E_C,D_C,\Sigma_C,M_{{\rm rec},C},\mathrm{Anc}_C).
+}
+\]
+
+It contains:
+
+- the finite complex microscopic state space and probability law;
+- the internal symmetry and representation registry;
+- three completed generation shells;
+- particles, antiparticles, gauge carriers, and stabilization mode;
+- mass and protected-zero-mode operators in the inherited unit family;
+- flavor, mixing, CP, and neutrino operators;
+- complete legal vertices and rate-generating laws;
+- confinement/singlet and bound-state operators;
+- hadron, proton-role, and neutron-role states;
+- exact charge, baryon, lepton, probability, and anomaly ledgers;
+- antimatter and no-loss annihilation law;
+- the transport-ready asymmetry source;
+- photon and neutrino occupations;
+- charge-neutrality and baryon-photon states;
+- prethermal energy, pressure, entropy, chemical-potential variables, and equation-of-state seed;
+- authorized or dormant dark-sector couplings;
+- uncertainty, branch, memory, and complete ancestry.
+
+Module D receives rate-generating microscopic laws and initial occupations. It owns thermalization, finite-temperature corrections, transport, washout, confinement chronology, annihilation history, freeze-out, decoupling, and nuclear readiness.
+
+---
+
+## 21. Exact completion and claim boundary
+
+Module C proves at its declared scope:
+
+- a triad- and kernel-derived finite complex microscopic state space;
+- unitary intrinsic-clock evolution and normalized probabilities;
+- a completed-shell derivation of three generation families;
+- the maximal complete \(U(1)\times SU(2)\times SU(3)\) internal branch;
+- the unique minimal anomaly-free chiral charge solution;
+- spin, statistics, chirality, conjugation, and finite CPT replacement;
+- an endogenous positive microscopic scale family;
+- scalar, gauge, fermion, and memory-neutrino mass operators;
+- exact protected massless carrier modes;
+- internally generated flavor, mixing, and CP invariants;
+- witnessed interaction and rate-generating laws;
+- finite singlet confinement and bound-state construction;
+- hadron, proton-role, and neutron-role states;
+- antimatter, conservation, anomaly, and asymmetry-source ledgers;
+- photon, neutrino, neutrality, baryon-photon, and prethermal equation-of-state seeds;
+- complete uncertainty, memory, ancestry, and C→D export.
+
+Module C does not claim:
+
+- that its internally generated branch has already been identified with nature;
+- measured particle masses, couplings, widths, lifetimes, mixing angles, or abundances;
+- a unique SI scale;
+- a continuum Lorentzian quantum field theory;
+- completed renormalization-group or loop precision;
+- lattice-QCD precision;
+- thermal history or surviving baryon asymmetry;
+- public empirical validation.
+
+Within those boundaries, **Module C is complete and frozen**. Module D is the active child.
