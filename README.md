@@ -3,51 +3,36 @@
 ## Current state
 
 ```text
-Modules A–J: COMPLETE_AND_FROZEN
+Modules A–J, H^U, H[I]: COMPLETE_AND_FROZEN
 Module K^(0): COMPLETE_AND_FROZEN
-Module L: ACTIVE
-Final K closure: PENDING_K_L_M_RECURRENCE
+Module L^(0): COMPLETE_AND_FROZEN
+Module M: ACTIVE
+Final K*, L*, M*: PENDING_K_L_M_RECURRENCE
 ```
 
 The universe descends continuously from `(CIF,QV,RFL)`, the First Action `QV(CIF) -> RFL`, the enhanced completed Module A triad kernel with terminal N-body relational completion, and the Big Implosion as the sole first physical event.
 
-## Completed Module K first pass
+## Completed Module L first pass
 
-Module K now provides:
+Module L now provides:
 
-- exact no-rescale, phase-preserving J→K promotion and overlap recovery;
-- finite-N, phase-space, continuum, weak-field, and local relativistic regime grammar;
-- conservation-complete force, metric, event, refinement, and restart laws;
-- shell crossing, multistream continuation, caustics, collapse, binding, relaxation, and stabilization witnesses;
-- ancestry-preserving halos, subhalos, streams, merger/disruption graph, cosmic web, and void state;
-- nonlinear compression-relic, dissipative-tail, neutrino/free-streaming, baryonic-gravity, and strong-field interfaces;
-- nonlinear metric, geodesic/Jacobi lensing, and truth-level lightcones;
-- covariance, uncertainty, signatures, memory, ancestry, and the complete `P_K->L^(0)`.
+- immutable consumption of the sealed `K^(0)` gravitational parent;
+- hydro/MHD, radiation, thermochemistry, turbulence, shock, and phase-regime grammar;
+- physical cloud/core identity, collapse, fragmentation, and witnessed star birth;
+- internally generated stellar birth measures rather than an inserted IMF;
+- protostellar, stellar-structure-interface, population, binary, feedback, remnant, accretion, cosmic-ray, ionizing-source, and baryonic-galaxy states;
+- exact L/M explosive-event ownership and strong-field return to K;
+- conservation, lineage, no-loss promotion, covariance, replay locality, restart, `P_L->M^(0)`, and `R_L->K^(0)`.
 
 Central files:
 
-- `science/NONLINEAR_RELATIONAL_GRAVITY.md`
-- `proofs/NONLINEAR_RELATIONAL_GRAVITY.md`
-- `modules/K/MODULE_K_WOLFRAM_VERIFICATION.md`
-- `modules/K/MODULE_K_TO_L_SCIENTIFIC_HANDOFF.md`
+- `science/BARYONIC_STELLAR_UNIVERSE.md`
+- `proofs/BARYONIC_STELLAR_UNIVERSE.md`
+- `modules/L/MODULE_L_WOLFRAM_VERIFICATION.md`
+- `modules/L/MODULE_L_TO_M_SCIENTIFIC_HANDOFF.md`
 
-## Exact boundary
-
-`K^(0)` is complete at first-pass nonlinear gravitational scope. It does not contain hydrodynamics, stars, feedback, late composition, empirical nonlinear validation, or the final baryonically converged `K*`. Final K closure requires the later K–L–M recurrence to be classified.
+`L^(0)` does not claim isotope-resolved stellar/explosive yields, dust closure, final chemically corrected stellar histories, final K-L-M convergence, or empirical agreement.
 
 ## Active frontier
 
-Module L must derive baryonic hydrodynamics/MHD, thermochemistry, radiation, clouds, witnessed star birth, stellar populations, feedback, remnants, and typed returns to Modules M and K without empirical star-formation, IMF, feedback, or galaxy-halo prescriptions.
-
-## Canonical reading order
-
-1. `HANDOFF.md`
-2. `STATE.json`
-3. `PLAN.md`
-4. `science/NONLINEAR_RELATIONAL_GRAVITY.md`
-5. `proofs/NONLINEAR_RELATIONAL_GRAVITY.md`
-6. `modules/K/MODULE_K_WOLFRAM_VERIFICATION.md`
-7. `modules/K/MODULE_K_TO_L_SCIENTIFIC_HANDOFF.md`
-8. Module L plan, triad lock, traceability, and Wolfram revision
-
-Public observations may enter only Module P after Module O freezes the generated universe.
+Module M must derive isotope-resolved stellar and explosive nucleosynthesis, radioactive descendants, chemical transport, dust, composition-dependent microphysics, and conservative returns to K and L without public yield tables, abundance targets, delay-time laws, or tuned chemical prescriptions.
