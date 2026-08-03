@@ -1,158 +1,127 @@
 # Handoff for Future Iterations
 
+## Current state
+
+Module A has been repaired in place according to its detailed scientific plan, manuscript-source trace, Wolfram revision, and A→B handoff.
+
+```text
+Module A: COMPLETE_AND_FROZEN
+Module B: ACTIVE
+```
+
+This is no longer an A–Q planning-only repository. The Module A implementation is now present in the scientific and proof files. Modules B–Q remain planned but not yet implemented in place.
+
 ## Required read order
 
-Read first:
+Read:
 
 1. `README.md`
-2. `architecture/2RFC_DETAILED_SCIENTIFIC_GAP_TO_LIBRARY_REPAIR_PLAN.md`
-3. `architecture/2RFC_MODULE_BY_MODULE_SCIENTIFIC_REPAIR_PLAN.md`
-4. `architecture/2RFC_MANUSCRIPT_SOURCE_TRACEABILITY_RULES.md`
-5. `architecture/2RFC_WOLFRAM_INTEGRATION_RULES.md`
+2. `STATE.json`
+3. `PLAN.md`
+4. `science/FOUNDATION.md`
+5. `proofs/KERNEL_COMPLETION.md`
+6. `science/CLAIMS.md`
+7. `modules/A/MODULE_A_MANUSCRIPT_SOURCE_TRACEABILITY.md`
+8. `modules/A/MODULE_A_WOLFRAM_REVISION.md`
+9. `modules/A/MODULE_A_WOLFRAM_VERIFICATION.md`
+10. `modules/A/MODULE_A_TO_B_SCIENTIFIC_HANDOFF.md`
+11. `proofs/GENESIS_REALIZATION.md`
+12. `science/PHYSICAL_REALIZATION.md`
+13. `modules/B/MODULE_B_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
+14. `modules/B/MODULE_B_MANUSCRIPT_SOURCE_TRACEABILITY.md`
+15. `modules/B/MODULE_B_WOLFRAM_REVISION.md`
+16. `modules/B/MODULE_B_TO_C_SCIENTIFIC_HANDOFF.md`
+17. the exact manuscript sources named by the Module B trace.
 
-For each active Module `X`, read together:
+The architecture-wide manuscript and Wolfram laws remain:
 
-```text
-modules/X/MODULE_X_DETAILED_SCIENTIFIC_REPAIR_PLAN.md
-modules/X/MODULE_X_MANUSCRIPT_SOURCE_TRACEABILITY.md
-modules/X/MODULE_X_WOLFRAM_INTEGRATION_REVISION.md
-its sealed incoming and outgoing scientific handoffs
-```
+- `architecture/2RFC_MANUSCRIPT_SOURCE_TRACEABILITY_RULES.md`
+- `architecture/2RFC_WOLFRAM_INTEGRATION_RULES.md`
 
-Then read the existing 2-RFC module being repaired and the exact manuscript files named by its trace.
+## Module A implemented result
 
-The manuscript trace and Wolfram revision are binding parts of the individual plan, not optional addenda.
+Module A now installs:
 
-## Governing method
+- the primitive ordered triad `(CIF,QV,RFL)`;
+- the prephysical First Action `QV(CIF) -> RFL`;
+- source, qualified memory, conditioned CIF, and stabilized-output separation;
+- reconciled recursive-kernel indexing;
+- convergence, norm, truncation, perturbation, and conditional derivative bounds;
+- a depth-tagged modal basis;
+- a normalized recursive-depth influence distribution and nonthermodynamic entropy;
+- finite-N directed relational capacity and exact `2N` add-one growth;
+- six source-generated witness blocks;
+- local/maximal noncollision route construction under declared regular domain laws;
+- representative, gauge, independent multiroute, unlawful, and obstruction distinctions;
+- corrected add-one refinement and zero-backreaction recovery;
+- a four-class partial event multifunction;
+- an eighteen-field protected no-loss signature;
+- protected memory encode/decode;
+- abstract promotion/reopening on the protected image;
+- dormant zero output and zero backreaction;
+- uncertainty-bearing immutable downstream inheritance.
+
+The integrated theorem is in `proofs/KERNEL_COMPLETION.md`, not merely in a planning file.
+
+## Module A exact boundaries
+
+Module A proves an abstract prephysical finite-relational carrier. It does not prove:
+
+- one physically infinite-N state;
+- universal all-time N-body regularity;
+- unconditional physical solution-count growth;
+- unchanged trajectories after adding positive influence;
+- physical time from kernel depth or ancestry;
+- thermodynamic entropy from recursive-depth dispersion;
+- physical spacetime, particles, fields, or cosmology;
+- a completed physical specialization for every later module;
+- indefinite memory capacity or infinite recurrence;
+- empirical realization in nature.
+
+The eighteen-field protected signature, abstract promotion/reopening, dormancy law, and downstream grammar are transparently classified as Module A integration constructions. Every child still owes its own physically valid specialization.
+
+## Wolfram status
+
+Exact Wolfram checks were executed for:
+
+- the infinite geometric kernel majorant;
+- truncation tail;
+- derivative-depth sum;
+- exact `2N` lane growth;
+- a finite promotion/reopening left-inverse example;
+- recursive-depth entropy closed form.
+
+The record and limitations are in `modules/A/MODULE_A_WOLFRAM_VERIFICATION.md`.
+
+`validation/validate_repo.py` has also been rewritten to check the repaired Module A repository state and finite algebraic examples. It is an integrity script, not a theorem or physical validation.
+
+## Active Module B frontier
+
+Module B receives one sealed non-obstructed Module A branch and must derive:
+
+1. the branch-specific Big-Implosion law;
+2. the sole first physical event predicate;
+3. physical event order and intrinsic clock;
+4. dimensions and scale ancestry;
+5. the first manifested physical state;
+6. post-event dynamics;
+7. constraints and conservation;
+8. sector differentiation;
+9. uncertainty propagation and protected reopening;
+10. the complete preparticle B→C export.
+
+The graph resolvent remains a valid compression/pregeometry component. It is not by itself Lorentzian spacetime or complete cosmogenesis.
+
+## Governing rules
 
 - The module is the unit of work.
-- Every claim must be classified as `DIRECT`, `INHERITED`, `REPRESENTATION`, `METADATA`, `EXTERNAL`, `NEW-DERIVATION`, or `FORBIDDEN`.
-- Every load-bearing direct claim must name an exact manuscript anchor during implementation.
-- A manuscript scaffold, proxy, STEP/SU screen, metadata file, trace audit, or public comparison does not prove a stronger physical theorem.
-- Missing manuscript support is recorded as `NEW-DERIVATION`; it is never silently filled with general knowledge or conventional physics.
-- Every child consumes a sealed parent state and may not reconstruct missing parent science.
-- RUN 000-007 supply only completed Module A science.
-- RUN 008-013 supply only completed Module B science.
-- Preserve correct science already present in 2-RFC.
-- Do not revive the old run system, preflights, lifecycle machinery, status taxonomies, repository schemas, gates, certificates, manifests, or evidence bureaucracy as scientific architecture.
-- Public observations may test the frozen universe only in Module P.
-- Any mandatory normalized comparison component below `0.95` fails; no averaging may hide it.
+- Every child consumes a sealed parent and may not reconstruct or retune it.
+- Every claim remains typed as `DIRECT`, `INHERITED`, `REPRESENTATION`, `METADATA`, `EXTERNAL`, `NEW-DERIVATION`, or `FORBIDDEN`.
+- Wolfram verifies or derives from authorized equations; it does not supply missing RFC physics.
+- Public observations enter only Module P after Module O freezes the universe.
+- Any mandatory normalized Module P component below `0.95` fails; no average may conceal it.
+- Do not revive RUN014 or any run-centered architecture.
 
-## Canonical manuscript-source family
+## Exact next action
 
-The active plans trace to the supported parts of:
-
-- Presentation 29 revised raw LaTeX and revised metadata;
-- Presentation 30 raw LaTeX and Appendix J;
-- *A Triadic Solution to the General N-Body Problem - Revised* and its revised metadata;
-- *Triadic Completed-Shell Twin-Prime Preprint*;
-- *RFC Nucleosynthesis Suite: Modules W, X, and X1*;
-- *Final Revised W2 BBN/Li7 Closeout Metadata*;
-- *RFC Module Y: Global Collapse-Rebirth Trace Audit*;
-- authorized reproducibility metadata.
-
-Source maps, story arcs and handoff files orient navigation but do not independently prove physical claims. Obsolete scalar-triad work, failed attempts, older transfer files, math buckets and unapproved archives are not default scientific parents.
-
-## Wolfram operating law
-
-Wolfram is an explicit computational instrument throughout A-Q.
-
-It is authorized for exact symbolic derivation, arbitrary-precision numerics, asymptotics, graph and event analysis, differential and integral equations, optimization, uncertainty and covariance propagation, statistical comparison and independent verification.
-
-It is not an RFC source and may not supply missing physics, fitted constants, standard-cosmology replacements, public-data targets outside Module P, post-hoc repair or empirical branch selection.
-
-Every load-bearing Wolfram result must preserve equations, assumptions, domains, units, branch conditions, code or query, precision, errors or residuals, uncertainty, interpretation and an independent check. Disagreement stops the affected claim and never authorizes retuning.
-
-## Completed scientific planning chain
-
-```text
-A
--> A->B -> B
--> B->C -> C
--> C->D -> D
--> D->E -> E
--> E->F -> F
--> F->G -> G
--> G->H^U -> H^U
--> H^U->I -> I
--> I->H[I] -> H[I]
--> J
--> J->K -> K^(0)
--> K->L -> L^(0)
--> L->M -> M^(0)
--> classified K-L-M closure
--> (K*,L*,M*) -> N
--> N->O -> O
--> O->P -> P
--> O->Q -> Q
-```
-
-Every Module A-Q detailed plan now has:
-
-- a binding manuscript-source trace;
-- a binding Wolfram integration revision;
-- its required sealed scientific boundaries.
-
-These are authoritative plans and boundary definitions, not yet the in-place implementation of the repaired proof modules.
-
-## Protected architectures
-
-### Early and linear
-
-```text
-G -> H^U -> I -> H[I] -> J -> K
-```
-
-`H^U` is frozen before the realized I background. `H[I]` is immutable coefficient insertion, not operator redesign. J owns primordial covariance, realized linear spectra, growth, finite-volume fields and nonlinear promotion.
-
-### Coupled nonlinear universe
-
-```text
-J -> K^(0) -> L^(0) -> M^(0)
-K^(n) -> L^(n) -> M^(n) -> K^(n+1)
-(K*,L*,M*) -> N
-```
-
-K owns nonlinear gravity; L owns baryonic, stellar and feedback physics; M owns isotope-resolved stellar/explosive nucleosynthesis, enrichment and dust. A-J remain frozen during K-L-M replay.
-
-### Manifested universe and freeze
-
-```text
-(K*,L*,M*) -> N -> O
-```
-
-N reconciles one complete manifested physical universe and stops at observer readiness without claiming consciousness. O freezes identity, law, realization, uncertainty, lineage and restart state. Failed restoration never permits retuning the same parent.
-
-### Final isolated branches
-
-```text
-N -> O -> {P,Q}
-P -/-> O
-P -/-> Q
-Q -/-> O
-```
-
-P is read-only empirical testing and exports evidence only. Q is isolated physical continuation from O under the frozen law stack.
-
-## Module Q terminal-cycle locks
-
-Successful canonical closure requires a finite-time, effective or asymptotic Big-Rip-class result.
-
-Recollapse, stasis, reconnection, no terminal event, terminal-law insufficiency, unresolved branches and pathologies are nonclosure unless they satisfy the Big-Rip-class predicates.
-
-```text
-RFL_s^manifest
--> M_rec,s^latent
--> CIF_(s+1)^eff
--> RFL_A,(s+1)^pre
--> BigImplosion_(s+1)
--> RFL_B,(s+1)^phys
-```
-
-All states are distinct. Memory conditions but does not equal CIF. The First Action remains prephysical. The next Big Implosion remains Module B's sole first physical event. Q authorizes the next A->B sequence but does not execute the Big Implosion. One cycle does not prove indefinite recurrence.
-
-## Current scientific direction
-
-The canonical A-Q architecture, detailed plans, handoffs, Wolfram revisions and manuscript-source traces are complete.
-
-The next work is the actual repository repair in module order. Begin with the already-completed Module A science, using its exact manuscript trace and Wolfram workload, then repair Module B from its achieved boundary and continue through the sealed chain. Do not revive RUN014 or any old run-centered architecture.
+Repair Module B in place from the sealed Module A export. Do not create another Module A plan, rerun Module A, or reopen its frozen science.
