@@ -1,65 +1,62 @@
 {
-  "schema_version": "1.2",
+  "schema_version": "1.3",
   "project": "2-RFC",
   "objective": "Derive an evidence-complete triadic universe in which the Big Implosion is the sole first physical event and a Big-Rip-class terminal event is required for canonical cycle closure and next-cycle conditioning.",
   "active_module": "C",
-  "active_milestone": "MODULE_C_MICROSCOPIC_PHYSICS",
-  "status": "MODULES_A_B_COMPLETE_FROZEN_MODULE_C_ACTIVE",
-  "last_verified_utc": "2026-08-03T16:30:00Z",
-  "exact_next_action": "Repair Module C from the sealed B-to-C preparticle state: derive microscopic state space, symmetries, particles, interactions, masses, bound states, charges, radiative and neutrino sectors, asymmetry source, and prethermal composition without importing measured particle data.",
+  "active_milestone": "MODULE_C_MICROSCOPIC_CONSTITUTIVE_LAW",
+  "status": "MODULES_A_B_COMPLETE_FROZEN_MODULE_C_PARTIALLY_IMPLEMENTED_ACTIVE",
+  "last_verified_utc": "2026-08-03T16:47:00Z",
+  "exact_next_action": "Derive a physical microscopic constitutive law from the sealed B-to-C parent: state scalar structure, probability and composition law, internal symmetry algebra and representations, governing generator, mass operator, vertex grammar, locality and anomaly conditions, and binding law without importing measured particle physics.",
   "read_first": [
     "README.md",
     "HANDOFF.md",
     "PLAN.md",
-    "science/FOUNDATION.md",
-    "proofs/KERNEL_COMPLETION.md",
-    "proofs/GENESIS_REALIZATION.md",
-    "science/PHYSICAL_REALIZATION.md",
-    "modules/B/MODULE_B_TO_C_SCIENTIFIC_HANDOFF.md"
+    "science/MICROSCOPIC_PHYSICS.md",
+    "science/CLAIMS.md",
+    "modules/B/MODULE_B_TO_C_SCIENTIFIC_HANDOFF.md",
+    "modules/C/MODULE_C_DETAILED_SCIENTIFIC_REPAIR_PLAN.md",
+    "modules/C/MODULE_C_MANUSCRIPT_SOURCE_TRACEABILITY.md",
+    "modules/C/MODULE_C_WOLFRAM_INTEGRATION_REVISION.md"
   ],
   "completed": [
     "MODULE_A_COMPLETE_AND_FROZEN",
-    "MODULE_B_BIG_IMPLOSION_EVENT_LAW",
-    "MODULE_B_SOLE_FIRST_PHYSICAL_EVENT",
-    "MODULE_B_INTRINSIC_EVENT_CLOCK",
-    "MODULE_B_POSITIVE_UNIT_SCALE_FAMILY",
-    "MODULE_B_FIRST_RELATIONAL_GEOMETRY_AND_CARRIER",
-    "MODULE_B_DIRECTED_CONTINUITY_AND_GLOBAL_CONSERVATION",
-    "MODULE_B_FOUR_SECTOR_SEED_PARTITION",
-    "MODULE_B_COMPRESSION_RELIC_CONTRACT",
-    "MODULE_B_DISSIPATIVE_TAIL_CONTRACT",
-    "MODULE_B_COMMON_ANCESTRY_AND_COVARIANCE",
-    "MODULE_B_COMPLETE_PREPARTICLE_EXPORT_TO_C",
-    "MODULE_B_COMPLETE_AND_FROZEN"
+    "MODULE_B_COMPLETE_AND_FROZEN",
+    "MODULE_C_PARENT_IMMUTABILITY_AND_TRIADIC_TYPING",
+    "MODULE_C_MICROSCOPIC_ONTOLOGY_AND_TYPE_REGISTRY",
+    "MODULE_C_FINITE_CANDIDATE_CAPACITY_SPACE",
+    "MODULE_C_CAPACITY_NO_DOUBLE_COUNTING",
+    "MODULE_C_HISTORICAL_EIGHT_SLOT_REPRESENTATION_CLASSIFIED",
+    "MODULE_C_KINEMATIC_AUTOMORPHISM_THEOREM",
+    "MODULE_C_CONSTITUTIVE_UNDERDETERMINATION_THEOREM",
+    "MODULE_C_CONSTITUTIVE_ADMISSION_WITNESS"
   ],
   "active": [
-    "C1_MICROSCOPIC_STATE_SPACE",
-    "C2_INTERNAL_SYMMETRY_AND_REPRESENTATIONS",
-    "C3_PARTICLE_AND_ANTIPARTICLE_IDENTITIES",
-    "C4_INTERACTION_AND_PROBABILITY_LAWS",
-    "C5_MASS_AND_SCALE_GENERATION",
-    "C6_BOUND_STATES_HADRONS_AND_NUCLEONS",
-    "C7_RADIATIVE_AND_NEUTRINO_SECTORS",
-    "C8_CHARGE_ASYMMETRY_AND_BARYON_PHOTON_STATE",
+    "C1_SCALAR_STATE_AND_PROBABILITY_STRUCTURE",
+    "C2_PHYSICAL_INTERNAL_SYMMETRY_AND_REPRESENTATIONS",
+    "C3_GOVERNING_ACTION_OR_GENERATOR",
+    "C4_MASS_AND_PROTECTED_ZERO_MODE_OPERATOR",
+    "C5_MICROSCOPIC_VERTEX_AND_EVENT_GRAMMAR",
+    "C6_LOCALITY_CAUSALITY_AND_ANOMALY_CLOSURE",
+    "C7_BINDING_HADRONS_AND_NUCLEONS",
+    "C8_PHOTON_NEUTRINO_ASYMMETRY_AND_POPULATIONS",
     "C9_COMPLETE_PRETHERMAL_EXPORT_TO_D"
   ],
-  "module_b_boundaries": [
-    "Finite connected witnessed relational support, not a continuum universe",
-    "Unique manifested image per fixed admitted source branch, not forced branch uniqueness",
-    "Positive unit-scale family, not a unique SI calibration",
-    "Relational resistance geometry, not mature Lorentzian spacetime",
-    "Discrete current and storage precursor, not continuum stress-energy",
-    "Genesis sector seeds, not mature particles or cosmological substances",
-    "No Big Bang, public target fitting, mature acceleration, or Big Rip in Module B"
+  "module_c_boundaries": [
+    "Candidate capacity is not particle identity",
+    "A basis-slot registry is not a basis-independent particle theory",
+    "Kinematic automorphisms are not automatically physical gauge symmetries",
+    "The sealed parent does not uniquely determine symmetry, mass, probability, or interaction laws",
+    "No particle table or public value may fill the constitutive gap",
+    "Module D remains blocked until a complete microscopic export exists"
   ],
   "forbidden_shortcuts": [
-    "Reopen or retune frozen Modules A or B to fit a Module C or later result",
-    "Treat Module B seed names as already-derived particle or cosmological identities",
-    "Import the Standard Model table or measured masses, couplings, mixings, abundances, or asymmetries during generation",
+    "Reopen or retune frozen Modules A or B",
+    "Promote the historical six-plus-two slots into eight physical particles",
+    "Import a familiar gauge group, Standard Model particle table, or measured constants as generative inputs",
+    "Call a real normed carrier a quantum Hilbert space without deriving complex and probability structure",
     "Use public data or standard cosmology outside Module P",
     "Average away any mandatory failure",
-    "Promote a schema, metadata record, or code pass into a physical theorem",
-    "Use historical failed states as scientific parents"
+    "Promote Wolfram output or code success into a physical theorem"
   ],
   "score_rule": {
     "mandatory_threshold": 0.95,
@@ -67,5 +64,5 @@
     "aggregation_can_override_failure": false,
     "meaning": "Module P gate completeness only; never a truth probability"
   },
-  "source_of_truth": "This file is the only machine-readable project-state record. Do not create mirrors, caches, packet layers, or lifecycle duplicates."
+  "source_of_truth": "This file is the only machine-readable project-state record."
 }
