@@ -22,56 +22,51 @@ primitive CIF/QV/RFL triad
 -> Modules C-Q
 ```
 
-The controlling architecture is `architecture/2RFC_TRIAD_KERNEL_UNIVERSE_DERIVATION_LOCK.md`. Every remaining module must also obey its local `MODULE_X_TRIAD_KERNEL_DERIVATION_LOCK.md`.
+The controlling architecture is `architecture/2RFC_TRIAD_KERNEL_UNIVERSE_DERIVATION_LOCK.md`. Every remaining module must also obey its local triad-kernel derivation lock.
 
 ## Current status
 
 | Module | Scientific responsibility | State |
 |---|---|---:|
-| A | Primitive triad, First Action, recursive kernel, terminal N-body carrier | **COMPLETE_AND_FROZEN** |
-| B | Big Implosion, first physical state, clock, conservation, four seed sectors | **COMPLETE_AND_FROZEN** |
-| C | Microscopic quantum law, particles, masses, interactions, binding, prethermal export | **COMPLETE_AND_FROZEN** |
-| D | Nonequilibrium thermal history, transport, transitions, freeze-out, nuclear readiness | **COMPLETE_AND_FROZEN** |
-| E | Primordial isotope-resolved nuclear reaction history and post-nuclear export | **COMPLETE_AND_FROZEN** |
-| F | Persistent post-nuclear plasma evolution and recombination readiness | **COMPLETE_AND_FROZEN** |
-| G | Nonequilibrium recombination and the physical primordial CMB surface | **ACTIVE** |
-| H^U-Q | Remaining generated universe, freeze, testing, and terminal continuation | Blocked by upstream chain |
+| A–F | Frozen upstream constitution through recombination readiness | **COMPLETE_AND_FROZEN** |
+| G | Nonequilibrium recombination and physical primordial CMB surface | **COMPLETE_AND_FROZEN** |
+| H^U | Background-parameterized universal linear transfer operator | **ACTIVE** |
+| I | Mature realized RFC background and geometry | Blocked by H^U |
+| H[I] | Immutable instantiation of the frozen H operator on the Module I background | Blocked |
+| J–Q | Remaining generated universe, freeze, testing, and terminal continuation | Blocked |
 
-## Completed Module F theorem
+## Completed Module G theorem
 
-Module F derives from the sealed E→F parent:
+Module G derives from the sealed F→G parent:
 
-1. a finite post-nuclear state space and exact positive normalized evolution;
-2. stable-isotope persistence except through witnessed routes;
-3. complete residual-reaction and late-decay continuation;
-4. generated coordinate and background continuation;
-5. lawful kinetic, moment, multifluid, fluid, and background reductions with reopening;
-6. relational Gauss-law charge closure;
-7. plasma response, collective modes, screening, conductivity, diffusion, viscosity, conduction, and drag;
-8. photon, neutrino, electron, ion, field, and thermal persistence;
-9. generated equation of state, sound, opacity, redistribution, tight-coupling, diffusion, and damping seeds;
-10. perturbation, spatial, field, and authorized dark-sector continuity;
-11. generated atomic-candidate Hamiltonians, bound-state and transition seed registries;
-12. no-loss atomic promotion and ionization reopening;
-13. an internally generated atomic-readiness event and recombination-entry surface;
-14. complete covariance, memory, ancestry, restart, and `P_F->G` export.
+1. a finite positive normalized atomic-radiative evolution;
+2. generated atomic/ionic/continuum registries and transition hypergraph;
+3. common-source forward/reverse rates and equilibrium-limit closure;
+4. nonequilibrium hydrogen, helium, deuterium, and material light-element histories;
+5. exact nuclear-identity, charge, energy, momentum, probability, branch, memory, and ancestry ledgers;
+6. free-electron and thermal histories;
+7. frequency-, angle-, polarization-, and route-resolved radiative transfer;
+8. finite line escape, redistribution, feedback, two-photon, forbidden, metastable, continuum, and collisional flow;
+9. process-resolved opacity and integrated optical depth;
+10. raw and conditionally normalized primordial visibility;
+11. finite photon last-scattering and distinct baryon-drag structures;
+12. diffusion, damping, temperature, polarization, recombination-radiation, and perturbation-response histories;
+13. complete covariance, signatures, ancestry, restart, and `P_G->H^U` export.
 
-## Active Module G theorem target
+## Active Module H^U theorem target
 
-Module G must consume the sealed `P_F->G` state and derive:
+Module H^U must consume the sealed `P_G->H^U` state and derive:
 
-1. the complete atomic and ionic registry required by the claimed precision;
-2. nonequilibrium hydrogen, helium, deuterium, and material light-element level and charge-state populations;
-3. bound-bound, bound-free, free-bound, collisional, two-photon, forbidden, and resonance-transfer routes;
-4. frequency-dependent radiative transfer and recombination-radiation feedback;
-5. the generated free-electron and matter-radiation thermal histories;
-6. process-resolved opacity, differential optical depth, integrated optical depth, and normalized visibility;
-7. finite photon last-scattering and distinct baryon-drag structures;
-8. diffusion, damping, temperature, and polarization source histories;
-9. perturbation-dependent recombination response;
-10. the complete transfer-source export to Module H.
+1. the complete typed linear perturbation state and admissible-background domain;
+2. scalar, vector, tensor, radiation, matter, geometry-interface, and authorized dark-sector blocks;
+3. a gauge-consistent background-parameterized linear operator;
+4. collision, opacity, visibility, drag, diffusion, damping, temperature, polarization, and recombination-response couplings inherited unchanged from Module G;
+5. stable hierarchy truncation, closure, basis response, and Green/transfer operators;
+6. conserved modes, constraint propagation, superhorizon/subhorizon and tight-coupling/free-streaming limits;
+7. complete uncertainty, covariance, branch, memory, ancestry, and restart state;
+8. a frozen universal operator packet for Module I and later immutable `H[I]` instantiation.
 
-Module G may not import a public ionization history, recombination redshift, optical-depth curve, visibility template, CMB normalization, or branch chosen for observational resemblance.
+Module H^U may not select the realized Module I background, import a public cosmology, primordial spectrum, transfer function, CMB spectrum, matter spectrum, acoustic normalization, or observed amplitude.
 
 ## Failure rule
 
