@@ -2,25 +2,21 @@
 
 ## Governing sequence
 
-The module is the unit of work. The scientific chain is
-
 ```text
 A -> B -> C -> D -> E -> F -> G -> H^U -> I -> H[I] -> J
   -> K -> L -> M -> classified K-L-M closure -> N -> O -> {P,Q}
 ```
 
-Every child consumes a sealed parent state. It may not reconstruct missing parent science or modify a frozen parent to fit a later result.
-
----
+Every child consumes a sealed parent state and may not reconstruct or retune frozen parent science.
 
 ## Current status
 
 | Module | Scientific responsibility | State |
 |---|---|---:|
-| A | Primitive triad, First Action, recursive kernel, finite-N relational carrier, witnesses, routes, events, no-loss memory, promotion, dormancy, uncertainty, universal inheritance | **COMPLETE_AND_FROZEN** |
-| B | Big Implosion, first physical state, first physical clock, geometry/fields, conservation, seed sectors, preparticle export | **ACTIVE** |
-| C | Microscopic particles, fields, interactions, mass, hadrons, nucleons, radiation carriers, neutrinos, asymmetry, baryon-photon seed | Blocked by B |
-| D | Nonequilibrium thermal and transport history | Blocked |
+| A | Triad, First Action, recursive kernel, finite-N relational carrier, witnesses, events, memory, promotion, dormancy and uncertainty | **COMPLETE_AND_FROZEN** |
+| B | Big Implosion, sole first physical event, finite relational state, clock, conservation, four seed sectors and preparticle export | **COMPLETE_AND_FROZEN** |
+| C | Microscopic state space, particles, fields, probabilities, symmetries, masses, interactions, bound states, radiation carriers, neutrinos, charge and asymmetry source | **ACTIVE** |
+| D | Nonequilibrium thermal and transport history | Blocked by C |
 | E | Primordial isotope-resolved nuclear history | Blocked |
 | F | Post-nuclear plasma and radiation persistence | Blocked |
 | G | Nonequilibrium recombination and CMB surface | Blocked |
@@ -28,83 +24,61 @@ Every child consumes a sealed parent state. It may not reconstruct missing paren
 | I | Realized background geometry, expansion, causal and distance structure | Blocked |
 | H[I] | Immutable H operator instantiated on I | Blocked |
 | J | Primordial covariance, linear spectra and nonlinear-ready fields | Blocked |
-| K-L-M | Coupled nonlinear gravity, baryonic/stellar physics, and nuclear-chemical enrichment | Blocked |
+| K-L-M | Coupled nonlinear gravity, baryonic/stellar physics and nuclear-chemical enrichment | Blocked |
 | N | One assembled observer-ready manifested universe | Blocked |
 | O | Immutable freeze, restoration and restart identity | Blocked |
 | P | Read-only public empirical adjudication | Blocked |
 | Q | Isolated terminal continuation, Big-Rip-class closure, latent memory and next-CIF conditioning | Blocked |
 
----
+## Completed Module B result
 
-## Completed Module A result
+Module B now installs:
 
-Module A now directly installs:
+- admitted finite connected branch conditions;
+- first-cycle null prior-memory and later-cycle conditioned-CIF typing;
+- Big-Implosion variational law `Q_imp=(I+ell_delta L)^-1`;
+- unique manifested image per fixed source branch;
+- sole first physical event typing;
+- finite relational geometry/pregeometry and resistance metric;
+- intrinsic event order and clock for `alpha>0`;
+- positive unit-scale family without fabricated SI calibration;
+- directed currents, local continuity and global carrier conservation;
+- exact compression/storage ledger;
+- exact four-projector seed partition;
+- ordinary and radiative seed contracts;
+- compression-relic semigroup contract;
+- dissipative-tail nonreciprocity and terminal-interface contract;
+- symmetry, branch, uncertainty and covariance state;
+- common Big-Implosion ancestry;
+- complete sealed B→C preparticle export.
 
-- canonical `(CIF,QV,RFL)` and `QV(CIF) -> RFL`;
-- source-memory-manifestation type separation;
-- reconciled recursive-kernel indexing;
-- convergence, norm, truncation, perturbation and derivative bounds;
-- normalized recursive-depth distribution and its nonthermodynamic entropy;
-- exact finite-N lane count and `2N` add-one growth;
-- locally generated witness blocks;
-- local/maximal noncollision route construction under declared regular domain laws;
-- route/gauge/multiroute/obstruction distinctions;
-- corrected add-one refinement and zero-backreaction recovery;
-- four-class partial event lift;
-- eighteen-field protected no-loss signature;
-- protected memory encode/decode;
-- promotion/reopening on the protected image;
-- dormant zero contribution and zero backreaction;
-- uncertainty-bearing immutable downstream inheritance.
+Module B does not claim mature Lorentzian spacetime, continuum stress-energy, microscopic particle identities, dark-matter halos, dark-energy acceleration, the Big Rip or empirical agreement.
 
-The direct N-body dynamics remain finite-N and domain-specific. Later modules inherit the relational grammar, not universal Newtonian activity.
+## Active Module C work
 
----
+Module C begins only from the sealed `P_B->C(beta)` state and must derive:
 
-## Active Module B work
+1. microscopic state spaces and probability law;
+2. internal symmetry, generators and representations;
+3. particle/antiparticle, spin/statistics and chirality structure;
+4. interactions, creation/annihilation, scattering and decay;
+5. mass and scale generation;
+6. confinement or equivalent bound-state physics;
+7. hadrons, proton and neutron identities;
+8. photon-like, neutrino-like and other radiative states;
+9. charges, conservation ledgers and matter-antimatter relations;
+10. asymmetry source or exact deferral to Module D;
+11. charge-neutrality and baryon-photon seed;
+12. complete prethermal export to Module D.
 
-Module B begins from the sealed A→B handoff and must establish:
-
-1. an admitted non-obstructed finite connected genesis branch;
-2. the branch-specific directed relation matrix and pre-Implosion carrier;
-3. the Big-Implosion variational/compression law;
-4. the sole first physical event predicate;
-5. physical event order and intrinsic clock;
-6. physical scale and dimensional ancestry;
-7. the first manifested geometry, fields, currents and sector seeds;
-8. constraints, conservation and uncertainty propagation;
-9. exact protected reopening to the Module A parent;
-10. a complete preparticle B→C export.
-
-The graph-resolvent result is a valid compression/pregeometry component. It is not by itself Lorentzian spacetime or full cosmogenesis.
-
----
+Module C may not import a Standard Model table, measured masses, couplings, mixing parameters, lifetimes, baryon asymmetry, baryon-photon ratio, observed dark-sector abundance or public cosmology.
 
 ## Source and computation discipline
 
-For the active module, read together:
+For the active module, read together its detailed plan, manuscript-source trace, Wolfram revision, and sealed incoming/outgoing handoffs.
 
-```text
-MODULE_X_DETAILED_SCIENTIFIC_REPAIR_PLAN.md
-MODULE_X_MANUSCRIPT_SOURCE_TRACEABILITY.md
-MODULE_X_WOLFRAM_INTEGRATION_REVISION.md
-sealed incoming and outgoing handoffs
-```
+Wolfram may verify authorized equations but may not supply missing RFC physics, fitted constants, public targets, branch selection or post-hoc repair.
 
-Each claim is typed as `DIRECT`, `INHERITED`, `REPRESENTATION`, `METADATA`, `EXTERNAL`, `NEW-DERIVATION`, or `FORBIDDEN`.
+## Failure rule
 
-Wolfram may verify and derive from authorized equations. It may not supply missing physics, fitted constants, public targets outside Module P, branch selection, or post-hoc repair.
-
----
-
-## Failure and evidence rule
-
-- A failed mandatory scientific condition stops the affected claim.
-- Public evidence cannot repair Modules A–O or Q.
-- Module P compares only against a frozen Module O universe.
-- Every mandatory normalized Module P component below `0.95` fails.
-- No average may conceal a failure.
-- A code pass is not a theorem.
-- A theorem plan is not an implemented theorem.
-
-The exact next action is the actual Module B repair from the now-frozen Module A export.
+A failed mandatory scientific condition stops the affected claim. Code success is not a theorem. Public evidence cannot repair Modules A-O or Q. Module P compares only against a frozen Module O universe.
