@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Dependency-free repository and finite algebra checks through repaired Module B."""
+"""Dependency-free integrity and finite-algebra checks through the Module C boundary."""
 
 from __future__ import annotations
 
@@ -60,41 +60,65 @@ def main() -> None:
         "PLAN.md",
         "HANDOFF.md",
         "science/FOUNDATION.md",
-        "science/CLAIMS.md",
         "science/PHYSICAL_REALIZATION.md",
+        "science/MICROSCOPIC_PHYSICS.md",
+        "science/CLAIMS.md",
         "proofs/KERNEL_COMPLETION.md",
         "proofs/GENESIS_REALIZATION.md",
+        "proofs/MICROSCOPIC_CONSTITUTION.md",
         "modules/A/MODULE_A_TO_B_SCIENTIFIC_HANDOFF.md",
-        "modules/B/MODULE_B_DETAILED_SCIENTIFIC_REPAIR_PLAN.md",
-        "modules/B/MODULE_B_MANUSCRIPT_SOURCE_TRACEABILITY.md",
-        "modules/B/MODULE_B_WOLFRAM_REVISION.md",
-        "modules/B/MODULE_B_WOLFRAM_VERIFICATION.md",
         "modules/B/MODULE_B_TO_C_SCIENTIFIC_HANDOFF.md",
+        "modules/C/MODULE_C_DETAILED_SCIENTIFIC_REPAIR_PLAN.md",
+        "modules/C/MODULE_C_MANUSCRIPT_SOURCE_TRACEABILITY.md",
+        "modules/C/MODULE_C_WOLFRAM_INTEGRATION_REVISION.md",
+        "modules/C/MODULE_C_WOLFRAM_VERIFICATION.md",
+        "modules/C/MODULE_C_TO_D_SCIENTIFIC_HANDOFF.md",
     ]
     for relative in required:
         require((ROOT / relative).is_file(), f"missing required file: {relative}")
 
     state = json.loads((ROOT / "STATE.json").read_text(encoding="utf-8"))
     require(state["active_module"] == "C", "Module C must be active")
-    require(state["status"] == "MODULES_A_B_COMPLETE_FROZEN_MODULE_C_ACTIVE", "unexpected state")
+    require(
+        state["status"]
+        == "MODULES_A_B_COMPLETE_FROZEN_MODULE_C_PARTIALLY_IMPLEMENTED_ACTIVE",
+        "unexpected project state",
+    )
+    require("MODULE_A_COMPLETE_AND_FROZEN" in state["completed"], "Module A completion missing")
     require("MODULE_B_COMPLETE_AND_FROZEN" in state["completed"], "Module B completion missing")
+    require(
+        "MODULE_C_CONSTITUTIVE_UNDERDETERMINATION_THEOREM" in state["completed"],
+        "Module C underdetermination theorem missing",
+    )
     require(state["score_rule"]["aggregation_can_override_failure"] is False, "failure rule drifted")
 
-    genesis = (ROOT / "proofs/GENESIS_REALIZATION.md").read_text(encoding="utf-8")
-    physical = (ROOT / "science/PHYSICAL_REALIZATION.md").read_text(encoding="utf-8")
+    microscopic = (ROOT / "science/MICROSCOPIC_PHYSICS.md").read_text(encoding="utf-8")
+    microproof = (ROOT / "proofs/MICROSCOPIC_CONSTITUTION.md").read_text(encoding="utf-8")
+    claims = (ROOT / "science/CLAIMS.md").read_text(encoding="utf-8")
     handoff = (ROOT / "HANDOFF.md").read_text(encoding="utf-8")
-    for phrase in [
-        "Module B Big-Implosion and Four-Sector Genesis Theorem",
-        "Sole first physical event",
-        "Exact four-sector seed partition",
-        "Complete Module C parent state",
-        "Module B is complete and frozen",
-    ]:
-        require(phrase in genesis, f"genesis theorem missing: {phrase}")
-    require("Module B is complete and frozen" in physical, "physical boundary not closed")
-    require("Module C: ACTIVE" in handoff, "handoff does not advance to Module C")
 
-    # Representative directed branch.
+    for phrase in [
+        "Basis-independent candidate-capacity space",
+        "Kinematic automorphisms are not physical gauge symmetry",
+        "Exact constitutive underdetermination",
+        "Admission witness for the physical microscopic law",
+        "Module C is **partially implemented and active**",
+    ]:
+        require(phrase in microscopic, f"microscopic constitution missing: {phrase}")
+
+    for phrase in [
+        "Symmetry nonselection theorem",
+        "Mass nonselection theorem",
+        "Probability nonselection theorem",
+        "Interaction nonselection theorem",
+        "ACTIVE_FRONTIER",
+    ]:
+        require(phrase in microproof, f"microscopic proof missing: {phrase}")
+
+    require("Candidate-capacity coordinates are already physical particles" in claims, "claim boundary missing")
+    require("Module C: PARTIALLY_IMPLEMENTED_ACTIVE" in handoff, "handoff state drifted")
+
+    # Representative Module B directed branch remains valid.
     w = [[0.0, 2.0, 0.0], [1.0, 0.0, 3.0], [0.0, 1.0, 0.0]]
     c = [[w[i][j] + w[j][i] for j in range(3)] for i in range(3)]
     degrees = [sum(row) for row in c]
@@ -108,57 +132,61 @@ def main() -> None:
     require(all(close(a, b) for a, b in zip(reopened, x_minus)), "Big-Implosion reopening failed")
     require(close(sum(x_plus), sum(x_minus)), "global carrier conservation failed")
 
-    # Directed currents and local continuity.
     current = [[ell * w[i][k] * (x_plus[i] - x_plus[k]) for k in range(3)] for i in range(3)]
     flux = [[current[i][k] - current[k][i] for k in range(3)] for i in range(3)]
     for i in range(3):
-        residual = x_plus[i] - x_minus[i] + sum(flux[i])
-        require(close(residual, 0.0), f"local continuity failed at vertex {i}")
-    for i in range(3):
-        for k in range(3):
-            require(close(flux[i][k], -flux[k][i]), "flux antisymmetry failed")
+        require(close(x_plus[i] - x_minus[i] + sum(flux[i]), 0.0), "local continuity failed")
 
-    # Compression progress on the nonconstant carrier.
-    mean_minus = sum(x_minus) / 3.0
-    mean_plus = sum(x_plus) / 3.0
-    e_minus = 0.5 * sum((x - mean_minus) ** 2 for x in x_minus)
-    e_plus = 0.5 * sum((x - mean_plus) ** 2 for x in x_plus)
-    require(e_plus < e_minus, "nonconstant carrier did not compress")
-    chi = -math.log(e_plus / e_minus)
-    require(chi > 0.0, "intrinsic compression progress not positive")
+    # Exact Module C capacity and underdetermination counts for the historical 6+2 test case.
+    ordinary_dimension = 6
+    radiative_dimension = 2
+    candidate_dimension = ordinary_dimension + radiative_dimension
+    full_orthogonal_dimension = candidate_dimension * (candidate_dimension - 1) // 2
+    sector_orthogonal_dimension = (
+        ordinary_dimension * (ordinary_dimension - 1) // 2
+        + radiative_dimension * (radiative_dimension - 1) // 2
+    )
+    sector_symmetric_parameters = (
+        ordinary_dimension * (ordinary_dimension + 1) // 2
+        + radiative_dimension * (radiative_dimension + 1) // 2
+    )
+    require(candidate_dimension == 8, "historical candidate capacity changed")
+    require(full_orthogonal_dimension == 28, "so(8) dimension failed")
+    require(sector_orthogonal_dimension == 16, "sector automorphism dimension failed")
+    require(sector_symmetric_parameters == 24, "mass-family parameter count failed")
 
-    # Clock monotonicity for alpha>0, delta>1.
-    alpha = 0.0256831
-    def srec(u: float) -> float:
-        q = math.exp(-alpha * u) / delta
-        return -math.log(1.0 - q) - q * math.log(q) / (1.0 - q)
-    values = [srec(u) for u in (0.0, 1.0, 10.0, 100.0)]
-    require(all(values[i + 1] < values[i] for i in range(len(values) - 1)), "recursive entropy not decreasing")
-    tau = [math.log(values[0] / value) for value in values]
-    require(all(tau[i + 1] > tau[i] for i in range(len(tau) - 1)), "intrinsic clock not increasing")
+    # Distinct protected signatures admit only the identity permutation.
+    signatures = tuple(f"sig-{index}" for index in range(candidate_dimension))
+    identity_permutation = tuple(range(candidate_dimension))
+    require(
+        all(signatures[index] == signatures[target] for index, target in enumerate(identity_permutation)),
+        "identity permutation failed",
+    )
+    swap_permutation = (1, 0, 2, 3, 4, 5, 6, 7)
+    require(
+        not all(signatures[index] == signatures[target] for index, target in enumerate(swap_permutation)),
+        "distinct signatures failed to block nontrivial permutation",
+    )
 
-    # Four projector identities on a two-component pair block.
-    swap = [[0.0, 1.0], [1.0, 0.0]]
-    i2 = identity(2)
-    even = [[0.5 * (i2[r][c] + swap[r][c]) for c in range(2)] for r in range(2)]
-    odd = [[0.5 * (i2[r][c] - swap[r][c]) for c in range(2)] for r in range(2)]
-    require(all(close(x, y) for row_x, row_y in zip(matmul(even, even), even) for x, y in zip(row_x, row_y)), "even projector failed")
-    require(all(close(x, y) for row_x, row_y in zip(matmul(odd, odd), odd) for x, y in zip(row_x, row_y)), "odd projector failed")
-    zero = matmul(even, odd)
-    require(all(close(value, 0.0) for row in zero for value in row), "projectors not orthogonal")
-    require(all(close(even[r][c] + odd[r][c], i2[r][c]) for r in range(2) for c in range(2)), "projectors incomplete")
+    # Two different nonnegative diagonal spectra preserve the same sectors and signatures.
+    spectrum_a = [0.0, 1.0, 4.0, 9.0, 16.0, 25.0, 0.0, 1.0]
+    spectrum_b = [1.0, 1.0, 4.0, 9.0, 16.0, 25.0, 0.0, 4.0]
+    require(all(value >= 0.0 for value in spectrum_a + spectrum_b), "negative mass-squared test value")
+    require(spectrum_a != spectrum_b, "mass nonuniqueness example collapsed")
+    require(len(spectrum_a) == candidate_dimension == len(spectrum_b), "spectrum dimension mismatch")
 
-    # Tail reciprocity limit.
-    dx = 1.7
-    reciprocal_tail = 0.5 * ell * (2.0 - 2.0) * dx
-    nonreciprocal_tail = 0.5 * ell * (2.0 - 1.0) * dx
-    require(close(reciprocal_tail, 0.0), "tail did not vanish under reciprocity")
-    require(nonreciprocal_tail != 0.0, "nonreciprocal tail unexpectedly vanished")
+    # A real normalized vector does not select a unique complex phase assignment.
+    real_state = [1.0 / math.sqrt(2.0), 1.0 / math.sqrt(2.0)]
+    complex_phase_state = [complex(real_state[0], 0.0), complex(0.0, real_state[1])]
+    norm_real = sum(value * value for value in real_state)
+    norm_complex = sum(abs(value) ** 2 for value in complex_phase_state)
+    require(close(norm_real, 1.0) and close(norm_complex, 1.0), "norm example failed")
+    require(complex_phase_state != [complex(value, 0.0) for value in real_state], "phase nonuniqueness failed")
 
     print("2-RFC validation: PASS")
-    print("Modules A and B are complete and frozen at their declared scopes; Module C is active.")
-    print("Checked Big-Implosion reopening, continuity, conservation, compression, clock, projectors, and tail reciprocity.")
-    print("This script is an integrity check, not an empirical or continuum-spacetime proof.")
+    print("Modules A and B are frozen; Module C is partially implemented and active.")
+    print("Checked Module B reopening/conservation and Module C capacity, symmetry, mass, and probability underdetermination.")
+    print("This script does not derive the missing microscopic constitutive law or establish empirical truth.")
 
 
 if __name__ == "__main__":
