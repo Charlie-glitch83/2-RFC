@@ -30,9 +30,11 @@ Read:
 26. `modules/L/MODULE_L_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
 27. `modules/L/MODULE_L_TO_M_SCIENTIFIC_HANDOFF.md`
 28. `modules/M/MODULE_M_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
-29. the exact library plan for the active module
-30. the existing 2-RFC module being repaired
-31. the valid scientific source material named for that module
+29. `modules/M/MODULE_KLM_TO_N_SCIENTIFIC_HANDOFF.md`
+30. `modules/N/MODULE_N_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
+31. the exact library plan for the active module
+32. the existing 2-RFC module being repaired
+33. the valid scientific source material named for that module
 
 ## Governing method
 
@@ -43,8 +45,8 @@ Read:
 - Use RUN 000-007 only for completed Module A science.
 - Use RUN 008-013 only for completed Module B science.
 - Reuse later library science only at its exact supported scope; do not promote scaffolds, anchors, proxies, scores, or public audits into generative laws.
-- Do not copy the old run system, run numbering, preflight machinery, lifecycle machinery, status taxonomies, repository schemas, certificates, or evidence bureaucracy.
-- Use architecture and module-plan files only for scientific goals, physical dependencies, equations, and required outputs.
+- Do not copy the old run system, run numbering, preflight machinery, lifecycle machinery, status taxonomies, repository schemas, certificates, manifests, or evidence bureaucracy into the scientific plans.
+- Use architecture and module-plan files only for scientific goals, physical dependencies, equations, required outputs, and lawful downstream boundaries.
 - Public observations may test the finished universe but may not generate or repair it.
 
 ## Current scientific chain
@@ -76,9 +78,11 @@ completed Module A
 -> repaired Module L^(0)
 -> L→M handoff
 -> repaired Module M^(0)
--> future coupled K–L–M closure
--> future exact (K*,L*,M*)→N scientific handoff
--> future detailed Module N repair plan
+-> classified K–L–M closure architecture
+-> converged K–L–M→N handoff
+-> repaired Module N plan
+-> future N→O physical freeze handoff
+-> future detailed Module O plan
 ```
 
 The protected early and linear architecture remains:
@@ -87,25 +91,34 @@ The protected early and linear architecture remains:
 G -> Hᵁ -> I -> H[I] -> J -> K
 ```
 
-The nonlinear late-universe architecture is:
+The nonlinear and manifested-universe architecture is:
 
 ```text
 J -> K^(0) -> L^(0) -> M^(0)
 K^(n) -> L^(n) -> M^(n) -> K^(n+1)
-(K*,L*,M*) -> N
+(K*,L*,M*) -> N -> O
 ```
 
 - Module J owns primordial covariance, linear spectra, growth, finite-volume fields, and the witnessed nonlinear-promotion surface.
 - Module K owns nonlinear phase space, shell crossing, caustics, collapse, stabilized structures, merger ancestry, cosmic-web and void dynamics, nonlinear dark-sector behavior, metric/lensing truth fields, and lightcones.
 - Module L owns hydrodynamics, MHD, thermochemistry, radiation transport, turbulence, witnessed star birth, stellar evolution, binaries, feedback, compact remnants, accretion, cosmic rays, ionizing sources, and baryonic return.
-- The L→M handoff requires generated stellar and compact-event trajectories and forbids detached yield tables, imported delay-time distributions, or one-zone metallicity models.
-- Module M owns nuclear carriers and properties, typed reaction/decay hypergraphs, forward/reverse closure, adaptive network completeness, hydrostatic and explosive nucleosynthesis, event-resolved yields, radioactive descendants, enrichment transport, dust, molecular carriers where closed, source attribution, and composition-dependent microphysics.
-- Module M reopens the primordial nuclear seed from E and particle/thermal laws from C–D without mutation; K supplies the nonlinear transport environment.
-- Module M returns isotope and element fields, cooling/heating, opacity/emissivity, radiation coupling, radioactive power, mass return, dust, and stress-energy updates to K and L through declared conservative channels.
+- Module M owns isotope-resolved hydrostatic and explosive nucleosynthesis, radioactive descendants, chemical transport, dust, source attribution, and composition-dependent microphysics.
 - Modules A–J remain frozen during K–L–M replay. Only the earliest affected forward interval may reopen.
-- A raw first-pass `(K^(0),L^(0),M^(0))` state is not the final manifested universe.
-- Only a fixed point, bounded cycle, slowly evolving attractor, classified branch family, or explicit nonconvergence may proceed to Module N.
+- The K–L–M→N handoff admits only a fixed point, bounded cycle, slowly evolving attractor, classified branch family, or explicitly retained nonconvergent state with declared restrictions.
+- Module N reconciles K, L, and M as typed views of one universe. A gravitational star, stellar-structure star, and isotope-bearing star are not three stars.
+- Module N owns the universal identity registry, entity ownership, global event graph, global causal graph, worldline/worldtube continuity, geometry–matter compatibility, cross-domain conservation, radiation-background and reionization assembly, truth lightcones, multimessenger truth, physical record carriers, measurement interactions, observer-readiness classification, decoherence/branch distinction, memory separation, no-loss promotion, cross-domain covariance, and the read-only truth-observable interface.
+- Module N stops at physically witnessed observer readiness. It does not prove consciousness.
+- Module N exports one complete restartable manifested universe to Module O. It does not freeze the parent, compare with public data, or execute terminal evolution.
+
+The protected final branch architecture remains:
+
+```text
+N -> O -> {P,Q}
+P -/-> O
+P -/-> Q
+Q -/-> O
+```
 
 ## Current scientific direction
 
-Treat Module A as complete and frozen. Repair Modules B-M according to their detailed plans and sealed handoffs. The next planning task is to create the exact converged `(K*,L*,M*)→N` scientific handoff and then the detailed Module N plan for manifested-universe assembly, cross-domain identity, global event and causal closure, physical records, observer-ready systems, truth-level observables, and the Module O freeze boundary.
+Treat Module A as complete and frozen. Repair Modules B-N according to their detailed plans and sealed handoffs. The next planning task is to create the exact Module N→O physical freeze handoff and then the detailed Module O plan for immutable universe identity, physical-state freeze, restart and restoration sufficiency, reproducibility, and strict separation of the read-only empirical child P from the continued-physics child Q.
