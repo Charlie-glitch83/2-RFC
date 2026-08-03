@@ -4,67 +4,79 @@
 
 The project seeks to establish, under explicit axioms and realization conditions, that the enhanced completed Module A triad kernel generates every admitted state in the constructed RFC universe, that the Big Implosion is the sole first physical event, that a Big-Rip-class result is required for canonical closure, and that frozen predictions survive preregistered empirical testing without fitting or target leakage.
 
-Modules A through G and Module `H^U` are complete and frozen at their declared scopes. Module I is active. Module `H[I]` remains blocked until Module I returns a compliant realized background.
+Modules A through I, Module Hᵁ, and Module H[I] are complete and frozen at their declared scopes. Module J is active.
 
-## Frozen upstream status
+## Frozen status
 
 - Modules A–G: `COMPLETE_AND_FROZEN` at their declared finite-relational scopes.
 - Module Hᵁ: `COMPLETE_AND_FROZEN` at finite-relational, background-parameterized linear-response scope.
+- Module I: `COMPLETE_AND_FROZEN` at finite-relational, internally scaled, generated-background scope.
+- Module H[I]: `COMPLETE_AND_FROZEN` as immutable instantiation of Hᵁ on compliant Module I branches.
 
-## Module Hᵁ claim ledger
+## Module I claim ledger
 
 | Claim | Evidence class | State |
 |---|---|---:|
-| Hᵁ consumes the sealed Module G parent without retuning | Boundary theorem | `PROVED` |
-| Hᵁ CIF/QV/RFL roles specialize the enhanced Module A kernel | Type/construction theorem | `PROVED` |
-| The admissible background domain is declared before Module I | Domain construction | `SEALED` |
-| The universal operator is the Fréchet linearization of the frozen A–G evolution | Linearization theorem | `ESTABLISHED_WITHIN_DECLARED_SUPPORT` |
-| The complete multi-species perturbation state is typed by species, sector, mode, gauge, route, uncertainty, and ancestry | State construction | `ESTABLISHED` |
-| Scalar/vector/tensor projectors are orthogonal and complete | Projector theorem | `PROVED_AT_FINITE_SUPPORT_SCOPE` |
-| Generated symmetry breaking is represented by explicit cross-sector blocks | Branch construction | `ESTABLISHED` |
-| The weighted physical gauge projector is idempotent and removes pure-gauge directions | Gauge-quotient theorem | `PROVED` |
-| Gauge-covariant evolution preserves gauge equivalence | Gauge theorem | `PROVED_UNDER_NAMED_OPERATOR_IDENTITY` |
-| Geometric, charge, normalization, and species constraints propagate | Constraint theorem | `PROVED` |
-| Conserving collision blocks and paired sector transfers close exact ledgers | Conservation theorem | `PROVED_WITH_DECLARED_CARRIERS` |
-| Photon intensity and polarization hierarchies inherit Module G opacity, visibility, and source physics | Hierarchy construction | `ESTABLISHED` |
-| Matter, neutrino/free-streaming, compression-relic, dissipative-tail, field, and dark blocks descend from frozen upstream laws | Multi-species construction | `ESTABLISHED` |
-| The regular constrained initial-mode space has a finite independent basis modulo gauge | Mode-basis theorem | `PROVED_AT_FINITE_REFINEMENT` |
-| Tight-coupling, fluid, free-streaming, and stiff reductions use witnessed Schur/reconstruction conditions | Reduction theorem | `ESTABLISHED_WITH_ERROR_DOMAIN` |
-| Hierarchy truncation uses omitted-tail and no-reflection control with reopening | Completeness theorem | `ESTABLISHED_WITH_DECLARED_BOUND` |
-| The fundamental matrix exists uniquely and obeys composition/restart identity | Linear-propagator theorem | `PROVED` |
-| Unit responses and retarded Green functions are generated without a primordial covariance | Transfer construction | `ESTABLISHED` |
-| Line-of-sight responses are a Duhamel representation and must agree with the direct hierarchy | Representation theorem | `PROVED_IN_EXACT_FORM; NUMERICALLY_VERIFIED_IN_REPRESENTATIVE_CASE` |
-| Response derivatives, adjoints, and covariance-propagation maps are generated | Sensitivity construction | `ESTABLISHED` |
-| Positive initial/process covariance remains positive semidefinite | Covariance theorem | `PROVED` |
-| Stability, causality, pathology, signature, memory, ancestry, and restart structures are attached | Boundary construction | `ESTABLISHED` |
-| The complete frozen `P_H^U->I` operator packet is exported | Boundary construction | `SEALED` |
-| Module Hᵁ is complete and frozen | Module theorem | `ESTABLISHED_WITHIN_DECLARED_BOUNDARY` |
+| Module I consumes the sealed Module G physical parent and frozen Hᵁ operator contract without retuning | Boundary theorem | `PROVED` |
+| Module I CIF/QV/RFL roles specialize the enhanced completed Module A kernel | Type/construction theorem | `PROVED` |
+| Finite relational metric, connection, curvature, topology, and averaging carriers are constructed from inherited relations | Geometric construction | `ESTABLISHED_WITHIN_DECLARED_REFINEMENT` |
+| The constrained geometric/sector initial-value problem has a unique local solution on each regular branch | Finite constrained-evolution theorem | `PROVED_UNDER_NAMED_ASSUMPTIONS` |
+| Witnessed sector transfers sum to zero and total conservation closes | Conservation theorem | `PROVED` |
+| Geometric and physical constraints propagate on admitted branches | Constraint theorem | `PROVED_UNDER_NAMED_CLOSURE` |
+| Interaction and sector energy are represented without double counting | Source construction | `ESTABLISHED_WITH_RESIDUAL_FALSIFIER` |
+| Internal units and reference events descend from upstream RFC quantities | Dimensional construction | `ESTABLISHED` |
+| The realized background preserves the frozen early B–G chronology on the overlap domain | Continuity theorem | `PROVED_CONDITIONALLY; REPRESENTATIVE_OVERLAP_VERIFIED` |
+| Ordinary, radiative, relic, field, and defect backgrounds descend from frozen upstream inventories | Background construction | `ESTABLISHED` |
+| Compression-relic density and pressure are generated from its inherited energy functional | Constitutive theorem | `ESTABLISHED` |
+| Dissipative-tail density, pressure, dissipation, and terminal interface are generated rather than inserted | Constitutive theorem | `ESTABLISHED` |
+| Scale, expansion, acceleration, events, and clocks derive from one constrained trajectory | Background theorem | `ESTABLISHED` |
+| Redshift derives from generated signal transport and observer congruences | Propagation theorem | `ESTABLISHED` |
+| Null/Jacobi propagation generates the distance family and reciprocity under named assumptions | Distance theorem | `PROVED_UNDER_NAMED_ASSUMPTIONS` |
+| Particle, sound, drag, diffusion, free-streaming, and sector horizons are generated from carrier reachability | Horizon construction | `ESTABLISHED` |
+| Background derivatives and covariance are propagated | Sensitivity/covariance construction | `ESTABLISHED` |
+| Branch, stability, causality, pathology, signature, memory, ancestry, and restart states are attached | Boundary construction | `ESTABLISHED` |
+| Hᵁ domain compliance is a conjunction of mandatory predicates and residual bounds | Domain theorem | `PROVED` |
+| The complete Module I packet is exported | Boundary construction | `SEALED` |
+| Module I is complete and frozen | Module theorem | `ESTABLISHED_WITHIN_DECLARED_BOUNDARY` |
 
-## Explicit Module Hᵁ boundaries
+## Module H[I] claim ledger
 
-Hᵁ does not prove or contain:
-
-- the realized Module I background;
-- completed H[I] instantiation;
-- realized basis-response histories;
-- a primordial mode covariance or mode mixture;
-- final CMB, matter, lensing, or growth spectra;
-- nonlinear structure or astrophysical reionization;
-- public CLASS/CAMB agreement;
-- empirical validation.
+| Claim | Evidence class | State |
+|---|---|---:|
+| H[I] begins only after `B_I in D_B` | Admission theorem | `PROVED` |
+| Instantiation populates only frozen Hᵁ coefficient slots | Immutability theorem | `PROVED` |
+| Operator state dimension, block grammar, modes, gauges, collisions, sources, and closures remain unchanged | Structural theorem | `PROVED_BY_CONSTRUCTION; REPRESENTATIVE_PATTERN_CHECKED` |
+| Basis-normalized direct, Green-function, and line-of-sight responses are generated | Transfer construction | `ESTABLISHED` |
+| Gauge, constraint, conservation, restart, and covariance grammar remain active after insertion | Closure theorem | `ESTABLISHED` |
+| Complete `P_H[I]->J` is exported without assigning primordial covariance | Boundary construction | `SEALED` |
+| H[I] is complete and frozen | Module theorem | `ESTABLISHED_WITHIN_DECLARED_BOUNDARY` |
 
 ## Verification status
 
-Wolfram and independent NumPy/SciPy checks verify representative finite algebra for scalar/vector/tensor projectors, the gauge quotient, constraint propagation, collision conservation, propagator composition/restart, stable Schur reduction, covariance positivity, direct-versus-line-of-sight reconstruction, and hierarchy extension behavior. These checks verify algebra and finite implementation examples; they do not establish a realized background or empirical transfer truth.
+Wolfram and an independent NumPy/SciPy implementation verify representative finite algebra and synthetic systems for zero-sum sector transfer, total continuity, geometric constraint closure, generated energy-volume pressure relations, distance reciprocity, dual background formulations, independent null-distance reconstruction, horizon monotonicity, derivative consistency, immutable H[I] operator grammar, propagator restart/composition, covariance positivity, and conjunction-based Hᵁ domain compliance.
+
+These checks verify algebra and finite implementation examples. They do not establish a unique full-universe numerical branch, measured expansion or distances, fitted dark-sector behavior, final spectra, or empirical truth.
+
+## Explicit Module I/H[I] boundaries
+
+They do not prove:
+
+- public `H0`, density fractions, curvature, age, distances, or ruler agreement;
+- a measured present-day reference epoch;
+- fitted CDM, `Lambda`, or `w(a)` behavior;
+- public Boltzmann-code reproduction;
+- primordial mode covariance;
+- final CMB, matter, lensing, or growth spectra;
+- nonlinear structure or astrophysical histories;
+- terminal Big-Rip dynamics;
+- empirical validation.
 
 ## Active downstream claims
 
 | Claim | Owner | State |
 |---|---|---:|
-| Mature geometry and the realized RFC background follow from the frozen upstream state | Module I | `ACTIVE` |
-| The realized background lies inside the immutable Hᵁ domain | Module I | `ACTIVE` |
-| The frozen H operator is instantiated on the Module I background without redesign | Module H[I] | `BLOCKED_BY_I` |
-| Primordial covariance and realized linear spectra follow from H[I] and I | Module J | `BLOCKED` |
+| Primordial covariance and realized linear spectra follow from the sealed I and H[I] parents | Module J | `ACTIVE` |
+| The physical linearity boundary and nonlinear-ready fields are generated | Module J | `ACTIVE` |
 | The full A–N universe is frozen reproducibly | Module O | `BLOCKED` |
 | Frozen predictions satisfy every mandatory empirical component at `>=0.95` | Module P | `BLOCKED` |
 | A Big-Rip-class result closes the canonical cycle and qualifies next-cycle memory | Module Q | `BLOCKED` |
@@ -80,4 +92,4 @@ Wolfram and independent NumPy/SciPy checks verify representative finite algebra 
 7. preregistered public-data comparison;
 8. independent reproduction.
 
-A code pass is not a theorem. An internally generated resemblance is not empirical confirmation. No average, global score, or favorable example may hide a failed mandatory condition.
+A code pass is not a theorem. A representative synthetic branch is not the full realized universe. An internally generated resemblance is not empirical confirmation. No average or favorable example may hide a failed mandatory condition.
