@@ -1,62 +1,111 @@
-# Physical-Realization Interface
+# Physical-Realization Boundary After Module A
 
-## Target theorem
+## 1. Scientific placement
 
-For an abstract completed carrier \(\mathcal C_N\), an admissible realization
+Module A has completed the prephysical relational carrier. Physical realization is therefore a Module B responsibility.
 
-\[
-\mathcal R_D:\mathsf C_N\rightharpoonup\mathsf P_D
-\]
-
-must produce a physical state by derivation, not by relabeling. The map is certified only when all nine obligations below are proved separately.
-
-| ID | Required output | Question that must be answered |
-|---|---|---|
-| R1 | Causal or precausal order | What distinguishes before/after, spacelike/timelike/null, or their discrete analogues? |
-| R2 | Dimensions and scale ancestry | Where do units and every dimensionful scale come from? |
-| R3 | Physical state variables | What quantities carry geometry, fields, matter, radiation, and uncertainty? |
-| R4 | Action, Hamiltonian, or evolution law | What law selects allowed histories and produces evolution? |
-| R5 | Constraints and conservation | Which identities follow from the law, and how are they checked? |
-| R6 | Refinement/continuum control | What survives increasing resolution or constituent number, and in what regime? |
-| R7 | Observable map | How do internal states generate quantities an instrument can measure? |
-| R8 | Triadic nondegeneracy | Which preregistered ablations show the triad/carrier is causally necessary rather than decorative? |
-| R9 | Boundary events | Why is the Big Implosion uniquely first and the Big Rip terminal within a cycle? |
-
-## The graph-resolvent result retained from 1RFC
-
-For a finite connected weighted undirected graph with symmetric weight matrix \(C\), Laplacian \(L\), and \(\ell>0\),
+The typed boundary is
 
 \[
-Q=(I+\ell L)^{-1},\qquad x^+=Qx^-
+\mathsf C_A
+\xrightarrow{\mathrm{BI}_B}
+\mathsf P_{B,0},
 \]
 
-is well-defined. Since \(L\succeq0\), \(Q\) is symmetric positive definite; it preserves the constant mode, contracts nonconstant Laplacian modes, and decreases the graph Dirichlet energy. These are useful pregeometry/compression results.
+where \(\mathsf C_A\) is the frozen Module A carrier and \(\mathsf P_{B,0}\) is the first physically manifested state.
+
+The First Action is not the Big Implosion, and the prephysical RFL is not the first physical RFL.
+
+---
+
+## 2. Module A completion does not imply physical relabeling
+
+Module A proves a bounded recursive kernel, finite-N relational grammar, witnessed route atlas, event alternatives, no-loss memory, promotion/reopening, dormancy, uncertainty, and immutable downstream inheritance.
+
+It does not prove that any abstract carrier coordinate is already:
+
+- physical time;
+- a spatial coordinate;
+- a Lorentzian interval;
+- mass or energy;
+- stress-energy;
+- a particle or field;
+- a cosmological sector;
+- an observable.
+
+Those identities require a Module B derivation.
+
+---
+
+## 3. Graph-resolvent theorem retained at the B boundary
+
+For a finite connected weighted undirected graph with Laplacian \(L\) and \(\ell>0\),
+
+\[
+Q=(I+\ell L)^{-1}
+\]
+
+is symmetric positive definite. It preserves the constant mode, contracts nonconstant Laplacian modes, and decreases graph Dirichlet energy.
+
+These are exact compression and pregeometry properties.
 
 ### Physical-typing necessity theorem
 
-**Theorem.** The pair \((Q,d_R)\), where \(d_R\) is effective-resistance distance, is insufficient by itself to establish a Lorentzian spacetime, physical time, a stress-energy tensor, or a dark-sector identity.
-
-**Proof.** On a connected graph,
+The pair \((Q,d_R)\), with effective-resistance distance
 
 \[
-d_R(i,j)=(e_i-e_j)^TL^+(e_i-e_j)
+d_R(i,j)=(e_i-e_j)^{\mathsf T}L^+(e_i-e_j),
 \]
 
-is nonnegative, symmetric, and zero only when \(i=j\). A Lorentzian quadratic form is indefinite: it admits positive, negative, and nonzero null directions, and distinct null-related events can have zero interval. No identification that uses only the positive separating metric \(d_R\) can preserve those Lorentzian interval types. Therefore additional causal/signature structure is necessary.
+is insufficient by itself to establish Lorentzian spacetime, physical time, stress-energy, or a dark-sector identity.
 
-If \(L\), \(\ell\), and \(x\) are dimensionless, then \(Qx\) is dimensionless and invariant under arbitrary changes of physical units; no unique duration, length, mass, or energy scale follows without a declared scale map. Finally, an undirected smoothing operator supplies neither a physical action nor an interpretation of its spectral subspaces. Orthogonal parity projectors can partition a vector space, but names such as ordinary, radiative, compression relic, or dissipative tail require independent dynamical and observational discriminants. ∎
+A positive separating metric does not provide an indefinite causal signature or nontrivial null relations. A dimensionless smoothing operator does not generate unique physical units. Spectral subspaces do not become named substances without independent dynamics and discriminants.
 
-This theorem does not discard Module B's algebra. It locates it correctly: \(Q\) is a candidate compression/pregeometry component inside \(\mathcal R_D\), not a completed physical realization.
+This theorem does not weaken Module A. It identifies the exact physical work Module B must perform.
 
-## Preferred bridge route
+---
 
-The most source-compatible route is a **discrete causal realization** built from the carrier's event lift:
+## 4. Module B realization requirements
 
-\[
-\mathcal R_{\rm dc}(\mathcal C_N)
-=(E,\prec,\Sigma,\Phi,S,\mathcal C,U,\mathcal O).
-\]
+A certified realization must supply:
 
-Here \(E\) is an event set, \(\prec\) a witness-certified precedence relation, \(\Sigma\) spatial/pregeometric data on suitable slices, \(\Phi\) physical state variables, \(S\) the governing action or generator, \(\mathcal C\) constraints, \(U\) the dimension/scale map, and \(\mathcal O\) observables.
+1. the Big-Implosion map and event predicate;
+2. physical event order and intrinsic clock;
+3. dimensions and scale ancestry;
+4. physically typed state variables;
+5. an action, generator, or evolution law;
+6. constraints and conservation identities;
+7. refinement, continuum, or finite-validity control;
+8. physically derived sector differentiation;
+9. a complete preparticle export to Module C.
 
-The event order must be derived without importing Newtonian time. Kernel depth, ancestry depth, route order, event order, cycle index, and later physical time remain different types. [The active proof](../proofs/GENESIS_REALIZATION.md) proves the append-only ancestry order first and then asks for the additional witness that gives selected ancestry edges physical causal meaning.
+The graph resolvent may be one component of the Big-Implosion map, but no requirement is discharged by renaming the operator.
+
+---
+
+## 5. Preserved Module A information
+
+A physical realization may transform the carrier but may not erase:
+
+- source identity;
+- kernel and depth ancestry;
+- constituent and directed-lane identity;
+- route and witness identity;
+- event and branch identity;
+- protected memory;
+- scale ancestry;
+- uncertainty and numerical-error state;
+- manuscript and derivation provenance;
+- claim boundary and falsifiers.
+
+Informational reopening is not backward physical time.
+
+---
+
+## 6. Active frontier
+
+The current physical frontier is Module B's theorem:
+
+> For every admitted non-obstructed finite connected Module A branch, derive the Big Implosion as the sole first physical event, generate a conservation-complete physical RFL state, preserve the protected parent information, and export a complete preparticle universe to Module C.
+
+Module A is not reopened while this theorem is developed.
