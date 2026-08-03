@@ -5,9 +5,13 @@ Read:
 1. `README.md`
 2. `architecture/2RFC_DETAILED_SCIENTIFIC_GAP_TO_LIBRARY_REPAIR_PLAN.md`
 3. `architecture/2RFC_MODULE_BY_MODULE_SCIENTIFIC_REPAIR_PLAN.md`
-4. the exact library plan for the active module
-5. the existing 2-RFC module being repaired
-6. the valid scientific source material named for that module
+4. `modules/A/MODULE_A_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
+5. `modules/A/MODULE_A_TO_B_SCIENTIFIC_HANDOFF.md`
+6. `modules/B/MODULE_B_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
+7. `modules/B/MODULE_B_TO_C_SCIENTIFIC_HANDOFF.md`
+8. the exact library plan for the active module
+9. the existing 2-RFC module being repaired
+10. the valid scientific source material named for that module
 
 ## Governing method
 
@@ -21,14 +25,26 @@ Read:
 - Repair each module in place, then move to the next.
 - Public observations may test the finished universe but may not generate or repair it.
 
+## Current scientific chain
+
+```text
+completed Module A
+-> MODULE_A_TO_B_SCIENTIFIC_HANDOFF
+-> repaired Module B
+-> MODULE_B_TO_C_SCIENTIFIC_HANDOFF
+-> future detailed Module C repair plan
+```
+
+The A→B handoff distinguishes:
+
+- prephysical `RFL_A^pre` from physical `RFL_B^phys`;
+- the First Action from the Big Implosion;
+- Module A ancestry from Module B physical event time;
+- the full directed carrier from the symmetrized compression shadow;
+- an admitted non-obstructed genesis branch from a fabricated universe.
+
+The B→C handoff defines the complete preparticle parent state and requires Module C to derive particles, fields, masses, symmetries, interactions, probabilities, composites, and prethermal composition without importing measured microscopic values.
+
 ## Current scientific direction
 
-The detailed gap-to-library plan is the primary repair guide. It records:
-
-- the scientific strengths and defects of the existing 2-RFC files;
-- the exact scientific content recoverable for Modules A and B;
-- which library file families fill each module's gaps;
-- the required physical repair for Modules A-Q;
-- the corrected layered boundary between first physical realization, mature spacetime, observers, empirical testing, and terminal recurrence.
-
-Begin with Module A, then Module B, then continue through C-Q in physical order while preserving the H/I split, K-L-M coupling, and P/Q separation.
+Treat Module A as complete and frozen. Repair Module B according to its detailed plan and the sealed A→B handoff. The next planning task is a detailed Module C scientific repair plan built directly from `modules/B/MODULE_B_TO_C_SCIENTIFIC_HANDOFF.md` and the exact Module C library plan.
