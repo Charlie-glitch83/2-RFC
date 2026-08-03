@@ -4,60 +4,49 @@ The module is the work unit. Each child consumes a sealed parent and preserves f
 
 | Module | Scientific ownership | Current state |
 |---|---|---:|
-| A | Ordered triad; First Action; recursive kernel; finite-N relational completion; witnesses; routes; events; no-loss memory; promotion/reopening; dormancy; uncertainty | **COMPLETE_AND_FROZEN** |
-| B | Big Implosion; sole first physical event; finite relational geometry and carrier; intrinsic clock; continuity/conservation; four sector seeds; preparticle export | **COMPLETE_AND_FROZEN** |
-| C | Microscopic fields, particles, interactions, probabilities, symmetries, masses, hadrons, nucleons, radiation carriers, neutrinos, charge, asymmetry and baryon-photon seed | **ACTIVE** |
+| A | Ordered triad, First Action, recursive kernel and finite-relational carrier | **COMPLETE_AND_FROZEN** |
+| B | Big Implosion, first physical state, clock, conservation, four sector seeds and preparticle export | **COMPLETE_AND_FROZEN** |
+| C | Microscopic ontology, constitutive law, probability, symmetries, particles, masses, interactions, binding and prethermal export | **PARTIALLY_IMPLEMENTED_ACTIVE** |
 | D | Nonequilibrium thermal history, transport, transitions, freeze-out and nuclear readiness | Blocked by C |
-| E | Primordial isotope-resolved nuclear network and abundances | Blocked |
-| F | Post-nuclear plasma, radiation, opacity and atomic-readiness evolution | Blocked |
-| G | Nonequilibrium recombination, visibility, drag, damping and CMB surface | Blocked |
-| H^U | Frozen universal multi-species linear operator | Blocked |
-| I | Realized background geometry, expansion, causal structure, distances and horizons | Blocked |
-| H[I] | Immutable insertion of I into the frozen H operator | Blocked |
-| J | Primordial covariance, transfer composition, linear spectra and nonlinear-ready fields | Blocked |
-| K | Nonlinear gravity, collapse, halos, web/voids, metric, lensing and lightcones | Blocked |
-| L | Hydrodynamics, thermochemistry, radiation, stars, remnants and feedback | Blocked |
-| M | Stellar/explosive nucleosynthesis, enrichment, dust and composition feedback | Blocked |
-| N | One causally and genealogically assembled observer-ready manifested universe | Blocked |
-| O | Immutable freeze, restoration, restart and branch isolation | Blocked |
-| P | Read-only observation operators, public comparison, falsification and replication | Blocked |
-| Q | Isolated terminal continuation, Big-Rip-class closure, latent memory and next-CIF conditioning | Blocked |
+| E-Q | Remaining generated universe, freeze, testing and terminal continuation | Blocked |
 
 ## Frozen Module B export
 
-For each lawful branch `beta`, Module B exports:
+For each lawful branch `beta`, Module B exports
 
 ```text
-P_B->C(beta) = (
-  G_B,
-  Phi_B,
-  J_B,
-  T_B,
-  S_B,
-  X_ord,
-  X_rad,
-  X_comp,
-  X_tail,
-  Sym_B,
-  Br_B,
-  U_B,
-  Sigma_B,
-  M_B,
-  A_B
-)
+P_B->C(beta) =
+(G_B, Phi_B, J_B, T_B, S_B,
+ X_ord, X_rad, X_comp, X_tail,
+ Sym_B, Br_B, U_B, Sigma_B, M_B, A_B)
 ```
 
-This contains the first manifested carrier, finite relational geometry/pregeometry, intrinsic event time, directed currents, conservation and compression ledgers, four complete seed sectors, symmetry/branch state, positive unit-scale family, covariance, memory and ancestry.
+This state contains no derived particles, masses, gauge structure, photon, neutrino, hadron, nucleon, asymmetry or prethermal population.
 
-It does not contain particles, photons, baryons, measured masses, a thermal history, mature spacetime, dark-matter halos, dark-energy acceleration or public observations.
+## Implemented Module C layer
 
-## Exact dependency
+`science/MICROSCOPIC_PHYSICS.md` now provides:
+
+- immutable parent consumption;
+- microscopic triadic type projection;
+- ontology and state-type registry;
+- finite ordinary-plus-radiative candidate capacity;
+- no-double-counting of capacity sectors;
+- separation of candidate slots from particle identity;
+- classification of the old six-plus-two registry as representation-only support;
+- exact kinematic automorphism dimensions;
+- exact constitutive underdetermination of symmetry, mass, probability and interaction laws;
+- the witness stack required to admit a physical microscopic constitutive branch.
+
+## Active dependency
 
 ```text
-Module A complete and frozen
--> Module B complete and frozen
--> sealed B→C parent state
--> Module C microscopic derivation
+Modules A and B frozen
+-> sealed P_B->C
+-> candidate-capacity theorem
+-> NEW-DERIVATION: microscopic constitutive law
+-> particle and prethermal closure
+-> Module D
 ```
 
-A Module C failure may not be repaired by retuning Module A or Module B.
+Module D remains blocked. A missing microscopic law may not be supplied by a conventional particle table or repaired by changing Modules A or B.
