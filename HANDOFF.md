@@ -18,9 +18,11 @@ Read:
 14. `modules/F/MODULE_F_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
 15. `modules/F/MODULE_F_TO_G_SCIENTIFIC_HANDOFF.md`
 16. `modules/G/MODULE_G_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
-17. the exact library plan for the active module
-18. the existing 2-RFC module being repaired
-19. the valid scientific source material named for that module
+17. `modules/G/MODULE_G_TO_H_UNIT_SCIENTIFIC_HANDOFF.md`
+18. `modules/H/MODULE_H_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
+19. the exact library plan for the active module
+20. the existing 2-RFC module being repaired
+21. the valid scientific source material named for that module
 
 ## Governing method
 
@@ -53,13 +55,16 @@ completed Module A
 -> repaired Module F
 -> MODULE_F_TO_G_SCIENTIFIC_HANDOFF
 -> repaired Module G
--> future MODULE_G_TO_H_SCIENTIFIC_HANDOFF
--> future detailed Module H repair plan
+-> MODULE_G_TO_H_UNIT_SCIENTIFIC_HANDOFF
+-> repaired Module Hᵁ
+-> future Module I plan and Hᵁ→I boundary
+-> future immutable H[I] instantiation
+-> future Module J
 ```
 
 The A→B handoff distinguishes prephysical RFL from the first physically manifested RFL and prevents the First Action from being conflated with the Big Implosion.
 
-The B→C handoff defines the complete preparticle parent state and requires Module C to derive particles, fields, masses, symmetries, interactions, probabilities, composites, and prethermal composition.
+The B→C handoff defines the complete preparticle parent state and requires Module C to derive microscopic particles, fields, masses, symmetries, interactions, probabilities, composites, and prethermal composition.
 
 The C→D handoff requires Module D to derive the thermal chronology from the complete microscopic parent instead of reconstructing particle physics.
 
@@ -67,19 +72,21 @@ The D→E handoff defines the complete nuclear-ready plasma and requires Module 
 
 The E→F handoff preserves the complete post-nuclear composition and requires Module F to evolve the actual plasma to a physically witnessed recombination-entry surface.
 
-The F→G handoff defines the complete recombination-ready plasma and requires Module G to derive nonequilibrium atomic populations, radiative transfer, free-electron history, opacity, optical depth, visibility, drag, diffusion, damping, recombination radiation, and the finite physical CMB surface without importing a public recombination history.
+The F→G handoff defines the complete recombination-ready plasma and requires Module G to derive nonequilibrium atomic populations, radiative transfer, free-electron history, opacity, optical depth, visibility, drag, diffusion, damping, recombination radiation, and the finite physical CMB surface.
 
-The Module G plan is built from:
+The G→Hᵁ handoff defines the complete physical CMB-surface parent and requires Module Hᵁ to derive and freeze the universal background-parameterized linear response operator before Module I exists.
 
-- the repository's detailed gap-to-library repair plan;
-- the detailed Module F plan;
-- the sealed F→G handoff;
-- the exact Module G library plan;
-- the Module H library plan as the downstream linear-transfer boundary;
-- applicable Presentation 29 and Presentation 30 recombination, CMB-seed, opacity, recursive-memory, and transfer-facing science;
-- symbolic transparency work only as a historical diagnostic, not as atomic physics;
-- N-body route, event, promotion, memory, and obstruction grammar only after a physical atomic or radiative mapping is proved.
+The Module H plan preserves the locked architecture:
+
+```text
+G -> Hᵁ -> I -> H[I] -> J
+```
+
+- `Hᵁ` owns the complete perturbation state, scalar/vector/tensor systems, gauges, constraints, species and metric hierarchies, collisions, regular initial-mode basis, stiff-regime treatment, hierarchy closure, direct solver, line-of-sight grammar, Green functions, uncertainty propagation, and admissible background domain.
+- Module I must derive the realized geometry, expansion, clocks, distances, horizons, and sector backgrounds inside the frozen Hᵁ domain.
+- `H[I]` may instantiate the frozen operator only through the declared insertion map and may not redesign or retune it.
+- Module J later supplies the primordial covariance and constructs realized spectra and fields from the H[I] basis responses.
 
 ## Current scientific direction
 
-Treat Module A as complete and frozen. Repair Modules B-G according to their detailed plans and sealed parent-child handoffs. The next planning task is to create the exact Module G→H scientific handoff and then the detailed Module H repair plan while preserving the locked `H^U -> I -> H[I] -> J` architecture.
+Treat Module A as complete and frozen. Repair Modules B-H according to their detailed plans and sealed parent-child handoffs. The next planning task is to create the exact Hᵁ→I scientific handoff and the detailed Module I repair plan, while explicitly reserving the later I→H[I] instantiation boundary.
