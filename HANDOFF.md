@@ -22,16 +22,17 @@ Read:
 18. `modules/H/MODULE_H_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
 19. `modules/H/MODULE_H_UNIT_TO_I_SCIENTIFIC_HANDOFF.md`
 20. `modules/I/MODULE_I_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
-21. the exact library plan for the active module
-22. the existing 2-RFC module being repaired
-23. the valid scientific source material named for that module
+21. `modules/I/MODULE_I_TO_H_INSTANTIATED_SCIENTIFIC_HANDOFF.md`
+22. `modules/J/MODULE_J_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
+23. the exact library plan for the active module
+24. the existing 2-RFC module being repaired
+25. the valid scientific source material named for that module
 
 ## Governing method
 
 - The module is the unit of work.
 - The detailed gap-to-library repair plan is the primary scientific spine for every individual module plan.
 - Use each sealed parent-child handoff to define the exact inherited state and prevent a child from reconstructing missing parent science.
-- Compare the actual 2-RFC science with the library's scientific goals and completed results.
 - Preserve correct science already present in 2-RFC.
 - Use RUN 000-007 only for completed Module A science.
 - Use RUN 008-013 only for completed Module B science.
@@ -45,59 +46,41 @@ Read:
 
 ```text
 completed Module A
--> MODULE_A_TO_B_SCIENTIFIC_HANDOFF
+-> A→B handoff
 -> repaired Module B
--> MODULE_B_TO_C_SCIENTIFIC_HANDOFF
+-> B→C handoff
 -> repaired Module C
--> MODULE_C_TO_D_SCIENTIFIC_HANDOFF
+-> C→D handoff
 -> repaired Module D
--> MODULE_D_TO_E_SCIENTIFIC_HANDOFF
+-> D→E handoff
 -> repaired Module E
--> MODULE_E_TO_F_SCIENTIFIC_HANDOFF
+-> E→F handoff
 -> repaired Module F
--> MODULE_F_TO_G_SCIENTIFIC_HANDOFF
+-> F→G handoff
 -> repaired Module G
--> MODULE_G_TO_H_UNIT_SCIENTIFIC_HANDOFF
+-> G→Hᵁ handoff
 -> repaired Module Hᵁ
--> MODULE_H_UNIT_TO_I_SCIENTIFIC_HANDOFF
+-> Hᵁ→I handoff
 -> repaired Module I
--> future immutable MODULE_I_TO_H_INSTANCE_SCIENTIFIC_HANDOFF
--> future H[I] instantiation
--> future detailed Module J repair plan
+-> immutable I→H[I] handoff
+-> frozen H[I] basis responses
+-> repaired Module J
+-> future J→K scientific handoff
+-> future detailed Module K repair plan
 ```
 
-The A→B handoff distinguishes prephysical RFL from the first physically manifested RFL and prevents the First Action from being conflated with the Big Implosion.
-
-The B→C handoff defines the complete preparticle parent state and requires Module C to derive microscopic particles, fields, masses, symmetries, interactions, probabilities, composites, and prethermal composition.
-
-The C→D handoff requires Module D to derive the thermal chronology from the complete microscopic parent instead of reconstructing particle physics.
-
-The D→E handoff defines the complete nuclear-ready plasma and requires Module E to derive the full isotope-resolved reaction history.
-
-The E→F handoff preserves the complete post-nuclear composition and requires Module F to evolve the actual plasma to a physically witnessed recombination-entry surface.
-
-The F→G handoff defines the complete recombination-ready plasma and requires Module G to derive nonequilibrium atomic populations, radiative transfer, free-electron history, opacity, optical depth, visibility, drag, diffusion, damping, recombination radiation, and the finite physical CMB surface.
-
-The G→Hᵁ handoff defines the complete physical CMB-surface parent and requires Module Hᵁ to derive and freeze the universal background-parameterized linear response operator before Module I exists.
-
-The Hᵁ→I handoff gives Module I two immutable parents:
-
-- the complete physical universe through Module G;
-- the frozen Hᵁ operator contract and admissible background domain.
-
-Module I derives the realized geometry, clocks, expansion, acceleration, ordinary, radiative, compression-relic, dissipative-tail and other sector histories, inter-sector transfer, curvature, anisotropy, averaging, events, horizons, redshift, null propagation, distances, derivatives, covariance, memory, and ancestry. It must prove that its background lies inside the frozen Hᵁ domain without editing Hᵁ.
-
-The locked architecture remains:
+The protected architecture remains:
 
 ```text
-G -> Hᵁ -> I -> H[I] -> J
+G -> Hᵁ -> I -> H[I] -> J -> K
 ```
 
-- `Hᵁ` owns the complete perturbation state, modes, gauges, constraints, species and metric hierarchies, collisions, regular initial-mode basis, stiff-regime treatment, hierarchy closure, direct solver, line-of-sight grammar, Green functions, uncertainty propagation, and admissible background domain.
-- Module I owns the realized dimensional geometry, clocks, global expansion, sector backgrounds, dark-sector evolution, events, horizons, redshift, null propagation, and distance geometry.
-- `H[I]` may instantiate the frozen operator only through the declared insertion map and may not redesign, retune, or change its scientific error criteria.
-- Module J later supplies the primordial covariance and constructs realized spectra and fields from the H[I] basis responses and the Module I background.
+- `Hᵁ` owns the complete background-parameterized linear operator, perturbation state, modes, gauges, collisions, hierarchies, source grammar, closure laws, uncertainty model, and admissible background domain.
+- Module I owns the realized dimensional geometry, clocks, expansion, sector histories, horizons, redshift, null propagation, distances, covariance, and proof that `B_I in D_B`.
+- `H[I]` is immutable instantiation only. It may populate frozen coefficients and generate basis responses but may not redesign the operator or retune the background.
+- Module J derives the primordial covariance from triadic and Big-Implosion ancestry, contracts it with H[I], generates the complete linear spectrum matrix and growth histories, constructs finite-volume fields, and derives the physical linearity boundary.
+- Module K must receive a complete nonlinear-ready state and may not infer missing phases, gauges, species, stresses, normalizations, covariance, or ancestry.
 
 ## Current scientific direction
 
-Treat Module A as complete and frozen. Repair Modules B-I according to their detailed plans and sealed parent-child handoffs. The next planning task is to create the exact immutable Module I→H[I] scientific handoff, define the H[I] realized transfer-response export to Module J, and then write the detailed Module J repair plan.
+Treat Module A as complete and frozen. Repair Modules B-J according to their detailed plans and sealed handoffs. The next planning task is to create the exact Module J→K scientific handoff and then the detailed Module K repair plan for nonlinear gravitational evolution, shell crossing, collapse, halo formation, merger history, and the coupled K↔L↔M interval.
