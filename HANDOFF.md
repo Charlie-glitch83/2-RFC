@@ -26,9 +26,11 @@ Read:
 22. `modules/J/MODULE_J_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
 23. `modules/J/MODULE_J_TO_K_SCIENTIFIC_HANDOFF.md`
 24. `modules/K/MODULE_K_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
-25. the exact library plan for the active module
-26. the existing 2-RFC module being repaired
-27. the valid scientific source material named for that module
+25. `modules/K/MODULE_K_TO_L_SCIENTIFIC_HANDOFF.md`
+26. `modules/L/MODULE_L_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`
+27. the exact library plan for the active module
+28. the existing 2-RFC module being repaired
+29. the valid scientific source material named for that module
 
 ## Governing method
 
@@ -68,9 +70,10 @@ completed Module A
 -> repaired Module J
 -> J→K handoff
 -> repaired Module K^(0)
--> future K→L scientific handoff
--> future detailed Module L repair plan
--> future L→M handoff and Module M plan
+-> K→L handoff
+-> repaired Module L^(0)
+-> future L→M scientific handoff
+-> future detailed Module M repair plan
 -> future coupled K–L–M closure
 ```
 
@@ -89,13 +92,15 @@ K^(n) -> L^(n) -> M^(n) -> K^(n+1)
 ```
 
 - Module J owns primordial covariance, linear spectra, growth, finite-volume fields, and the witnessed nonlinear-promotion surface.
-- The J→K handoff forbids hidden smoothing, amplitude rescaling, phase replacement, species reassignment, or reconstruction from conventional simulation initial conditions.
-- Module K owns nonlinear phase space, shell crossing, caustics, collapse, stabilized bound structures, event-truth merger ancestry, cosmic-web and void dynamics, nonlinear dark-sector behavior, metric/lensing truth fields, and lightcones.
+- Module K owns nonlinear phase space, shell crossing, caustics, collapse, stabilized bound structures, event-truth merger ancestry, cosmic-web and void dynamics, nonlinear dark-sector behavior, metric/lensing truth fields, and truth-level lightcones.
 - `K^(0)` is only the first-pass gravitational state sufficient for Module L to restart.
-- Module K does not own closed hydrodynamics, MHD, star formation, stellar evolution, nucleosynthesis, or chemical evolution.
-- Module K remains the gravitational anchor of the K–L–M loop and may re-ingest L/M returns only through declared mass, momentum, energy, stress, radiation, remnant, and composition-tagged source channels.
-- Only a converged, cyclic, attractor, classified branch, or explicit nonconvergent K–L–M outcome may proceed to Module N. A raw first-pass halo simulation is not the final manifested universe.
+- The K→L handoff requires a complete nonlinear gravitational parent and forbids replacement with a conventional galaxy-formation initial condition.
+- Module L owns hydrodynamics, MHD, thermochemistry, radiation transport, turbulence, gas accretion, clouds, fragmentation, witnessed star birth, generated stellar birth distributions, protostellar and stellar evolution, binaries, radiation, winds, feedback, compact remnants, black-hole accretion, cosmic rays, astrophysical ionizing sources, and truth-level baryonic galaxy structures.
+- Module L does not own the detailed stellar and explosive isotope networks, isotope yields, chemical evolution, or dust closure. Those belong to Module M.
+- Module L exports exact stellar, thermodynamic, mixing, explosive-event, remnant, ejecta, and environmental trajectories to Module M.
+- Module L returns gas, stars, remnants, radiation, magnetic, cosmic-ray, outflow, feedback, and stress-energy states to Module K only through declared conservation-complete channels.
+- Only a fixed, cyclic, attractor, classified-branch, or explicit nonconvergent K–L–M outcome may proceed to Module N. A raw first-pass galaxy simulation is not the final manifested universe.
 
 ## Current scientific direction
 
-Treat Module A as complete and frozen. Repair Modules B-K according to their detailed plans and sealed handoffs. The next planning task is to create the exact Module K→L scientific handoff and then the detailed Module L plan for hydrodynamics, MHD, thermochemistry, radiation transport, gas collapse, witnessed star birth, stellar populations, feedback, compact remnants, and conservative return into the K–L–M loop.
+Treat Module A as complete and frozen. Repair Modules B-L according to their detailed plans and sealed handoffs. The next planning task is to create the exact Module L→M scientific handoff and then the detailed Module M plan for stellar nucleosynthesis, isotope-resolved yields, chemical evolution, enrichment transport, dust, molecules, composition-dependent cooling and opacity, and conservative return into the K–L–M loop.
