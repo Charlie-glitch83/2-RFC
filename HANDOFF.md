@@ -3,36 +3,41 @@
 ## Current state
 
 ```text
-Modules A–N, H^U, H[I]: COMPLETE_AND_FROZEN at trusted declared repair scopes
-Module O: ACTIVE
+Modules A–M, H^U, H[I]: COMPLETE_AND_FROZEN at declared scopes
+Module N constitutive repair: COMPLETE
+Module N representative finite verification: PASS
+Module N physical execution and freeze: BLOCKED
+Module O: BLOCKED
 Modules P–Q: BLOCKED
 ```
 
-## Nonnegotiable trust rule
+## Authority rule
 
-Failed-iteration Module N and O plans, locks, handoffs, summaries, proofs, generated science, and completion claims are not authoritative.
+Trust in this order:
 
-For Module N, trust only:
+1. `STATE.json`;
+2. this handoff;
+3. `modules/N/MODULE_N_TRUSTED_SOURCE_ASSET_REGISTER.md`;
+4. `science/MANIFESTED_UNIVERSE_ASSEMBLY_TRUSTED.md`;
+5. `proofs/MANIFESTED_UNIVERSE_ASSEMBLY_TRUSTED.md`;
+6. `modules/N/MODULE_N_TRUSTED_VERIFICATION.md`;
+7. `modules/N/MODULE_N_TRUSTED_REPAIR_STATUS.md`;
+8. the verified Module M completion and K–L–M→N handoff.
 
-```text
-STATE.json
-modules/N/MODULE_N_TRUSTED_SOURCE_REGISTER.md
-modules/N/MODULE_N_TRUSTED_SOURCE_LOCK.md
-science/MANIFESTED_UNIVERSE_TRUSTED_REBUILD.md
-proofs/MANIFESTED_UNIVERSE_TRUSTED_REBUILD.md
-modules/N/MODULE_N_TRUSTED_VERIFICATION.md
-modules/N/MODULE_N_TRUSTED_COMPLETION.md
-modules/N/MODULE_N_TRUSTED_TO_O_HANDOFF.md
-```
+Rejected or failed-iteration Module N files, summaries, completion claims, and alternative filenames are not scientific authority.
 
-These files were rebuilt from the original Module N Individual Enhancement Plan dated 2026-07-21, the July 20 realistic-universe enhancement plan, the pre-failure canonical architecture, original Presentation 29/30 and N-body sources only at audited structural scope, and sealed A–M parents.
+## Completed trusted repair
 
-## Completed Module N result
+Module N now has a clean-room source lock, constitutive assembly law, theorem stack, representative finite verification, exact source/identity/ownership/event/causal/worldline/lineage/memory/record/truth/covariance/restart grammar, firewalls, and O-export contract.
 
-Module N closes certified parent admission; legal relational gluing; identity and ownership; event, causal, clock, worldline/worldtube, and lineage graphs; geometry–matter and conservation; material/radiation/reionization/environment/truth assembly; physical records and measurement interactions; OR-0 through OR-4 readiness; normalized branch–route–observer measure; probability-to-record closure; consciousness/public-data firewalls; branch/decoherence separation; memory, no-loss, covariance, restart, independent assembly, and exact O export.
+The independent suite passes identity, ownership, interface conservation, causality, frame consistency, continuity, geometry–matter closure, null propagation, lineage, records, measurement energy/entropy, observer-class nesting, decoherence, no-loss promotion, covariance, restart, firewall, and export completeness.
 
-Fresh independent verification: `27/27 PASS`.
+## Blocking fact
+
+The repository does not yet contain an instantiated certified `(K*,L*,M*)` physical parent satisfying Module N admission. Constitutive laws and a synthetic verifier are not the full universe execution.
+
+Do not mark Module N frozen and do not begin Module O until the exact K–L–M closure object is constructed or registered and the complete Module N assembly is executed on it.
 
 ## Exact next action
 
-Repair Module O only from the original canonical Module O Individual Enhancement Plan and the trusted Module N parent. Do not use failed-iteration O material, mutate A–N, admit public data, or permit P→Q contamination.
+Construct or register the missing K–L–M closure parent without changing frozen A–M science. Execute Module N identity, ownership, event, causal, worldline/worldtube, geometry–matter, conservation, truth-lightcone, record, observer-readiness, covariance, restart, and independent-assembly obligations on that exact parent.
