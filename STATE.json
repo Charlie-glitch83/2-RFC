@@ -5,14 +5,15 @@
   "active_module": "N",
   "active_milestone": "MODULE_N_TRUSTED_CONSTITUTIVE_REPAIR_COMPLETE_PHYSICAL_EXECUTION_BLOCKED",
   "status": "MODULES_A_THROUGH_M_COMPLETE_FROZEN_AT_DECLARED_SCOPES_MODULE_N_FORMALIZED_VERIFIED_EXECUTION_BLOCKED_MODULE_O_BLOCKED",
-  "scope_note": "Module N was rebuilt from the trusted July 20-21 plans, audited original manuscripts, the revised General N-Body proof, and the verified Module M parent. Rejected Module N reconstructions are excluded. The Module N law and proof are formalized and representative finite verification passes, but no instantiated certified K-L-M universe parent has been admitted or globally assembled.",
+  "scope_note": "Module N was rebuilt from the trusted July 20-21 plans, original Presentation 29/30 and revised General N-Body sources at their allowed scope, and the verified Module M parent. Its law, proof, source lock, contracts, and representative finite verification are complete. It is not physically complete or frozen because no instantiated certified K*,L*,M* parent is present.",
   "exact_next_action": "Construct or register the missing instantiated certified (K*,L*,M*) parent without changing frozen A-M science. Then execute Module N's identity, ownership, event, causal, worldline/worldtube, conservation, truth-lightcone, physical-record, observer-readiness, covariance, restart, and independent-assembly obligations on that exact parent. Module O remains blocked until execution succeeds.",
   "read_first": [
     "STATE.json",
+    "README.md",
     "HANDOFF.md",
     "modules/N/MODULE_N_TRUSTED_SOURCE_ASSET_REGISTER.md",
-    "science/MANIFESTED_UNIVERSE_ASSEMBLY_TRUSTED.md",
-    "proofs/MANIFESTED_UNIVERSE_ASSEMBLY_TRUSTED.md",
+    "science/MANIFESTED_UNIVERSE_ASSEMBLY.md",
+    "proofs/MANIFESTED_UNIVERSE_ASSEMBLY.md",
     "modules/N/MODULE_N_TRUSTED_VERIFICATION.md",
     "modules/N/MODULE_N_TRUSTED_REPAIR_STATUS.md",
     "modules/M/MODULE_M_COMPLETION.md",
@@ -24,7 +25,7 @@
     "MODULE_N_CONSTITUTIVE_ASSEMBLY_LAW_FORMALIZED",
     "MODULE_N_THEOREM_STACK_FORMALIZED",
     "MODULE_N_REPRESENTATIVE_FINITE_VERIFICATION_PASS",
-    "MODULE_N_PUBLIC_DATA_CONSCIOUSNESS_AND_FAILED_ITERATION_FIREWALLS_COMPLETE",
+    "MODULE_N_PUBLIC_DATA_CONSCIOUSNESS_AND_UNTRUSTED_SOURCE_FIREWALLS_COMPLETE",
     "MODULE_N_EXACT_O_EXPORT_CONTRACT_FORMALIZED"
   ],
   "active": [
@@ -44,8 +45,8 @@
     "MODULE_Q_BIG_RIP_TERMINAL_CLOSURE_AND_NEXT_CYCLE_CONDITIONING"
   ],
   "forbidden_shortcuts": [
-    "Use rejected or failed-iteration Module N files as scientific authority",
-    "Claim Module N physical execution from constitutive law or synthetic finite checks",
+    "Use rejected or unverified Module N files as scientific authority",
+    "Claim Module N physical execution from constitutive law, schema, recurrence law, or synthetic finite checks",
     "Advance Module O without an instantiated certified K-L-M parent and executed Module N assembly",
     "Reopen or retune frozen Modules A through M",
     "Infer consciousness from records, observer readiness, adaptation, information processing, or decoherence",
