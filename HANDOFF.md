@@ -8,24 +8,30 @@ Module O: ACTIVE
 Modules P–Q: BLOCKED
 ```
 
-## Trust rule
+## Nonnegotiable trust rule
 
-Failed-iteration Module N and Module O plans, locks, handoffs, summaries, generated science, and completion claims are not authoritative. Use original user manuscripts and enhancement plans, canonical architecture v2.0, verified parent modules, and newly reconstructed trusted files only.
+Failed-iteration Module N and O plans, locks, handoffs, summaries, proofs, generated science, and completion claims are not authoritative.
 
-## Trusted Module N authority
+For Module N, trust only:
 
 ```text
-science/MANIFESTED_UNIVERSE_TRUSTED_REBUILD.md
-proofs/MANIFESTED_UNIVERSE_TRUSTED_REBUILD.md
-modules/N/MODULE_N_TRUSTED_SOURCE_LOCK.md
-modules/N/MODULE_N_TRUSTED_VERIFICATION.md
-modules/N/MODULE_N_TRUSTED_COMPLETION.md
+STATE.json
+modules/N/MODULE_N_TRUSTED_SOURCE_REGISTER.md
+science/MANIFESTED_UNIVERSE_ASSEMBLY.md
+proofs/MANIFESTED_UNIVERSE_ASSEMBLY.md
+modules/N/MODULE_N_WOLFRAM_VERIFICATION.md
+modules/N/MODULE_N_COMPLETION.md
+modules/N/MODULE_N_TO_O_SCIENTIFIC_HANDOFF.md
 ```
 
-Module N closes certified relational gluing, identity/ownership, event/causal/worldline/lineage graphs, conservation, truth lightcones, records, measurement interactions, observer readiness, normalized branch–route–observer measure, probability-to-record, decoherence separation, memory, no-loss promotion, covariance, restart, and exact O export.
+These files were rebuilt from the canonical Module N Individual Enhancement Plan, canonical architecture/source audit, original manuscript roots at audited scope, and sealed A–M parents.
 
-Independent verification: `27/27 PASS`.
+## Completed Module N result
+
+Module N closes certified parent admission; identity and ownership; event, causal, clock, worldline/worldtube, and lineage graphs; geometry–matter and conservation; material/radiation/reionization/environment/truth assembly; physical records and measurement interactions; OR-0 through OR-4 readiness; consciousness/public-data firewalls; branch/decoherence separation; memory, no-loss, covariance, restart, independent assembly, and exact O export.
+
+Fresh independent verification: `29/29 PASS`.
 
 ## Exact next action
 
-Rebuild Module O only from the original `Module_O_Individual_Enhancement_Plan`, trusted architecture/source roots, and the trusted Module N parent. Do not use failed-iteration O material, mutate A–N, admit public data, or permit P→Q contamination.
+Repair Module O only from the original canonical Module O Individual Enhancement Plan and the trusted Module N parent. Do not use failed-iteration O material, mutate A–N, admit public data, or permit P→Q contamination.
