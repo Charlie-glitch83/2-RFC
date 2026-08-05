@@ -8,33 +8,35 @@ Module O: ACTIVE
 Modules P–Q: BLOCKED
 ```
 
-Module N was rebuilt clean-room from the original `Module_N_Individual_Enhancement_Plan`, canonical architecture v2.0, original source roots, and the verified Module M parent. Failed-iteration Module N material is explicitly non-authoritative.
+Module N was rebuilt from the original canonical `Module_N_Individual_Enhancement_Plan`, the canonical master architecture and source audit, original manuscript roots at audited scope, and sealed A–M parents. Failed-iteration Module N material is non-authoritative.
 
-## Trusted Module N result
+## Canonical trusted Module N result
 
-- certified relational gluing;
-- identity, ownership, event, causal, worldline/worldtube, and lineage closure;
+- certified K–L–M parent admission and branch-family preservation;
+- cross-domain identity, ownership, and no-double-counting closure;
+- event, causal, clock/frame/gauge, worldline/worldtube, and lineage closure;
 - geometry–matter and cross-domain conservation;
-- truth lightcones and truth-observable boundary;
-- physical records and measurement interactions;
-- graded observer readiness with consciousness firewall;
-- normalized branch–route–observer measure;
-- probability-to-record certificate;
-- physical/numerical decoherence separation;
-- memory separation, no-loss promotion, covariance, restart, and exact O export.
+- material, radiation, reionization, environment, truth-lightcone, and truth-observable assembly;
+- physical records, measurement interactions, and OR-0 through OR-4 readiness;
+- consciousness and public-data firewalls;
+- physical/numerical branch and decoherence separation;
+- memory separation, no-loss promotion, covariance, restart, independent assembly, and exact O export.
 
-Independent verification returned `27/27 PASS`.
+Fresh verification returned `29/29 PASS`.
 
-Central trusted files:
+Canonical files:
 
-- `science/MANIFESTED_UNIVERSE_TRUSTED_REBUILD.md`
-- `proofs/MANIFESTED_UNIVERSE_TRUSTED_REBUILD.md`
-- `modules/N/MODULE_N_TRUSTED_SOURCE_LOCK.md`
-- `modules/N/MODULE_N_TRUSTED_VERIFICATION.md`
-- `modules/N/MODULE_N_TRUSTED_COMPLETION.md`
+- `modules/N/MODULE_N_TRUSTED_SOURCE_REGISTER.md`
+- `science/MANIFESTED_UNIVERSE_ASSEMBLY.md`
+- `proofs/MANIFESTED_UNIVERSE_ASSEMBLY.md`
+- `modules/N/MODULE_N_WOLFRAM_VERIFICATION.md`
+- `modules/N/MODULE_N_COMPLETION.md`
+- `modules/N/MODULE_N_TO_O_SCIENTIFIC_HANDOFF.md`
 
-This does not claim empirical agreement, detector output, consciousness, a unique numerical universe when lawful branches remain, immutable freeze, or terminal Big-Rip closure.
+Other Module N files do not supersede this authority chain unless independently reconciled and explicitly admitted by `STATE.json`.
+
+This does not claim empirical agreement, detector output, consciousness, a unique numerical universe where lawful branches remain, immutable freeze, or terminal Big-Rip closure.
 
 ## Active frontier
 
-Module O must be rebuilt from trusted original sources and the trusted Module N parent only.
+Module O must be rebuilt from the original canonical Module O plan and the trusted Module N parent only.
