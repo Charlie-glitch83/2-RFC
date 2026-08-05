@@ -3,41 +3,60 @@
 ## Current state
 
 ```text
-Modules A–M, H^U, H[I]: COMPLETE_AND_FROZEN at declared scopes
-Module N trusted constitutive law and proof: FORMALIZED
-Module N representative verification: PASS
-Module N physical parent admission and assembly: BLOCKED
+Modules A–M, H^U, H[I]: FORMALIZED/FROZEN at declared scopes
+K–L–M F0 reduced recurrence: EXECUTED — FIXED_POINT_F0
+K–L–M F1–F4 physical recurrence: NOT EXECUTED
+Certified physical (K*,L*,M*) parent: ABSENT
+Module N constitutive law/proof: FORMALIZED and representative verification PASS
+Module N physical execution: BLOCKED
 Module O: BLOCKED
 Modules P–Q: BLOCKED
 ```
 
 ## Authority order
 
-Trust in this order:
-
 ```text
 STATE.json
+execution/KLM/KLM_F0_COMPUTATIONAL_CERTIFICATE.md
+execution/KLM/klm_f0_result.json
+execution/KLM/klm_f0_config.json
+execution/KLM/klm_f0_execution.py
+execution/KLM/KLM_PHYSICAL_INPUT_GAP.md
 modules/N/MODULE_N_TRUSTED_SOURCE_ASSET_REGISTER.md
 science/MANIFESTED_UNIVERSE_ASSEMBLY.md
 proofs/MANIFESTED_UNIVERSE_ASSEMBLY.md
 modules/N/MODULE_N_TRUSTED_VERIFICATION.md
 modules/N/MODULE_N_TRUSTED_REPAIR_STATUS.md
-modules/M/MODULE_M_COMPLETION.md
 modules/M/MODULE_KLM_TO_N_SCIENTIFIC_HANDOFF.md
 ```
 
-The Module N rebuild uses the original individualized plan dated 2026-07-21, the July 20 RFC–N-body enhancement plan, original Presentation 29/30 and revised N-body sources at their declared scope, and the verified Module M parent.
+## Completed recurrence work
 
-## Completed Module N work
+The F0 constructed reduced system executed the declared order
 
-The trusted construction formalizes source authority, triadic gluing, semantic and identity closure, ownership, event/causal/worldline/lineage structure, geometry–matter and conservation requirements, truth lightcones, records, measurements, OR-0 through OR-4 readiness, branch/decoherence separation, memory, no-loss promotion, covariance, restart, ablations, and the exact O-export schema.
+```text
+K(n) -> L(n) -> M(n) -> K(n+1)
+```
 
-Wolfram and an independent implementation pass representative finite checks.
+with componentwise tolerances and no aggregate override.
+
+It reached `FIXED_POINT_F0` after `17660` iterations. Mass, positivity, composition, microphysics, metric/lensing finiteness, radiation/feedback, causal replay, A–J immutability, restart, independent implementation, covariance, and branch-classifier checks passed.
+
+The full state contains two neutral conservation/accumulation directions. The full linearization is nonexpansive; the protected evolving quotient is locally contractive. Do not rewrite this as strict full-state contraction.
 
 ## Blocking fact
 
-The repository does not contain an instantiated certified `(K*,L*,M*)` physical parent satisfying Module N admission. Constitutive laws, schemas, recurrence laws, and synthetic verification are not the full universe execution.
+The repository and project library do not contain source-locked F1–F4 physical packets or executables for:
+
+- instantiated `K^(0)` nonlinear particle/field/metric state;
+- instantiated `L^(0)` gas/stellar/compact/radiation/feedback state;
+- instantiated `M^(0)` isotope/chemical/dust/cooling/opacity/yield state;
+- complete return fields and changed-domain markers;
+- full event, route, worldline, metric, lightcone, ray/Jacobi, map, spectrum, and covariance histories;
+- independent full-chain reproduction.
+
+Therefore the F0 certificate cannot be promoted into the physical `(K*,L*,M*)` universe and cannot authorize Module N.
 
 ## Exact next action
 
-Construct or register the missing K–L–M closure parent without changing frozen A–M science. Execute Module N on that exact parent, including independent reconstruction. Do not mark Module N frozen or begin Module O before that succeeds.
+Instantiate the frozen Module J realization and execute F1–F4 under the frozen K/L/M laws. Preserve all failures and lawful branches. Replay only causally affected intervals. Regenerate final metric, lightcone, lensing, and covariance products. Independently reproduce the full chain. Seal the physical K–L–M certificate before executing Module N.
