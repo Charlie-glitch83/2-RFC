@@ -6,36 +6,57 @@
 Modules A–J, H^U, H[I]: COMPLETE_AND_FROZEN
 Module K^(0): COMPLETE_AND_FROZEN
 Module L^(0): COMPLETE_AND_FROZEN
-Module M: ACTIVE
-Final K*, L*, M*: PENDING_K_L_M_RECURRENCE
+Module M: COMPLETE_AND_FROZEN_AT_DECLARED_REPAIR_SCOPE
+K–L–M recurrence classification law: COMPLETE_AND_FROZEN
+Module N: ACTIVE
+Modules O–Q: BLOCKED
 ```
 
 ## Nonnegotiable derivation rule
 
-The universe remains one continuous specialization of `(CIF,QV,RFL)`, the First Action, the enhanced completed Module A triad kernel with terminal N-body completion, and the Big Implosion. No module may attach an independent conventional theory or import observed targets as generators.
+The universe remains one continuous specialization of `(CIF,QV,RFL)`, the First Action, the enhanced completed Module A triad kernel with terminal finite-N completion, and the Big Implosion. No module may attach an independent conventional theory or import observed targets as generators.
 
-## Read first for Module M
+## Critical corrected-scope warning
+
+A later iteration incorrectly assigned complex-systems, habitability, and biological scope to Module M and then deleted the contaminated lock. The correct Module M scope is now frozen:
+
+```text
+stellar and explosive nucleosynthesis
++ radioactive descendants
++ chemical transport and inhomogeneity
++ dust and solved molecular carriers
++ composition-dependent K/L returns
++ K–L–M recurrence classification
+```
+
+Planetary, prebiotic, biological, habitability, neural, cognitive, and consciousness-facing claims are outside Module M. Do not recreate the deleted contaminated scope.
+
+## Read first for Module N
 
 ```text
 README.md
 STATE.json
 PLAN.md
-science/BARYONIC_STELLAR_UNIVERSE.md
-proofs/BARYONIC_STELLAR_UNIVERSE.md
-modules/L/MODULE_L_WOLFRAM_VERIFICATION.md
-modules/L/MODULE_L_TO_M_SCIENTIFIC_HANDOFF.md
-modules/M/MODULE_M_DETAILED_SCIENTIFIC_REPAIR_PLAN.md
+science/STELLAR_EXPLOSIVE_NUCLEOSYNTHESIS_CHEMICAL_RETURN.md
+proofs/STELLAR_EXPLOSIVE_NUCLEOSYNTHESIS_CHEMICAL_RETURN.md
 modules/M/MODULE_M_TRIAD_KERNEL_DERIVATION_LOCK.md
-modules/M/MODULE_M_MANUSCRIPT_SOURCE_TRACEABILITY.md
-modules/M/MODULE_M_WOLFRAM_INTEGRATION_REVISION.md
+modules/M/MODULE_M_WOLFRAM_VERIFICATION.md
+modules/M/MODULE_M_COMPLETION.md
+modules/M/MODULE_KLM_TO_N_SCIENTIFIC_HANDOFF.md
+modules/N/MODULE_N_DETAILED_SCIENTIFIC_REPAIR_PLAN.md
+modules/N/MODULE_N_TRIAD_KERNEL_DERIVATION_LOCK.md
+modules/N/MODULE_N_MANUSCRIPT_SOURCE_TRACEABILITY.md
+modules/N/MODULE_N_WOLFRAM_REVISION.md
 ```
 
-## Completed Module L result
+## Completed Module M result
 
-`L^(0)` contains conservation-complete baryonic flow and transport grammar, physical cloud/core and star-birth witnesses, generated birth measures, protostellar/stellar/population/binary/feedback/remnant states, explosive-event interfaces, strong-field return, lineage, covariance, replay locality, and exact exports to M and K.
+Module M contains the typed carrier and reaction law, forward/reverse closure, adaptive hydrostatic/explosive processing, event-yield partition, radioactive descendants, conservative isotope transport, source ancestry, dust/molecular boundary, composition-dependent microphysics, K/L return, replay locality, covariance, restart, recurrence classification, and exact Module N packet.
 
-It does not contain isotope-resolved stellar/explosive yields, radioactive descendants, dust closure, composition-dependent replay, or final K-L-M convergence.
+Wolfram and an independent implementation pass representative finite checks. The result does not claim empirical yield/abundance agreement or a unique fully instantiated cosmic chemical history.
 
 ## Exact next action
 
-Repair Module M from the sealed `L^(0)` parent and immutable E/C/D/K parents. Derive isotope-resolved networks, stellar and explosive burning, event yields, radioactive memory, chemical transport, dust, composition-dependent return, and recurrence classification without public yield tables, abundance fitting, delay-time laws, or chemical prescriptions.
+Repair Module N from the sealed classified K–L–M parent and immutable A–J law/lineage chain. Derive one global manifested-universe state with identity/ownership closure, event and causal graphs, worldline/worldtube continuity, cross-domain conservation, truth lightcones, physical records, observer-readiness witnesses, branch/decoherence classification, covariance, memory, no-loss promotion, restart, and the exact Module O parent.
+
+Do not reopen A–M, infer consciousness, import public catalogues as generators, or use observer data to select or repair the manifested universe.
