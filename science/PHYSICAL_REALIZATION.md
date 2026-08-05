@@ -21,14 +21,36 @@ For one admitted finite connected branch,
 \[
 Q_{\mathrm{imp}}=(I+\ell_\delta L)^{-1},
 \qquad
-x^+=Q_{\mathrm{imp}}x^-,
-\qquad
-\ell_\delta=\frac1{\delta-1}.
+x^+=Q_{\mathrm{imp}}x^-.
 \]
 
-This establishes the first finite-relational manifested physical state, strict nonconstant-mode compression, constant-mode preservation, exact reopening, directed flux and continuity, finite relational geometry, intrinsic event order, four genesis sectors, positive unit families, and the complete preparticle export to Module C.
+The Big Implosion establishes the first finite-relational manifested physical state, strict nonconstant-mode compression, constant-mode preservation, exact reopening, directed flux and continuity, finite relational geometry, intrinsic event order, sector ancestry, and positive unit families.
 
-## 2. Retained geometry boundary
+## 2. Continuous physical realization chain
+
+The current frozen chain is:
+
+```text
+Module A enhanced completed triad kernel
+-> Module B Big Implosion and first physical state
+-> Module C microscopic particles, interactions, and bound states
+-> Module D nonequilibrium thermal history
+-> Module E primordial isotope-resolved nuclear history
+-> Module F post-nuclear plasma and atomic readiness
+-> Module G nonequilibrium recombination and physical primordial CMB surface
+-> Module H^U universal linear transfer operator
+-> Module I realized background geometry, clocks, horizons, and distances
+-> Module H[I] immutable transfer instantiation
+-> Module J primordial covariance, linear spectra, and nonlinear-ready realization
+-> Module K^(0) first-pass nonlinear gravity and structures
+-> Module L^(0) first-pass baryonic, stellar, feedback, and remnant universe
+-> Module M stellar/explosive nucleosynthesis, chemical evolution, dust,
+   composition return, and K-L-M recurrence classification law
+```
+
+Every child consumes a sealed parent and may not reconstruct or retune it.
+
+## 3. Geometry and scale boundary
 
 For connected finite support,
 
@@ -36,90 +58,84 @@ For connected finite support,
 d_R(i,j)=(e_i-e_j)^{\mathsf T}L^+(e_i-e_j)
 \]
 
-is a positive relational metric. It is not by itself a continuum Lorentzian metric.
+is a positive relational metric. It is not by itself a continuum Lorentzian metric. Continuum geometry, causal cones, curvature evolution, horizons, and distances belong to their downstream realized modules.
 
-Module B therefore does not independently establish causal cones, curvature evolution, continuum stress-energy, global horizons, cosmological distance, or mature dark-sector behavior. Those remain downstream derivations, principally Module I.
+Positive unit-family choices do not alter event order, conservation, branch identity, projector identities, or ancestry. Public observations may not select units during generation.
 
-## 3. Scale boundary
+## 4. Module M physical ownership
 
-Module B exports a positive unit family
+Module L owns generated stellar, binary, wind, transfer, collapse, explosion, compact-event, ejecta, feedback, and host trajectories.
+
+Module M owns their nuclear and chemical descendants:
+
+- nuclear carriers and properties;
+- reaction and decay hypergraphs;
+- forward/reverse fluxes, equilibrium limits, abundance, and nuclear energy;
+- hydrostatic, mixed, explosive, merger, and rare-channel processing;
+- event-resolved yields, radioactive descendants, and delayed energy;
+- isotope transport, chemical inhomogeneity, source attribution, dust, and solved molecular carriers;
+- composition-dependent cooling, heating, opacity, emissivity, ionization, radiation coupling, and stress-energy;
+- conservative return to K/L and recurrence classification.
+
+Module K owns nonlinear gravity and the transport environment. Every cross-domain mass, energy, momentum, radiation, isotope, dust, and stress-energy exchange has one owner and one recipient.
+
+## 5. Corrected Module M scope
+
+Module M does not own planetary, prebiotic, biological, habitability, neural, cognitive, or consciousness-facing physics. A contaminated lock assigning that scope was deleted and replaced with the correct stellar/explosive nucleosynthesis boundary.
+
+Public yield tables, observed abundance patterns, empirical reaction-rate or delay-time fits, metallicity laws, dust relations, and public residuals may not generate or select Module M states.
+
+## 6. K–L–M recurrence boundary
+
+The coupled late-universe law is
 
 \[
-U_B=(t_B,\ell_B,\phi_B,\mathcal E_B),
-\qquad
-t_B,\ell_B,\phi_B,\mathcal E_B>0,
+X_{n+1}=\mathcal R_{KLM}(X_n),
+\qquad X_n=(K^{(n)},L^{(n)},M^{(n)}).
 \]
 
-without selecting a unique SI representative. Positive unit changes do not alter event order, conservation, branch identity, projector identities, or source ancestry. Public observations may not choose the representative during generation.
+Every generated branch must be classified as:
 
-## 4. Continuous physical realization chain
+- fixed point;
+- bounded cycle;
+- slowly evolving attractor;
+- physically distinct branch family;
+- explicit nonconvergence or obstruction.
 
-The realized physical chain now completed through Module G is:
-
-```text
-Module A enhanced completed triad kernel
--> Module B Big Implosion and first physical state
--> Module C microscopic particles/interactions/bound states
--> Module D nonequilibrium thermal history
--> Module E isotope-resolved primordial nuclear history
--> Module F continuous post-nuclear plasma and atomic readiness
--> Module G nonequilibrium atomic recombination and physical primordial CMB surface
-```
-
-Every child consumes a sealed parent and may not reconstruct or retune it.
-
-## 5. Physical CMB-surface ownership
-
-The physical primordial CMB surface is generated in Module G from the complete Module F plasma state.
-
-Module G derives:
-
-- atomic and ionic level populations;
-- the free-electron history;
-- frequency-, angle-, and polarization-dependent radiation transport;
-- process-resolved opacity;
-- differential and integrated optical depth;
-- raw and conditionally normalized visibility;
-- a finite photon last-scattering probability structure;
-- a distinct baryon-drag release structure;
-- diffusion, damping, temperature, and polarization source histories;
-- recombination radiation and perturbation response.
-
-The CMB surface is therefore not present at the Big Implosion, not generated by symbolic entropy alone, not assigned by a familiar redshift, and not imported from a public recombination code.
-
-Recursive memory may be compared with the independently generated transparency ordering, but it is not atomic opacity, an ionization rate, or a visibility function.
-
-## 6. Downstream ownership after Module G
-
-Module `H^U` owns the universal background-parameterized linear Boltzmann and transfer operator. It consumes the frozen Module G ionization, opacity, visibility, drag, source, damping, perturbation-response, covariance, memory, and ancestry packet.
-
-Module I owns the mature realized RFC background and geometry: metric realization, expansion, curvature, clocks, causal structure, horizons, distances, and mature compression-relic/dissipative-tail behavior.
-
-Module `H[I]` instantiates the already-frozen `H^U` operator on the immutable Module I background without redesign or retuning.
-
-Module J owns the realized primordial covariance and its contraction with `H[I]` to generate linear spectra and growth observables.
-
-Modules K–N own nonlinear structure, astrophysical assembly, and observer-ready records at their exact plan scopes. Module O freezes the complete generated universe. Module P performs preregistered public comparison. Module Q owns Big-Rip-class terminal closure and qualification of next-cycle memory.
+Artificial damping cannot be inserted to force a fixed point. The repaired Module M supplies the classification law and exact parent contracts. A unique fully instantiated numerical cosmic history is not claimed by the finite repair alone.
 
 ## 7. Preserved information
 
-Every physical module preserves and can reopen, at its declared scope:
+Every physical module preserves, at its declared scope:
 
 - primitive triad and First Action ancestry;
-- enhanced Module A kernel and terminal N-body carrier identity;
+- enhanced Module A kernel and terminal finite-N carrier identity;
 - Big-Implosion ancestry;
-- constituent, route, witness, event, and branch identity;
-- topology, scale, and coordinate ancestry;
+- constituent, route, witness, event, branch, object, scale, and recurrence identity;
+- geometry, clock, frame, coordinate, and representation ancestry;
 - uncertainty and covariance;
 - memory and protected records;
-- numerical precision and truncation state;
+- promotion, refinement, reopening, replay, and restart state;
 - manuscript and derivation provenance;
 - claim boundaries and falsifiers.
 
 Informational reopening is not physical backward evolution.
 
-## 8. Current frontier
+## 8. Active Module N frontier
 
-Modules A–G are complete and frozen at their declared finite-relational scopes.
+Module N must assemble the complete classified K–L–M parent and immutable A–J lineage into one manifested universe with:
 
-The active frontier is Module `H^U`: constructing the universal background-parameterized linear transfer operator from the sealed Module G source state without importing a public background, primordial spectrum, transfer function, observed spectrum, acoustic normalization, or Boltzmann-code output.
+- global identity and ownership closure;
+- one event graph and one causal graph;
+- clock, frame, gauge, worldline, worldtube, geometry, matter, radiation, and conservation reconciliation;
+- truth lightcones, radiation backgrounds, transients, and multimessenger histories;
+- physical record carriers and measurement interactions;
+- observer-readiness witnesses;
+- physical versus numerical branch and decoherence classification;
+- covariance, memory, no-loss promotion, restart, truth-observable interfaces, and exact Module O export.
+
+Observer readiness is not consciousness. Module N may not infer subjective experience, import public catalogues as generators, retune Modules A–M, or conceal an unresolved parent branch.
+
+## 9. Claim boundary
+
+Modules A–M are complete and frozen at their declared derivational, proof, interface, and representative finite-verification scopes. This does not establish empirical truth, observed abundance agreement, a unique instantiated full universe, Module N completion, Module O freeze, Module P validation, or Module Q terminal Big-Rip closure.
