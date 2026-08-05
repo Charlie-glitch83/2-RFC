@@ -3,49 +3,37 @@
 ## Current state
 
 ```text
-Modules A–J, H^U, H[I]: COMPLETE_AND_FROZEN
-Module K^(0): COMPLETE_AND_FROZEN
-Module L^(0): COMPLETE_AND_FROZEN
-Module M: COMPLETE_AND_FROZEN_AT_DECLARED_REPAIR_SCOPE
-K–L–M recurrence classification law: COMPLETE_AND_FROZEN
-Module N: ACTIVE
-Modules O–Q: BLOCKED
+Modules A–N, H^U, H[I]: COMPLETE_AND_FROZEN at declared repair scopes
+Module O: ACTIVE
+Modules P–Q: BLOCKED
 ```
 
-The universe descends continuously from `(CIF,QV,RFL)`, the First Action `QV(CIF) -> RFL`, the enhanced completed Module A triad kernel with terminal finite-N relational completion, and the Big Implosion as the sole first physical event.
+The universe remains one continuous specialization of `(CIF,QV,RFL)`, the First Action, the enhanced completed Module A triad kernel with terminal finite-N completion, and the Big Implosion.
 
-Completion and freeze refer to the declared derivational and finite-verification scope. They do not claim empirical validation or a uniquely instantiated full numerical universe.
+## Completed Module N
 
-## Completed Module M
+Module N now provides:
 
-Module M now provides:
+- lawful gluing of the classified K–L–M parent without retuning A–M;
+- semantic, identity, ownership, overlap, clock/frame/gauge, and no-double-counting registries;
+- global event, causal, worldline/worldtube, and lineage graphs;
+- geometry–matter and cross-domain conservation closure;
+- material, radiation, reionization, local-environment, truth-lightcone, lensing, gravitational-wave, and transient assembly;
+- physical records, measurement interactions, geometric observer events, and graded observer readiness;
+- physical/numerical branch and decoherence separation;
+- consciousness, public-data, and detector firewalls;
+- covariance, memory separation, no-loss promotion, restart, unresolved-scope state, and exact `P_N->O`.
 
-- the corrected stellar/explosive nucleosynthesis derivation lock;
-- nuclear carrier and property registries;
-- typed reaction and decay hypergraphs with forward/reverse closure;
-- positive conservative isotope and energy evolution;
-- adaptive hydrostatic, mixing-burning, wind, transfer, merger, explosive, compact-event, and rare-channel networks;
-- event-resolved total, net, retained, fallback, escaped, radioactive, and dust-bearing yields;
-- daughter chains, delayed energy, enrichment transport, chemical inhomogeneity, and source ancestry;
-- dust and solved molecular-carrier boundaries;
-- composition-dependent cooling, heating, opacity, emissivity, ionization, radiation, and stress-energy returns;
-- conservative K/L re-ingestion, replay locality, recurrence classification, covariance, restart, and exact Module N export.
+Central files:
 
-The contaminated lock that assigned complex-systems, habitability, or biological scope to Module M was removed and replaced. Module M ends at stellar/explosive nucleosynthesis, chemical evolution, dust, composition return, and K–L–M classification.
+- `science/MANIFESTED_UNIVERSE_ASSEMBLY.md`
+- `proofs/MANIFESTED_UNIVERSE_ASSEMBLY.md`
+- `modules/N/MODULE_N_WOLFRAM_VERIFICATION.md`
+- `modules/N/MODULE_N_COMPLETION.md`
+- `modules/N/MODULE_N_TO_O_SCIENTIFIC_HANDOFF.md`
 
-Central Module M files:
-
-- `science/STELLAR_EXPLOSIVE_NUCLEOSYNTHESIS_CHEMICAL_RETURN.md`
-- `proofs/STELLAR_EXPLOSIVE_NUCLEOSYNTHESIS_CHEMICAL_RETURN.md`
-- `modules/M/MODULE_M_TRIAD_KERNEL_DERIVATION_LOCK.md`
-- `modules/M/MODULE_M_WOLFRAM_VERIFICATION.md`
-- `modules/M/MODULE_M_COMPLETION.md`
-- `modules/M/MODULE_KLM_TO_N_SCIENTIFIC_HANDOFF.md`
-
-Wolfram and an independent implementation pass representative conservation, positivity, restart, transport, covariance, adaptive-network, and recurrence-classification checks. These are internal finite checks, not empirical abundance validation.
+This does not claim empirical agreement, detector response, consciousness, immutable archival identity, or terminal Big-Rip closure.
 
 ## Active frontier
 
-Module N must assemble the classified K–L–M parent into one manifested universe with global identity and ownership, unified event and causal graphs, worldline/worldtube continuity, cross-domain conservation, truth lightcones, physical record carriers, observer-readiness classification, covariance, memory, no-loss promotion, restart, and the exact Module O parent.
-
-Module N may not infer consciousness, import public catalogues as generators, retune frozen A–M science, or conceal an unresolved K–L–M branch.
+Module O must preserve the complete Module N universe as an immutable, restorable, scientifically reproducible parent and authorize isolated P and Q descendants without parent mutation or P→Q contamination.
