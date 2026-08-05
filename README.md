@@ -1,61 +1,65 @@
 # 2-RFC — Triadic Universe Proof Rebuild
 
-## Objective
-
-Construct one auditable proof in which the primitive triad produces a completed relational carrier, the **Big Implosion is the first physical event**, the carrier is inherited through a physically realized universe, and the **Big Rip is the terminal physical event that conditions the next cycle**.
-
-The N-body work is integrated exactly once: at the terminal end of the triad kernel. Every later domain inherits that completed carrier. It is not a detached module and it is not repeatedly re-added.
-
 ## Current state
 
-**Foundation recovered; one decisive bridge is open.**
-
-Established results include the bounded recursive kernel, the finite directed-lane grammar, witnessed routes, no-loss quotient rules, typed event memory, and a corrected add-one-body refinement statement. The old Module B graph-resolvent results are also valid algebraic pregeometry.
-
-What is not established yet is the map from that prephysical carrier to a physically typed universe. A graph metric and smoothing operator do not by themselves supply causal spacetime, dimensions, a governing action, conservation laws, or observables. Calling them physical does not prove that they are physical.
-
-## Exact next action
-
-Complete **Bridge Lemma 1** in [proofs/GENESIS_REALIZATION.md](proofs/GENESIS_REALIZATION.md): derive a witness-certified, acyclic event order from recursion depth and cycle typing without importing Newtonian time. Then test it against obligations R1–R9 in that file.
-
-Do not begin particle physics, BBN, recombination, structure formation, scoring, or public-data comparison until the realization bridge passes.
-
-## Four-layer proof spine
-
-| Layer | Object | Status | Meaning |
-|---|---|---:|---|
-| L0 | Triad: CIF, QV, RFL | Axiomatic foundation | Ontological primitives and First Action |
-| L1 | Recursive triad kernel | Proved under stated bounds | Retains depth, suppression, and inheritance |
-| L2 | Completed relational carrier | Conditional theorem stack | Abstract finite-N lanes, routes, witnesses, events, and memory |
-| L3 | Physical realization map | **Active blocker** | Adds causality, units, dynamics, constraints, limits, and observables |
-
-The Big Implosion begins at L3. Newtonian N-body mechanics is a physical specialization after L3; it cannot be used as a hidden prephysical primitive.
-
-## Read order
-
-A new research iteration needs only four files to orient:
-
-1. this README;
-2. [STATE.json](STATE.json);
-3. [PLAN.md](PLAN.md);
-4. [proofs/GENESIS_REALIZATION.md](proofs/GENESIS_REALIZATION.md).
-
-Use [HANDOFF.md](HANDOFF.md) for the exact work protocol. Source manuscripts are kept under `sources/canonical/`; the source audit and hashes are in [evidence/SOURCE_AUDIT.md](evidence/SOURCE_AUDIT.md).
-
-## Evidence policy
-
-- A definition is not a derivation.
-- A symbolic or numerical check is not empirical validation.
-- A module is not complete because its handoff schema exists.
-- A score of `1.0000` means every preregistered mandatory gate passed separately; it is not a probability that the theory is true.
-- No average may conceal a mandatory failure.
-- Public observations may compare with a frozen prediction but may not generate, select, tune, or repair it.
-- Historical failed states are not proof parents in this repository.
-
-## One command
-
-```bash
-python validation/validate_repo.py
+```text
+Modules A–M, H^U, H[I]: FORMALIZED/FROZEN at declared scopes
+K–L–M F0 reduced recurrence: EXECUTED — FIXED_POINT_F0
+K–L–M F1–F4 physical recurrence: BLOCKED by missing instantiated state/solver packets
+Module N law and proof: FORMALIZED
+Module N representative finite verification: PASS
+Module N physical execution: BLOCKED
+Module O: BLOCKED
+Modules P–Q: BLOCKED
 ```
 
-That command checks repository consistency and exact algebraic invariants. It does not pretend to prove the physical-realization theorem.
+## Completed K–L–M step
+
+The governed recurrence machinery has now been executed at **F0 constructed reduced-system scope**:
+
+```text
+K(n) -> L(n) -> M(n) -> K(n+1)
+```
+
+Result:
+
+```text
+classification: FIXED_POINT_F0
+iterations: 17660
+all mandatory F0 checks: PASS
+final-state SHA-256:
+a8bc1eb5902a063a026bdc216fd0611661b7cb7c9f3f52c647a5acbc98b01053
+```
+
+Verified:
+
+- componentwise convergence;
+- mass conservation and positivity;
+- composition, cooling, opacity, metric, lensing, radiation, feedback, and yield bounds;
+- causal M→K/L replay with Modules A–J unchanged;
+- exact checkpoint/restart agreement;
+- exact agreement with an independently written implementation;
+- positive-semidefinite covariance;
+- fixed-point, period-two-cycle, and divergence classifier behavior.
+
+Canonical artifacts:
+
+```text
+execution/KLM/klm_f0_execution.py
+execution/KLM/klm_f0_config.json
+execution/KLM/klm_f0_result.json
+execution/KLM/KLM_F0_COMPUTATIONAL_CERTIFICATE.md
+execution/KLM/KLM_PHYSICAL_INPUT_GAP.md
+```
+
+## Scientific boundary
+
+F0 proves that the recurrence, replay, conservation, restart, covariance, and classification machinery is executable and internally consistent at reduced synthetic scope.
+
+It does **not** supply the F1–F4 physical parent required by Module N. The repository and project library still lack instantiated nonlinear fields, stellar histories, isotope/chemical states, metric/lightcone/lensing products, full covariance, and full-physics solver packets for `K^(0)`, `L^(0)`, and `M^(0)`.
+
+No reduced state is being renamed as `(K*,L*,M*)`.
+
+## Active frontier
+
+Instantiate and execute the source-locked F1–F4 K–L–M ladder, regenerate the final metric/lightcone/lensing/covariance state, independently reproduce it, and only then authorize Module N.
