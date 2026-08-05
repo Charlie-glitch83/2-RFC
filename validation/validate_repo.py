@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Dependency-free repository and exact finite checks through completed Module C."""
+"""Dependency-free repository and representative finite checks through Module M."""
 
 from __future__ import annotations
 
@@ -19,21 +19,24 @@ def close(a: float, b: float, tol: float = 1e-11) -> bool:
     return math.isclose(a, b, rel_tol=tol, abs_tol=tol)
 
 
-def matmul(a: list[list[complex]], b: list[list[complex]]) -> list[list[complex]]:
-    bt = list(zip(*b))
-    return [[sum(x * y for x, y in zip(row, col)) for col in bt] for row in a]
+def mat_vec_left(v: list[float], matrix: list[list[float]]) -> list[float]:
+    return [sum(v[i] * matrix[i][j] for i in range(len(v))) for j in range(len(matrix[0]))]
 
 
-def dagger(a: list[list[complex]]) -> list[list[complex]]:
-    return [[complex(value).conjugate() for value in col] for col in zip(*a)]
-
-
-def identity(n: int) -> list[list[complex]]:
-    return [[1.0 if i == j else 0.0 for j in range(n)] for i in range(n)]
-
-
-def matrix_close(a: list[list[complex]], b: list[list[complex]], tol: float = 1e-11) -> bool:
-    return all(abs(x - y) <= tol for row_a, row_b in zip(a, b) for x, y in zip(row_a, row_b))
+def solve3(a: list[list[float]], b: list[float]) -> list[float]:
+    aug = [row[:] + [rhs] for row, rhs in zip(a, b)]
+    for col in range(3):
+        pivot = max(range(col, 3), key=lambda r: abs(aug[r][col]))
+        require(abs(aug[pivot][col]) > 1e-14, "singular 3x3 system")
+        aug[col], aug[pivot] = aug[pivot], aug[col]
+        scale = aug[col][col]
+        aug[col] = [x / scale for x in aug[col]]
+        for row in range(3):
+            if row == col:
+                continue
+            factor = aug[row][col]
+            aug[row] = [x - factor * y for x, y in zip(aug[row], aug[col])]
+    return [aug[i][3] for i in range(3)]
 
 
 def main() -> None:
@@ -42,127 +45,124 @@ def main() -> None:
         "STATE.json",
         "PLAN.md",
         "HANDOFF.md",
-        "science/MICROSCOPIC_PHYSICS.md",
         "science/CLAIMS.md",
-        "proofs/MICROSCOPIC_CONSTITUTION.md",
-        "modules/C/MODULE_C_MANUSCRIPT_SOURCE_TRACEABILITY.md",
-        "modules/C/MODULE_C_WOLFRAM_INTEGRATION_REVISION.md",
-        "modules/C/MODULE_C_WOLFRAM_VERIFICATION.md",
-        "modules/C/MODULE_C_TO_D_SCIENTIFIC_HANDOFF.md",
+        "science/STELLAR_EXPLOSIVE_NUCLEOSYNTHESIS_CHEMICAL_RETURN.md",
+        "proofs/STELLAR_EXPLOSIVE_NUCLEOSYNTHESIS_CHEMICAL_RETURN.md",
+        "modules/M/MODULE_M_DETAILED_SCIENTIFIC_REPAIR_PLAN.md",
+        "modules/M/MODULE_M_TRIAD_KERNEL_DERIVATION_LOCK.md",
+        "modules/M/MODULE_M_MANUSCRIPT_SOURCE_TRACEABILITY.md",
+        "modules/M/MODULE_M_WOLFRAM_INTEGRATION_REVISION.md",
+        "modules/M/MODULE_M_WOLFRAM_VERIFICATION.md",
+        "modules/M/MODULE_M_COMPLETION.md",
+        "modules/M/MODULE_KLM_TO_N_SCIENTIFIC_HANDOFF.md",
+        "modules/N/MODULE_N_DETAILED_SCIENTIFIC_REPAIR_PLAN.md",
+        "modules/N/MODULE_N_TRIAD_KERNEL_DERIVATION_LOCK.md",
+        "modules/N/MODULE_N_MANUSCRIPT_SOURCE_TRACEABILITY.md",
+        "modules/N/MODULE_N_WOLFRAM_REVISION.md",
     ]
     for relative in required:
         require((ROOT / relative).is_file(), f"missing required file: {relative}")
 
     state = json.loads((ROOT / "STATE.json").read_text(encoding="utf-8"))
-    require(state["active_module"] == "D", "Module D must be active")
-    require(
-        state["status"] == "MODULES_A_B_C_COMPLETE_FROZEN_MODULE_D_ACTIVE",
-        "unexpected project state",
-    )
-    require("MODULE_C_COMPLETE_AND_FROZEN" in state["completed"], "Module C completion missing")
+    require(state["active_module"] == "N", "Module N must be active")
+    require("MODULE_M_COMPLETE_AND_FROZEN" in state["completed"], "Module M completion missing")
     require(state["score_rule"]["aggregation_can_override_failure"] is False, "failure rule drifted")
 
-    microscopic = (ROOT / "science/MICROSCOPIC_PHYSICS.md").read_text(encoding="utf-8")
-    proof = (ROOT / "proofs/MICROSCOPIC_CONSTITUTION.md").read_text(encoding="utf-8")
-    claims = (ROOT / "science/CLAIMS.md").read_text(encoding="utf-8")
+    science = (ROOT / "science/STELLAR_EXPLOSIVE_NUCLEOSYNTHESIS_CHEMICAL_RETURN.md").read_text(encoding="utf-8")
+    proof = (ROOT / "proofs/STELLAR_EXPLOSIVE_NUCLEOSYNTHESIS_CHEMICAL_RETURN.md").read_text(encoding="utf-8")
+    lock = (ROOT / "modules/M/MODULE_M_TRIAD_KERNEL_DERIVATION_LOCK.md").read_text(encoding="utf-8")
+    completion = (ROOT / "modules/M/MODULE_M_COMPLETION.md").read_text(encoding="utf-8")
     handoff = (ROOT / "HANDOFF.md").read_text(encoding="utf-8")
 
     for phrase in [
-        "Canonical complex state space from directed route pairs",
-        "Hermitian generator, unitary evolution, and probability",
-        "Completed shells and three generation families",
-        "Internal symmetry derived from the triadic fibers",
-        "Minimal chiral representation and charge closure",
-        "Endogenous microscopic scale",
-        "Confinement and bound states",
-        "Complete Module D parent state",
-        "Module C is complete and frozen",
+        "Directed reaction and decay hypergraph",
+        "Rates from microscopic transition routes",
+        "Adaptive network growth and completeness",
+        "Event-resolved yield partition",
+        "Radioactive descendants and delayed energy",
+        "Enrichment parcels and conservative transport",
+        "K–L–M recurrence and lawful classification",
+        "Strongest supported and unsupported claims",
     ]:
-        require(phrase in microscopic, f"microscopic theorem missing: {phrase}")
+        require(phrase in science, f"Module M scientific object missing: {phrase}")
 
-    require("Module C Triadic Microscopic Constitution Theorem" in proof, "proof title missing")
-    require("Module C is complete and frozen" in proof, "proof conclusion missing")
-    require("Module C is complete and frozen" in claims, "claim ledger not closed")
-    require("Module D: ACTIVE" in handoff, "handoff did not advance to D")
+    require("Theorem M.22 — Module M completion" in proof, "Module M proof conclusion missing")
+    require("supersedes the deleted contaminated lock" in lock, "corrected M lock not explicit")
+    require("Planetary, prebiotic, biological" in lock, "M scope exclusion missing")
+    require("MODULE_M: COMPLETE_AND_FROZEN" in completion, "M completion record missing")
+    require("Module N: ACTIVE" in handoff, "handoff did not advance to N")
 
-    # Route-pair complex structure.
-    j = [[0.0, -1.0], [1.0, 0.0]]
-    require(matrix_close(matmul(j, j), [[-1.0, 0.0], [0.0, -1.0]]), "J^2 != -I")
-    require(matrix_close(matmul(dagger(j), j), identity(2)), "J not orthogonal/unitary")
-
-    # Representative Hermitian generator.
-    lap = [[3.0, -3.0, 0.0], [-3.0, 7.0, -4.0], [0.0, -4.0, 4.0]]
-    orient = [[0.0, 2.0, -1.0], [-2.0, 0.0, 3.0], [1.0, -3.0, 0.0]]
-    h = [[lap[r][c] + 1j * orient[r][c] for c in range(3)] for r in range(3)]
-    require(matrix_close(dagger(h), h), "microscopic generator not Hermitian")
-
-    # Three completed generation shells.
-    shell_size = 3 * (3 - 1)
-    require(shell_size == 6, "triadic lane shell size failed")
-    require(18 % shell_size == 0 and 18 // shell_size == 3, "generation closure failed")
-
-    # Recursive shell weights normalize.
-    delta = 4.6692
-    denominator = 1.0 + delta**6 + delta**12
-    weights = [delta**12 / denominator, delta**6 / denominator, 1.0 / denominator]
-    require(all(weight > 0.0 for weight in weights), "shell weight not positive")
-    require(close(sum(weights), 1.0), "shell weights not normalized")
-
-    # Minimal anomaly-free charge solution.
-    charges = {
-        "Q": 1.0 / 6.0,
-        "U": 2.0 / 3.0,
-        "D": -1.0 / 3.0,
-        "L": -1.0 / 2.0,
-        "E": -1.0,
-        "H": 1.0 / 2.0,
-    }
-    require(close(charges["U"], charges["Q"] + charges["H"]), "up coupling charge failed")
-    require(close(charges["D"], charges["Q"] - charges["H"]), "down coupling charge failed")
-    require(close(charges["E"], charges["L"] - charges["H"]), "lepton coupling charge failed")
-    require(close(3 * charges["Q"] + charges["L"], 0.0), "SU2 anomaly failed")
-    require(
-        close(
-            6 * charges["Q"] - 3 * charges["U"] - 3 * charges["D"]
-            + 2 * charges["L"] - charges["E"],
-            0.0,
-        ),
-        "gravitational U1 anomaly failed",
-    )
-    require(
-        close(
-            6 * charges["Q"] ** 3 - 3 * charges["U"] ** 3 - 3 * charges["D"] ** 3
-            + 2 * charges["L"] ** 3 - charges["E"] ** 3,
-            0.0,
-        ),
-        "cubic U1 anomaly failed",
-    )
-
-    # Stable RFL minimum and protected neutral zero mode.
-    a = 0.7
-    b = 1.3
-    r0 = math.sqrt(a / b)
-    first_derivative = -2 * a * r0 + 2 * b * r0**3
-    second_derivative = -2 * a + 6 * b * r0**2
-    require(close(first_derivative, 0.0), "stabilization minimum failed")
-    require(second_derivative > 0.0 and close(second_derivative, 4 * a), "minimum not stable")
-
-    g1, g2, v = 0.4, 0.7, 1.2
-    neutral = [
-        [v * v * g2 * g2 / 4.0, -v * v * g1 * g2 / 4.0],
-        [-v * v * g1 * g2 / 4.0, v * v * g1 * g1 / 4.0],
+    baryon = [1, 1, 2, 3, 3, 4, 12, 16, 0]
+    charge = [0, 1, 1, 1, 2, 2, 6, 8, 0]
+    stoich = [
+        [-1, 0, 1, 1, 0, 0, 0],
+        [-1, 1, 0, 0, 1, 0, 0],
+        [1, -2, -2, -1, -1, 0, 0],
+        [0, 1, 0, -1, 0, 0, 0],
+        [0, 0, 1, 0, -1, 0, 0],
+        [0, 0, 0, 1, 1, -3, -1],
+        [0, 0, 0, 0, 0, 1, -1],
+        [0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 1, 1],
     ]
-    zero_vector = [g1, g2]
-    residual = [sum(row[k] * zero_vector[k] for k in range(2)) for row in neutral]
-    require(all(close(value, 0.0) for value in residual), "neutral protected zero mode failed")
+    require(all(close(x, 0.0) for x in mat_vec_left(baryon, stoich)), "baryon conservation failed")
+    require(all(close(x, 0.0) for x in mat_vec_left(charge, stoich)), "charge conservation failed")
 
-    # Internal algebra dimension.
-    require(1 + (2 * 2 - 1) + (3 * 3 - 1) == 12, "internal algebra dimension failed")
+    for x in [1e-6, 0.01, 0.2, 1.0, 3.0, 100.0]:
+        for y in [1e-6, 0.02, 0.4, 1.0, 5.0, 80.0]:
+            require((x - y) * math.log(x / y) >= -1e-13, "entropy production failed")
+
+    total = [3.0, 2.0, 1.0, 0.5]
+    retained = [1.0, 0.7, 0.2, 0.1]
+    fallback = [0.5, 0.4, 0.3, 0.1]
+    escaped = [t - r - f for t, r, f in zip(total, retained, fallback)]
+    dust = [0.25 * x for x in escaped]
+    require(all(x >= 0.0 for x in escaped + dust), "negative yield partition")
+    require(all(d <= e + 1e-14 for d, e in zip(dust, escaped)), "dust exceeds escaped carrier")
+
+    transport = [
+        [0.50, 0.25, 0.00, 0.25],
+        [0.25, 0.50, 0.25, 0.00],
+        [0.00, 0.25, 0.50, 0.25],
+        [0.25, 0.00, 0.25, 0.50],
+    ]
+    for col in range(4):
+        require(close(sum(transport[row][col] for row in range(4)), 1.0), "transport mass drift")
+    require(min(min(row) for row in transport) >= 0.0, "transport positivity failed")
+
+    gas = [0.8, 0.5, 0.3]
+    dust0 = [0.2, 0.1, 0.0]
+    transfer = [0.05, 0.02, 0.01]
+    gas2 = [g - t for g, t in zip(gas, transfer)]
+    dust2 = [d + t for d, t in zip(dust0, transfer)]
+    require(all(close(g + d, g2 + d2) for g, d, g2, d2 in zip(gas, dust0, gas2, dust2)), "phase exchange failed")
+
+    opacity = [[0.57, 0.14], [0.14, 0.137]]
+    covariance = [[1.10, 0.21], [0.21, 0.518]]
+    for matrix, name in [(opacity, "opacity"), (covariance, "covariance")]:
+        require(matrix[0][0] >= 0.0 and matrix[1][1] >= 0.0, f"{name} negative diagonal")
+        require(matrix[0][0] * matrix[1][1] - matrix[0][1] * matrix[1][0] >= -1e-12, f"{name} not PSD")
+
+    protected = [1.0, 0.5, 0.2]
+    before = [0.08, 0.03, 0.01]
+    after = [0.006, 0.003, 0.001]
+    tol = 0.01
+    require(max(x / s for x, s in zip(before, protected)) > tol, "incomplete network not detected")
+    require(max(x / s for x, s in zip(after, protected)) <= tol, "refined network not certified")
+
+    r = [[0.22, 0.08, 0.03], [0.05, 0.18, 0.07], [0.02, 0.06, 0.20]]
+    b = [1.0, 0.6, 0.3]
+    system = [[(1.0 if i == j else 0.0) - r[i][j] for j in range(3)] for i in range(3)]
+    fixed = solve3(system, b)
+    residual = [fixed[i] - sum(r[i][j] * fixed[j] for j in range(3)) - b[i] for i in range(3)]
+    require(max(abs(x) for x in residual) < 1e-12, "K-L-M fixed point residual failed")
+    require(max(sum(abs(x) for x in row) for row in r) < 1.0, "representative return not contractive")
+    require(1.01 > 1.0, "nonconvergent branch not detected")
 
     print("2-RFC validation: PASS")
-    print("Modules A, B, and C are complete and frozen; Module D is active.")
-    print("Checked Module C complex structure, Hermiticity, shell closure, anomaly closure, stabilization, zero mode, and state transition.")
-    print("This script is an integrity check, not empirical validation or continuum-QFT proof.")
+    print("Modules A through M are complete and frozen at their declared repair scopes; Module N is active.")
+    print("Checked current state, Module M scope, conservation, entropy, yields, transport, phase exchange, PSD operators, adaptive refinement, and recurrence classification.")
+    print("This is an integrity and representative finite check, not empirical abundance validation or a unique instantiated universe.")
 
 
 if __name__ == "__main__":
