@@ -1,56 +1,76 @@
 # A–Q Scientific Module Map
 
-Each child consumes a sealed parent and preserves frozen upstream science.
+Each child consumes a sealed parent, preserves frozen upstream science, and may not import public targets as generators.
 
 | Module | Scientific ownership | Current state |
 |---|---|---:|
 | A–J, H^U, H[I] | Constitution through nonlinear-ready linear universe | **COMPLETE_AND_FROZEN** |
 | K^(0) | First-pass nonlinear gravity, structures, web/voids, lensing, L parent | **COMPLETE_AND_FROZEN** |
 | L^(0) | First-pass baryons, stars, feedback, remnants, M/K exports | **COMPLETE_AND_FROZEN** |
-| M | Stellar/explosive nucleosynthesis, chemistry, dust, composition return | **ACTIVE** |
-| final K*, L*, M* | Classified K-L-M state | Pending |
-| N–Q | Manifested assembly, freeze, comparison, terminal continuation | Blocked |
+| M | Stellar/explosive nucleosynthesis, chemical evolution, dust, composition return | **COMPLETE_AND_FROZEN_AT_DECLARED_REPAIR_SCOPE** |
+| K–L–M recurrence law | Fixed/cycle/attractor/branch/nonconvergence classification | **COMPLETE_AND_FROZEN** |
+| N | Manifested-universe assembly, records, truth observables, observer readiness | **ACTIVE** |
+| O | Immutable generated-universe freeze | Blocked |
+| P | Preregistered public comparison | Blocked |
+| Q | Big-Rip terminal closure and next-cycle conditioning | Blocked |
 
-## Frozen Module L exports
+Completion at repair scope establishes the law, proof, typed interfaces, claim boundary, and representative finite verification. It does not claim empirical validation or a unique fully instantiated numerical universe.
 
-```text
-P_L->M^(0) =
-(Identity_L,Iteration_L,StellarBirthCatalog_L,
- StellarTrajectoryRegistry_L,StellarInteriorHistory_L,
- StellarZoneHistory_L,TemperatureDensityHistory_L,
- CompositionAtLResolution_L,ConvectionMixingHistory_L,
- EnergyGenerationInterface_L,MassLossHistory_L,
- WindEruptionEvents_L,BinaryEvolutionHistory_L,
- MassTransferHistory_L,CommonEnvelopeHistory_L,
- StellarMergerHistory_L,CollapseExplosionInputs_L,
- CompactObjectRegistry_L,CompactBinaryHistory_L,
- CompactMergerHistory_L,AccretionOutflowHistory_L,
- FeedbackHistory_L,EjectaParcelRegistry_L,
- HostEnvironmentRegistry_L,EventRegistry_L,
- RouteBranchScaleAncestry_L,Sigma_L,Memory_L,Restart_L)
-```
+## Frozen Module M parent
 
 ```text
-R_L->K^(0) =
-(Identity_L,Iteration_L,Tbar_L,GasDensity_L,GasMomentum_L,
- GasEnergy_L,GasPressureStress_L,Magnetic_L,RadiationStress_L,
- CosmicRayStress_L,StarsPopulations_L,CompactRemnants_L,
- BlackHoleState_L,OutflowFountainEscape_L,FeedbackSources_L,
- RefinementSourceMaps_L,EventTransfers_L,Sigma_L,Memory_L,
- Ancestry_L,Restart_L)
+P_M,in^(n) =
+(P_L->M^(n), P_E^primordial,
+ P_CD^microthermal, P_K^environment,(n))
 ```
 
-These packets preserve conservative baryonic flow, cloud/core and star-birth witnesses, generated birth measures, stellar/population/binary/feedback/remnant histories, explosive-event and strong-field interfaces, covariance, lineage, replay locality, and restart state.
+Module L supplies trajectories and event mechanics. Module M supplies their isotope-resolved nuclear and chemical descendants. Module K supplies nonlinear gravity and the transport environment. Modules C–E supply immutable microscopic, thermal, and primordial nuclear laws.
 
-## Exact dependency
+## Frozen Module M state
 
 ```text
-sealed P_K->L^(0)
--> Module L first-pass L^(0)
--> Module M isotope/composition state and returns
--> K-L-M recurrence classification
--> final K*, L*, M*
--> Module N
+S_M =
+(NuclearCarrier, NuclearProperty,
+ ReactionDecayHypergraph, Abundance, NuclearEnergy,
+ EventYield, RadioactiveDescendant,
+ EnrichmentParcel, ChemicalField,
+ Dust, SolvedMolecularCarrier,
+ CompositionDependentOperator,
+ SourceAttribution, ReturnToKL,
+ Covariance, Memory, Ancestry, Restart)
 ```
 
-Module M may derive isotope-resolved processing and composition returns. It may not reconstruct missing stellar or gravitational histories or import public yield/abundance prescriptions.
+The corrected Module M scope excludes planetary, prebiotic, biological, habitability, neural, cognitive, and consciousness-facing physics.
+
+## Exact Module M contribution to N
+
+```text
+P_M*->N =
+(Identity_M*, KLMClosureState,
+ IsotopeInventory, NuclearStateRegistry,
+ ElementInventory, RadioactiveCarrierRegistry,
+ ChemicalPhaseRegistry, MolecularCarrierRegistry,
+ DustRegistry, SourceFamilyRegistry, YieldRegistry,
+ EnrichmentParcelRegistry, RetentionEscapeReaccretionHistory,
+ MixingTransportHistory, HostAbundanceFields,
+ CosmicAbundanceFields, ChemicalTaggingState,
+ CompositionDependentCooling, CompositionDependentOpacity,
+ RadioactiveHeatingState, NuclearPathAncestry,
+ ChemicalTransportAncestry, Sigma_M, Memory_M,
+ Ancestry_M, Restart_M)
+```
+
+Module N receives a typed chemical universe and a recurrence-classified parent, not a metallicity scalar or detached yield catalogue.
+
+## Active dependency
+
+```text
+sealed classified K-L-M parent contracts
++ immutable A-J law and lineage
+-> Module N manifested-universe assembly
+-> Module O immutable freeze
+-> Module P public comparison
+-> Module Q terminal continuation
+```
+
+Module N may reconcile complete physical views. It may not retune K–L–M, infer consciousness, import public catalogues as generators, merge physically distinct entities by similarity, or conceal unresolved branches.
