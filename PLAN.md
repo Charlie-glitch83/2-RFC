@@ -16,25 +16,40 @@ Every child consumes a sealed parent and may not reconstruct or retune frozen up
 | A–J, H^U, H[I] | Constitution through nonlinear-ready linear universe | **COMPLETE_AND_FROZEN** |
 | K^(0) | First-pass nonlinear gravity, structures, web/voids, lensing, L parent | **COMPLETE_AND_FROZEN** |
 | L^(0) | First-pass baryons, stars, feedback, remnants, M/K exports | **COMPLETE_AND_FROZEN** |
-| M | Stellar/explosive nucleosynthesis, chemistry, dust, composition return | **ACTIVE** |
-| final K*, L*, M* | Classified coupled late-universe state | Pending |
-| N–Q | Manifested assembly, freeze, comparison, terminal continuation | Blocked |
+| M | Stellar/explosive nucleosynthesis, chemical evolution, dust, composition return | **COMPLETE_AND_FROZEN_AT_DECLARED_REPAIR_SCOPE** |
+| K–L–M recurrence law | Fixed/cycle/attractor/branch/nonconvergence classification | **COMPLETE_AND_FROZEN** |
+| N | Manifested-universe assembly, records, truth observables, observer readiness | **ACTIVE** |
+| O–Q | Freeze, empirical comparison, terminal continuation | Blocked |
 
-## Completed Module L theorem
+Completion at repair scope means the derivational law, proof, typed interfaces, claim boundary, and representative finite verification are complete. It does not claim empirical validation or a unique fully instantiated numerical universe.
 
-The sealed first-pass construction provides conservative hydro/MHD/radiation/thermochemical state, physical cloud and star-birth witnesses, generated stellar birth measures, stellar/population/binary/feedback/remnant interfaces, exact explosive ownership, strong-field return, lineage, covariance, replay locality, and complete `P_L->M^(0)` and `R_L->K^(0)` packets.
+## Completed Module M theorem
 
-## Active Module M theorem target
+From sealed L/E/C/D/K parents, Module M now derives:
 
-Module M must consume `L^(0)`, the immutable Module E primordial nuclear seed, Modules C–D microthermal laws, and the K environment to derive:
-
-1. adaptive isotope and nuclear-state registries;
+1. typed nuclear carriers and property registries;
 2. reaction and decay hypergraphs with forward/reverse closure;
-3. hydrostatic and explosive burning;
-4. event-resolved yields, fallback, retention, escape, and radioactive descendants;
-5. conservative chemical transport and inhomogeneity;
-6. dust and molecular carriers where closed;
-7. composition-dependent cooling, opacity, radiation, and EOS returns;
-8. typed returns to K and L and classified K-L-M recurrence.
+3. positive conservative abundance and energy evolution;
+4. adaptive hydrostatic, mixing-burning, wind, transfer, merger, explosive, compact-event, and rare-channel networks;
+5. event-resolved yields, fallback, retention, escape, radioactive descendants, and delayed energy;
+6. isotope-conserving transport, chemical inhomogeneity, dust, solved molecular carriers, and source ancestry;
+7. composition-dependent cooling, heating, opacity, emissivity, ionization, radiation, and stress-energy returns;
+8. conservative K/L re-ingestion, replay locality, covariance, restart, recurrence classification, and exact N export.
 
-Public yield tables, abundance targets, delay-time distributions, metallicity laws, and dust prescriptions are forbidden as generators.
+Public yield tables, abundance targets, empirical rate fits, delay-time distributions, metallicity laws, dust prescriptions, and unrelated biological or habitability content are forbidden as generators.
+
+## Active Module N theorem target
+
+Module N must consume the complete classified K–L–M parent and immutable A–J lineage to derive:
+
+1. one global cross-domain identity and ownership registry;
+2. unified event and causal graphs;
+3. clock, coordinate, frame, gauge, worldline, and worldtube reconciliation;
+4. cross-domain conservation and constraint closure;
+5. manifested structures, radiation backgrounds, transients, truth lightcones, and multimessenger histories;
+6. physical record carriers and measurement interactions;
+7. observer-readiness classification without consciousness inference;
+8. physical versus numerical branch and decoherence classification;
+9. no-loss promotion, covariance, memory, ancestry, restart, truth-observable interfaces, and exact N→O export.
+
+Module N may not improve or retune K–L–M physics, import public catalogues to complete the universe, merge physically distinct objects by similarity, or promote observer readiness into a consciousness theorem.
