@@ -3,46 +3,63 @@
 ## Current state
 
 ```text
-Modules A–M, H^U, H[I]: COMPLETE_AND_FROZEN at declared scopes
+Modules A–M, H^U, H[I]: FORMALIZED/FROZEN at declared scopes
+K–L–M F0 reduced recurrence: EXECUTED — FIXED_POINT_F0
+K–L–M F1–F4 physical recurrence: BLOCKED by missing instantiated state/solver packets
 Module N law and proof: FORMALIZED
 Module N representative finite verification: PASS
-Module N physical execution: BLOCKED by missing instantiated certified K–L–M parent
+Module N physical execution: BLOCKED
 Module O: BLOCKED
 Modules P–Q: BLOCKED
 ```
 
-Module N was rebuilt from the original `Module_N_Individual_Enhancement_Plan` dated 2026-07-21, the July 20 RFC–N-body enhancement plan, original Presentation 29/30 and revised N-body sources at their exact allowed scope, and the verified Module M parent.
+## Completed K–L–M step
 
-## Trusted Module N construction
-
-The clean-room rebuild provides:
-
-- trusted source register and excluded-source firewall;
-- triadic manifested-universe assembly law;
-- typed gluing without averaging contradictions;
-- identity, ownership, event, causal, clock/frame/gauge, worldline/worldtube, lineage, and memory laws;
-- geometry–matter and componentwise conservation requirements;
-- truth-lightcone, geometric-observer, physical-record, measurement, and OR-0 through OR-4 interfaces;
-- physical/numerical branch and consciousness firewalls;
-- no-loss promotion, covariance, restart, unresolved-state, and exact O-export contracts;
-- Wolfram and independent representative finite verification.
-
-Canonical files:
+The governed recurrence machinery has now been executed at **F0 constructed reduced-system scope**:
 
 ```text
-modules/N/MODULE_N_TRUSTED_SOURCE_ASSET_REGISTER.md
-science/MANIFESTED_UNIVERSE_ASSEMBLY.md
-proofs/MANIFESTED_UNIVERSE_ASSEMBLY.md
-modules/N/MODULE_N_TRUSTED_VERIFICATION.md
-modules/N/MODULE_N_TRUSTED_REPAIR_STATUS.md
+K(n) -> L(n) -> M(n) -> K(n+1)
 ```
 
-## Remaining obstruction
+Result:
 
-The trusted plan requires an instantiated and certified `(K*,L*,M*)` universe parent before complete physical assembly. The repository contains the K/L/M constitutive laws and recurrence-classification law, but not the executed full parent object with all replays, cross-domain covariance, event/worldline state, truth propagation, and restart evidence.
+```text
+classification: FIXED_POINT_F0
+iterations: 17660
+all mandatory F0 checks: PASS
+final-state SHA-256:
+a8bc1eb5902a063a026bdc216fd0611661b7cb7c9f3f52c647a5acbc98b01053
+```
 
-Therefore Module N is not frozen and Module O is not authorized.
+Verified:
+
+- componentwise convergence;
+- mass conservation and positivity;
+- composition, cooling, opacity, metric, lensing, radiation, feedback, and yield bounds;
+- causal M→K/L replay with Modules A–J unchanged;
+- exact checkpoint/restart agreement;
+- exact agreement with an independently written implementation;
+- positive-semidefinite covariance;
+- fixed-point, period-two-cycle, and divergence classifier behavior.
+
+Canonical artifacts:
+
+```text
+execution/KLM/klm_f0_execution.py
+execution/KLM/klm_f0_config.json
+execution/KLM/klm_f0_result.json
+execution/KLM/KLM_F0_COMPUTATIONAL_CERTIFICATE.md
+execution/KLM/KLM_PHYSICAL_INPUT_GAP.md
+```
+
+## Scientific boundary
+
+F0 proves that the recurrence, replay, conservation, restart, covariance, and classification machinery is executable and internally consistent at reduced synthetic scope.
+
+It does **not** supply the F1–F4 physical parent required by Module N. The repository and project library still lack instantiated nonlinear fields, stellar histories, isotope/chemical states, metric/lightcone/lensing products, full covariance, and full-physics solver packets for `K^(0)`, `L^(0)`, and `M^(0)`.
+
+No reduced state is being renamed as `(K*,L*,M*)`.
 
 ## Active frontier
 
-Construct or register the exact certified K–L–M closure parent without changing A–M science, then execute Module N’s assembly obligations on that exact parent.
+Instantiate and execute the source-locked F1–F4 K–L–M ladder, regenerate the final metric/lightcone/lensing/covariance state, independently reproduce it, and only then authorize Module N.
