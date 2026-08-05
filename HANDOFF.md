@@ -36,6 +36,7 @@ Planetary, prebiotic, biological, habitability, neural, cognitive, and conscious
 ```text
 README.md
 STATE.json
+handoffs/2RFC_MODULE_M_RECOVERY_AND_MODULE_N_PASSDOWN_20260805.md
 PLAN.md
 science/STELLAR_EXPLOSIVE_NUCLEOSYNTHESIS_CHEMICAL_RETURN.md
 proofs/STELLAR_EXPLOSIVE_NUCLEOSYNTHESIS_CHEMICAL_RETURN.md
