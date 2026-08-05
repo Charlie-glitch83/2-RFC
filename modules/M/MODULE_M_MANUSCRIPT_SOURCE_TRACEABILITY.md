@@ -1,30 +1,61 @@
-# Module M - Binding Manuscript-Source Traceability
+# Module M — Binding Manuscript-Source Traceability
 
-This file is part of `MODULE_M_DETAILED_SCIENTIFIC_REPAIR_PLAN.md`.
+This file is part of `MODULE_M_DETAILED_SCIENTIFIC_REPAIR_PLAN.md` and is governed by the corrected Module M triad-and-kernel lock.
 
-## Direct manuscript support
+## Exact manuscript support
 
-- **RFC Nucleosynthesis Suite W/X/X1**: reaction-network, isotope, elemental, mechanism, uncertainty and claim-boundary material at the exact primordial/element-resolved scope.
-- **Final Revised W2 BBN/Li7 Closeout Metadata**: corrected weighted triad ancestry and reproducibility for the BBN closeout only.
-- **Presentation 29 revised + metadata**: W3/W4 chemical and stellar-enrichment interfaces, source ancestry and no-retune boundaries.
-- **Presentation 30**: nuclear/chemical architecture entries and Appendix J traceability at their exact scope.
+### RFC nucleosynthesis suite W/X/X1
 
-## Inherited support
+Supports, at its stated scope:
 
-- Module L supplies generated stellar, binary, compact-event, wind and ejecta trajectories.
-- Module K supplies transport environments and gravitational returns.
-- Module E supplies the validated primordial nuclear seed.
+- isotope, reaction-route, mechanism, ancestry, uncertainty, and no-retune structure;
+- the requirement that CIF/QV/RFL channel roles remain distinguishable rather than compressed into one scalar;
+- recursive route, high-Z rarity, and spallation-support logic;
+- explicit claim boundaries between proxy screens and physical nucleosynthesis.
 
-## New derivations required
+It does not by itself supply a complete stellar or explosive reaction network, generated event trajectory, or empirical yield theorem.
 
-- complete nuclear carrier/property registry;
-- adaptive reaction and decay hypergraphs;
-- hydrostatic, explosive and merger nucleosynthesis;
-- reverse rates, equilibrium and mixing-burning closure;
-- source-class yields, fallback, retention, radioactive daughters and delayed energy;
-- isotope-conserving transport, chemical inhomogeneity, dust and molecules;
-- composition-dependent microphysics and K/L returns.
+### Final Revised W2 BBN/Li7 closeout metadata
+
+Supports corrected weighted-triad ancestry, ablation logic, reproducibility, and benchmark separation for the primordial closeout only. It is inherited as structural evidence and may not be promoted into a stellar-yield generator.
+
+### Presentation 29 revised and metadata
+
+Supports W3/W4 stellar-enrichment, chemical-return, event, memory, source-ancestry, and no-retune boundaries at their exact manuscript scope.
+
+### Presentation 30
+
+Supports the ordered nuclear/chemical architecture, inheritance chain, isotope/composition interfaces, and Appendix J traceability at its exact scope.
+
+### Enhanced Module A and N-body manuscripts
+
+Support route, event, branch, finite-N carrier, memory, promotion, reopening, no-loss, and ancestry grammar only after an explicit physical mapping to Module M carriers and events.
+
+## Inherited physical parents
+
+- Module L supplies the actual generated stellar, binary, wind, transfer, collapse, explosive, compact-event, ejecta, feedback, and host trajectories.
+- Module K supplies the generated nonlinear transport and gravitational environment.
+- Module E supplies the immutable primordial isotope seed and covariance.
+- Modules C–D supply immutable interaction, plasma, thermal, screening, radiation, and transport laws.
+
+## New derivations completed in Module M
+
+- nuclear carrier/property registry;
+- typed reaction and decay hypergraphs;
+- forward/reverse transition and equilibrium closure;
+- adaptive hydrostatic, mixing-burning, explosive, merger, and rare-channel networks;
+- event-resolved yields, fallback, retention, escape, radioactive daughters, and delayed energy;
+- isotope-conserving transport, chemical inhomogeneity, source attribution, dust, and solved molecular carriers;
+- composition-dependent microphysics and conservative K/L returns;
+- K–L–M recurrence classification and exact Module N export.
 
 ## Forbidden promotion
 
-Do not insert public yield tables, delay-time distributions, abundance patterns, reaction-rate fits or metallicity scalars as generated RFC results.
+Do not insert or relabel as generated RFC physics:
+
+- public yield tables or abundance patterns;
+- empirical reaction-rate, mass, cooling, opacity, source-rate, metallicity, dust, or delay-time fits;
+- W2/W3/W4 comparison residuals or proxy scores;
+- planetary, prebiotic, biological, habitability, neural, cognitive, or consciousness-facing content.
+
+Public comparison remains Module P work after freeze. Unsupported manuscript scope must remain unsupported rather than silently filled from conventional models.
