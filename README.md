@@ -3,40 +3,46 @@
 ## Current state
 
 ```text
-Modules A–N, H^U, H[I]: COMPLETE_AND_FROZEN at trusted declared repair scopes
-Module O: ACTIVE
+Modules A–M, H^U, H[I]: COMPLETE_AND_FROZEN at declared scopes
+Module N law and proof: FORMALIZED
+Module N representative finite verification: PASS
+Module N physical execution: BLOCKED by missing instantiated certified K–L–M parent
+Module O: BLOCKED
 Modules P–Q: BLOCKED
 ```
 
-Module N was rebuilt from the original `Module_N_Individual_Enhancement_Plan` dated 2026-07-21, the July 20 realistic-universe enhancement plan, pre-failure canonical architecture, original manuscript roots only at audited structural scope, and sealed A–M parents. Failed-iteration Module N material is non-authoritative.
+Module N was rebuilt from the original `Module_N_Individual_Enhancement_Plan` dated 2026-07-21, the July 20 RFC–N-body enhancement plan, audited original Presentation 29/30 and N-body sources at their exact allowed scope, and the verified Module M parent. Rejected Module N reconstructions are non-authoritative.
 
-## Trusted Module N result
+## Trusted Module N repair
 
-- certified K–L–M parent admission and branch-family preservation;
-- legal relational gluing, identity, ownership, and no-double-counting closure;
-- event, causal, clock/frame/gauge, worldline/worldtube, and lineage closure;
-- geometry–matter and cross-domain conservation;
-- material, radiation, reionization, environment, truth-lightcone, and truth-observable assembly;
-- physical records, measurement interactions, and OR-0 through OR-4 readiness;
-- normalized branch–route–observer measure and probability-to-record closure;
-- consciousness and public-data firewalls;
-- physical/numerical branch and decoherence separation;
-- memory separation, no-loss promotion, covariance, restart, independent assembly, and exact O export.
+The clean-room repair now provides:
 
-Fresh verification returned `27/27 PASS`.
+- trusted source register and excluded-source firewall;
+- triadic manifested-universe assembly law;
+- typed semantic gluing without averaging contradictions;
+- identity, ownership, event, causal, clock/frame/gauge, worldline/worldtube, lineage, and memory laws;
+- geometry–matter and componentwise conservation requirements;
+- truth-lightcone, geometric-observer, physical-record, measurement, and OR-0 through OR-4 interfaces;
+- physical/numerical branch and consciousness firewalls;
+- no-loss promotion, covariance, restart, unresolved-state, and exact O-export contracts;
+- independent representative finite verification.
 
 Canonical files:
 
-- `modules/N/MODULE_N_TRUSTED_SOURCE_REGISTER.md`
-- `modules/N/MODULE_N_TRUSTED_SOURCE_LOCK.md`
-- `science/MANIFESTED_UNIVERSE_TRUSTED_REBUILD.md`
-- `proofs/MANIFESTED_UNIVERSE_TRUSTED_REBUILD.md`
-- `modules/N/MODULE_N_TRUSTED_VERIFICATION.md`
-- `modules/N/MODULE_N_TRUSTED_COMPLETION.md`
-- `modules/N/MODULE_N_TRUSTED_TO_O_HANDOFF.md`
+```text
+modules/N/MODULE_N_TRUSTED_SOURCE_ASSET_REGISTER.md
+science/MANIFESTED_UNIVERSE_ASSEMBLY_TRUSTED.md
+proofs/MANIFESTED_UNIVERSE_ASSEMBLY_TRUSTED.md
+modules/N/MODULE_N_TRUSTED_VERIFICATION.md
+modules/N/MODULE_N_TRUSTED_REPAIR_STATUS.md
+```
 
-This does not claim empirical agreement, detector output, consciousness, a unique numerical universe where lawful branches remain, immutable freeze, or terminal Big-Rip closure.
+## Remaining obstruction
+
+The trusted Module N plan requires an instantiated and certified `(K*,L*,M*)` universe parent before complete physical assembly. The repository presently contains the frozen K/L/M constitutive laws and recurrence-classification law, but not the executed full parent object with all replays, cross-domain covariance, event/worldline state, truth propagation, and restart evidence.
+
+Therefore Module N is not frozen and Module O is not authorized.
 
 ## Active frontier
 
-Module O must be rebuilt from the original canonical Module O plan and the trusted Module N parent only.
+Construct or register the exact certified K–L–M closure parent without changing A–M science, then execute the Module N assembly obligations on that parent.
